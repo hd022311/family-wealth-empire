@@ -45,3 +45,43 @@
 實體Windows／Mac瀏覽器、iPhone Safari、Android與iPad；瀏覽器自動收合工具列、螢幕鍵盤、系統文字放大、低階裝置長時間效能及真人第一次遊玩是否看得懂。Chromium viewport／觸控模擬不能代替這些驗收。
 
 第二階段驗收補充：第五步須接到原有照顧追蹤完成，不能只選方案便假稱結案；主角原本已就業須如實說明。資金、每月40小時、健檢與健康前提都保留，沒有照顧需求時不強迫發病。教學須可暫停、跳過與重開，舊檔不強制開始，進度保存設計另行驗證。
+
+
+## 本機驗收結果（2026-10-24）
+
+- 單元測試61／61，TypeScript＋Vite建置成功。原有Phaser大型chunk提示仍存在，本輪不擴大為打包重構。
+- 完整功能回歸42／42，包含城市鏡頭與觸控、資產交易動畫、家族事件、兩章照顧、模式隔離、存讀檔、舊檔遷移及接班。
+- 最後物件／工作定位補強後，四尺寸×三字級12／12再通過；包含390×568短螢幕、面板切換／捲動後的道路座標點擊、實際公司點選、真實領薪、重載v4與獨立自由存檔。
+- 最終程式的公開部署另由Actions執行子路徑／兩章／存檔與字級驗證，再執行四尺寸版面驗證；結果見下方部署紀錄。
+- 測試使用Linux Chromium及viewport／觸控模擬。150%與較短高度仍需使用明確的面板內捲動；不能把通過測試當成實體裝置或真人可用性皆已驗收。
+
+### 測試期間修正的實際問題
+
+- 行動版跨列面板補上明確grid-column，避免隱含欄位造成導覽互相攔截點擊。
+- 短螢幕摘要、狀態及詳細區改採可縮放高度分配，避免詳細區高度歸零；字級維持原值。
+- 觸控版頂列使用完整寬度，避免角色資料被擠成單字直排；桌面導覽不再自動換成被裁切的第二欄。
+- Phaser增加父容器ResizeObserver、內部捲動及指標起訖時的bounds／displayScale同步，避免面板重排後地圖點擊偏移；設定視窗外的滑鼠放開不當成城市點選。
+- 公司點選直接定位到既有工作功能，家庭操作與選取物件也定位到實際操作區，不留下只有標籤改變卻找不到內容的入口。
+
+## 前後畫面
+
+使用修改前ea639b2與本輪介面，在同一個新劇情開局比較；月份預設暫停。圖片保存在Git，不依賴暫時的測試產物。
+
+| 尺寸 | 改善前100% | 改善後100% | 改善後150% |
+|---|---|---|---|
+| 桌面1440×900 | [前](docs/layout/before-desktop-900-100-main.png) | [後](docs/layout/after-desktop-900-100-main.png) | [特大字](docs/layout/after-desktop-900-150-main.png) |
+| 筆電1366×768 | [前](docs/layout/before-laptop-768-100-main.png) | [後](docs/layout/after-laptop-768-100-main.png) | [特大字](docs/layout/after-laptop-768-150-main.png) |
+| 平板820×1180 | [前](docs/layout/before-tablet-100-main.png) | [後](docs/layout/after-tablet-100-main.png) | [特大字](docs/layout/after-tablet-150-main.png) |
+| 手機390×844 | [前](docs/layout/before-mobile-100-main.png) | [後](docs/layout/after-mobile-100-main.png) | [特大字](docs/layout/after-mobile-150-main.png) |
+
+[桌面詳細面板150%](docs/layout/after-desktop-900-150-details.png) · [手機展開面板150%](docs/layout/after-mobile-150-details.png)
+
+## 公開部署結果
+
+程式提交`51da864`已推送main。[Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40075521882)的build、deploy及verify-public均success；建置及公開網址各執行12項子路徑／兩章／字級檢查與12項四尺寸版面流程。開發環境亦獨立確認[https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)回應HTTPS 200，JS包含新版game-shell、工具入口及ResizeObserver同步。沒有以localhost替代公開驗證。
+
+開始方式：開啟網址→選劇情或自由人生。桌面使用左側功能；手機使用底部功能，點「展開資訊面板」進行詳細操作，點「城市」返回地圖。「設定」可調字級與開存檔介面。既有玩家重新整理即可接續原進度，**不要清除網站資料**。
+
+Actions的`pages-browser-tests`及`public-device-verification`提供測試報告、四尺寸及三字級完整截圖，保留7天。本文件的主要前後畫面永久保留在Git。
+
+第一階段至此回報完成；下一階段是五步教學整合，尚未自動開始。

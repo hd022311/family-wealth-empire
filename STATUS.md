@@ -1,5 +1,8 @@
 # 實際開發盤點與版本範圍
 
+> **目前公開版（2026-10-24）**：主畫面重排第一階段程式`51da864`已部署至[https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40075521882)的build、deploy、verify-public全部success，包含兩組公開瀏覽器驗證；另確認HTTPS 200及新版game-shell／設定入口／ResizeObserver程式已載入。詳見[前後截圖與本輪驗收](LAYOUT_ACCEPTANCE.md)。五步互動教學尚未啟用，留待第二階段；State v4及模擬規則不變。以下較早部署狀態為歷史紀錄。
+
+
 > 目前優先範圍：V0.1主畫面重排第一階段。桌面固定功能導覽、中央城市、右側目標／可捲動資料；行動版底部導覽與展開面板，維持100／125／150%字級。規劃、修改清單及驗收見[LAYOUT_ACCEPTANCE.md](LAYOUT_ACCEPTANCE.md)。五步互動教學為**第二階段待整合**，未啟用或變更State v4；不開始戀愛、百科、排行或新城市玩法。
 
 

@@ -1,5 +1,8 @@
 # 家族財富帝國 0.3 驗收紀錄
 
+> **目前公開版（2026-10-24）**：主畫面重排第一階段程式`51da864`已部署至[https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40075521882)的build、deploy、verify-public全部success，包含兩組公開瀏覽器驗證；另確認HTTPS 200及新版game-shell／設定入口／ResizeObserver程式已載入。詳見[前後截圖與本輪驗收](LAYOUT_ACCEPTANCE.md)。五步互動教學尚未啟用，留待第二階段；State v4及模擬規則不變。以下較早部署狀態為歷史紀錄。
+
+
 > **最新部署驗收（2026-10-24）**：V0.1易讀性版程式24406de已公開至 [https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[GitHub Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40064163591) 的build、deploy、verify-public均success；公開HTTPS另行確認200且新版字級與關係圖程式已載入。先前403／404為歷史紀錄，已解除。State v4不變，仍為本機存檔的開發測試版；實體裝置尚待人工驗收。
 
 
