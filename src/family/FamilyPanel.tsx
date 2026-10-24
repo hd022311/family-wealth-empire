@@ -138,6 +138,7 @@ function RelationshipGraph({ state }: { state: State }) {
   const c = structuredClone(state.clan),
     others = c.people.filter((p) => p.id !== c.activeId && p.alive).slice(0, 5);
   return (
+    <>
     <svg
       className="relation-graph"
       viewBox="0 0 340 230"
@@ -165,33 +166,29 @@ function RelationshipGraph({ state }: { state: State }) {
               }
               strokeWidth="2"
             />
-            <text
-              x={(x + 170) / 2}
-              y={(y + 115) / 2 - 5}
-              textAnchor="middle"
-              fontSize="9"
-              fill="#76866c"
-            >
-              信任 {r.trust}
-            </text>
+            <title>{p.name}：信任 {r.trust}，衝突 {r.conflict}</title>
             <circle cx={x} cy={y} r="24" fill="#edf2df" stroke="#bdcdae" />
             <text
               x={x}
               y={y + 4}
               textAnchor="middle"
-              fontSize="10"
+              fontSize="18"
               fill="#4f7255"
             >
-              {p.name.slice(0, 5)}
+              {i + 1}
             </text>
           </g>
         );
       })}
       <circle cx="170" cy="115" r="25" fill="#477b6d" />
-      <text x="170" y="119" textAnchor="middle" fontSize="11" fill="#fff8df">
-        目前家主
+      <text x="170" y="119" textAnchor="middle" fontSize="18" fill="#fff8df">
+        家
       </text>
     </svg>
+    <ol className="relation-legend" aria-label="家人關係圖詳細數值">
+      {others.map(p => { const r = relationship(c, c.activeId, p.id); return <li key={p.id}><b>{p.name}</b> · 信任 {r.trust} · 衝突 {r.conflict}</li>; })}
+    </ol>
+    </>
   );
 }
 export function FamilyPanel({

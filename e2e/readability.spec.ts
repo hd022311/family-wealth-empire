@@ -42,4 +42,11 @@ for (const size of ['100','125','150']) test(`易讀性 ${size}%：首頁、城�
   await expect(page.getByLabel('文字大小',{exact:true})).toHaveValue(size);
   expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('fwe-library-v1')!).slots.every((s:any)=>s.state.version===4))).toBe(true);
   await layout(page);
+  const savedStory = await page.evaluate(() => JSON.stringify(JSON.parse(localStorage.getItem('fwe-library-v1')!).slots[0].state));
+  await page.getByRole('button',{name:'首頁 / 新人生',exact:true}).click();
+  await page.getByRole('button',{name:/自由模式.*自訂背景/}).click();
+  await layout(page);
+  await page.getByRole('button',{name:'開始自由人生',exact:true}).click();
+  await layout(page);
+  expect(await page.evaluate(() => JSON.stringify(JSON.parse(localStorage.getItem('fwe-library-v1')!).slots[0].state))).toBe(savedStory);
 });

@@ -58,3 +58,5 @@ table{white-space:normal;table-layout:fixed}th,td{padding:.5rem;overflow-wrap:an
 .account-bar .law-entry{margin:0;display:inline-block;box-shadow:none;background:#fffdf6;color:#203f40;max-width:100%;padding:.5rem .75rem}
 .metrics strong span{color:#526d48}.legal-pending,.demo-warning{color:#69491c}.active p{color:inherit}
 button{min-block-size:44px}.current-goal a{display:block;color:#244b42;text-decoration:underline;margin-top:.75rem}.map-reading-hint{padding:0 1rem;margin:.75rem 0}.promise-story{scroll-margin-top:1rem}
+.relation-legend{padding-left:1.5rem;color:#203f40}.relation-legend li{padding:.5rem 0;border-bottom:1px solid #c5d3bb}
+.negative{color:#9b3725!important}
