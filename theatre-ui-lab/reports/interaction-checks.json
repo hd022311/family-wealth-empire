@@ -1,0 +1,14 @@
+[
+  {
+    "scheme": "a",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "status": "passed"
+  }
+]

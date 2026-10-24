@@ -1,0 +1,18 @@
+✔ 729 ordered routes complete and all eight narrative endings are reachable (1.526751ms)
+✔ all routes conserve fictional cash, keep unique transaction ids, and credit no estate or insurance proceeds (2.288193ms)
+✔ choosing is immutable, sequential, and rejects duplicate, unknown or out-of-order decisions (0.411027ms)
+✔ every choice records an objective fact and a separate subjective memory, never a legal document (3.759692ms)
+✔ father and mother have independent estate ids, dates and unallocated statuses (1.489675ms)
+✔ legal gaps never produce percentages, taxes, claims or a court result (2.899902ms)
+✔ early care and budget choices change later sibling dialogue, not just the ending label (0.494732ms)
+✔ insurance has no guaranteed payout and good narrative endings remain reachable without new insurance (0.287812ms)
+✔ fixed decisions reproduce exact memories, expenses, documents and ending with no random source (5.766093ms)
+✔ authored speaking scenes respect father/mother death dates (7.078832ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 132.996904

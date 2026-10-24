@@ -1,0 +1,21 @@
+{
+  "scope": "原第一卷四個執行期檔案不變；介面樣本只做唯讀匯入。",
+  "files": [
+    {
+      "path": "theatre-preview/story.mjs",
+      "sha256": "40ad0811db5bf480eaff437611a38e5b43fa3906f0397559c849806ea0c5bb35"
+    },
+    {
+      "path": "theatre-preview/app.mjs",
+      "sha256": "83b72a4001d8d700f0ec03fcc325b29efa0c9f5466ac77faeb4cd52b810e2acf"
+    },
+    {
+      "path": "theatre-preview/index.html",
+      "sha256": "87f32ca11b6dc9444ab454d837e1f47570792592f24e499d65041aa04a3e929a"
+    },
+    {
+      "path": "theatre-preview/theatre.css",
+      "sha256": "dfff3af18b45cf77dab98e47019cc5b2da4905784ed684f5edd15769d1bebf88"
+    }
+  ]
+}

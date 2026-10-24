@@ -1,0 +1,13 @@
+✔ simplified text and regional phrases produce actionable findings (0.948082ms)
+✔ shared characters do not trigger simplistic character replacement (0.550786ms)
+✔ legal procedure is a context review, not an automatic computer wording error (0.35304ms)
+✔ negated legal assertions need semantic review and are not blindly forbidden (0.153871ms)
+✔ current player copy has no high-confidence simplified candidates; human approval remains unset (38.82949ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 103.849523

@@ -1,0 +1,121 @@
+<!doctype html><html lang="zh-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PERFORMANCE・傳承人生劇場介面評審</title><style>*{box-sizing:border-box}body{margin:0;background:#f1efe6;color:#193f35;font:18px/1.85 'Noto Sans TC','Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif}main{max-width:1150px;margin:24px auto;padding:28px;background:#fffaf0}nav{padding:16px 24px;display:flex;flex-wrap:wrap;gap:12px;background:#e0e8d8}nav a{display:inline-block;padding:8px 12px;min-height:48px}a{color:#285f49;text-underline-offset:5px}h1{font-size:30px;line-height:1.5}h2{font-size:25px;margin-top:2em}h3{font-size:22px}table{display:block;max-width:100%;overflow:auto;border-collapse:collapse;font-size:18px}th,td{min-width:130px;padding:12px;border:1px solid #bbcbb3;vertical-align:top}pre{overflow:auto;background:#e7ecdd;padding:16px;font-size:17px}code{overflow-wrap:anywhere}img{max-width:100%;height:auto}strong{color:#8b4429}li{line-height:1.85}li+li{margin-top:8px}@media(max-width:700px){main{padding:18px;margin:12px}nav{padding:10px}h1{font-size:26px}h2{font-size:23px}body{font-size:18px}}</style></head><body><nav><a href="../">三案比較</a><a href="../a/">A電影式字幕</a><a href="../b/">B經典視覺小說</a><a href="../c/">C沉浸式劇情</a><a href="REPORT.html">評審總覽</a></nav><main><h1>效能評估</h1>
+<p>2026-10-24。本輪Linux系統Chromium、全新瀏覽器環境。桌面為本機網路；手機模擬390×844、4倍CPU節流、80ms延遲、下載250,000B/s（約2Mbps）。每個設定僅一次觀察，非統計基準或實體手機結果。</p>
+<h2>觀測數據</h2>
+<table>
+<thead>
+<tr>
+<th>方案</th>
+<th>環境／情境</th>
+<th style="text-align: right;">UI出現約ms</th>
+<th style="text-align: right;">圖片載入約ms</th>
+<th style="text-align: right;">資源傳輸KiB</th>
+<th style="text-align: right;">JS堆MiB</th>
+<th style="text-align: right;">rAF間隔P95 ms</th>
+<th style="text-align: right;">最長長任務ms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>桌面本機／一般對話</td>
+<td style="text-align: right;">211</td>
+<td style="text-align: right;">216</td>
+<td style="text-align: right;">852</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">52</td>
+</tr>
+<tr>
+<td>A</td>
+<td>手機節流模擬／一般對話</td>
+<td style="text-align: right;">841</td>
+<td style="text-align: right;">4012</td>
+<td style="text-align: right;">851</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">16.8</td>
+<td style="text-align: right;">104</td>
+</tr>
+<tr>
+<td>A</td>
+<td>手機節流模擬／家庭衝突</td>
+<td style="text-align: right;">838</td>
+<td style="text-align: right;">3582</td>
+<td style="text-align: right;">745</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">93</td>
+</tr>
+<tr>
+<td>B</td>
+<td>桌面本機／一般對話</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">173</td>
+<td style="text-align: right;">851</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">55</td>
+</tr>
+<tr>
+<td>B</td>
+<td>手機節流模擬／一般對話</td>
+<td style="text-align: right;">884</td>
+<td style="text-align: right;">4054</td>
+<td style="text-align: right;">851</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">136</td>
+</tr>
+<tr>
+<td>B</td>
+<td>手機節流模擬／家庭衝突</td>
+<td style="text-align: right;">823</td>
+<td style="text-align: right;">5084</td>
+<td style="text-align: right;">1112</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">93</td>
+</tr>
+<tr>
+<td>C</td>
+<td>桌面本機／一般對話</td>
+<td style="text-align: right;">274</td>
+<td style="text-align: right;">277</td>
+<td style="text-align: right;">851</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">71</td>
+</tr>
+<tr>
+<td>C</td>
+<td>手機節流模擬／一般對話</td>
+<td style="text-align: right;">854</td>
+<td style="text-align: right;">4024</td>
+<td style="text-align: right;">851</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">16.8</td>
+<td style="text-align: right;">120</td>
+</tr>
+<tr>
+<td>C</td>
+<td>手機節流模擬／家庭衝突</td>
+<td style="text-align: right;">926</td>
+<td style="text-align: right;">3603</td>
+<td style="text-align: right;">745</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">125</td>
+</tr>
+</tbody>
+</table>
+<p>UI出現由內容節點可取得時近似，圖片載入以load事件近似，不是精確視覺完成；資源傳輸不含HTML導覽主文件。rAF間隔只代表此測試的回呼節奏，不能宣稱真機60FPS。JS堆不包含影像解碼、GPU及瀏覽器總記憶體。原始資料見 <a href="performance.json">performance.json</a>。</p>
+<h2>取捨與限制</h2>
+<ul>
+<li>三案共用模組與原創資產，沒有載入Phaser或重建正式React遊戲；切換方向可共用瀏覽器快取。</li>
+<li>WebP品質92供傳輸，背景約424KiB、六角色概念圖約367KiB、哥哥衝突圖約261KiB；原PNG未覆寫。文字全部由DOM呈現，不因圖片壓縮變模糊。</li>
+<li>A/C衝突只需背景與哥哥圖；B同時保留另一角色，所以需第三張圖，這次冷載入約5.1秒，是較明顯的網路成本。</li>
+<li>手機節流樣本的首圖約3.6–5.1秒，仍偏慢；正式製作應拆分人物、縮圖預載、增加行動尺寸與流量分級，不應僅因本機流暢就稱低階手機已最佳化。</li>
+<li>動畫只用短暫opacity／transform與單一requestAnimationFrame逐字更新，不使用全畫面動畫模糊或常駐背景迴圈。字數以完整透明排版佔位，避免逐字出現造成畫面跳動。</li>
+<li>初載入仍觀察到52–136ms的長任務；正式版須在真機確認點擊延遲、圖片解碼與首次畫面。</li>
+<li>一般情境兩張解碼圖的RGBA像素下限約12MiB，B衝突三張約18MiB，這還不含合成緩衝與總瀏覽器記憶體；不能用約2.2–2.4MiB的JS堆當成總記憶體。</li>
+<li>C鏡頭與遮罩合成較複雜、B多一個角色繪製，正式行動效能風險不同，仍需iOS Safari與低階Android驗證。減少動態效果可停用鏡頭與逐字動畫，且沒有自動跳頁。</li>
+</ul></main></body></html>

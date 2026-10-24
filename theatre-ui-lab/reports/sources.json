@@ -1,0 +1,241 @@
+{
+  "checkedOn": "2026-10-24",
+  "source": "官方Steam公開截圖；未安裝遊戲或驗證手機直式操作。",
+  "rows": [
+    {
+      "name": "coffee-talk",
+      "index": 0,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/914800/ss_7df86693fd63aae5209cb3157e2b98f3e7074cdf.1920x1080.jpg?t=1789739649",
+      "file": "coffee-talk-0.jpg",
+      "bytes": 267881,
+      "sha256": "dc5cb73cd383531193485c2ed829375510fd71aebf36c47af546b613b0cb6fd3",
+      "status": 200
+    },
+    {
+      "name": "coffee-talk",
+      "index": 1,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/914800/ss_fb39356fdb31c360f81598801f6398fcf83a6324.1920x1080.jpg?t=1789739649",
+      "file": "coffee-talk-1.jpg",
+      "bytes": 366861,
+      "sha256": "23da02d2d467434b30455ad4d8eec9f22c4e2b58694d6434c3b6a7df52e83231",
+      "status": 200
+    },
+    {
+      "name": "coffee-talk",
+      "index": 2,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/914800/ss_c4253cfc283c92b932286b187ab342e4580bb055.1920x1080.jpg?t=1789739649",
+      "file": "coffee-talk-2.jpg",
+      "bytes": 302494,
+      "sha256": "29aef7f8f0e96db0907ab205e0ae13a0b475e84b04eacf2661bbe3e5e8d1a7a3",
+      "status": 200
+    },
+    {
+      "name": "coffee-talk",
+      "index": 3,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/914800/ss_ec29b075105ed4b4432c8f97fba8d695b4aa00a9.1920x1080.jpg?t=1789739649",
+      "file": "coffee-talk-3.jpg",
+      "bytes": 161595,
+      "sha256": "9cefae4a02af875ce8173fc4dd7fd5b10b77fa3f42e2f268850c592111914377",
+      "status": 200
+    },
+    {
+      "name": "coffee-talk",
+      "index": 4,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/914800/ss_f0dd19b6d6ddd5649417d0cf4a367b3d39aabe0d.1920x1080.jpg?t=1789739649",
+      "file": "coffee-talk-4.jpg",
+      "bytes": 247694,
+      "sha256": "18e4673e199f7dd6a7a2251c8da234e9e85a6fcbcb1f443dac531c5a4acf63bf",
+      "status": 200
+    },
+    {
+      "name": "coffee-talk",
+      "index": 5,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/914800/ss_3cb691732a8e456a28d73f1a9b1340fbc5ee5d5a.1920x1080.jpg?t=1789739649",
+      "file": "coffee-talk-5.jpg",
+      "bytes": 268293,
+      "sha256": "7a5e2f9a2b5069071fa38a6ccf49454f6994aa3c0bef2fa5b7e168989f7d7985",
+      "status": 200
+    },
+    {
+      "name": "great-ace-attorney",
+      "index": 0,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158850/ss_9b642f49498c306849d22f50d3fdb040c707c267.1920x1080.jpg?t=1787717414",
+      "file": "great-ace-attorney-0.jpg",
+      "bytes": 270577,
+      "sha256": "56642a9f3ff113c755a7c0ec26139100aec36abfa001e06bd53363f1aa92a9f9",
+      "status": 200
+    },
+    {
+      "name": "great-ace-attorney",
+      "index": 1,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158850/ss_10660d63d2b9e06c3ed703e3dc7730e9e97a9973.1920x1080.jpg?t=1787717414",
+      "file": "great-ace-attorney-1.jpg",
+      "bytes": 496495,
+      "sha256": "28c2b447fc329e62ab617f4ac29d7f5aaa8f23a179e90e7fb4411b0778420ab5",
+      "status": 200
+    },
+    {
+      "name": "great-ace-attorney",
+      "index": 2,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158850/ss_a92d481fb30554b8f1adf6258fb417df00baa932.1920x1080.jpg?t=1787717414",
+      "file": "great-ace-attorney-2.jpg",
+      "bytes": 310018,
+      "sha256": "b8e124997711d9c370bbcd3e78c75b724b0af8f997101ccfe1dd07682d2e367d",
+      "status": 200
+    },
+    {
+      "name": "great-ace-attorney",
+      "index": 3,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158850/ss_323acfca502e4d451154723e40d61073726ce814.1920x1080.jpg?t=1787717414",
+      "file": "great-ace-attorney-3.jpg",
+      "bytes": 386843,
+      "sha256": "957756c4b3ba43350a1d3a8d95d8810b7a8f0b270d141c45d16b537b00ee0521",
+      "status": 200
+    },
+    {
+      "name": "great-ace-attorney",
+      "index": 4,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158850/ss_8bd26da2ac46396f8c18f1c5a20a903e06a075e0.1920x1080.jpg?t=1787717414",
+      "file": "great-ace-attorney-4.jpg",
+      "bytes": 431163,
+      "sha256": "49b92a369a496b3d18a2361e538b018e2509837bbb2b4f8d4eb18a3626201dcf",
+      "status": 200
+    },
+    {
+      "name": "great-ace-attorney",
+      "index": 5,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158850/ss_37877f5118aaf0249561dcbaf74f237422acc3ab.1920x1080.jpg?t=1787717414",
+      "file": "great-ace-attorney-5.jpg",
+      "bytes": 462854,
+      "sha256": "07f68ed26300bcac279ea43dc0cc1e91dc3039dd67f28c87f830df99648f2ba9",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 0,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_2ddb5a4d33cd114b95fb6b81089d3948bf096fd7.1920x1080.jpg?t=1790274178",
+      "file": "fata-morgana-0.jpg",
+      "bytes": 87853,
+      "sha256": "e940c4343568f617b065d1721c6346987b0744a90e03bc225bef3dace26ab97a",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 1,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_3862acfe790bcad2538d59be31a6f8c2cf4fde1a.1920x1080.jpg?t=1790274178",
+      "file": "fata-morgana-1.jpg",
+      "bytes": 176184,
+      "sha256": "a0b7d49ef00c3321ce53f0be22032ebba57b70c84c577ba0e2c76e741d0f865d",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 2,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_ef7919b076eafe3a8ab9620b5db719b83d076ad3.1920x1080.jpg?t=1790274178",
+      "file": "fata-morgana-2.jpg",
+      "bytes": 68623,
+      "sha256": "53d2402eb9a11380044b4b525baf0606d80e1531f1ea81144e841333791c0567",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 3,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_ffc10ea7a466aebb1127c470800c74a88c796750.1920x1080.jpg?t=1790274178",
+      "file": "fata-morgana-3.jpg",
+      "bytes": 90474,
+      "sha256": "5fa406a62ce35e2084afe3f2cb4817c6cc5c46976d3c5243c1a8d923ae7ae238",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 4,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_2acbbeba5f1fd15a083f0ec657bf18e0d4250392.1920x1080.jpg?t=1790274178",
+      "file": "fata-morgana-4.jpg",
+      "bytes": 88146,
+      "sha256": "b0aa694091ba35e105b16829555ba6c681a1296e52adcc59e4240ae724ecaf3d",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 5,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_3a5f2aa9ff2fa72ed3ef262b356db0456e9b3b6f.1920x1080.jpg?t=1790274178",
+      "file": "fata-morgana-5.jpg",
+      "bytes": 137858,
+      "sha256": "60435234c5f04711fc5876b4e6e74160485f140fd857b6b32c39a0b0275b272e",
+      "status": 200
+    },
+    {
+      "name": "ddlc",
+      "index": 0,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/698780/ss_3941e57f278958dd15c9855f42ab069da3a19608.1920x1080.jpg?t=1681943582",
+      "file": "ddlc-0.jpg",
+      "bytes": 323064,
+      "sha256": "0bff8df4383e71fdc30c3be5649f8277f85f7693f185e633613d927d11dabab3",
+      "status": 200
+    },
+    {
+      "name": "ddlc",
+      "index": 1,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/698780/ss_fb10c409c498a8f2f512d2195a169fed0bbb1526.1920x1080.jpg?t=1681943582",
+      "file": "ddlc-1.jpg",
+      "bytes": 204245,
+      "sha256": "c7df47bd6115b8aedc948aef1e3fb61e4cbc6ba9be174bd2b013f8a6cc919d53",
+      "status": 200
+    },
+    {
+      "name": "ddlc",
+      "index": 2,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/698780/ss_3030d47cf865cb5910746bc3897217c9cc8ce5fb.1920x1080.jpg?t=1681943582",
+      "file": "ddlc-2.jpg",
+      "bytes": 171859,
+      "sha256": "4c2d13b8a4f82f114ec01699c404b5edb7d07bcba84897192611b0f3df3408eb",
+      "status": 200
+    },
+    {
+      "name": "ddlc",
+      "index": 3,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/698780/ss_c60999c236a809c04321017aa14e97e5ac9856a1.1920x1080.jpg?t=1681943582",
+      "file": "ddlc-3.jpg",
+      "bytes": 243069,
+      "sha256": "be04d2d16f93897b93f5b96d16f07cfa04ffae92c333af726d59861730c4238a",
+      "status": 200
+    },
+    {
+      "name": "ddlc",
+      "index": 4,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/698780/ss_34bca0d2db214a00dc0d02d006ae7f86506e3157.1920x1080.jpg?t=1681943582",
+      "file": "ddlc-4.jpg",
+      "bytes": 197163,
+      "sha256": "2fb58adc8cf0a54ca6f92d14bf58f21d7b96ea4c5aad89985d410934dbc1f173",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 6,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_4f143abb626dcfa990aeea3e652237f9ce10f7c0.1920x1080.jpg?t=1790274178",
+      "sha256": "0b0698ba0fb43ea4a16a082c4ca04876ef35a77837ad94e0e0d56dd546f9282a",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 7,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_e6b77867746fe3c341f261bc2ab2ba9d26997839.1920x1080.jpg?t=1790274178",
+      "sha256": "9bbdb91369a9e180b8917bf6fc9bb9194ecb45361b31a3f0c82f7f320df661eb",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 8,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_92193a671baeb9bb6e3653d8d3ca64652f729668.1920x1080.jpg?t=1790274178",
+      "sha256": "6d6fe768b1cfe457a6bb1f4e9639bc0a7533348a507c1ec6d2521dce9a00a075",
+      "status": 200
+    },
+    {
+      "name": "fata-morgana",
+      "index": 9,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/ss_189b5a72dd99f54fc85b9311885f1f0377994cb8.1920x1080.jpg?t=1790274178",
+      "sha256": "5fcea4ef3669e0d7475b50839789a3a56b7dde9ae3b741433ab2e8054cb35603",
+      "status": 200
+    }
+  ]
+}

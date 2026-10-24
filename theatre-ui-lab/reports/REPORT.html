@@ -1,0 +1,52 @@
+<!doctype html><html lang="zh-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>REPORT・傳承人生劇場介面評審</title><style>*{box-sizing:border-box}body{margin:0;background:#f1efe6;color:#193f35;font:18px/1.85 'Noto Sans TC','Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif}main{max-width:1150px;margin:24px auto;padding:28px;background:#fffaf0}nav{padding:16px 24px;display:flex;flex-wrap:wrap;gap:12px;background:#e0e8d8}nav a{display:inline-block;padding:8px 12px;min-height:48px}a{color:#285f49;text-underline-offset:5px}h1{font-size:30px;line-height:1.5}h2{font-size:25px;margin-top:2em}h3{font-size:22px}table{display:block;max-width:100%;overflow:auto;border-collapse:collapse;font-size:18px}th,td{min-width:130px;padding:12px;border:1px solid #bbcbb3;vertical-align:top}pre{overflow:auto;background:#e7ecdd;padding:16px;font-size:17px}code{overflow-wrap:anywhere}img{max-width:100%;height:auto}strong{color:#8b4429}li{line-height:1.85}li+li{margin-top:8px}@media(max-width:700px){main{padding:18px;margin:12px}nav{padding:10px}h1{font-size:26px}h2{font-size:23px}body{font-size:18px}}</style></head><body><nav><a href="../">三案比較</a><a href="../a/">A電影式字幕</a><a href="../b/">B經典視覺小說</a><a href="../c/">C沉浸式劇情</a><a href="REPORT.html">評審總覽</a></nav><main><h1>《傳承人生劇場》三案介面與繁體中文評審</h1>
+<p>2026-10-24（台灣時間）。這次只新增三套獨立UI樣本，<strong>尚未套入第一卷完整預覽</strong>。正式經營模式、第一卷分支條件、法律效果及State v4皆未修改。</p>
+<h2>先實際比較</h2>
+<ul>
+<li><a href="../a/">A 電影式字幕</a>：全景、側位人物、底部無框字幕；點字幕可顯示全文或繼續。</li>
+<li><a href="../b/">B 經典視覺小說</a>：人物居中、低干擾半透明對話帶；以繼續按鈕前進，降低誤觸。</li>
+<li><a href="../c/">C 沉浸式劇情</a>：側位特寫、情緒光影；點人物區繼續，重要選擇分為選定與確認。</li>
+<li><a href="../index.html">三案截圖總覽</a>：各有一般對話、家庭衝突、重要選擇、結局，以及桌面／手機畫面。</li>
+</ul>
+<p>右上「切換情境」可看四種畫面，也能在展開的選單檢視原六個選擇、八種結局樣本。右上「選單」保留回顧、重新挑戰、法律導讀與閱讀設定。文字動畫、鏡頭轉場均可關閉，沒有倒數或自動跳頁。</p>
+<h2>研究、設計與驗收</h2>
+<table>
+<thead>
+<tr>
+<th>文件</th>
+<th>內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="RESEARCH.html">四款作品實際畫面研究</a></td>
+<td>Coffee Talk、大逆轉裁判、海市蜃樓之館、Doki Doki Literature Club!；逐張區分原生UI、純插畫及非對話操作，列出來源與未核實部分</td>
+</tr>
+<tr>
+<td><a href="DESIGNS.html">三案布局、取捨與工作量</a></td>
+<td>桌面／手機構圖、互動方式、字級、美術狀態、選定後整合估算</td>
+</tr>
+<tr>
+<td><a href="ZH_TW.html">台灣繁體中文檢查</a></td>
+<td>330條字串、0個清單命中候選簡體字、3處上下文複核、真人簽核待完成；不是全語言正確認證</td>
+</tr>
+<tr>
+<td><a href="PERFORMANCE.html">效能評估</a></td>
+<td>全新瀏覽器環境、本機桌面與手機節流模擬的傳輸量、UI／圖片時間、JS堆、rAF間隔及限制</td>
+</tr>
+<tr>
+<td><a href="VALIDATION.html">操作與版面驗收</a></td>
+<td>五尺寸、三字級、四情境、三案共180組；動畫、六選擇／八結局樣本、回顧、關閉、錯誤中文化等</td>
+</tr>
+</tbody>
+</table>
+<p>三案字級：A/B桌面22px、手機20px；C桌面24px、手機22px，皆支援100/125/150%。法律與必要費用沒有刪除，放在相應選項或玩家自行展開的導讀中。</p>
+<h2>重要邊界</h2>
+<ul>
+<li>哥哥新增一張原創衝突表情概念圖，其他人仍沿用既有概念立繪；沒有宣稱正式多表情、動畫、配音完成。</li>
+<li>只是同一卷的畫面樣本，不冒充新劇情、新NPC、勳章、成就或真正通關；六次選擇與八種結局條件仍由原資料提供。</li>
+<li>所有法律效果仍待核實，沒有計算分產、稅額、保險金或裁判。</li>
+<li>三案均為zh-TW；原完整第一卷未換渲染器，其既有語系標記與狀態呈現留待選定後整合。</li>
+<li>真人語言編輯、法律專業簽核、實體手機與Safari／讀屏驗收仍待完成。本文逐句語意檢視由Codex執行，不冒充真人簽核。</li>
+<li>手機2Mbps／4倍CPU節流樣本首圖約3.6–5.1秒，正式製作仍需預載與分件；不能宣稱低階手機已最佳化。</li>
+</ul>
+<p>請先選定A／B／C，或指出喜歡的構圖與不舒服的閱讀位置，再安排第一卷完整整合。本次沒有直接替換原版。</p></main></body></html>

@@ -1,0 +1,568 @@
+{
+  "environment": "Linux 系統 Chromium／共用雲端主機；每個樣本全新瀏覽器環境。",
+  "mobileEmulation": "390×844；4倍CPU節流；80ms延遲；下載250,000B/s（約2Mbps）；非實體手機。",
+  "caveat": "只作同環境比較；首張圖繪出時間以load近似，不是精確視覺完成；requestAnimationFrame間隔不等於真實裝置FPS。JS堆不含影像解碼及GPU記憶體。",
+  "rows": [
+    {
+      "scheme": "a",
+      "profile": "desktop-local",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scene": "normal",
+      "uiReadyMs": 211,
+      "artReadyMs": 216,
+      "transferBytes": 872543,
+      "decodedResponseBytes": 870143,
+      "jsHeapBytes": 2537036,
+      "frameIntervalP95Ms": 16.7,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 52,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 7.600000008940697
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 7.699999988079071
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 6.5
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 5.5999999940395355
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 3.4000000059604645
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 6.799999997019768
+        },
+        {
+          "name": "/theatre-ui-lab/assets/cast.webp",
+          "transfer": 375630,
+          "decoded": 375330,
+          "duration": 3.4000000059604645
+        },
+        {
+          "name": "/favicon.ico",
+          "transfer": 635,
+          "decoded": 335,
+          "duration": 5.600000008940697
+        }
+      ]
+    },
+    {
+      "scheme": "a",
+      "profile": "mobile-emulated",
+      "viewport": [
+        390,
+        844
+      ],
+      "scene": "normal",
+      "uiReadyMs": 841,
+      "artReadyMs": 4012,
+      "transferBytes": 871908,
+      "decodedResponseBytes": 869808,
+      "jsHeapBytes": 2537100,
+      "frameIntervalP95Ms": 16.8,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 104,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 229.79999999701977
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 209.59999999403954
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 108
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 100.09999999403954
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 170
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 3324.5
+        },
+        {
+          "name": "/theatre-ui-lab/assets/cast.webp",
+          "transfer": 375630,
+          "decoded": 375330,
+          "duration": 3092.2999999970198
+        }
+      ]
+    },
+    {
+      "scheme": "a",
+      "profile": "mobile-emulated",
+      "viewport": [
+        390,
+        844
+      ],
+      "scene": "conflict",
+      "uiReadyMs": 838,
+      "artReadyMs": 3582,
+      "transferBytes": 763194,
+      "decodedResponseBytes": 761094,
+      "jsHeapBytes": 2291964,
+      "frameIntervalP95Ms": 16.7,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 93,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 231.90000000596046
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 205.79999999701977
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 108.5
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 101.29999999701977
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 171.19999998807907
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 2890.2999999970198
+        },
+        {
+          "name": "/theatre-ui-lab/assets/brother-conflict.webp",
+          "transfer": 266916,
+          "decoded": 266616,
+          "duration": 2217.2000000029802
+        }
+      ]
+    },
+    {
+      "scheme": "b",
+      "profile": "desktop-local",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scene": "normal",
+      "uiReadyMs": 169,
+      "artReadyMs": 173,
+      "transferBytes": 871908,
+      "decodedResponseBytes": 869808,
+      "jsHeapBytes": 2537188,
+      "frameIntervalP95Ms": 16.7,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 55,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 11.5
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 14.200000002980232
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 4.5
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 5.299999997019768
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 4.100000008940697
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 6.299999997019768
+        },
+        {
+          "name": "/theatre-ui-lab/assets/cast.webp",
+          "transfer": 375630,
+          "decoded": 375330,
+          "duration": 4.5
+        }
+      ]
+    },
+    {
+      "scheme": "b",
+      "profile": "mobile-emulated",
+      "viewport": [
+        390,
+        844
+      ],
+      "scene": "normal",
+      "uiReadyMs": 884,
+      "artReadyMs": 4054,
+      "transferBytes": 871908,
+      "decodedResponseBytes": 869808,
+      "jsHeapBytes": 2542148,
+      "frameIntervalP95Ms": 16.7,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 136,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 228.3999999910593
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 210.5
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 109.8999999910593
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 103.79999999701977
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 170.29999999701977
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 3329.5
+        },
+        {
+          "name": "/theatre-ui-lab/assets/cast.webp",
+          "transfer": 375630,
+          "decoded": 375330,
+          "duration": 3090
+        }
+      ]
+    },
+    {
+      "scheme": "b",
+      "profile": "mobile-emulated",
+      "viewport": [
+        390,
+        844
+      ],
+      "scene": "conflict",
+      "uiReadyMs": 823,
+      "artReadyMs": 5084,
+      "transferBytes": 1138824,
+      "decodedResponseBytes": 1136424,
+      "jsHeapBytes": 2288868,
+      "frameIntervalP95Ms": 16.7,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 93,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 235
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 210.20000000298023
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 102.20000000298023
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 107.09999999403954
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 170.90000000596046
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 4394.79999999702
+        },
+        {
+          "name": "/theatre-ui-lab/assets/cast.webp",
+          "transfer": 375630,
+          "decoded": 375330,
+          "duration": 4160.100000008941
+        },
+        {
+          "name": "/theatre-ui-lab/assets/brother-conflict.webp",
+          "transfer": 266916,
+          "decoded": 266616,
+          "duration": 3283
+        }
+      ]
+    },
+    {
+      "scheme": "c",
+      "profile": "desktop-local",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scene": "normal",
+      "uiReadyMs": 274,
+      "artReadyMs": 277,
+      "transferBytes": 871908,
+      "decodedResponseBytes": 869808,
+      "jsHeapBytes": 2537604,
+      "frameIntervalP95Ms": 16.7,
+      "longTaskCount": 2,
+      "maxLongTaskMs": 71,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 14.299999997019768
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 14.200000002980232
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 3.2999999970197678
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 6.5
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 4.299999997019768
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 6.200000002980232
+        },
+        {
+          "name": "/theatre-ui-lab/assets/cast.webp",
+          "transfer": 375630,
+          "decoded": 375330,
+          "duration": 7.5
+        }
+      ]
+    },
+    {
+      "scheme": "c",
+      "profile": "mobile-emulated",
+      "viewport": [
+        390,
+        844
+      ],
+      "scene": "normal",
+      "uiReadyMs": 854,
+      "artReadyMs": 4024,
+      "transferBytes": 871908,
+      "decodedResponseBytes": 869808,
+      "jsHeapBytes": 2544072,
+      "frameIntervalP95Ms": 16.8,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 120,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 228.5
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 203.1000000089407
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 110.1000000089407
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 115.80000001192093
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 170
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 3330.4000000059605
+        },
+        {
+          "name": "/theatre-ui-lab/assets/cast.webp",
+          "transfer": 375630,
+          "decoded": 375330,
+          "duration": 3090.6000000089407
+        }
+      ]
+    },
+    {
+      "scheme": "c",
+      "profile": "mobile-emulated",
+      "viewport": [
+        390,
+        844
+      ],
+      "scene": "conflict",
+      "uiReadyMs": 926,
+      "artReadyMs": 3603,
+      "transferBytes": 763194,
+      "decodedResponseBytes": 761094,
+      "jsHeapBytes": 2295968,
+      "frameIntervalP95Ms": 16.7,
+      "longTaskCount": 1,
+      "maxLongTaskMs": 125,
+      "resources": [
+        {
+          "name": "/theatre-ui-lab/lab.css",
+          "transfer": 19083,
+          "decoded": 18783,
+          "duration": 229
+        },
+        {
+          "name": "/theatre-ui-lab/lab.mjs",
+          "transfer": 14539,
+          "decoded": 14239,
+          "duration": 207.40000000596046
+        },
+        {
+          "name": "/theatre-ui-lab/copy.mjs",
+          "transfer": 4564,
+          "decoded": 4264,
+          "duration": 108.30000001192093
+        },
+        {
+          "name": "/theatre-ui-lab/fixtures.mjs",
+          "transfer": 2754,
+          "decoded": 2454,
+          "duration": 102.8999999910593
+        },
+        {
+          "name": "/theatre-preview/story.mjs",
+          "transfer": 21148,
+          "decoded": 20848,
+          "duration": 172.79999999701977
+        },
+        {
+          "name": "/theatre-ui-lab/assets/scenes.webp",
+          "transfer": 434190,
+          "decoded": 433890,
+          "duration": 2888.7999999970198
+        },
+        {
+          "name": "/theatre-ui-lab/assets/brother-conflict.webp",
+          "transfer": 266916,
+          "decoded": 266616,
+          "duration": 2212.5
+        }
+      ]
+    }
+  ]
+}

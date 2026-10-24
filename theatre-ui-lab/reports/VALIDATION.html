@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VALIDATION・傳承人生劇場介面評審</title><style>*{box-sizing:border-box}body{margin:0;background:#f1efe6;color:#193f35;font:18px/1.85 'Noto Sans TC','Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif}main{max-width:1150px;margin:24px auto;padding:28px;background:#fffaf0}nav{padding:16px 24px;display:flex;flex-wrap:wrap;gap:12px;background:#e0e8d8}nav a{display:inline-block;padding:8px 12px;min-height:48px}a{color:#285f49;text-underline-offset:5px}h1{font-size:30px;line-height:1.5}h2{font-size:25px;margin-top:2em}h3{font-size:22px}table{display:block;max-width:100%;overflow:auto;border-collapse:collapse;font-size:18px}th,td{min-width:130px;padding:12px;border:1px solid #bbcbb3;vertical-align:top}pre{overflow:auto;background:#e7ecdd;padding:16px;font-size:17px}code{overflow-wrap:anywhere}img{max-width:100%;height:auto}strong{color:#8b4429}li{line-height:1.85}li+li{margin-top:8px}@media(max-width:700px){main{padding:18px;margin:12px}nav{padding:10px}h1{font-size:26px}h2{font-size:23px}body{font-size:18px}}</style></head><body><nav><a href="../">三案比較</a><a href="../a/">A電影式字幕</a><a href="../b/">B經典視覺小說</a><a href="../c/">C沉浸式劇情</a><a href="REPORT.html">評審總覽</a></nav><main><h1>原型驗收與未完成項目</h1>
+<p>2026-10-24。只驗收三套獨立UI樣本，不代表第一卷正式改版或法律引擎完成。</p>
+<h2>已驗證</h2>
+<ul>
+<li>五種尺寸：1440×900、1366×768、820×1180、390×844、320×568。</li>
+<li>三案×三字級×四種情境×五尺寸，共180組。一般對話、家庭衝突、重要選擇、結局均檢查語系、整頁與內容區水平溢出、底部裁切、主要人物臉部安全區、面板捲動、關閉及法律狀態中文化。</li>
+<li>文字區不以縮小字體配合高度；手機與桌面分開構圖。人物安全區以定位範圍與畫面抽查為依據，不是自動人臉辨識或對所有正式素材的保證。</li>
+<li>三案完整互動測試：點擊顯示全文、不自動跳句、不同前進方式、關閉動畫、六個選擇情境、八結局樣本、回顧、20次鍵盤焦點循環、Escape、重新挑戰、系統減少動態效果及中文錯誤提示。</li>
+<li>另測150%字級的手機／短手機動畫狀態，避免逐字顯示時的按鈕文字變長造成裁切。</li>
+<li>玩家可見字串掃描及詞典誤判測試；程式檢查只提供候選與上下文，不當法律審核。</li>
+<li>第一卷原有10項故事邏輯測試仍通過，story.mjs／app.mjs／HTML／CSS雜湊保持不變。</li>
+<li>瀏覽器監測未發現App呼叫Storage寫入、移除或清空；不讀寫正式State v4。</li>
+</ul>
+<p>原始資料：<a href="layout-checks.json">layout-checks.json</a>、<a href="interaction-checks.json">interaction-checks.json</a>、<a href="typing-large-checks.json">typing-large-checks.json</a>、<a href="zh-tw-check.json">zh-tw-check.json</a>、<a href="story-regression.txt">story-regression.txt</a>。</p>
+<h2>本輪修正</h2>
+<p>快速開啟選單後立即按Escape，曾因焦點尚未移入新視窗而漏掉事件；已改為頁面層級處理，重新驗證。另改善設定的可及名稱、程式化標題焦點外框與單行字幕的48px點擊區。</p>
+<h2>尚未驗證或尚未製作</h2>
+<ul>
+<li>真人編輯／法務簽核、實體Windows、Mac、iPhone、Android、iPad、Safari、讀屏與40歲以上玩家訪談。</li>
+<li>正式多表情套件、角色動畫、配音、聲音與全量素材壓縮／預載流程；哥哥新增圖仍是原創概念素材。</li>
+<li>新版尚未套入第一卷完整流程，不新增章節、NPC、勳章、成就、雲端或新存檔格式。</li>
+<li>網頁原型的流暢、字串掃描與測試數量不代表成熟遊戲或法律正確性。</li>
+</ul>
+<p>公開發布仍使用原遊戲產物，逐檔比對原遊戲未改動；新增比較目錄不替換舊第一卷。對外驗證與發布證明由 <a href="../publication-proof.json">原檔雜湊證明</a> 及GitHub Actions提供。</p></main></body></html>

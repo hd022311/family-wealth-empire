@@ -1,0 +1,1367 @@
+{
+  "locale": "zh-TW",
+  "scope": "三案所有集中管理的玩家可見字串，以及原第一卷的角色、對話、六選擇、八結局與法律導讀。排除程式鍵名、註解、來源報告內引用的錯誤示例與競品圖片。",
+  "method": "高可信度簡體候選字＋陸用詞組＋法律術語語境檢查；未使用自動繁簡轉換。繁簡共用字不逐字判錯。",
+  "uniqueCatalogCount": 330,
+  "errorCount": 0,
+  "reviewCount": 3,
+  "findings": [
+    {
+      "key": "knowledge.partition.summary",
+      "text": "同意繼續談、提出方案、簽署協議與完成必要程序，是不同狀態。原型的和緩結局不代表已完成合法分產。",
+      "type": "shared_term_context",
+      "severity": "review",
+      "note": "此處為法律／辦理程序，可保留；不是電腦程式。",
+      "codexContextReview": "已逐項閱讀上下文；來源為法律或必要辦理程序，保留原文。"
+    },
+    {
+      "key": "knowledge.dispute.summary",
+      "text": "不假定某方必然勝訴、保險必然免稅或全部遺產自動凍結。司法裁量與實質課稅爭議保留不確定性。",
+      "type": "legal_assertion_context",
+      "severity": "review",
+      "note": "核對是否為否定或不確定性說明，不能只憑關鍵字判錯；非法律效力審核。",
+      "codexContextReview": "原文是否定假定或風險說明，並非宣告確定結果；保留待核實標記。"
+    },
+    {
+      "key": "knowledge.dispute.law",
+      "text": "民事程序、保全與相關稅務法源待審核",
+      "type": "shared_term_context",
+      "severity": "review",
+      "note": "此處為法律／辦理程序，可保留；不是電腦程式。",
+      "codexContextReview": "已逐項閱讀上下文；來源為法律或必要辦理程序，保留原文。"
+    }
+  ],
+  "humanSignoff": {
+    "reviewer": null,
+    "reviewedAt": null,
+    "status": "awaiting_human_signoff"
+  },
+  "limitations": [
+    "逐句語意複核由 Codex 執行，並非真人譯者或法律專業簽核。",
+    "詞典掃描不能證明所有台灣語意都正確；真人維護者須簽核。",
+    "字型共用碼點的區域字形另需 Windows、Mac、iOS、Android 實體檢查。",
+    "法律規則仍為草稿；語言檢查不提升法律審核狀態。"
+  ],
+  "catalog": [
+    {
+      "key": "ui.readyHintA",
+      "text": "點字幕繼續"
+    },
+    {
+      "key": "ui.readyHintB",
+      "text": "按「繼續」前進"
+    },
+    {
+      "key": "ui.readyHintC",
+      "text": "點人物區繼續"
+    },
+    {
+      "key": "ui.typingHint",
+      "text": "點台詞顯示全文"
+    },
+    {
+      "key": "ui.pendingShort",
+      "text": "法律效果待核實，未進行正式結算。"
+    },
+    {
+      "key": "ui.endingSampleShort",
+      "text": "結局介面樣本・非通關紀錄"
+    },
+    {
+      "key": "ui.title",
+      "text": "傳承人生劇場・介面比較"
+    },
+    {
+      "key": "ui.volume",
+      "text": "兩間房子的承諾"
+    },
+    {
+      "key": "ui.preview",
+      "text": "介面樣本・尚未整合第一卷"
+    },
+    {
+      "key": "ui.normal",
+      "text": "一般人物對話"
+    },
+    {
+      "key": "ui.conflict",
+      "text": "家庭衝突"
+    },
+    {
+      "key": "ui.choice",
+      "text": "重要選擇"
+    },
+    {
+      "key": "ui.ending",
+      "text": "結局畫面"
+    },
+    {
+      "key": "ui.scenes",
+      "text": "切換情境"
+    },
+    {
+      "key": "ui.menu",
+      "text": "選單"
+    },
+    {
+      "key": "ui.history",
+      "text": "對話回顧"
+    },
+    {
+      "key": "ui.settings",
+      "text": "閱讀設定"
+    },
+    {
+      "key": "ui.legal",
+      "text": "台灣法律"
+    },
+    {
+      "key": "ui.close",
+      "text": "關閉"
+    },
+    {
+      "key": "ui.closeWindow",
+      "text": "關閉視窗"
+    },
+    {
+      "key": "ui.closeBackdrop",
+      "text": "關閉背景說明"
+    },
+    {
+      "key": "ui.return",
+      "text": "返回畫面"
+    },
+    {
+      "key": "ui.continue",
+      "text": "繼續"
+    },
+    {
+      "key": "ui.next",
+      "text": "下一句"
+    },
+    {
+      "key": "ui.reveal",
+      "text": "顯示全文"
+    },
+    {
+      "key": "ui.again",
+      "text": "重看本幕"
+    },
+    {
+      "key": "ui.restart",
+      "text": "重新挑戰"
+    },
+    {
+      "key": "ui.restartTitle",
+      "text": "重新挑戰這個介面樣本？"
+    },
+    {
+      "key": "ui.restartNote",
+      "text": "將回到一般對話，不影響第一卷完整預覽或任何正式存檔。"
+    },
+    {
+      "key": "ui.back",
+      "text": "繼續比較"
+    },
+    {
+      "key": "ui.confirmRestart",
+      "text": "回到一般對話"
+    },
+    {
+      "key": "ui.size",
+      "text": "文字大小"
+    },
+    {
+      "key": "ui.typing",
+      "text": "逐字顯示"
+    },
+    {
+      "key": "ui.motion",
+      "text": "鏡頭與轉場動畫"
+    },
+    {
+      "key": "ui.reduce",
+      "text": "減少動態效果"
+    },
+    {
+      "key": "ui.enabled",
+      "text": "啟用"
+    },
+    {
+      "key": "ui.disabled",
+      "text": "停用"
+    },
+    {
+      "key": "ui.reduceNote",
+      "text": "系統偏好減少動態效果，已停用逐字動畫與鏡頭轉場。"
+    },
+    {
+      "key": "ui.motionNote",
+      "text": "關閉動畫時保留靜態特寫，不播放縮放或淡入。"
+    },
+    {
+      "key": "ui.plainNote",
+      "text": "沒有自動跳頁，也沒有選擇倒數；可以隨時顯示全文。"
+    },
+    {
+      "key": "ui.sameContent",
+      "text": "三案使用同一份第一卷文字與分支資料，只比較介面；沒有新增劇情或法律效果。"
+    },
+    {
+      "key": "ui.aTitle",
+      "text": "電影式字幕"
+    },
+    {
+      "key": "ui.bTitle",
+      "text": "經典視覺小說"
+    },
+    {
+      "key": "ui.cTitle",
+      "text": "沉浸式劇情"
+    },
+    {
+      "key": "ui.aBrief",
+      "text": "全景與側位立繪，底部無框字幕；點字幕可顯示全文，讀完再點可繼續。"
+    },
+    {
+      "key": "ui.bBrief",
+      "text": "人物居中，低干擾半透明對話帶；顯示全文後，使用繼續按鈕前進。"
+    },
+    {
+      "key": "ui.cBrief",
+      "text": "側位特寫與極簡台詞；點人物區可顯示全文或繼續，選擇前可先檢視影響。"
+    },
+    {
+      "key": "ui.endingSample",
+      "text": "結局畫面樣本，不代表本次已完成一輪遊玩。"
+    },
+    {
+      "key": "ui.endingReview",
+      "text": "結局回顧與法律"
+    },
+    {
+      "key": "ui.legalPending",
+      "text": "法律效果待核實；沒有分產、稅額、保險給付或裁判結果。"
+    },
+    {
+      "key": "ui.legalIntro",
+      "text": "基礎知識可隨時查看，不需解鎖。以下是既有第一卷的白話導讀與待核實法源線索。"
+    },
+    {
+      "key": "ui.draft",
+      "text": "草稿"
+    },
+    {
+      "key": "ui.lawSource",
+      "text": "法源線索"
+    },
+    {
+      "key": "ui.lawStatus",
+      "text": "審核狀態"
+    },
+    {
+      "key": "ui.lawDate",
+      "text": "適用及施行日期"
+    },
+    {
+      "key": "ui.unverified",
+      "text": "尚未核實"
+    },
+    {
+      "key": "ui.lawVersion",
+      "text": "法律版本"
+    },
+    {
+      "key": "ui.lawLink",
+      "text": "開啟官方來源（新分頁）"
+    },
+    {
+      "key": "ui.eventDates",
+      "text": "故事事件日期：2029年7月12日、2031年10月8日（虛構）。適用法規版本尚未核實，不預測未來修法。"
+    },
+    {
+      "key": "ui.choiceHint",
+      "text": "費用為劇情示例；可捲動查看全部選項。"
+    },
+    {
+      "key": "ui.choiceCount",
+      "text": "選擇情境"
+    },
+    {
+      "key": "ui.endingCount",
+      "text": "結局樣本"
+    },
+    {
+      "key": "ui.inspect",
+      "text": "先選一項，再確認"
+    },
+    {
+      "key": "ui.confirm",
+      "text": "確認這個選擇"
+    },
+    {
+      "key": "ui.selected",
+      "text": "已選擇"
+    },
+    {
+      "key": "ui.sampleResult",
+      "text": "選擇回應示範；不儲存故事進度，也不扣除正式遊戲的現金。"
+    },
+    {
+      "key": "ui.sampleDecision",
+      "text": "這是介面示範，不會改寫第一卷原有的六次選擇或八種結局條件。"
+    },
+    {
+      "key": "ui.sampleMemory",
+      "text": "只在目前頁面記憶體中保存顯示偏好與已讀片段；重新整理即清除。"
+    },
+    {
+      "key": "ui.noHistory",
+      "text": "目前還沒有讀過的片段。"
+    },
+    {
+      "key": "cast.narrator.name",
+      "text": "旁白"
+    },
+    {
+      "key": "ui.views",
+      "text": "情境"
+    },
+    {
+      "key": "ui.switchStyle",
+      "text": "切換視覺方案"
+    },
+    {
+      "key": "html.c/index.html.2",
+      "text": "回到三案比較"
+    },
+    {
+      "key": "ui.report",
+      "text": "研究與驗收報告"
+    },
+    {
+      "key": "ui.fullVolume",
+      "text": "開啟原第一卷完整預覽（新版尚未整合）"
+    },
+    {
+      "key": "ui.previewOnly",
+      "text": "只展示原有片段，不提供跳關、勳章、成就或正式存檔。"
+    },
+    {
+      "key": "ui.fontNote",
+      "text": "字級放大時，文字區可自行捲動；不會縮小內文或裁掉選項。"
+    },
+    {
+      "key": "ui.errorTitle",
+      "text": "目前無法顯示這個畫面"
+    },
+    {
+      "key": "ui.errorNote",
+      "text": "請重新載入預覽；正式遊戲與存檔不受影響。"
+    },
+    {
+      "key": "ui.reload",
+      "text": "重新載入"
+    },
+    {
+      "key": "ui.dialogueHintA",
+      "text": "點字幕顯示全文；讀完再點可繼續。"
+    },
+    {
+      "key": "ui.dialogueHintB",
+      "text": "點台詞顯示全文；按「繼續」前進。"
+    },
+    {
+      "key": "ui.dialogueHintC",
+      "text": "點人物區顯示全文或繼續。"
+    },
+    {
+      "key": "ui.finished",
+      "text": "本幕示範已讀完，可重看或切換情境。"
+    },
+    {
+      "key": "ui.disclosure",
+      "text": "哥哥新增一張衝突表情概念圖；其他人物仍沿用既有概念立繪，未完成正式表情套件。"
+    },
+    {
+      "key": "cast.player.name",
+      "text": "林家安"
+    },
+    {
+      "key": "cast.player.role",
+      "text": "主角・企劃專員"
+    },
+    {
+      "key": "cast.spouse.name",
+      "text": "陳怡君"
+    },
+    {
+      "key": "cast.spouse.role",
+      "text": "配偶・自己的工作與育兒責任"
+    },
+    {
+      "key": "cast.father.name",
+      "text": "林建國"
+    },
+    {
+      "key": "cast.father.role",
+      "text": "父親・退休技師"
+    },
+    {
+      "key": "cast.mother.name",
+      "text": "陳淑芬"
+    },
+    {
+      "key": "cast.mother.role",
+      "text": "母親・自己的晚年規劃"
+    },
+    {
+      "key": "cast.brother.name",
+      "text": "林家誠"
+    },
+    {
+      "key": "cast.brother.role",
+      "text": "哥哥・工程工作、房貸與子女"
+    },
+    {
+      "key": "cast.sister.name",
+      "text": "林雅婷"
+    },
+    {
+      "key": "cast.sister.role",
+      "text": "妹妹・輪班工作與進修"
+    },
+    {
+      "key": "cast.narrator.role",
+      "text": ""
+    },
+    {
+      "key": "intro.0.0",
+      "text": "「這兩間房，以後都是你們的靠山。」"
+    },
+    {
+      "key": "intro.0.1",
+      "text": "爸爸把鑰匙放到茶几上，像放下一個很簡單的答案。"
+    },
+    {
+      "key": "intro.1.0",
+      "text": "「你聽見的是房子。我聽見的，是以後要怎麼一起生活。」"
+    },
+    {
+      "key": "intro.1.1",
+      "text": "窗外傳來機車聲。你還不知道，這句話會陪你多久。"
+    },
+    {
+      "key": "decision.0.title",
+      "text": "照顧，先從哪裡開始？"
+    },
+    {
+      "key": "decision.0.line.0",
+      "text": "「爸爸出院後，你們也還有自己的生活。」"
+    },
+    {
+      "key": "decision.0.line.1",
+      "text": "媽媽把出院單推過來，沒有替任何人作決定。"
+    },
+    {
+      "key": "decision.0.personal.title",
+      "text": "我先親自陪伴"
+    },
+    {
+      "key": "decision.0.personal.hint",
+      "text": "預留陪伴時間；生活預備金支出 $45,000"
+    },
+    {
+      "key": "decision.0.shared.title",
+      "text": "先和手足排出分工"
+    },
+    {
+      "key": "decision.0.shared.hint",
+      "text": "需要協調；生活預備金支出 $20,000"
+    },
+    {
+      "key": "decision.0.professional.title",
+      "text": "詢問專業照顧安排"
+    },
+    {
+      "key": "decision.0.professional.hint",
+      "text": "保留工作時間；預備金支出 $38,000"
+    },
+    {
+      "key": "decision.1.title",
+      "text": "哥哥說，他這個月真的拿不出來。"
+    },
+    {
+      "key": "decision.1.line.0",
+      "text": "「房貸、孩子的學費，都還沒繳。」"
+    },
+    {
+      "key": "decision.1.line.1",
+      "text": "他沒有看你，手裡捏著一張繳費單。"
+    },
+    {
+      "key": "decision.1.solo.title",
+      "text": "這次我先墊，寫清楚範圍"
+    },
+    {
+      "key": "decision.1.solo.hint",
+      "text": "付出 $60,000；其餘負擔仍要再談"
+    },
+    {
+      "key": "decision.1.transparent.title",
+      "text": "把各家的預算攤開談"
+    },
+    {
+      "key": "decision.1.transparent.hint",
+      "text": "支出 $20,000；也讓非金錢協助被看見"
+    },
+    {
+      "key": "decision.1.promise.title",
+      "text": "先答應全部，別讓爸媽擔心"
+    },
+    {
+      "key": "decision.1.promise.hint",
+      "text": "付出 $95,000；尚未取得其他人分擔承諾"
+    },
+    {
+      "key": "bridge.1.0.0",
+      "text": "一次住院，讓原本說好的探望變成每天都要安排的事。"
+    },
+    {
+      "key": "bridge.1.0.1",
+      "text": "費用與時間開始累積，沒有人同時看得到所有人的難處。"
+    },
+    {
+      "key": "decision.2.title",
+      "text": "「兩間房，最後都留給你，好不好？」"
+    },
+    {
+      "key": "decision.2.line.0",
+      "text": "爸爸說得很輕，媽媽卻放下了茶杯。"
+    },
+    {
+      "key": "decision.2.line.1",
+      "text": "這是他的心願，還不是你已取得的房產。"
+    },
+    {
+      "key": "decision.2.independent.title",
+      "text": "請爸媽各自尋求專業協助"
+    },
+    {
+      "key": "decision.2.independent.hint",
+      "text": "尊重各自意願；諮詢示例支出 $8,000"
+    },
+    {
+      "key": "decision.2.meeting.title",
+      "text": "先一起談晚年與居住需求"
+    },
+    {
+      "key": "decision.2.meeting.hint",
+      "text": "支出 $2,000；不先承諾房屋歸誰"
+    },
+    {
+      "key": "decision.2.oral.title",
+      "text": "把爸爸的話先記下來"
+    },
+    {
+      "key": "decision.2.oral.hint",
+      "text": "不產生有效遺囑或財產移轉"
+    },
+    {
+      "key": "bridge.2.0.0",
+      "text": "幾個月後，爸爸恢復了一些精神，開始談起房子的未來。"
+    },
+    {
+      "key": "bridge.2.0.1",
+      "text": "自住房登記在母親名下，出租屋由父親持有；都不是你的資產。"
+    },
+    {
+      "key": "decision.3.title",
+      "text": "如果需要現金，要怎麼準備？"
+    },
+    {
+      "key": "decision.3.line.0",
+      "text": "「房子不能拿來付明天的生活費。」"
+    },
+    {
+      "key": "decision.3.line.1",
+      "text": "怡君想談的是餘裕，不是要你買哪一種答案。"
+    },
+    {
+      "key": "decision.3.evaluate.title",
+      "text": "請父親評估壽險安排"
+    },
+    {
+      "key": "decision.3.evaluate.hint",
+      "text": "諮詢支出 $2,000；不代表承保或理賠"
+    },
+    {
+      "key": "decision.3.reserve.title",
+      "text": "先保留生活預備金"
+    },
+    {
+      "key": "decision.3.reserve.hint",
+      "text": "不投保也有完整故事；資產權利不因此改變"
+    },
+    {
+      "key": "decision.3.policy.title",
+      "text": "先核對現有保單影本"
+    },
+    {
+      "key": "decision.3.policy.hint",
+      "text": "查清關係人；資料未齊，不計保險金"
+    },
+    {
+      "key": "bridge.3.0.0",
+      "text": "「我們談過房子，還沒有談如果需要現金怎麼辦。」"
+    },
+    {
+      "key": "bridge.3.0.1",
+      "text": "你們把預備金與保單資料帶到諮詢桌前。"
+    },
+    {
+      "key": "decision.4.title",
+      "text": "先談爸爸留下什麼，還是先談房子歸誰？"
+    },
+    {
+      "key": "decision.4.line.0",
+      "text": "父親離世後，媽媽把自己的權狀收回包裡。"
+    },
+    {
+      "key": "decision.4.line.1",
+      "text": "「我的房子，和你爸爸的事，要分開說。」"
+    },
+    {
+      "key": "decision.4.separate.title",
+      "text": "先分開盤點兩位屋主的權利"
+    },
+    {
+      "key": "decision.4.separate.hint",
+      "text": "支出 $6,000；父親遺產先獨立建檔"
+    },
+    {
+      "key": "decision.4.rushed.title",
+      "text": "先談兩間房最後給誰"
+    },
+    {
+      "key": "decision.4.rushed.hint",
+      "text": "支出 $3,000；清冊與權利仍未釐清"
+    },
+    {
+      "key": "decision.4.practical.title",
+      "text": "先付眼前費用，再請專業盤點"
+    },
+    {
+      "key": "decision.4.practical.hint",
+      "text": "支出 $12,000；不先假定誰取得房子"
+    },
+    {
+      "key": "bridge.4.0.0",
+      "text": "2029年，父親離世。故事在這裡跨過兩年。"
+    },
+    {
+      "key": "bridge.4.0.1",
+      "text": "母親仍在世；先建立父親這一次的遺產事件，不合併兩人的財產。"
+    },
+    {
+      "key": "decision.5.title",
+      "text": "媽媽也離開了。這次，你想怎麼開始？"
+    },
+    {
+      "key": "decision.5.line.0",
+      "text": "哥哥想請專業確認特留分主張，雅婷則把全家福放在桌上。"
+    },
+    {
+      "key": "decision.5.line.1",
+      "text": "「我們可以先聽彼此說完，再決定怎麼主張權利嗎？」"
+    },
+    {
+      "key": "decision.5.mediate.title",
+      "text": "先談大家承擔得起的協商方案"
+    },
+    {
+      "key": "decision.5.mediate.hint",
+      "text": "前置支出 $3,000；不代表已成立分割協議"
+    },
+    {
+      "key": "decision.5.clarify.title",
+      "text": "先請專業釐清主張，再談"
+    },
+    {
+      "key": "decision.5.clarify.hint",
+      "text": "前置諮詢 $8,000；法律結果仍待確認"
+    },
+    {
+      "key": "decision.5.legal.title",
+      "text": "暫不協商，各自尋求法律途徑"
+    },
+    {
+      "key": "decision.5.legal.hint",
+      "text": "前置諮詢 $12,000；不預告裁判或凍結"
+    },
+    {
+      "key": "bridge.5.0.0",
+      "text": "兩年後，母親也離世。又是一個獨立的死亡與遺產事件。"
+    },
+    {
+      "key": "bridge.5.0.1",
+      "text": "先前未確定的權利，不能在這裡被假裝已經分好。"
+    },
+    {
+      "key": "reaction.0.personal.0.0",
+      "text": "「你來，我當然高興。可是工作怎麼辦？」"
+    },
+    {
+      "key": "reaction.0.personal.0.1",
+      "text": "他想有人陪，也不想你失去自己的生活。"
+    },
+    {
+      "key": "reaction.0.personal.1.0",
+      "text": "「晚飯我先顧。你也得留一點時間休息。」"
+    },
+    {
+      "key": "reaction.1.solo.0.0",
+      "text": "「我會記得你先墊。什麼時候還、算不算借款，我們要說清楚。」"
+    },
+    {
+      "key": "reaction.1.solo.0.1",
+      "text": "你把金額寫下來，也留下了還沒說好的部分。"
+    },
+    {
+      "key": "reaction.2.independent.0.0",
+      "text": "「我願意找專業的人，把我自己的意思說清楚。」"
+    },
+    {
+      "key": "reaction.2.independent.0.1",
+      "text": "父親後來交來一份寫下心願的文件，仍有細節要請專業的人確認。"
+    },
+    {
+      "key": "reaction.2.oral.1.0",
+      "text": "「上次的費用還沒說清楚，現在就要談房子嗎？」"
+    },
+    {
+      "key": "reaction.2.oral.1.1",
+      "text": "那些請假的下午，也和這句話一起回到心裡。"
+    },
+    {
+      "key": "reaction.3.evaluate.0.0",
+      "text": "「我願意問問，但能不能承保、條款怎麼寫，要看清楚。」"
+    },
+    {
+      "key": "reaction.3.evaluate.0.1",
+      "text": "那天帶回的是申請資料。父親說，要先看懂，再決定。"
+    },
+    {
+      "key": "reaction.4.practical.0.0",
+      "text": "「先把你爸爸的事查清楚，我自己的意思，也讓我自己說。」"
+    },
+    {
+      "key": "reaction.4.practical.0.1",
+      "text": "你把爸爸那本清冊標上日期，也另外留下媽媽的資料夾。"
+    },
+    {
+      "key": "reaction.4.practical.1.0",
+      "text": "信封寫著父親希望出租屋由你承接。母親看了很久，沒有替自己的房子答應什麼。"
+    },
+    {
+      "key": "reaction.4.practical.1.1",
+      "text": "申請資料停在待確認的地方；眼前的生活費，仍要從自己的預備金安排。"
+    },
+    {
+      "key": "reaction.5.mediate.0.0",
+      "text": "「我願意先坐下來，但之前沒說的事，也要一起談。」"
+    },
+    {
+      "key": "reaction.5.legal.0.1",
+      "text": "雅婷沒有把全家福收回去。那張桌子，暫時還留著每個人的位置。"
+    },
+    {
+      "key": "reaction.5.clarify.0.0",
+      "text": "「先把不知道的事列出來，再決定怎麼談。」"
+    },
+    {
+      "key": "reaction.5.legal.0.0",
+      "text": "「那就先透過專業窗口聯絡吧。誰也別替法院先下結論。」"
+    },
+    {
+      "key": "reaction.4.rushed.0.0",
+      "text": "「媽媽還在，怎麼就把兩間房一起算了？」"
+    },
+    {
+      "key": "reaction.4.rushed.0.1",
+      "text": "母親把兩本資料夾分開。你才發現，自己說得太快了。"
+    },
+    {
+      "key": "reaction.3.reserve.0.0",
+      "text": "「先留一筆生活錢，至少不用每次都硬撐。」"
+    },
+    {
+      "key": "reaction.3.reserve.0.1",
+      "text": "你把那筆錢留在生活帳戶裡，沒有把未來寫成保證。"
+    },
+    {
+      "key": "reaction.4.practical.1.1",
+      "text": "你動用了預備金。看著帳上的餘額，怡君輕輕說了聲：「慢慢來。」"
+    },
+    {
+      "key": "reaction.3.policy.0.0",
+      "text": "「影本上的三個名字不一樣。我們先別猜誰能領。」"
+    },
+    {
+      "key": "reaction.3.policy.0.1",
+      "text": "你們列了幾個問題，沒有把一張影本當成答案。"
+    },
+    {
+      "key": "reaction.4.practical.1.1",
+      "text": "影本還有未釐清的資料，你們決定先把關係人與條款查清。"
+    },
+    {
+      "key": "reaction.2.meeting.0.0",
+      "text": "「我想先住在熟悉的地方，不急著答應房子給誰。」"
+    },
+    {
+      "key": "reaction.2.meeting.0.1",
+      "text": "父親也同意先談居住與照顧，沒有要求你換取承諾。"
+    },
+    {
+      "key": "reaction.4.practical.1.0",
+      "text": "父親說過的話重新被提起，你才發現，每個人記得的片段都不一樣。"
+    },
+    {
+      "key": "reaction.2.oral.0.0",
+      "text": "「我說的，你記得就好。」"
+    },
+    {
+      "key": "reaction.2.oral.0.1",
+      "text": "紙上寫著他的心願。你忽然想起，媽媽剛才一直沒有開口。"
+    },
+    {
+      "key": "reaction.1.transparent.0.0",
+      "text": "「我這個月能拿的不多，但星期日可以陪診。」"
+    },
+    {
+      "key": "reaction.1.transparent.0.1",
+      "text": "第一次，你們聽見每個家庭裡沒有說出口的難處。"
+    },
+    {
+      "key": "reaction.2.oral.1.0",
+      "text": "「上次談預算時，我才知道你也有壓力。這次我願意聽。」"
+    },
+    {
+      "key": "reaction.5.mediate.0.0",
+      "text": "「我們以前能談預算，這次也許可以先把需求說完。」"
+    },
+    {
+      "key": "reaction.1.promise.0.0",
+      "text": "「你說你都可以，所以大家以為你真的可以。」"
+    },
+    {
+      "key": "reaction.1.promise.0.1",
+      "text": "她擔心的不是那兩間房，是你們下個月的生活。"
+    },
+    {
+      "key": "reaction.0.shared.0.0",
+      "text": "「我夜班後不能開車，但能接送媽媽。」"
+    },
+    {
+      "key": "reaction.0.shared.0.1",
+      "text": "分工不是平均分錢，而是先知道彼此做得到什麼。"
+    },
+    {
+      "key": "reaction.0.shared.1.0",
+      "text": "「把大家的時間寫下來，別讓約好的事又落空。」"
+    },
+    {
+      "key": "reaction.2.oral.1.1",
+      "text": "你們帶著不同的疲累，坐在同一張桌子前。"
+    },
+    {
+      "key": "reaction.0.professional.0.0",
+      "text": "「有人幫忙，我也能睡一下。」"
+    },
+    {
+      "key": "reaction.0.professional.0.1",
+      "text": "你還是會探望，只是不再把照顧都排在自己身上。"
+    },
+    {
+      "key": "reaction.0.professional.1.0",
+      "text": "「我們把探望排好，別讓專業照顧變成不再見面。」"
+    },
+    {
+      "key": "ending.E1.title",
+      "text": "留下可對話的家"
+    },
+    {
+      "key": "ending.E1.story.0",
+      "text": "你們還沒有決定房子怎麼分，卻願意把同一張桌子留著。"
+    },
+    {
+      "key": "ending.E1.story.1",
+      "text": "照顧不是換房子的籌碼；這一次，沒有人得靠沉默證明付出。"
+    },
+    {
+      "key": "ending.E1.objective",
+      "text": "照顧分工、透明預算與協商，能改善溝通，但不能增加法定權利。"
+    },
+    {
+      "key": "ending.E1.alternative",
+      "text": "若協商涉及補償或出售，仍須核對權利、資金與有效協議。"
+    },
+    {
+      "key": "ending.E2.title",
+      "text": "兩間房之外的生活"
+    },
+    {
+      "key": "ending.E2.story.0",
+      "text": "你保留了工作和生活預備金，也為父母安排了需要的照顧。"
+    },
+    {
+      "key": "ending.E2.story.1",
+      "text": "房屋去向仍未確定。你和怡君先約好，這個週末陪孩子去海邊。"
+    },
+    {
+      "key": "ending.E2.objective",
+      "text": "流動性、界線與照顧可以並存；不購買保險也不等於規劃失敗。"
+    },
+    {
+      "key": "ending.E2.alternative",
+      "text": "其他路線可評估保險或資產安排，但承保、權利及稅務需另行核實。"
+    },
+    {
+      "key": "ending.E3.title",
+      "text": "遲來的一張餐桌"
+    },
+    {
+      "key": "ending.E3.story.0",
+      "text": "那句「我以為你都可以」終於被說出口。你也承認，自己沒有真的說清楚。"
+    },
+    {
+      "key": "ending.E3.story.1",
+      "text": "和解還沒有簽字，但哥哥這次沒有提早離席。"
+    },
+    {
+      "key": "ending.E3.objective",
+      "text": "照顧記憶影響協商意願；補償與分割仍需明確合意及法律審查。"
+    },
+    {
+      "key": "ending.E3.alternative",
+      "text": "若有借貸、贈與或代墊爭議，需分別核對證據，不能只憑誰付出最多。"
+    },
+    {
+      "key": "ending.E4.title",
+      "text": "照顧者也需要被照顧"
+    },
+    {
+      "key": "ending.E4.story.0",
+      "text": "你以為自己撐得住。直到怡君說：「這次，換我們陪你。」"
+    },
+    {
+      "key": "ending.E4.story.1",
+      "text": "你們開始重新分工。留下來的不只有疲累，也有終於說出口的需要。"
+    },
+    {
+      "key": "ending.E4.objective",
+      "text": "自我犧牲不會自動增加應繼分；照顧費用與扶養問題須分別釐清。"
+    },
+    {
+      "key": "ending.E4.alternative",
+      "text": "早些談預算或安排協助，可能保留不同的家庭與工作空間。"
+    },
+    {
+      "key": "ending.E5.title",
+      "text": "文件很齊，心事未完"
+    },
+    {
+      "key": "ending.E5.story.0",
+      "text": "你把文件逐張排好，哥哥卻問：「那我們以前沒說的那些呢？」"
+    },
+    {
+      "key": "ending.E5.story.1",
+      "text": "專業可以協助確認權利，不能替一個家庭補寫所有對話。"
+    },
+    {
+      "key": "ending.E5.objective",
+      "text": "文件存在、內容、形式、效力與可執行結果是不同層次；親情另需溝通。"
+    },
+    {
+      "key": "ending.E5.alternative",
+      "text": "有遺囑文件也不代表兩間房已歸主角；仍有權利、效力與爭議待查。"
+    },
+    {
+      "key": "ending.E6.title",
+      "text": "誰也沒有先退讓"
+    },
+    {
+      "key": "ending.E6.story.0",
+      "text": "你們各自收好資料，約好先透過專業窗口聯絡。"
+    },
+    {
+      "key": "ending.E6.story.1",
+      "text": "下一次見面會在哪裡，還沒有人知道。故事停在裁判之前。"
+    },
+    {
+      "key": "ending.E6.objective",
+      "text": "選擇法律途徑不等於必然勝敗；訴訟、保全及費用必須具體判斷。"
+    },
+    {
+      "key": "ending.E6.alternative",
+      "text": "是否有和解空間、哪些財產受限制，要看個案事實，不能假定全部凍結。"
+    },
+    {
+      "key": "ending.E7.title",
+      "text": "走到談判桌之前"
+    },
+    {
+      "key": "ending.E7.story.0",
+      "text": "清冊還缺一頁，誰也不再急著把兩間房寫成同一筆財產。"
+    },
+    {
+      "key": "ending.E7.story.1",
+      "text": "你決定先把不知道的事查清楚。這也是一種前進。"
+    },
+    {
+      "key": "ending.E7.objective",
+      "text": "父母先後死亡，必須各自建立事件；資料不全時不產生假精確結果。"
+    },
+    {
+      "key": "ending.E7.alternative",
+      "text": "補齊所有權、死亡日期、婚姻、債務與文件，才可能進入正式計算。"
+    },
+    {
+      "key": "ending.E8.title",
+      "text": "把答案留給下一頁"
+    },
+    {
+      "key": "ending.E8.story.0",
+      "text": "你沒有一次解決所有事，但開始把承諾、支出和未解的問題寫清楚。"
+    },
+    {
+      "key": "ending.E8.story.1",
+      "text": "孩子問起那兩間房時，你希望先告訴他，家人曾經怎麼一起生活。"
+    },
+    {
+      "key": "ending.E8.objective",
+      "text": "留下事實與待辦，不等於移轉財產；下一代不自動取得未處理權利。"
+    },
+    {
+      "key": "ending.E8.alternative",
+      "text": "下一步可以是補齊資料、重開協商或專業諮詢，未決事項不必假裝已解決。"
+    },
+    {
+      "key": "knowledge.ownership.title",
+      "text": "誰的房子，就先查誰的權利"
+    },
+    {
+      "key": "knowledge.ownership.summary",
+      "text": "本故事中，父親持有出租屋、母親持有自住房；兩者不直接算玩家資產。正式歸屬須核對登記、財產制與其他事實。"
+    },
+    {
+      "key": "knowledge.ownership.law",
+      "text": "民法；相關所有權及繼承規則待逐條核對"
+    },
+    {
+      "key": "knowledge.shares.title",
+      "text": "感情與法定繼承權分開"
+    },
+    {
+      "key": "knowledge.shares.summary",
+      "text": "原型不計應繼分。法定繼承人的認定及比例，需要家庭事實、事件日期與已審核規則；照顧或信任不能直接改寫。"
+    },
+    {
+      "key": "knowledge.shares.law",
+      "text": "民法第1138、1139、1144條（法源線索，尚未完成審核）"
+    },
+    {
+      "key": "knowledge.will.title",
+      "text": "口頭心願不是已驗證的遺囑"
+    },
+    {
+      "key": "knowledge.will.summary",
+      "text": "父母的願望、文件存在、形式要件、意思能力、效力與權利效果要分開確認。本原型不認定任何文件已生效。"
+    },
+    {
+      "key": "knowledge.will.law",
+      "text": "民法遺囑章；形式及效力規則待審核"
+    },
+    {
+      "key": "knowledge.reserved.title",
+      "text": "特留分主張不是遊戲自訂比例"
+    },
+    {
+      "key": "knowledge.reserved.summary",
+      "text": "手足可能提出主張；誰有權、適用版本、範圍及爭議處理均待核實。本原型不輸出比例、金額或勝訴結論。"
+    },
+    {
+      "key": "knowledge.reserved.law",
+      "text": "民法第1223條及相關規範、沿革與施行規定待核對"
+    },
+    {
+      "key": "knowledge.marital.title",
+      "text": "夫妻財產與遺產分開確認"
+    },
+    {
+      "key": "knowledge.marital.summary",
+      "text": "母親在父親死亡時可能涉及的財產權利，不可與她原有財產或法定繼承混為一談。原型未進行計算。"
+    },
+    {
+      "key": "knowledge.marital.law",
+      "text": "民法夫妻財產制與相關請求權規定待審核"
+    },
+    {
+      "key": "knowledge.partition.title",
+      "text": "協商意願，不等於分割已完成"
+    },
+    {
+      "key": "knowledge.partition.summary",
+      "text": "同意繼續談、提出方案、簽署協議與完成必要程序，是不同狀態。原型的和緩結局不代表已完成合法分產。"
+    },
+    {
+      "key": "knowledge.partition.law",
+      "text": "民法遺產分割與共有規範待審核"
+    },
+    {
+      "key": "knowledge.insurance.title",
+      "text": "先分清保單關係人"
+    },
+    {
+      "key": "knowledge.insurance.summary",
+      "text": "要保人、被保險人、受益人及契約狀態需要逐項核對。詢問投保、保單影本或指定意願，都不等於承保或已取得保險金。"
+    },
+    {
+      "key": "knowledge.insurance.law",
+      "text": "保險法及契約條款待核實；不計理賠或保險稅務"
+    },
+    {
+      "key": "knowledge.tax.title",
+      "text": "金額與年度都不是完整稅額"
+    },
+    {
+      "key": "knowledge.tax.summary",
+      "text": "遺產稅、贈與稅及保險稅務需依事件日期、資格、參數、扣除及例外判斷。本原型不套用固定免稅額或產生稅額。"
+    },
+    {
+      "key": "knowledge.tax.law",
+      "text": "遺產及贈與稅法；財政部年度公告與相關解釋待核對"
+    },
+    {
+      "key": "knowledge.support.title",
+      "text": "照顧、代墊與扶養分開記錄"
+    },
+    {
+      "key": "knowledge.support.summary",
+      "text": "情感付出、家庭分工、代墊是否可請求及扶養義務是不同問題，不能以好感度給出確定法律效果。"
+    },
+    {
+      "key": "knowledge.support.law",
+      "text": "民法扶養、契約與相關費用規定待審核"
+    },
+    {
+      "key": "knowledge.dispute.title",
+      "text": "故事不代替法院作判決"
+    },
+    {
+      "key": "knowledge.dispute.summary",
+      "text": "不假定某方必然勝訴、保險必然免稅或全部遺產自動凍結。司法裁量與實質課稅爭議保留不確定性。"
+    },
+    {
+      "key": "knowledge.dispute.law",
+      "text": "民事程序、保全與相關稅務法源待審核"
+    },
+    {
+      "key": "html.index.html.0",
+      "text": "傳承人生劇場・三套全新介面比較"
+    },
+    {
+      "key": "html.index.html.1",
+      "text": "傳承人生劇場・視覺方向評審"
+    },
+    {
+      "key": "html.index.html.2",
+      "text": "同一段故事，三種閱讀方式。"
+    },
+    {
+      "key": "html.index.html.3",
+      "text": "人物與台灣場景為主，先比較美術、構圖與閱讀，再選定第一卷的改版方向。"
+    },
+    {
+      "key": "html.index.html.12",
+      "text": "A・電影式字幕"
+    },
+    {
+      "key": "html.index.html.30",
+      "text": "B・經典視覺小說"
+    },
+    {
+      "key": "html.index.html.48",
+      "text": "C・沉浸式劇情"
+    },
+    {
+      "key": "html.index.html.7",
+      "text": "只做介面樣本，尚未套入原第一卷。法律效果仍待核實，不產生分產、稅額、理賠或裁判。沒有修改正式經營模式或正式存檔。"
+    },
+    {
+      "key": "html.index.html.8",
+      "text": "研究、繁體中文檢查與效能評估"
+    },
+    {
+      "key": "html.index.html.9",
+      "text": "A 電影字幕"
+    },
+    {
+      "key": "html.index.html.10",
+      "text": "B 經典對話"
+    },
+    {
+      "key": "html.index.html.11",
+      "text": "C 沉浸劇情"
+    },
+    {
+      "key": "html.index.html.13",
+      "text": "全景、側位人物、無框字幕。點字幕可顯示全文或繼續。"
+    },
+    {
+      "key": "html.index.html.14",
+      "text": "開啟方案A獨立預覽"
+    },
+    {
+      "key": "html.index.html.51",
+      "text": "桌面一般對話 · 點圖可放大"
+    },
+    {
+      "key": "html.index.html.52",
+      "text": "手機一般對話"
+    },
+    {
+      "key": "html.index.html.53",
+      "text": "展開家庭衝突、選擇與結局畫面"
+    },
+    {
+      "key": "html.index.html.54",
+      "text": "家庭衝突 ·"
+    },
+    {
+      "key": "html.index.html.63",
+      "text": "手機原圖"
+    },
+    {
+      "key": "html.index.html.64",
+      "text": "·"
+    },
+    {
+      "key": "html.index.html.65",
+      "text": "操作這個情境"
+    },
+    {
+      "key": "html.index.html.58",
+      "text": "重要選擇 ·"
+    },
+    {
+      "key": "html.index.html.62",
+      "text": "結局畫面 ·"
+    },
+    {
+      "key": "html.index.html.31",
+      "text": "人物置中、底部對話帶。使用繼續按鈕，降低誤觸跳句。"
+    },
+    {
+      "key": "html.index.html.32",
+      "text": "開啟方案B獨立預覽"
+    },
+    {
+      "key": "html.index.html.49",
+      "text": "側位特寫、情緒光影。重要選擇先檢視，再確認。"
+    },
+    {
+      "key": "html.index.html.50",
+      "text": "開啟方案C獨立預覽"
+    },
+    {
+      "key": "html.index.html.66",
+      "text": "原創概念素材。對話、六次選擇、八種結局與法律待核實狀態保留。三案可由選單調整字級、關閉動畫與回顧。"
+    },
+    {
+      "key": "html.index.html.67",
+      "text": "原第一卷完整預覽"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "三案入口"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案A 電影式字幕桌面一般人物對話"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案A 電影式字幕手機人物對話"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案A 電影式字幕：家庭衝突桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案A 電影式字幕：重要選擇桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案A 電影式字幕：結局畫面桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案B 經典視覺小說桌面一般人物對話"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案B 經典視覺小說手機人物對話"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案B 經典視覺小說：家庭衝突桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案B 經典視覺小說：重要選擇桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案B 經典視覺小說：結局畫面桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案C 沉浸式劇情桌面一般人物對話"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案C 沉浸式劇情手機人物對話"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案C 沉浸式劇情：家庭衝突桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案C 沉浸式劇情：重要選擇桌面截圖"
+    },
+    {
+      "key": "html.index.html.attribute",
+      "text": "方案C 沉浸式劇情：結局畫面桌面截圖"
+    },
+    {
+      "key": "html.a/index.html.0",
+      "text": "傳承人生劇場・方案A介面預覽"
+    },
+    {
+      "key": "html.c/index.html.1",
+      "text": "此預覽需要啟用瀏覽器的指令碼功能。"
+    },
+    {
+      "key": "html.b/index.html.0",
+      "text": "傳承人生劇場・方案B介面預覽"
+    },
+    {
+      "key": "html.c/index.html.0",
+      "text": "傳承人生劇場・方案C介面預覽"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "scheme": "a",
+    "width": 390,
+    "height": 844,
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "a",
+    "width": 320,
+    "height": 568,
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "width": 390,
+    "height": 844,
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "width": 320,
+    "height": 568,
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "width": 390,
+    "height": 844,
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "width": 320,
+    "height": 568,
+    "scale": "1.5",
+    "status": "passed"
+  }
+]
