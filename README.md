@@ -1,5 +1,11 @@
 # 家族財富帝國
 
+公開試玩：[https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)（V0.1開發測試版、本機存檔）。易讀性版已通過[部署及公開驗證](https://github.com/hd022311/family-wealth-empire/actions/runs/40064163591)。
+
+
+V0.1 易讀性改善、修改檔案與前後截圖：[READABILITY.md](READABILITY.md)。頁首可選100%、125%、150%字級，遊戲存檔維持State v4。
+
+
 > 最新範圍基準：見 [STATUS.md](STATUS.md) 與 [FEATURE_BACKLOG.md](FEATURE_BACKLOG.md)。目前只收斂V0.1公開部署與核心穩定；舊文件的實驗批次編號不代表正式里程碑完成。
 
 繁體中文 2D 等角家族財富經營遊戲。Vite + TypeScript + React + Phaser。手機、平板與桌面瀏覽器皆可操作；每次 5–15 分鐘，長期累積多代進度。**所有行情均為虛構資料，未連接任何真實行情。**

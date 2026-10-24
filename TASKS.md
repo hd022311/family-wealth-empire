@@ -1,5 +1,11 @@
 # 本次任務與驗收計畫
 
+本輪V0.1 UI／UX：字級設定、對比、響應式換行、目前目標提示、次要資訊展開、可放大人物資料與前後截圖已完成；State v4與核心規則不變。實體Windows／Mac／iPhone／Android／iPad仍待人工驗收；未啟動V0.2或新增劇情。詳見[易讀性驗收](READABILITY.md)。
+
+
+> 2026-10-24 易讀性更新：本輪只修改V0.1 UI／UX，詳見 [READABILITY.md](READABILITY.md)。GitHub Pages已由管理端啟用，舊候選版網址目前回應HTTPS 200；以下較早的403／404紀錄為當時結果。本輪新版部署與測試結果會另外列明。
+
+
 > 最新範圍基準：見 [STATUS.md](STATUS.md) 與 [FEATURE_BACKLOG.md](FEATURE_BACKLOG.md)。目前只收斂V0.1公開部署與核心穩定；舊文件的實驗批次編號不代表正式里程碑完成。
 
 本次第二階段完成狀態見文末：61 項單元／資料庫、33 項跨裝置瀏覽器案例通過；外部預覽網址及正式法律效果尚未完成。

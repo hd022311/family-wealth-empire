@@ -1,5 +1,19 @@
 # 家族財富帝國 0.3 驗收紀錄
 
+> **最新部署驗收（2026-10-24）**：V0.1易讀性版程式24406de已公開至 [https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[GitHub Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40064163591) 的build、deploy、verify-public均success；公開HTTPS另行確認200且新版字級與關係圖程式已載入。先前403／404為歷史紀錄，已解除。State v4不變，仍為本機存檔的開發測試版；實體裝置尚待人工驗收。
+
+
+## 本輪V0.1易讀性驗收（2026-10-24）
+
+- 單元61／61、建置成功、完整瀏覽器回歸42／42。
+- 最後關係圖與自由開局檢查15／15，最後城市檢查6／6。
+- 三種字級×桌面／平板／手機，包含金融、家族、法律視窗、存檔與重載；無整頁水平溢出或操作控制項文字裁切。
+- 實體裝置與其他瀏覽器尚待驗證。詳見[修改檔案、截圖與限制](READABILITY.md)。
+
+
+> 2026-10-24 易讀性更新：本輪只修改V0.1 UI／UX，詳見 [READABILITY.md](READABILITY.md)。GitHub Pages已由管理端啟用，舊候選版網址目前回應HTTPS 200；以下較早的403／404紀錄為當時結果。本輪新版部署與測試結果會另外列明。
+
+
 日期：2026-10-23。Node 24.19.0、TypeScript、Vite、Vitest、系統 Chromium。
 
 ## 通過的程式驗收

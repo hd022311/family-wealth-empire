@@ -1,5 +1,11 @@
 # 實際開發盤點與版本範圍
 
+> **最新部署驗收（2026-10-24）**：V0.1易讀性版程式24406de已公開至 [https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[GitHub Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40064163591) 的build、deploy、verify-public均success；公開HTTPS另行確認200且新版字級與關係圖程式已載入。先前403／404為歷史紀錄，已解除。State v4不變，仍為本機存檔的開發測試版；實體裝置尚待人工驗收。
+
+
+> 2026-10-24 易讀性更新：本輪只修改V0.1 UI／UX，詳見 [READABILITY.md](READABILITY.md)。GitHub Pages已由管理端啟用，舊候選版網址目前回應HTTPS 200；以下較早的403／404紀錄為當時結果。本輪新版部署與測試結果會另外列明。
+
+
 更新：2026-10-24。版本編號從此採交付里程碑，與舊文件0.3／0.4／0.5的實驗批次編號不同；存檔格式仍為State v4。**目前為V0.1候選版，未因測試通過而視為正式完成。**
 
 ## 1. 已實際可玩的內容

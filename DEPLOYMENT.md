@@ -1,5 +1,11 @@
 # V0.1 公開試玩部署
 
+> **最新部署驗收（2026-10-24）**：V0.1易讀性版程式24406de已公開至 [https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[GitHub Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40064163591) 的build、deploy、verify-public均success；公開HTTPS另行確認200且新版字級與關係圖程式已載入。先前403／404為歷史紀錄，已解除。State v4不變，仍為本機存檔的開發測試版；實體裝置尚待人工驗收。
+
+
+> 2026-10-24 易讀性更新：本輪只修改V0.1 UI／UX，詳見 [READABILITY.md](READABILITY.md)。GitHub Pages已由管理端啟用，舊候選版網址目前回應HTTPS 200；以下較早的403／404紀錄為當時結果。本輪新版部署與測試結果會另外列明。
+
+
 ## 已完成
 - 原本為空的GitHub儲存庫已推送main，保留完整遊戲原始碼與既有功能。
 - `.github/workflows/deploy-pages.yml`：鎖定main／手動觸發，Node24、npm ci、單元測試、公開版建置、產物檢查、三尺寸Playwright、Pages artifact與部署。
