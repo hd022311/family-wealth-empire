@@ -1,5 +1,8 @@
 # 實際開發盤點與版本範圍
 
+> 目前優先範圍：V0.1主畫面重排第一階段。桌面固定功能導覽、中央城市、右側目標／可捲動資料；行動版底部導覽與展開面板，維持100／125／150%字級。規劃、修改清單及驗收見[LAYOUT_ACCEPTANCE.md](LAYOUT_ACCEPTANCE.md)。五步互動教學為**第二階段待整合**，未啟用或變更State v4；不開始戀愛、百科、排行或新城市玩法。
+
+
 > **最新部署驗收（2026-10-24）**：V0.1易讀性版程式24406de已公開至 [https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[GitHub Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40064163591) 的build、deploy、verify-public均success；公開HTTPS另行確認200且新版字級與關係圖程式已載入。先前403／404為歷史紀錄，已解除。State v4不變，仍為本機存檔的開發測試版；實體裝置尚待人工驗收。
 
 

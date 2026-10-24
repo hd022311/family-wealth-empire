@@ -1,5 +1,8 @@
 # 架構與信任邊界
 
+> 目前優先範圍：V0.1主畫面重排第一階段。桌面固定功能導覽、中央城市、右側目標／可捲動資料；行動版底部導覽與展開面板，維持100／125／150%字級。規劃、修改清單及驗收見[LAYOUT_ACCEPTANCE.md](LAYOUT_ACCEPTANCE.md)。五步互動教學為**第二階段待整合**，未啟用或變更State v4；不開始戀愛、百科、排行或新城市玩法。
+
+
 ## 現有遊戲保留
 React 管理繁體中文 UI、帳本與家族流程；Phaser 繪製等角城市、可點選建築和行人。`simulation.ts` 保持純函數交易與月度模擬；不需 Supabase 即可操作。`market.ts` 隔離 MarketProvider，目前僅 fictionalMarket。沒有導入真實行情或真實法院資料。
 
@@ -81,3 +84,9 @@ Phaser 在原 8×8 城市加兩棟程序建築；尋路只在新劇情增加兩�
 `openEstate` 每名死者各一份日期、婚姻／親屬及房屋快照；仍由既有法律引擎封鎖未驗證效果。`legalEvents.ts` 是第三至六章唯讀事件審查介面；所有數額／分配結果為 null、effects 為空，不是生效的法律規則。`restrictions` 只預留逐筆程序證據，沒有整包自動凍結。
 
 v1–v3 → v4 只遷移既有資料。帳戶啟動先備份成功的舊家族庫，再寫回遷移結果；新劇情另開 UUID。雲端封套與 SQL RLS／CAS 不需變更，本次未聲稱已連接正式 Supabase。可攜 HTML 由 `scripts/package-demo.mjs` 打包，不含外部資源與雲端設定；不變更一般網站的分包與離線架構。
+
+## V0.1遊戲主畫面層
+
+`main.tsx`的導航、面板開合、標的及日期／財務投影屬暫態React UI，不寫入遊戲規則或State v4。`game-layout.css`以動態viewport及minmax(0,…)分配可用空間；主要功能導覽不進入詳細區的捲動範圍。詳細區與設定dialog各有明確捲動、開關及焦點入口；既有StoryPanel／WorldPanel／FamilyPanel重用，沒有重寫成另一套模擬。時間結算仍呼叫原tick，旅行、交易、照顧仍呼叫原引擎。City只對canvas內起訖的指標輸入執行場景點擊，UI視窗開啟時使用原paused途徑暫停模擬。
+
+五步教學的未驗收程式隔離在`prototypes/tutorial-pending-layout`，不屬正式模組，不可將草稿當成已完成的教學或直接整份套用patch。

@@ -1,3 +1,4 @@
+import { ReadingSettings } from "./ReadingSettings";
 import { StartScreen } from "./modes/StartScreen";
 import { createAdventure } from "./modes/create";
 import { useEffect, useRef, useState } from "react";
@@ -242,11 +243,26 @@ export function Account({
   };
   const [rankingsOpen, setRankingsOpen] = useState(false);
   const [lawOpen, setLawOpen] = useState(false);
+  const [toolsOpen, setToolsOpen] = useState(false);
+  const toolsRef = useRef<HTMLDialogElement>(null);
+  useEffect(()=>{ if(storageError) {setToolsOpen(true);setOpen(true);} },[storageError]);
+  useEffect(() => {
+    const listener = (event: Event) => {
+      const action = (event as CustomEvent<string>).detail;
+      if (action === 'home') { setHome(true); setOpen(false); setToolsOpen(false); }
+      else { setToolsOpen(true); if (action === 'account') setOpen(true); }
+    };
+    window.addEventListener('fwe-tools',listener);
+    return () => window.removeEventListener('fwe-tools',listener);
+  },[]);
+  useEffect(() => { if (toolsOpen && !toolsRef.current?.open) toolsRef.current?.showModal(); if (!toolsOpen) toolsRef.current?.close(); },[toolsOpen]);
   return (
     <>
       {lawOpen && (
         <LawCenter state={active?.state} onClose={() => setLawOpen(false)} />
       )}
+      <div className="landing-tools"><strong>V0.1開發測試版 · 本機存檔</strong><button onClick={()=>setToolsOpen(true)}>設定與存檔</button></div>
+      <dialog className="tools-dialog" ref={toolsRef} aria-label="設定與存檔" onCancel={()=>setToolsOpen(false)}><div className="tools-heading"><h2>設定與存檔</h2><button onClick={()=>setToolsOpen(false)}>關閉設定</button></div><ReadingSettings />
       {publicLocalDemo&&<div className="public-demo-banner" role="note"><strong>開發測試版 · 本機存檔模式</strong><span>正式雲端存檔未啟用。進度保存在這個瀏覽器；清除網站資料或更換裝置不會自動帶入存檔。所有行情均為虛構。</span></div>}
       <div className="account-bar">
       <button className="law-entry" onClick={() => setLawOpen(true)}>
@@ -258,10 +274,10 @@ export function Account({
           {active?.name}　·　
           {cloudConfigured ? "雲端已設定（連線結果見訊息）" : "雲端尚未設定"}
         </span>
-        <button onClick={() => setHome(true)}>首頁 / 新人生</button>
+        <button onClick={() => {setHome(true);setToolsOpen(false);}}>首頁 / 新人生</button>
         <button onClick={() => setRankingsOpen((v) => !v)}>排行榜規劃</button>
-        <button onClick={() => setOpen((v) => !v)}>
-          {open ? "返回遊戲" : "家族存檔 / 會員"}
+        <button onClick={() => { if (open) {setOpen(false);setToolsOpen(false);} else setOpen(true); }}>
+          {open ? "返回遊戲" : "開啟存檔與會員"}
         </button>
       </div>
       {rankingsOpen && <Rankings />}
@@ -303,7 +319,7 @@ export function Account({
                       setEpoch((e) => e + 1);
                       setMessage(returnSummary(slot));
                       setHome(false);
-                      setOpen(false);
+                      setOpen(false); setToolsOpen(false);
                     }}
                   >
                     接續
@@ -324,7 +340,7 @@ export function Account({
                     })
                   ) {
                     setEpoch((e) => e + 1);
-                    setOpen(false);
+                    setOpen(false); setToolsOpen(false);
                   }
                 }}
               >
@@ -476,7 +492,7 @@ export function Account({
                         slots: [...ref.current.slots, copy],
                       });
                       setEpoch((e) => e + 1);
-                      setOpen(false);
+                      setOpen(false); setToolsOpen(false);
                     }}
                   >
                     從此快照建立獨立接班分支
@@ -492,12 +508,13 @@ export function Account({
         {message}
         {storageError && <strong>　{storageError}</strong>}
       </div>
+      </dialog>
       {home && (
         <StartScreen
           hasSave={!!active}
           onContinue={() => {
             setHome(false);
-            setOpen(false);
+            setOpen(false); setToolsOpen(false);
           }}
           onCreate={(config) => {
             try {
@@ -508,7 +525,7 @@ export function Account({
                 slots: [...ref.current.slots, slot],
               });
               setHome(false);
-              setOpen(false);
+              setOpen(false); setToolsOpen(false);
               setEpoch((e) => e + 1);
             } catch (e) {
               setMessage((e as Error).message);
@@ -535,7 +552,7 @@ export function Account({
               setMessage((e as Error).message);
             }
           },
-          open || rankingsOpen || lawOpen,
+          open || rankingsOpen || lawOpen || toolsOpen,
         )}
     </>
   );

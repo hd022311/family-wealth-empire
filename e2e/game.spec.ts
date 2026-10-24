@@ -1,3 +1,4 @@
+import { settings, closeSettings, account, home } from './ui-helpers';
 import { initial } from "../src/simulation";
 import { test, expect } from "@playwright/test";
 test.beforeEach(async ({ page }) => {
@@ -52,7 +53,7 @@ test("城市、交易、多家族、重新載入與離線回歸", async ({ page 
     page.getByRole("button", { name: "停止出租", exact: true }),
   ).toBeVisible();
   await page.getByRole("button", { name: "存檔", exact: true }).click();
-  await page.getByRole("button", { name: "家族存檔 / 會員" }).click();
+  await account(page);
   await expect(
     page.getByText("雲端尚未設定", { exact: false }).first(),
   ).toBeVisible();
@@ -61,7 +62,7 @@ test("城市、交易、多家族、重新載入與離線回歸", async ({ page 
   await expect(
     page.getByRole("button", { name: /購入 · 頭期款/ }),
   ).toBeVisible();
-  await page.getByRole("button", { name: "家族存檔 / 會員" }).click();
+  await account(page);
   await page
     .locator(".slot")
     .filter({ hasText: "林家・第一個家族" })
@@ -74,6 +75,7 @@ test("城市、交易、多家族、重新載入與離線回歸", async ({ page 
   await expect(
     page.getByRole("button", { name: "停止出租", exact: true }),
   ).toBeVisible();
+  await settings(page);
   await page.getByRole("button", { name: "排行榜規劃", exact: true }).click();
   await expect(
     page.getByText("示意資料 · 不是正式排名，未讀取玩家財務、未連接排名服務。"),
@@ -83,7 +85,9 @@ test("城市、交易、多家族、重新載入與離線回歸", async ({ page 
     page.getByRole("columnheader", { name: "成績（%）" }),
   ).toBeVisible();
   await expect(page.getByText(/個人名次（示意）/)).toContainText("第 3 / 3 名");
+  await settings(page);
   await page.getByRole("button", { name: "排行榜規劃", exact: true }).click();
+  await closeSettings(page);
   await page.getByRole("button", { name: "股票", exact: true }).click();
   await page.getByRole("button", { name: "買 100 股" }).first().click();
   await expect(page.getByText(/持有 100 股/)).toBeVisible();
@@ -100,6 +104,7 @@ test("城市、交易、多家族、重新載入與離線回歸", async ({ page 
   });
   await page.context().setOffline(true);
   await page.reload();
+  await settings(page);
   await expect(
     page.getByText(/年齡、資產、房貸與虛構股價均未離線推進/),
   ).toBeVisible();
@@ -140,14 +145,14 @@ test("接班會保存上一代快照，重新開啟仍接續第二代", async ({
     .getByRole("button", { name: /林晨 · 62 歲 · 接續個人帳戶/ })
     .click();
   await expect(
-    page.getByText("第 2 代家主 · 62 歲 0 個月 · 青禾城"),
+    page.locator(".session-summary").filter({hasText:/第2代.*62歲/}),
   ).toBeVisible();
-  await page.getByRole("button", { name: "家族存檔 / 會員" }).click();
+  await account(page);
   await expect(
     page.getByRole("heading", { name: "世代典藏 · 1 段已完成世代" }),
   ).toBeVisible();
   await page.reload();
   await expect(
-    page.getByText("第 2 代家主 · 62 歲 0 個月 · 青禾城"),
+    page.locator(".session-summary").filter({hasText:/第2代.*62歲/}),
   ).toBeVisible();
 });

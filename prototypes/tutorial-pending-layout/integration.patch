@@ -1,0 +1,188 @@
+diff --git a/src/main.tsx b/src/main.tsx
+index 151aa2d..7b454cb 100644
+--- a/src/main.tsx
++++ b/src/main.tsx
+@@ -1,3 +1,5 @@
++import { TutorialPanel } from "./tutorial/TutorialPanel";
++import { reconcileTutorial } from "./tutorial/model";
+ import { storyTasks } from "./story/definitions";
+ import { StoryPanel, StoryLocation } from "./story/StoryPanel";
+ import { storyAction } from "./story/engine";
+@@ -44,14 +46,34 @@ function App({
+   onLoad: () => void;
+   paused: boolean;
+ }) {
+-  const [s, setS] = useState<State>(() => structuredClone(start)),
++  const [s, setRawS] = useState<State>(() => reconcileTutorial(structuredClone(start))),
+     [speed, setSpeed] = useState(start.world ? 0 : 1),
+     [selected, select] = useState(0),
+     [tab, setTab] = useState(start.story ? "劇情" : "房產"),
+     [notice, setNotice] = useState(
+       "歡迎來到青禾城。點選建築，開始第一筆投資。",
+     );
+-  const [familyError, setFamilyError] = useState("");
++  const setS = (value: React.SetStateAction<State>) => setRawS(previous => reconcileTutorial(typeof value === 'function' ? value(previous) : value));
++  const [guide, setGuide] = useState('');
++  const guideRef = useRef<HTMLDivElement>(null);
++  function advanceMonth() { if (paused || current.current.dead) return; setSpeed(0); setS(old => tick(old)); setStoryError(''); }
++  function openLedger() {
++    setTab('帳本');
++    setS(old => old.tutorial?.status === 'active' ? {...old,tutorial:{...old.tutorial,ledgerMonth:old.month}} : old);
++  }
++  function guideTo(target: string) {
++    const place = target === 'city' ? 5 : target === 'work' && !current.current.world?.job ? 5 : target === 'family' ? 8 : undefined;
++    if (place !== undefined) lifeAction({type:'travel',place});
++    if (target === 'family') setTab('劇情');
++    if (target === 'ledger') openLedger();
++    setGuide(target);
++    requestAnimationFrame(() => {
++      const element = document.getElementById(target === 'city' ? 'city-map' : target === 'work' ? 'career-actions' : target === 'family' ? 'location-actions' : target === 'ledger' ? 'finance-actions' : target === 'time' ? 'time-planner' : 'care-actions');
++      element?.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',block:'center'});
++      element?.focus({preventScroll:true});
++    });
++  }
++    const [familyError, setFamilyError] = useState("");
+   const [focusedMember, setFocusedMember] = useState<number | undefined>(
+     undefined,
+   );
+@@ -198,9 +220,10 @@ function App({
+             </div>
+           ))}
+         </section>
+-        {nextTask && <div className="current-goal" aria-label="目前建議目標"><b>下一步</b><p>{nextTask.text}</p><button className="primary" onClick={() => lifeAction({type:"travel", place:nextTask.place})}>前往目標場所</button><a href="#story-goals">查看任務與時間安排 ↓</a></div>}
+-        <div className="workspace">
+-          <section className="map-panel">
++        <TutorialPanel state={s} onUpdate={setS} onGuide={guideTo} onAdvance={advanceMonth} />
++        {s.tutorial?.status !== "active" && nextTask && <div className="current-goal" aria-label="目前建議目標"><b>下一步</b><p>{nextTask.text}</p><button className="primary" onClick={() => lifeAction({type:"travel", place:nextTask.place})}>前往目標場所</button><a href="#story-goals">查看任務與時間安排 ↓</a></div>}
++        <div ref={guideRef} className="workspace" data-guide={guide}>
++          <section id="city-map" tabIndex={-1} className={`map-panel ${guide === "city" ? "tutorial-focus" : ""}`}>
+             <div className="panel-heading">
+               <div>
+                 <h2>家族的城市</h2>
+@@ -262,13 +285,13 @@ function App({
+                 <button
+                   key={t}
+                   className={tab === t ? "active" : ""}
+-                  onClick={() => setTab(t)}
++                  onClick={() => { if (t === "帳本") openLedger(); else setTab(t); }}
+                 >
+                   {t}
+                 </button>
+               ))}
+             </nav>
+-            <div className="side-content">
++            <div id={tab === "帳本" ? "finance-actions" : "location-actions"} tabIndex={-1} className={`side-content ${["family","ledger"].includes(guide) ? "tutorial-focus" : ""}`}>
+               {tab === "劇情" && s.story && (
+                 <StoryLocation
+                   state={s}
+@@ -583,12 +606,7 @@ function App({
+             onAction={storyInteract}
+             onTravel={(place) => lifeAction({ type: "travel", place })}
+             error={storyError}
+-            onAdvance={() => {
+-              if (paused) return;
+-              setSpeed(0);
+-              setS((old) => tick(old));
+-              setStoryError("");
+-            }}
++            onAdvance={advanceMonth}
+           />
+         )}
+         {s.world && (
+@@ -612,6 +630,7 @@ function App({
+             />
+           </div>
+         )}
++        {s.tutorial?.status === "active" && <button className="tutorial-return" onClick={()=>document.querySelector(".tutorial-panel")?.scrollIntoView({behavior:"smooth"})}>↑ 返回目前教學目標（{s.tutorial.done.length+1}／5）</button>}
+         <div className="notice" role="status">
+           ◉　{notice}
+         </div>
+diff --git a/src/modes/create.ts b/src/modes/create.ts
+index 5820c07..1ffed08 100644
+--- a/src/modes/create.ts
++++ b/src/modes/create.ts
+@@ -1,3 +1,4 @@
++import { newTutorial } from "../tutorial/model";
+ import { setupStory } from "../story/setup";
+ import { initial, type State } from "../simulation";
+ import { createClan, projectFamily, syncActive } from "../family/engine";
+@@ -76,7 +77,7 @@ export function createAdventure(config: Setup): State {
+     );
+   }
+   s.world = newWorld(config.mode, config.name.trim(), config.familyName.trim());
+-  if (story) s.story = setupStory(s);
++  if (story) { s.story = setupStory(s); s.tutorial = newTutorial(); }
+   projectFamily(s);
+   syncActive(s);
+   s.logs = ["新人生開始：父母財產與玩家財產分開，所有市場均為虛構資料。"];
+diff --git a/src/readability.css b/src/readability.css
+index dbed1ca..142de2f 100644
+--- a/src/readability.css
++++ b/src/readability.css
+@@ -60,3 +60,6 @@ table{white-space:normal;table-layout:fixed}th,td{padding:.5rem;overflow-wrap:an
+ button{min-block-size:44px}.current-goal a{display:block;color:#244b42;text-decoration:underline;margin-top:.75rem}.map-reading-hint{padding:0 1rem;margin:.75rem 0}.promise-story{scroll-margin-top:1rem}
+ .relation-legend{padding-left:1.5rem;color:#203f40}.relation-legend li{padding:.5rem 0;border-bottom:1px solid #c5d3bb}
+ .negative{color:#9b3725!important}
++/* In-flow onboarding never covers city or decision controls. */
++.tutorial-panel,.tutorial-rest{border:2px solid #496c49;border-radius:12px;padding:1rem;margin:1rem 0;background:#f0f5df;color:#203f40}
++.tutorial-title,.tutorial-actions,.tutorial-controls,.tutorial-rest{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}.tutorial-title{justify-content:space-between}.tutorial-title strong{font-size:1.2rem}.tutorial-actions .primary{width:auto}.tutorial-controls{margin-top:1rem;border-top:1px solid #a8bb94;padding-top:.75rem}.tutorial-comparison{padding:.75rem;background:#fffdf6;border-radius:8px}.tutorial-panel p{margin:.65rem 0}.tutorial-panel details{margin-top:1rem}.tutorial-focus,#career-actions:focus,#time-planner:focus,#care-actions:focus{outline:4px solid #946121;outline-offset:3px;scroll-margin:1rem}.tutorial-return{display:block;margin:1rem auto}.tutorial-rest small{width:100%}
+diff --git a/src/simulation.ts b/src/simulation.ts
+index 8a10ca9..f1690b4 100644
+--- a/src/simulation.ts
++++ b/src/simulation.ts
+@@ -1,3 +1,4 @@
++import { validTutorial, type Tutorial } from "./tutorial/model";
+ import { advanceStory } from "./story/engine";
+ import { validateStory } from "./story/validation";
+ import type { StoryState } from "./story/types";
+@@ -32,6 +33,7 @@ export type Property = {
+ export type Member = { id: number; name: string; age: number; role: string };
+ export type State = {
+   version: 4;
++  tutorial?: Tutorial;
+   story?: StoryState;
+   world?: World;
+   month: number;
+@@ -512,6 +514,7 @@ export function parseSave(raw: string): State {
+   validateClan(s.clan);
+   if (s.world) validateWorld(s.world);
+   if (s.story) validateStory(s);
++  if (s.tutorial !== undefined && !validTutorial(s.tutorial)) delete s.tutorial;
+   s.version = 4;
+   return s;
+ }
+diff --git a/src/story/StoryPanel.tsx b/src/story/StoryPanel.tsx
+index 01f89b6..8120d3b 100644
+--- a/src/story/StoryPanel.tsx
++++ b/src/story/StoryPanel.tsx
+@@ -204,7 +204,7 @@ export function StoryPanel({
+           </ul>
+           <small>目標可以自由排序，不必買保險或把財產留給誰才能繼續。</small>
+         </section>
+-        <section className="time-planner">
++        <section id="time-planner" tabIndex={-1} className="time-planner">
+           <h3>每月可安排時間：40h</h3>
+           <p>
+             已用 {st.time.spent}h；目前保留休息{" "}
+@@ -285,7 +285,7 @@ export function StoryPanel({
+         </div>
+       </section>
+       {e && (
+-        <section className="care-episode" aria-label="父母照顧事件">
++        <section id="care-actions" tabIndex={-1} className="care-episode" aria-label="父母照顧事件">
+           <div className="care-heading">
+             <span className="medical-mark" aria-hidden="true">
+               ＋
+diff --git a/src/world/WorldPanel.tsx b/src/world/WorldPanel.tsx
+index 1e454db..0514987 100644
+--- a/src/world/WorldPanel.tsx
++++ b/src/world/WorldPanel.tsx
+@@ -69,7 +69,7 @@ export function WorldPanel({
+       </nav>
+       <h3>目前位置：{places[w.place]?.name ?? "城市道路"}</h3>
+       <div className="world-columns">
+-        <section>
++        <section id="career-actions" tabIndex={-1}>
+           <h3>職涯與經營</h3>
+           <p>
+             {jobs.find((j) => j.id === w.job)?.name ?? "尚未就業"} · 遊戲月薪 $

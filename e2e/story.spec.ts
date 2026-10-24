@@ -1,3 +1,4 @@
+import { settings, closeSettings, account, home, showCity } from './ui-helpers';
 import { test, expect, type Page } from "@playwright/test";
 const library = async (page: Page) =>
   page.evaluate(() => JSON.parse(localStorage.getItem("fwe-library-v1")!));
@@ -27,6 +28,7 @@ test("第一、二章：城市家人日常、照顧協商、結案與自由模�
   ).toBeVisible();
   await expect(page.locator("canvas")).toBeVisible();
   const canvas = page.locator("canvas");
+  await showCity(page);
   await canvas.scrollIntoViewIfNeeded();
   const box = await canvas.boundingBox();
   if (!box) throw Error("城市未載入");
@@ -91,6 +93,7 @@ test("第一、二章：城市家人日常、照顧協商、結案與自由模�
       (r: any) => r.money === 0 && r.hours > 0,
     ),
   ).toBe(true);
+  await showCity(page);
   await canvas.scrollIntoViewIfNeeded();
   await expect
     .poll(async () =>
@@ -104,8 +107,9 @@ test("第一、二章：城市家人日常、照顧協商、結案與自由模�
   await page.screenshot({
     path: `artifacts/promise-${info.project.name}-city.png`,
   });
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟事件功能",exact:true}).click();
   await page
-    .getByRole("region", { name: "父母照顧事件" })
+    .locator(".detail-panel")
     .screenshot({ path: `artifacts/promise-${info.project.name}-care.png` });
   await page.reload();
   expect((await current(page)).story.episode).toEqual(ready.story.episode);
@@ -130,9 +134,7 @@ test("第一、二章：城市家人日常、照顧協商、結案與自由模�
     ),
   ).toBe(true);
   const storySnapshot = await current(page);
-  await page
-    .getByRole("button", { name: "首頁 / 新人生", exact: true })
-    .click();
+  await home(page);
   await page.getByRole("button", { name: /自由模式.*自訂背景/ }).click();
   await page.getByLabel("家庭背景").selectOption("self-made");
   await page.getByRole("button", { name: "開始自由人生", exact: true }).click();
@@ -145,9 +147,7 @@ test("第一、二章：城市家人日常、照顧協商、結案與自由模�
   expect(saves.slots.find((s: any) => s.state.story)?.state).toEqual(
     storySnapshot,
   );
-  await page
-    .getByRole("button", { name: "家族存檔 / 會員", exact: true })
-    .click();
+  await account(page);
   await page
     .locator(".slot")
     .filter({ hasText: "劇情模式" })

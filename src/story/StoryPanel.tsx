@@ -16,7 +16,6 @@ type Props = {
   state: State;
   onAction: (a: StoryAction) => void;
   onTravel: (place: number) => void;
-  onAdvance: () => void;
   error?: string;
 };
 export function StoryLocation({
@@ -134,7 +133,6 @@ export function StoryPanel({
   state: s,
   onAction,
   onTravel,
-  onAdvance,
   error,
 }: Props) {
   const st = s.story!;
@@ -167,9 +165,7 @@ export function StoryPanel({
             《{STORY_TITLE}》 · 第 {s.month - st.startedMonth + 1} 個遊戲月
           </p>
         </div>
-        <button onClick={onAdvance} disabled={s.dead}>
-          結算一個月並繼續人生
-        </button>
+        <small>使用上方「結算一月」推進人生與收支。</small>
       </div>
       <details className="secondary-info"><summary>章節總覽與開發狀態</summary><div className="chapter-trail" aria-label="六章主線">
         {storyChapters.map((c) => (
@@ -285,7 +281,7 @@ export function StoryPanel({
         </div>
       </section>
       {e && (
-        <section className="care-episode" aria-label="父母照顧事件">
+        <section id="care-panel" className="care-episode" aria-label="父母照顧事件">
           <div className="care-heading">
             <span className="medical-mark" aria-hidden="true">
               ＋

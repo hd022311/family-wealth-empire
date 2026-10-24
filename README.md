@@ -1,5 +1,8 @@
 # 家族財富帝國
 
+> 目前優先範圍：V0.1主畫面重排第一階段。桌面固定功能導覽、中央城市、右側目標／可捲動資料；行動版底部導覽與展開面板，維持100／125／150%字級。規劃、修改清單及驗收見[LAYOUT_ACCEPTANCE.md](LAYOUT_ACCEPTANCE.md)。五步互動教學為**第二階段待整合**，未啟用或變更State v4；不開始戀愛、百科、排行或新城市玩法。
+
+
 公開試玩：[https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)（V0.1開發測試版、本機存檔）。易讀性版已通過[部署及公開驗證](https://github.com/hd022311/family-wealth-empire/actions/runs/40064163591)。
 
 

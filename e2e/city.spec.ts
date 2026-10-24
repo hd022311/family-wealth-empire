@@ -1,3 +1,4 @@
+import {showCity} from './ui-helpers';
 import { initial } from "../src/simulation";
 import { test, expect, type Page } from "@playwright/test";
 async function activeState(page: Page) {
@@ -130,8 +131,9 @@ test("動態城市：鏡頭、手機手勢、角色、日夜天氣及減少動�
   await expect(
     page.getByRole("heading", { name: "財富有價，傳承無價。" }),
   ).toBeVisible();
+  await showCity(page);
   await page
-    .getByText("城市動畫設定 · 拖曳移動 / 雙指或滾輪縮放", { exact: true })
+    .getByText("地圖與動畫設定", { exact: true })
     .click();
   await page.getByLabel("城市日夜", { exact: true }).selectOption("night");
   await page.getByLabel("城市天氣", { exact: true }).selectOption("rainy");
@@ -147,8 +149,9 @@ test("動態城市：鏡頭、手機手勢、角色、日夜天氣及減少動�
     fullPage: true,
   });
   await page.reload();
+  await showCity(page);
   await page
-    .getByText("城市動畫設定 · 拖曳移動 / 雙指或滾輪縮放", { exact: true })
+    .getByText("地圖與動畫設定", { exact: true })
     .click();
   await expect(page.getByLabel("減少動態效果", { exact: true })).toBeChecked();
   await expect(page.getByLabel("城市日夜", { exact: true })).toHaveValue(
@@ -174,6 +177,7 @@ test("購屋、入住、收租、翻修、營運和新生兒動畫對應可保�
     "青禾小宅 租客入住",
   );
   await page.getByRole("button", { name: "12×", exact: true }).click();
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟房產功能",exact:true}).click();
   await expect(page.getByRole("status", { name: "城市事件" })).toContainText(
     "收租 +＄9,000",
   );
@@ -185,6 +189,7 @@ test("購屋、入住、收租、翻修、營運和新生兒動畫對應可保�
   const renovating = await activeState(page);
   expect(renovating.cash).toBeLessThan(rented.cash);
   expect(renovating.properties[0].level).toBe(2);
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟房產功能",exact:true}).click();
   await expect(page.getByRole("status", { name: "城市事件" })).toContainText(
     "翻修 Lv.2",
   );
@@ -199,6 +204,7 @@ test("購屋、入住、收租、翻修、營運和新生兒動畫對應可保�
   await page.getByRole("button", { name: "家族", exact: true }).click();
   const beforeBirth = await activeState(page);
   await page.getByRole("button", { name: /迎接新生兒/ }).click();
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟房產功能",exact:true}).click();
   await expect(page.getByRole("status", { name: "城市事件" })).toContainText(
     "誕生",
   );
@@ -207,6 +213,7 @@ test("購屋、入住、收租、翻修、營運和新生兒動畫對應可保�
   const saved = await activeState(page);
   await page.reload();
   expect(await activeState(page)).toEqual(saved);
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟房產功能",exact:true}).click();
   await expect(page.getByRole("status", { name: "城市事件" })).toContainText(
     "點選建築或人物",
   );

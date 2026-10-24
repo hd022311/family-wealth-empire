@@ -14,3 +14,7 @@ artifacts/*.html
 artifacts/*.zip
 blob-report/
 pages-report/
+
+layout-report/
+
+test-results-layout/

@@ -1,3 +1,4 @@
+import { settings, closeSettings, account, home, showCity } from './ui-helpers';
 import { test, expect } from "@playwright/test";
 test("雙模式開局、探索求職社交與獨立讀檔", async ({ page }) => {
   const errors: string[] = [];
@@ -52,7 +53,7 @@ test("雙模式開局、探索求職社交與獨立讀檔", async ({ page }) => 
   await expect(
     page.getByRole("button", { name: "服務工作室營運中" }),
   ).toBeDisabled();
-  await page.getByRole("button", { name: "首頁 / 新人生" }).click();
+  await home(page);
   await page.getByRole("button", { name: /自由模式.*自訂背景/ }).click();
   await page.getByLabel("家庭背景").selectOption("self-made");
   await page.getByLabel("起始年齡").fill("22");
@@ -111,12 +112,14 @@ test("城市步行尋路、場所快速前往及存檔位置", async ({ page }, 
       { timeout: 10000 },
     )
     .toBeCloseTo(6, 1);
+  await showCity(page);
   await canvas.scrollIntoViewIfNeeded();
   const box = await canvas.boundingBox();
   if (!box) throw Error("城市尚未載入");
   await canvas.click({
-    position: { x: (579 / 840) * box.width, y: (171 / 570) * box.height },
+    position: { x: (738 / 840) * box.width, y: (252 / 570) * box.height },
   });
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟工作功能",exact:true}).click();
   await expect(
     page.getByRole("heading", { name: "目前位置：城市道路" }),
   ).toBeVisible();
@@ -128,7 +131,7 @@ test("城市步行尋路、場所快速前往及存檔位置", async ({ page }, 
         ),
       { timeout: 10000 },
     )
-    .toBeCloseTo(3, 1);
+    .toBeCloseTo(6, 1);
   await expect
     .poll(
       async () =>
@@ -138,6 +141,7 @@ test("城市步行尋路、場所快速前往及存檔位置", async ({ page }, 
       { timeout: 10000 },
     )
     .toBeCloseTo(0, 1);
+  await showCity(page);
   await canvas.scrollIntoViewIfNeeded();
   await page.screenshot({
     path: `/tmp/fwe-openworld-${info.project.name}.png`,
@@ -148,8 +152,9 @@ test("城市步行尋路、場所快速前往及存檔位置", async ({ page }, 
   });
   expect(before.month).toBe(0);
   expect(before.cash).toBe(1800000);
-  expect(before.world.position).toEqual({ x: 3, y: 0 });
+  expect(before.world.position).toEqual({ x: 6, y: 0 });
   await page.reload();
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟工作功能",exact:true}).click();
   await expect(
     page.getByRole("heading", { name: "目前位置：城市道路" }),
   ).toBeVisible();

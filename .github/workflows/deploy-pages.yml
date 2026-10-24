@@ -28,14 +28,18 @@ jobs:
       - run: node scripts/check-pages-build.mjs
       - run: npx playwright install --with-deps chromium
       - run: npx playwright test --config playwright.pages.config.ts
+      - run: npx playwright test --config playwright.layout.config.ts
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: pages-browser-tests
           path: |
             pages-report/
+            layout-report/
             test-results/
+            test-results-layout/
             artifacts/readability/
+            artifacts/layout/
           retention-days: 7
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -70,12 +74,16 @@ jobs:
       - run: curl --fail --retry 8 --retry-all-errors --retry-delay 5 --max-time 20 "$PAGES_TEST_URL"
       - run: npx playwright install --with-deps chromium
       - run: npx playwright test --config playwright.pages.config.ts
+      - run: npx playwright test --config playwright.layout.config.ts
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: public-device-verification
           path: |
             pages-report/
+            layout-report/
             test-results/
+            test-results-layout/
             artifacts/readability/
+            artifacts/layout/
           retention-days: 7

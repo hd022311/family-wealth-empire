@@ -25,7 +25,7 @@ export function WorldPanel({
     ],
   ] as const;
   return (
-    <section className="world-panel">
+    <section id="career-panel" className="world-panel">
       <div className="panel-heading">
         <div>
           <small>
@@ -69,8 +69,9 @@ export function WorldPanel({
       </nav>
       <h3>目前位置：{places[w.place]?.name ?? "城市道路"}</h3>
       <div className="world-columns">
-        <section>
+        <section id="job-actions">
           <h3>職涯與經營</h3>
+          {w.place !== 5 && <button onClick={()=>onAction({type:"travel",place:5})}>前往公司應徵／工作</button>}
           <p>
             {jobs.find((j) => j.id === w.job)?.name ?? "尚未就業"} · 遊戲月薪 $
             {salary(w).toLocaleString()} · 年資 {w.experience} 月

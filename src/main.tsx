@@ -24,7 +24,8 @@ import {
 } from "./simulation";
 import "./style.css";
 import "./readability.css";
-import { ReadingSettings } from "./ReadingSettings";
+import "./game-layout.css";
+
 import { Account } from "./Account";
 import { FamilyPanel } from "./family/FamilyPanel";
 import { familyAction } from "./family/engine";
@@ -51,6 +52,20 @@ function App({
     [notice, setNotice] = useState(
       "歡迎來到青禾城。點選建築，開始第一筆投資。",
     );
+  const [panelExpanded, setPanelExpanded] = useState(false);
+  const [cityMessage,setCityMessage] = useState('拖曳移動，雙指或＋／−縮放；點建築查看操作。');
+  const [section, setSection] = useState('任務');
+  useEffect(() => { document.body.dataset.gameLayout = 'active'; return () => { delete document.body.dataset.gameLayout; }; }, []);
+  function navigate(label: string) {
+    setSection(label); setPanelExpanded(label !== '城市');
+    if (['房產','帳本','家族','劇情'].includes(label)) setTab(label);
+    requestAnimationFrame(() => {
+      const target = document.getElementById(label === '房產' ? 'property-actions' : label === '帳本' ? 'financial-actions' : label === '工作' ? 'job-actions' : label === '家族' ? 'family-center' : label === '任務' ? (s.story?'story-goals':'career-panel') : label === '事件' ? (s.story?.episode?'care-panel':s.story?'story-goals':'career-panel') : 'selection-panel');
+      target?.scrollIntoView({block:'start'});
+    });
+  }
+  function advanceMonth() { if (paused || s.dead) return; setSpeed(0); setS(old=>tick(old));setStoryError(''); }
+  function tools(action: string) { window.dispatchEvent(new CustomEvent('fwe-tools',{detail:action})); }
   const [familyError, setFamilyError] = useState("");
   const [focusedMember, setFocusedMember] = useState<number | undefined>(
     undefined,
@@ -135,21 +150,44 @@ function App({
   const nextTask = s.story ? storyTasks(s).find(t => !t.done) : undefined;
   const property = s.properties.find((p) => p.id === selected);
   return (
-    <div className="shell">
-      <header>
+    <div className="shell game-shell">
+      <header className="game-status">
         <a className="brand" href="#">
           <span className="seal">家</span>
           <div>
             家族財富帝國<small>FAMILY WEALTH EMPIRE</small>
           </div>
         </a>
+        <div className="session-summary"><span>測試版</span><strong>{s.world?.name ?? s.clan.people.find(p=>p.id===s.clan.activeId)?.name ?? '家主'} · 第{s.generation}代 · {Math.floor(s.age)}歲</strong><span>{2026+Math.floor(s.month/12)}年{s.month%12+1}月</span><span>現金 ${money(s.cash)}</span><details><summary>收支與淨資產</summary><p>收入 ${money(s.income)} · 支出 ${money(s.expense)} · 淨資產 ${money(net(s))}</p></details></div>
+            <div className="timebar clock-controls">
+              <span>遊戲時間</span>
+              <div>
+                {[0, 1, 4, 12].map((v) => (
+                  <button
+                    key={v}
+                    aria-label={v===0?"Ⅱ 暫停":`${v}×`}
+                    disabled={s.dead}
+                    className={speed === v ? "active" : ""}
+                    onClick={() => setSpeed(v)}
+                  >
+                    {v === 0 ? "暫停" : `${v}×`}
+                  </button>
+                ))}
+              </div>
+              <small>1 倍速一生約 3 小時</small>
+            </div>
         <div className="header-actions">
           <span className="fiction">● 虛構市場模擬</span>
-          <button onClick={save}>存檔</button>
-          <button onClick={load}>讀檔</button>
+          {s.story && <button className="quick-advance" aria-label="結算一個月並繼續人生" disabled={s.dead || paused} onClick={advanceMonth}>結算一月</button>}
+          <button className="quick-save" onClick={save}>存檔</button>
+          <button className="quick-load" onClick={load}>讀檔</button>
+          <button className="quick-settings" onClick={()=>tools('settings')}>設定</button>
+          <button onClick={()=>tools('account')}>家族存檔 / 會員</button>
+          <button onClick={()=>tools('home')}>首頁 / 新人生</button>
         </div>
       </header>
-      <main>
+      <main className="game-board" data-section={section}>
+        <nav className="game-navigation" aria-label="主要功能">{['城市','工作','房產','帳本','家族','任務','事件'].map(label=><button key={label} aria-label={`開啟${label==='帳本'?'財務':label==='家族'?'家庭':label}功能`} className={section===label?'active':''} onClick={()=>navigate(label)}>{label==='帳本'?'財務':label==='家族'?'家庭':label}</button>)}<button aria-label="更多／設定" onClick={()=>tools('settings')}><span className="navigation-long">更多／設定</span><span className="navigation-short">更多</span></button></nav>
         <section className="intro">
           <div>
             <div className="eyebrow">你的每個選擇，都將成為家族的未來</div>
@@ -198,9 +236,9 @@ function App({
             </div>
           ))}
         </section>
-        {nextTask && <div className="current-goal" aria-label="目前建議目標"><b>下一步</b><p>{nextTask.text}</p><button className="primary" onClick={() => lifeAction({type:"travel", place:nextTask.place})}>前往目標場所</button><a href="#story-goals">查看任務與時間安排 ↓</a></div>}
+
         <div className="workspace">
-          <section className="map-panel">
+          <section className="map-panel" tabIndex={0} aria-label="城市探索操作區（可捲動）">
             <div className="panel-heading">
               <div>
                 <h2>家族的城市</h2>
@@ -209,6 +247,7 @@ function App({
               <span className="live">● LIVE</span>
             </div>
             <City
+              onFeedback={setCityMessage}
               onMove={(x, y) => lifeAction({ type: "move", x, y })}
               state={s}
               speed={speed}
@@ -216,7 +255,7 @@ function App({
               selected={selected}
               onMember={(id) => {
                 setFocusedMember(id);
-                setTab("家族");
+                navigate("家族");
                 notify(
                   id === s.clan.activeId
                     ? `家主 · ${Math.floor(s.age)} 歲`
@@ -224,33 +263,25 @@ function App({
                 );
               }}
               onSelect={(id) => {
+                setPanelExpanded(true);
                 if (s.world) lifeAction({ type: "travel", place: id });
                 if (id < 4) select(id);
-                setTab(id >= 8 ? "劇情" : id === 4 ? "帳本" : "房產");
+                navigate(id >= 8 ? "劇情" : id === 4 ? "帳本" : id >= 5 ? "工作" : "房產");
+                requestAnimationFrame(()=>document.getElementById(id<4?'property-detail':id===4?'financial-actions':id>=8?'selection-details':'job-actions')?.scrollIntoView({block:'start'}));
               }}
             />
             <div className="map-footer">
               <span>◈ 住宅　▥ 公寓　▣ 商店　▤ 銀行</span>
               <small>人物與建築為程序繪製</small>
             </div>
-            <div className="timebar">
-              <span>遊戲時間</span>
-              <div>
-                {[0, 1, 4, 12].map((v) => (
-                  <button
-                    key={v}
-                    disabled={s.dead}
-                    className={speed === v ? "active" : ""}
-                    onClick={() => setSpeed(v)}
-                  >
-                    {v === 0 ? "Ⅱ 暫停" : `${v}×`}
-                  </button>
-                ))}
-              </div>
-              <small>1 倍速一生約 3 小時</small>
-            </div>
+
           </section>
-          <aside>
+          <section className="detail-panel" aria-label="遊戲資訊與操作" data-expanded={panelExpanded}>
+            <div className="detail-toolbar"><b>目前目標</b><button onClick={()=>setPanelExpanded(v=>!v)}>{panelExpanded?'收合資訊面板':'展開資訊面板'}</button></div>
+            <div className="city-feedback" role="status" aria-label="城市事件">{cityMessage}</div>
+            <div className="objective-summary">{nextTask?<><span>{nextTask.text}</span><button onClick={()=>{lifeAction({type:'travel',place:nextTask.place});navigate(nextTask.id==='salary'?'工作':'劇情');}}>前往目標場所</button></>:<span>探索城市、工作與經營資產</span>}<button onClick={()=>navigate('任務')}>查看任務</button>{s.story?.episode&&<button onClick={()=>navigate('事件')}>照顧事件提醒</button>}</div>
+            <div className="detail-scroll" onClick={()=>setPanelExpanded(true)} tabIndex={0} aria-label="可捲動的功能詳細資料">
+          <aside id="selection-panel">
             <nav>
               {[
                 ...(s.story ? ["劇情"] : []),
@@ -268,7 +299,7 @@ function App({
                 </button>
               ))}
             </nav>
-            <div className="side-content">
+            <div id={tab === "帳本" ? "financial-actions" : "selection-details"} className="side-content">
               {tab === "劇情" && s.story && (
                 <StoryLocation
                   state={s}
@@ -281,7 +312,7 @@ function App({
                 <>
                   <div className="eyebrow">REAL ESTATE</div>
                   <h2>讓每一間房，成為未來的底氣。</h2>
-                  <div className="property-list">
+                  <div id="property-actions" className="property-list">
                     {s.properties.map((p) => (
                       <button
                         key={p.id}
@@ -320,7 +351,7 @@ function App({
                     ))}
                   </div>
                   {property && (
-                    <div className="detail">
+                    <div id="property-detail" className="detail">
                       <h3>{property.name}</h3>
                       <dl>
                         <dt>建築等級 / 狀態</dt>
@@ -576,26 +607,20 @@ function App({
               )}
             </div>
           </aside>
-        </div>
         {s.story && (
           <StoryPanel
             state={s}
             onAction={storyInteract}
             onTravel={(place) => lifeAction({ type: "travel", place })}
             error={storyError}
-            onAdvance={() => {
-              if (paused) return;
-              setSpeed(0);
-              setS((old) => tick(old));
-              setStoryError("");
-            }}
+
           />
         )}
         {s.world && (
           <WorldPanel
             state={s}
             onAction={lifeAction}
-            onFamily={() => setTab("家族")}
+            onFamily={() => navigate("家族")}
           />
         )}
         {tab === "家族" && (
@@ -627,7 +652,7 @@ function App({
           </ul>
         </section>
         <footer>
-          <span>家族財富帝國 · 原型版本 0.3</span>
+          <span>家族財富帝國 · V0.1開發測試版</span>
           <button
             onClick={() => {
               if (window.confirm("建立新家族並覆蓋目前存檔？")) {
@@ -641,6 +666,9 @@ function App({
             重新開始
           </button>
         </footer>
+            </div>
+          </section>
+        </div>
       </main>
       {s.dead && (
         <div className="overlay">
@@ -692,7 +720,6 @@ function App({
 }
 createRoot(document.getElementById("root")!).render(
   <>
-  <ReadingSettings />
   <Account>
     {(state, onChange, key, onSave, onLoad, paused) => (
       <App

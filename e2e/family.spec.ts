@@ -1,3 +1,4 @@
+import { settings, closeSettings, account, home } from './ui-helpers';
 import { initial } from "../src/simulation";
 import { test, expect, type Page } from "@playwright/test";
 async function state(page: Page) {
@@ -41,7 +42,7 @@ test("家庭互動到父親遺產協商，真實費用、獨立資產與跨重�
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
   await expect(page.locator("canvas")).toBeVisible();
-  await page.getByRole("button", { name: "選擇家庭背景 ↓" }).click();
+  await page.getByRole("navigation",{name:"主要功能"}).getByRole("button",{name:"開啟家庭功能",exact:true}).click();
   await page.getByRole("button", { name: /C · 一般家庭/ }).click();
   expect((await state(page)).cash).toBe(600000);
   await page
@@ -99,6 +100,7 @@ test("固定法律入口、條號搜尋、官方來源與資料不足無虛構�
 }) => {
   await page.goto("/");
   await expect(page.locator("canvas")).toBeVisible();
+  await settings(page);
   await page.getByRole("button", { name: "⚖ 台灣法律", exact: true }).click();
   const dialog = page.getByRole("dialog", { name: "台灣法律查詢中心" });
   await expect(dialog).toBeVisible();
@@ -125,6 +127,7 @@ test("固定法律入口、條號搜尋、官方來源與資料不足無虛構�
   await expect(dialog.getByText(/沒有可確認適用的官方版本/)).toBeVisible();
   await expect(dialog.getByText(/待確認，非 0 元/)).toBeVisible();
   await page.getByRole("button", { name: "關閉台灣法律" }).click();
+  await closeSettings(page);
   await expect(dialog).not.toBeVisible();
   await expect(page.locator("canvas")).toBeVisible();
 });

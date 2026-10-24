@@ -20,6 +20,7 @@ type Props = {
   speed: number;
   paused: boolean;
   selected: number;
+  onFeedback?: (message:string) => void;
   onMove?: (x: number, y: number) => void;
   onSelect: (id: number) => void;
   onMember: (id: number) => void;
@@ -60,6 +61,7 @@ export function City(props: Props) {
     [feedback, setFeedback] = useState(
       "點選建築或人物；拖曳地圖，雙指或滾輪縮放。",
     );
+  useEffect(()=>{ props.onFeedback?.(feedback); },[feedback,props.onFeedback]);
   useEffect(() => {
     controller.current?.sync(props.state);
   }, [props.state]);
@@ -800,7 +802,7 @@ export function City(props: Props) {
             Math.max(85, point.y - 90) - this.popupTexts.length * 28,
             title,
             {
-              fontSize: `${parseFloat(getComputedStyle(document.documentElement).fontSize) / Math.max(.1, ((host.current?.clientWidth || 840) / 840) * this.cameras.main.zoom)}px`,
+              fontSize: `${parseFloat(getComputedStyle(document.documentElement).fontSize) / Math.max(.1, ((this.game.canvas.getBoundingClientRect().width || 840) / 840) * this.cameras.main.zoom)}px`,
               color:
                 event.amount !== undefined && event.amount < 0
                   ? "#805b31"
@@ -912,7 +914,7 @@ export function City(props: Props) {
         }
       }
       private clickAllowed(p: Phaser.Input.Pointer) {
-        return !this.dragged && !this.pinched && p.getDistance() < 10;
+        return !latest.current.paused && p.downElement === this.game.canvas && p.upElement === this.game.canvas && !this.dragged && !this.pinched && p.getDistance() < 10;
       }
       private zoomAt(value: number, x = 420, y = 285) {
         const camera = this.cameras.main,
@@ -1175,7 +1177,7 @@ export function City(props: Props) {
         // Labels are presentation only. Show the selected building rather than
         // overlapping every name; all places and people remain in the HTML panels.
         const rootSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
-        const screenScale = (host.current?.clientWidth || 840) / 840;
+        const screenScale = (this.game.canvas.getBoundingClientRect().width || 840) / 840;
         const labelKey = `${selected?.id}:${rootSize}:${screenScale}:${camera.zoom}:${this.model.city.sequence}`;
         if (labelKey !== this.labelReadingKey) {
           this.labelReadingKey = labelKey;
@@ -1218,7 +1220,26 @@ export function City(props: Props) {
       render: { antialias: true },
       banner: false,
     });
+    // FIT does not automatically observe an in-page panel resize or nested scroll.
+    // Keep render size and pointer transforms aligned with the actual canvas.
+    const syncInputBounds = () => {
+      game.scale.updateBounds();
+      const b = game.scale.canvasBounds;
+      if (b.width > 0 && b.height > 0) game.scale.displayScale.set(840 / b.width, 570 / b.height);
+    };
+    const resize = new ResizeObserver(() => {
+      game.scale.getParentBounds();
+      game.scale.refresh();
+      syncInputBounds();
+    });
+    resize.observe(host.current!);
+    const events = ['mousedown','mouseup','touchstart','touchend'] as const;
+    events.forEach(event => game.canvas.addEventListener(event,syncInputBounds,{capture:true,passive:true}));
+    document.addEventListener('scroll',syncInputBounds,true);
     return () => {
+      resize.disconnect();
+      events.forEach(event => game.canvas.removeEventListener(event,syncInputBounds,true));
+      document.removeEventListener('scroll',syncInputBounds,true);
       controller.current = null;
       game.destroy(true);
     };
@@ -1255,12 +1276,11 @@ export function City(props: Props) {
         className="city"
         aria-label="可拖曳縮放、點選人物及建築的等角青禾城市地圖"
       />
-      <div className="city-feedback" role="status" aria-label="城市事件">
-        {feedback}
-      </div>
-      <p className="map-reading-hint">地圖只標示選取的建築，減少遮擋。點選人物查看近況；完整名稱與操作也在下方場所及人物面板。</p>
+
       <details className="city-options">
-        <summary>城市動畫設定 · 拖曳移動 / 雙指或滾輪縮放</summary>
+        <summary>地圖與動畫設定</summary>
+        <p className="environment-details">目前環境：{environment}</p>
+        <p className="map-reading-hint">地圖只標示選取的建築，減少遮擋。點選人物查看近況；完整名稱與操作也在下方場所及人物面板。</p>
         <div>
           <label>
             動畫品質
