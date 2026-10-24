@@ -132,10 +132,10 @@ export function WorldPanel({
               <small>
                 {jobs[n.job].name} · {n.household} · {n.goal}
               </small>
-              <small>
+              <details><summary>能力、責任與財務</summary><small>
                 專業 {n.skill} · 風險偏好 {n.risk} · 家庭責任 {n.duty} · 存款 $
                 {Math.round(n.cash).toLocaleString()}
-              </small>
+              </small></details>
               <button
                 onClick={() =>
                   onAction(

@@ -83,15 +83,15 @@ function FamilyTree({
     row.forEach((p, i) =>
       positions.set(p.id, {
         x: (width * (i + 1)) / (row.length + 1),
-        y: 65 + d * 140,
+        y: 65 + d * 200,
       }),
     ),
   );
-  const height = (Math.max(...depth.values()) + 1) * 140;
+  const height = (Math.max(...depth.values()) + 1) * 200;
   return (
     <div className="family-tree-scroll" aria-label="視覺化家族樹">
-      <div className="family-tree" style={{ width, height }}>
-        <svg width={width} height={height} aria-hidden="true">
+      <div className="family-tree" style={{ width: `${width / 16}rem`, height: `${height / 16}rem` }}>
+        <svg viewBox={`0 0 ${width} ${height}`} width="100%" height="100%" aria-hidden="true">
           {c.links.map((l, i) => {
             const a = positions.get(l.from)!,
               b = positions.get(l.to)!;
@@ -117,7 +117,7 @@ function FamilyTree({
             <button
               key={p.id}
               className={`tree-person ${p.id === c.activeId ? "current" : ""} ${!p.alive ? "deceased" : ""}`}
-              style={{ left: at.x - 72, top: at.y - 38 }}
+              style={{ left: `${(at.x - 72) / 16}rem`, top: `${(at.y - 38) / 16}rem` }}
               aria-label={`${p.name} 人物卡`}
               onClick={() => onSelect(p.id)}
             >

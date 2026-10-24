@@ -156,7 +156,7 @@ export function StoryPanel({
     stage = storyStage(s),
     e = st.episode;
   return (
-    <section className="promise-story" aria-label="兩間房子的承諾劇情中心">
+    <section id="story-goals" className="promise-story" aria-label="兩間房子的承諾劇情中心">
       <div className="story-heading">
         <div>
           <small>STORY · 日常、選擇與留下的記憶</small>
@@ -171,7 +171,7 @@ export function StoryPanel({
           結算一個月並繼續人生
         </button>
       </div>
-      <div className="chapter-trail" aria-label="六章主線">
+      <details className="secondary-info"><summary>章節總覽與開發狀態</summary><div className="chapter-trail" aria-label="六章主線">
         {storyChapters.map((c) => (
           <span key={c.id} className={c.id === stage ? "current" : ""}>
             {c.id} · {c.title}
@@ -179,12 +179,14 @@ export function StoryPanel({
           </span>
         ))}
       </div>
+      </details>
       <p
         className={error ? "story-alert" : "story-message"}
         role={error ? "alert" : "status"}
       >
         {error || st.lastNotice}
       </p>
+
       <div className="story-grid">
         <section>
           <h3>這一段人生，想完成的事</h3>
@@ -241,7 +243,7 @@ export function StoryPanel({
             ))}
             <button type="submit">儲存時間安排</button>
           </form>
-          <p>
+          <details><summary>時間安排的收入、健康與家庭影響</summary><p>
             遊戲模型：有工作才有加班收入，每小時
             $350；每小時日間照顧使工作收入減少
             $250，最多扣到基本薪資。家庭預留不足會累積衝突，休息不足影響健康。
@@ -251,7 +253,7 @@ export function StoryPanel({
             {money(st.lastSalary.bonus)} −照顧少領 ${money(st.lastSalary.lost)}
             ；自家租屋 ${money(st.lastSalary.housing)}
             。皆為虛構遊戲數值，不是台灣勞動、租賃或福利規則。
-          </small>
+          </small></details>
         </section>
       </div>
       <section className="parent-houses">
@@ -381,8 +383,8 @@ export function StoryPanel({
           </div>
         </section>
       )}
-      <section>
-        <h3>家人近況 · 每個人都有自己的生活</h3>
+      <details className="secondary-info">
+        <summary>家人近況 · 每個人都有自己的生活</summary>
         <div className="family-status-cards">
           {s.clan.people
             .filter((p) => [1, 2, 3, 10, 11, 12, 15].includes(p.id))
@@ -437,8 +439,8 @@ export function StoryPanel({
               );
             })}
         </div>
-      </section>
-      <details className="story-records" open>
+      </details>
+      <details className="story-records">
         <summary>重大事件與長期記憶</summary>
         <ol>
           {s.clan.memories

@@ -244,14 +244,15 @@ export function Account({
   const [lawOpen, setLawOpen] = useState(false);
   return (
     <>
-      <button className="law-entry" onClick={() => setLawOpen(true)}>
-        ⚖ 台灣法律
-      </button>
       {lawOpen && (
         <LawCenter state={active?.state} onClose={() => setLawOpen(false)} />
       )}
       {publicLocalDemo&&<div className="public-demo-banner" role="note"><strong>開發測試版 · 本機存檔模式</strong><span>正式雲端存檔未啟用。進度保存在這個瀏覽器；清除網站資料或更換裝置不會自動帶入存檔。所有行情均為虛構。</span></div>}
       <div className="account-bar">
+      <button className="law-entry" onClick={() => setLawOpen(true)}>
+        ⚖ 台灣法律
+      </button>
+
         <span>
           {user ? `會員 ${user.email}` : "訪客試玩 · 本機家族"}　|　
           {active?.name}　·　

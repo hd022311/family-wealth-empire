@@ -76,6 +76,7 @@ export function City(props: Props) {
   }, [settings]);
   useEffect(() => {
     class Town extends Phaser.Scene {
+      private labelReadingKey = "";
       private model = latest.current.state;
       private preferences = config.current;
       private seen = new Set<string>();
@@ -799,7 +800,7 @@ export function City(props: Props) {
             Math.max(85, point.y - 90) - this.popupTexts.length * 28,
             title,
             {
-              fontSize: "14px",
+              fontSize: `${parseFloat(getComputedStyle(document.documentElement).fontSize) / Math.max(.1, ((host.current?.clientWidth || 840) / 840) * this.cameras.main.zoom)}px`,
               color:
                 event.amount !== undefined && event.amount < 0
                   ? "#805b31"
@@ -1171,6 +1172,23 @@ export function City(props: Props) {
           this.selection.lineStyle(3, 0xf6dc7b, 0.9);
           this.selection.strokeEllipse(a.x, a.y + 7, 105, 43);
         }
+        // Labels are presentation only. Show the selected building rather than
+        // overlapping every name; all places and people remain in the HTML panels.
+        const rootSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+        const screenScale = (host.current?.clientWidth || 840) / 840;
+        const labelKey = `${selected?.id}:${rootSize}:${screenScale}:${camera.zoom}:${this.model.city.sequence}`;
+        if (labelKey !== this.labelReadingKey) {
+          this.labelReadingKey = labelKey;
+          const selectedContainer = selected ? this.buildings.get(selected.id) : undefined;
+          const visit = (object: Phaser.GameObjects.GameObject) => {
+            if (object instanceof Phaser.GameObjects.Text && !this.popupTexts.includes(object)) {
+              object.setVisible(object.parentContainer === selectedContainer && !!selectedContainer);
+              object.setFontSize(rootSize / Math.max(.1, screenScale * camera.zoom));
+              object.setColor("#203f40").setBackgroundColor("#fffdf2");
+            } else if (object instanceof Phaser.GameObjects.Container) object.list.forEach(visit);
+          };
+          this.children.list.forEach(visit);
+        }
         // Semantic status updates are throttled; financial state is never touched here.
         if (this.elapsed - this.lastReport > 500 || reduced) {
           this.lastReport = this.elapsed;
@@ -1240,6 +1258,7 @@ export function City(props: Props) {
       <div className="city-feedback" role="status" aria-label="城市事件">
         {feedback}
       </div>
+      <p className="map-reading-hint">地圖只標示選取的建築，減少遮擋。點選人物查看近況；完整名稱與操作也在下方場所及人物面板。</p>
       <details className="city-options">
         <summary>城市動畫設定 · 拖曳移動 / 雙指或滾輪縮放</summary>
         <div>

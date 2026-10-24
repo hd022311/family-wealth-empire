@@ -1,3 +1,4 @@
+import { storyTasks } from "./story/definitions";
 import { StoryPanel, StoryLocation } from "./story/StoryPanel";
 import { storyAction } from "./story/engine";
 import type { StoryAction } from "./story/types";
@@ -22,6 +23,8 @@ import {
   type Action,
 } from "./simulation";
 import "./style.css";
+import "./readability.css";
+import { ReadingSettings } from "./ReadingSettings";
 import { Account } from "./Account";
 import { FamilyPanel } from "./family/FamilyPanel";
 import { familyAction } from "./family/engine";
@@ -129,6 +132,7 @@ function App({
     onLoad();
     setSpeed(0);
   }
+  const nextTask = s.story ? storyTasks(s).find(t => !t.done) : undefined;
   const property = s.properties.find((p) => p.id === selected);
   return (
     <div className="shell">
@@ -194,6 +198,7 @@ function App({
             </div>
           ))}
         </section>
+        {nextTask && <div className="current-goal" aria-label="目前建議目標"><b>下一步</b><p>{nextTask.text}</p><button className="primary" onClick={() => lifeAction({type:"travel", place:nextTask.place})}>前往目標場所</button><a href="#story-goals">查看任務與時間安排 ↓</a></div>}
         <div className="workspace">
           <section className="map-panel">
             <div className="panel-heading">
@@ -686,6 +691,8 @@ function App({
   );
 }
 createRoot(document.getElementById("root")!).render(
+  <>
+  <ReadingSettings />
   <Account>
     {(state, onChange, key, onSave, onLoad, paused) => (
       <App
@@ -697,7 +704,8 @@ createRoot(document.getElementById("root")!).render(
         paused={paused}
       />
     )}
-  </Account>,
+  </Account>
+  </>,
 );
 if (import.meta.env.PROD && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {

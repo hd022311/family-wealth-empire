@@ -1,0 +1,60 @@
+/* V0.1 reading system: rem typography follows a device-only preference. */
+:root{font-size:18px;line-height:1.65;color:#203f40;--reading-scale:1}
+:root[data-text-size="125"]{--reading-scale:1.25}
+:root[data-text-size="150"]{--reading-scale:1.5}
+:root{font-size:calc(18px * var(--reading-scale))}
+body{overflow-wrap:anywhere}
+p,small,.hint,.eyebrow,.fiction,.date small,.metrics small,.property small,.journal ul,footer,.stock small,.member p,.bank small,.slot small,.sync-message,.city-options,.city-feedback,.map-footer,.timebar small,.panel-heading small,.family-hub-title>span,.ownership-note,.relationship-card,.relationship-card p,.memory>span,.memory p,.source-card,.legal-case ul,.fact-heirs span,.background-picker button small,.tree-person small,.family-status-cards p,.story-records p{color:#40594a}
+p{line-height:1.8;max-width:70ch}
+button,input,select,textarea{font:inherit;max-width:100%;min-height:44px}
+button{white-space:normal;line-height:1.5;overflow-wrap:anywhere;flex-shrink:1}
+button:disabled{opacity:1;color:#566052;background:#e9ebe3;border-color:#bec7b8}
+button.primary,.primary{font-size:1.125rem;font-weight:700;padding:.75rem 1rem}
+small{font-size:1rem;line-height:1.7}
+h1{font-size:1.8rem}h2{font-size:1.4rem}h3{font-size:1.2rem}h4{font-size:1.1rem}
+header{height:auto;min-height:87px;flex-wrap:wrap;gap:1rem;padding:1rem 4%}
+.brand{font-size:1.2rem;letter-spacing:0}.brand small{font-size:1rem;letter-spacing:0}
+.header-actions,.intro,.panel-heading,.family-hub-title,.story-heading,.account-bar,.origin-banner,.bank,.slot,footer{flex-wrap:wrap;gap:.75rem}
+.header-actions{margin-left:auto}.date{text-align:left}
+main{max-width:1600px;padding:1.25rem 3% 0}
+.metrics{grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr));padding:0}
+.metrics>div{padding:1rem!important;border:0!important;min-width:0}
+.metrics strong{font-size:1.5rem;overflow-wrap:anywhere;display:block}
+.workspace{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
+.workspace>*,.story-grid>*,.world-columns>*,.family-hub-grid>*,.account-grid>*,.memory-grid>*{min-width:0}
+.side-content{padding:1.1rem}.panel-heading{padding:1rem}
+nav{flex-wrap:wrap;gap:.35rem}nav button{flex:1 1 5rem;padding:.6rem}
+.timebar,.timebar>div,.city-toolbar,.city-toolbar>div,.map-footer{flex-wrap:wrap;gap:.5rem}
+.timebar small{margin-left:0;width:100%}.map-footer small{display:block}
+.actions button{white-space:normal;min-width:7rem;font-size:1rem}
+.property{flex-wrap:wrap;gap:.5rem}.property strong{margin-left:0}.property strong small{font-size:1rem}
+.detail dl,.ledger,.source-card dl,.person-card dl,.estate-card dl,.story-location dl,.side-content .story-location dl{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.75rem}
+dd{overflow-wrap:anywhere}.source-card dd{max-width:none}
+.reading-settings{display:flex;align-items:center;flex-wrap:wrap;gap:.65rem;padding:.65rem 4%;background:#e2ecdf;color:#203f40;border-bottom:1px solid #9cad95}
+.reading-settings label{font-weight:700}.reading-settings select{background:#fffdf6;border:1px solid #7d9376;border-radius:6px;padding:.35rem .6rem;color:#203f40}
+.reading-settings span{font-size:1rem}.account-bar{color:#fffdf2}.account-bar button{color:#203f40}
+.mode-cards p,.mode-cards .active p{color:inherit}.mode-cards .active{color:#fffdf2!important}
+.setup-form label{min-width:0;max-width:100%}.setup-form input,.setup-form select{width:100%}.setup-form input[type=checkbox]{width:1.5rem}
+.story-grid,.world-columns,.family-hub-grid,.memory-grid,.account-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.story-tasks li{flex-wrap:wrap;gap:.75rem}.story-tasks button{margin-left:0}
+.current-goal{background:#e6f0e0;border:2px solid #688365;border-radius:12px;padding:1rem;margin:1rem 0}.current-goal>b{color:#244b42}.current-goal p{font-weight:600;margin:.5rem 0}.current-goal button{width:auto}
+.secondary-info,.story-records,.promise-story>details,.world-panel>details{margin:1rem 0;padding:.8rem;border:1px solid #b6c6aa;border-radius:8px;background:#f7f8ef}
+summary{cursor:pointer;font-size:1rem;line-height:1.7;padding:.35rem 0;font-weight:600;color:#294e40}
+details[open]>summary{margin-bottom:.6rem}
+.care-options,.family-status-cards,.sibling-responses,.law-topics{grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr))}
+.care-options article{min-width:0}.care-options button{width:100%;margin-top:.75rem}.care-options p{color:#203f40}
+.story-buttons button{font-size:1rem}.chapter-trail{flex-wrap:wrap}.chapter-trail span{font-size:1rem}
+.tree-person{width:9rem;min-height:6rem;grid-template-columns:1fr;padding:.5rem;gap:.25rem}.tree-avatar{display:none}.tree-person small{grid-column:auto}.tree-person b{font-size:1rem}
+.traits label{grid-template-columns: minmax(0,1fr) minmax(0,1fr) 2rem;font-size:1rem}
+.journal{grid-template-columns:1fr;gap:.5rem}.journal ul{font-size:1rem}
+.law-entry{position:static;display:block;margin:1rem auto;font-size:1rem;max-width:90%}
+.law-dialog{width:min(1060px,96vw);max-height:94dvh;padding:1rem}.law-top{top:-1rem;flex-wrap:wrap}.law-top h2{font-size:1.4rem}
+.law-search{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.succession{max-width:40rem;max-height:90dvh;padding:1rem}
+table{white-space:normal;table-layout:fixed}th,td{padding:.5rem;overflow-wrap:anywhere}.ranking-scroll{overflow:visible}
+@media(max-width:1100px){.workspace,.story-grid,.world-columns,.family-hub-grid,.memory-grid,.account-grid{grid-template-columns:1fr}.family-status-cards{grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr))}}
+@media(max-width:720px){:root{font-size:calc(16px * var(--reading-scale))}header{padding:.8rem 4%}.brand{font-size:1.1rem}.header-actions{margin-left:0}.intro{display:block}.date{margin-top:1rem}.date small{max-width:none}.metrics{grid-template-columns:repeat(auto-fit,minmax(min(100%,10rem),1fr))}.timebar{flex-wrap:wrap}.timebar small{font-size:1rem;width:100%;margin:0}.map-footer{font-size:1rem}.start-screen{padding:1rem;margin:1rem auto}.mode-cards,.background-picker>div,.parent-houses>div,.law-search{grid-template-columns:1fr}.mode-cards>button{padding:1rem}.promise-story,.family-hub,.world-panel{padding:1rem}.side-content{padding:1rem}.family-status-cards{grid-template-columns:1fr}.story-location dl{font-size:1rem}h1{max-width:none}.reading-settings span{width:100%}.city-toolbar{font-size:1rem}.account-bar,.origin-banner{font-size:1rem}.public-demo-banner span{min-width:0}.law-top{position:static}.relation-graph{min-width:0}}
+@media(min-width:1101px){:root[data-text-size="125"] .workspace,:root[data-text-size="150"] .workspace,:root[data-text-size="150"] .story-grid,:root[data-text-size="150"] .world-columns,:root[data-text-size="150"] .family-hub-grid{grid-template-columns:1fr}}
+.account-bar .law-entry{margin:0;display:inline-block;box-shadow:none;background:#fffdf6;color:#203f40;max-width:100%;padding:.5rem .75rem}
+.metrics strong span{color:#526d48}.legal-pending,.demo-warning{color:#69491c}.active p{color:inherit}
+button{min-block-size:44px}.current-goal a{display:block;color:#244b42;text-decoration:underline;margin-top:.75rem}.map-reading-hint{padding:0 1rem;margin:.75rem 0}.promise-story{scroll-margin-top:1rem}
