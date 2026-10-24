@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "rule_id": "tw.inheritance.order",
+      "title": "法定繼承順位",
+      "module": "inheritance",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法第1138、1139條",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.inheritance.basic",
+      "title": "基本法定應繼分",
+      "module": "inheritance",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法第1138、1139、1144條",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "inheritance_basic",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [
+        {
+          "case_id": "spouse-three-children",
+          "input": {
+            "deathDate": "2026-10-24",
+            "heirs": [
+              {
+                "id": 1,
+                "name": "配偶",
+                "relation": "spouse",
+                "status": "eligible"
+              },
+              {
+                "id": 2,
+                "name": "子女2",
+                "relation": "descendant",
+                "status": "eligible"
+              },
+              {
+                "id": 3,
+                "name": "子女3",
+                "relation": "descendant",
+                "status": "eligible"
+              },
+              {
+                "id": 4,
+                "name": "子女4",
+                "relation": "descendant",
+                "status": "eligible"
+              }
+            ],
+            "familyComplete": true,
+            "marriageConfirmed": true,
+            "will": "none",
+            "maritalProperty": "cleared",
+            "gifts": "none",
+            "insurance": "none",
+            "ownershipConfirmed": true
+          },
+          "expected": {
+            "shares": [
+              {
+                "id": 1,
+                "numerator": 1,
+                "denominator": 4
+              },
+              {
+                "id": 2,
+                "numerator": 1,
+                "denominator": 4
+              },
+              {
+                "id": 3,
+                "numerator": 1,
+                "denominator": 4
+              },
+              {
+                "id": 4,
+                "numerator": 1,
+                "denominator": 4
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.inheritance.representation",
+      "title": "代位繼承",
+      "module": "inheritance",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法第1140條",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.inheritance.reserved",
+      "title": "特留分既有版本待核實",
+      "module": "inheritance",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法第1223至1225條",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.inheritance.reserved",
+      "title": "特留分修法線索：公布但施行日待核實",
+      "module": "inheritance",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法第1223條及相關施行規定",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "2.0.0-draft",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件",
+        "維護者提供線索：2026-08-17修正公布、六個月後施行。尚未核實沿革與施行法，不推算生效日。"
+      ]
+    },
+    {
+      "rule_id": "tw.inheritance.will-partition",
+      "title": "遺囑形式與遺產分割（分項待補）",
+      "module": "inheritance",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法第1189條以下、第1164、1165條",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.marital-property.review",
+      "title": "夫妻財產與剩餘財產差額",
+      "module": "marital-property",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法第1030-1條及相關規定",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.estate-tax.parameters.2026",
+      "title": "115年遺產稅首批參數（非完整稅額公式）",
+      "module": "estate-tax",
+      "source_type": "administrative_interpretation",
+      "source_name": "財政部賦稅署115年適用金額公告",
+      "source_url": "https://www.dot.gov.tw/singlehtml/ch26?cntId=266ef2de8dd54f9494bd5c399b3f323a",
+      "article": "財政部115年適用金額公告（公告文號待核對）",
+      "promulgated_on": null,
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "conditions": [
+        "2026年度適用；資格、其他扣除額、國籍居住條件與扣抵均待補齊"
+      ],
+      "calculation": {
+        "engine": "estate_tax_parameters",
+        "description": "僅提供維護者指定的4項金額及累進級距，不能據此直接產生最終遺產稅額",
+        "complete": false,
+        "parameters": {
+          "exemption": 13333000,
+          "spouse_deduction": 5530000,
+          "descendant_basic_deduction_per_person": 560000,
+          "funeral_deduction": 1380000,
+          "brackets": [
+            {
+              "up_to": 56210000,
+              "rate": 0.1
+            },
+            {
+              "up_to": 112420000,
+              "rate": 0.15
+            },
+            {
+              "up_to": null,
+              "rate": 0.2
+            }
+          ]
+        }
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": 2026,
+      "test_cases": [
+        {
+          "case_id": "maintainer-2026-values",
+          "input": {},
+          "expected": {
+            "exemption": 13333000,
+            "spouse_deduction": 5530000,
+            "descendant_basic_deduction_per_person": 560000,
+            "funeral_deduction": 1380000
+          }
+        },
+        {
+          "case_id": "bracket-0",
+          "input": {
+            "taxable_net_estate": 0
+          },
+          "expected": {
+            "progressive_component": 0
+          }
+        },
+        {
+          "case_id": "bracket-56210000",
+          "input": {
+            "taxable_net_estate": 56210000
+          },
+          "expected": {
+            "progressive_component": 5621000
+          }
+        },
+        {
+          "case_id": "bracket-112420000",
+          "input": {
+            "taxable_net_estate": 112420000
+          },
+          "expected": {
+            "progressive_component": 14052500
+          }
+        },
+        {
+          "case_id": "bracket-140000000",
+          "input": {
+            "taxable_net_estate": 140000000
+          },
+          "expected": {
+            "progressive_component": 19568500
+          }
+        }
+      ],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.gift-tax.review",
+      "title": "贈與稅年度參數與適用條件待補",
+      "module": "gift-tax",
+      "source_type": "statute",
+      "source_name": "待維護者補充的官方法源",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340003",
+      "article": "遺產及贈與稅法相關規定，待維護者逐條建立",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.insurance.contract",
+      "title": "保單關係人、權利及身故給付",
+      "module": "insurance",
+      "source_type": "statute",
+      "source_name": "待維護者補充的官方法源",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0390002",
+      "article": "保險法及契約條款，待維護者逐條建立",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.insurance-tax.review",
+      "title": "保險相關稅務與實質課稅爭議",
+      "module": "insurance-tax",
+      "source_type": "statute",
+      "source_name": "待維護者補充的官方法源",
+      "source_url": "https://law-out.mof.gov.tw/",
+      "article": "遺產及贈與稅法、所得基本稅額條例及主管機關解釋待補",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    },
+    {
+      "rule_id": "tw.estate-disputes.review",
+      "title": "特留分、分割與具體財產保全",
+      "module": "estate-disputes",
+      "source_type": "statute",
+      "source_name": "中華民國民法",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "article": "民法及民事程序規定，待維護者逐項建立",
+      "promulgated_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "conditions": [
+        "須由維護者核對官方全文、適用日期及個案事實"
+      ],
+      "calculation": {
+        "engine": "review_only",
+        "description": "尚未完成完整法律要件審核，不產生確定法律效果",
+        "complete": false,
+        "parameters": {}
+      },
+      "exceptions": [
+        "資料不足、法院裁量及未釐清爭議不得產生唯一結果"
+      ],
+      "review_status": "draft",
+      "version": "1.0.0",
+      "tax_year": null,
+      "test_cases": [],
+      "review": {
+        "source_verified_by": null,
+        "source_verified_at": null,
+        "source_sha256": null,
+        "tested_sha256": null,
+        "approved_by": null,
+        "approved_at": null
+      },
+      "maintainer_notes": [
+        "由維護者提供與審核，不以 AI 自行研究完成為前置條件"
+      ]
+    }
+  ]
+}

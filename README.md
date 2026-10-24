@@ -1,5 +1,7 @@
 # 家族財富帝國
 
+> 最新範圍基準：見 [STATUS.md](STATUS.md) 與 [FEATURE_BACKLOG.md](FEATURE_BACKLOG.md)。目前只收斂V0.1公開部署與核心穩定；舊文件的實驗批次編號不代表正式里程碑完成。
+
 繁體中文 2D 等角家族財富經營遊戲。Vite + TypeScript + React + Phaser。手機、平板與桌面瀏覽器皆可操作；每次 5–15 分鐘，長期累積多代進度。**所有行情均為虛構資料，未連接任何真實行情。**
 
 ## 執行及預覽

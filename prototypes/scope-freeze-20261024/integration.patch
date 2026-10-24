@@ -1,0 +1,766 @@
+diff --git a/.github/workflows/deploy-pages.yml b/.github/workflows/deploy-pages.yml
+index b3ac59b..ce75b9f 100644
+--- a/.github/workflows/deploy-pages.yml
++++ b/.github/workflows/deploy-pages.yml
+@@ -26,6 +26,7 @@ jobs:
+           node-version: '24'
+           cache: npm
+       - run: npm ci
++      - run: npm run legal:check
+       - run: npm test
+       - run: npm run build
+       - run: node scripts/check-pages-build.mjs
+diff --git a/package-lock.json b/package-lock.json
+index f871873..b263207 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -19,6 +19,7 @@
+         "@types/node": "^26.6.5",
+         "@types/react": "^19.0.0",
+         "@types/react-dom": "^19.0.0",
++        "tsx": "^4.23.15",
+         "typescript": "^5.7.0",
+         "vite": "^6.1.0",
+         "vitest": "^3.0.0"
+@@ -1662,6 +1663,509 @@
+       "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
+       "license": "0BSD"
+     },
++    "node_modules/tsx": {
++      "version": "4.23.15",
++      "resolved": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
++      "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==",
++      "dev": true,
++      "license": "MIT",
++      "dependencies": {
++        "esbuild": "~0.28.0"
++      },
++      "bin": {
++        "tsx": "dist/cli.mjs"
++      },
++      "engines": {
++        "node": ">=18.0.0"
++      },
++      "optionalDependencies": {
++        "fsevents": "~2.3.3"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/aix-ppc64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.28.2.tgz",
++      "integrity": "sha512-XExcO+dvLKvVtNTibSTBej1NCAbaGhWn9Ww1ZPx80qsahhPFe/8jgWP0IchNe0F3HwkU7n8ejhH8bjonqht8mQ==",
++      "cpu": [
++        "ppc64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "aix"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/android-arm": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.28.2.tgz",
++      "integrity": "sha512-kXXoiPVVGQcnIYGOeaovwOURpniDBpSq4A03qkQ+BMQqtGG6HYap3xne9C1O1yo4TR3qxlCX5IqqmX6fFo2Lqg==",
++      "cpu": [
++        "arm"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "android"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/android-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.28.2.tgz",
++      "integrity": "sha512-5YfKeeI8qWfBZIX+u2xZC3Zlb3Os/gLS2sbEKM+I4ZOcsWmHS2WLysCcQZDAFRslDUU5Oiq44gf6PYN1vGwG5A==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "android"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/android-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.28.2.tgz",
++      "integrity": "sha512-O387ite7SzUyCcy3JQX4P4bLtEA7bLLkx+esve5JHnyYfNTxcVpXZo9jhdB0lTKN44gztELTdU7nS8Nr16Fs1Q==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "android"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/darwin-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz",
++      "integrity": "sha512-n4KqkOQrraxHJcgjM1RvwbigfQKIKJVpM7xp+KsxiyUSrRdIXnt73VhrPAx0fV44hgfmIVKjxMN9J1t5jySVkw==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "darwin"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/darwin-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.28.2.tgz",
++      "integrity": "sha512-uq6suIWYP37qzGddBKPw5QEQPi6HiLGsO7UmkpfyaYNQ3D+rN6w6WfwH+nuqcGXWvawGwxOEroO4YGnFh95azw==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "darwin"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/freebsd-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.2.tgz",
++      "integrity": "sha512-n+I0BTSRIoy+d6RPKnEVwql5UwBJolytvY4mAOIEJorKlqgPII8ix6slVVrfZ5Tnj7glIZvloylbB/EJPMWEXw==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "freebsd"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/freebsd-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.28.2.tgz",
++      "integrity": "sha512-78XJTJkvPs0kz2w61301PJjXl4g7q3JqiYMZ/M/yVI73EHBrCRTgkhu9oqG7vPqq+a/yadEW8aD+agKlk5xrmg==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "freebsd"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-arm": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.28.2.tgz",
++      "integrity": "sha512-XlDnu2q5yoqems+xay6wSAcg9DDD7K9RLKZEBOMZm3ckNpJBvOX20tSfby8KfrrhINDyv9V2YVZKY/SpoGJI8w==",
++      "cpu": [
++        "arm"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.28.2.tgz",
++      "integrity": "sha512-pW4AC0P3it8c7do9MVM4p51FzHzdM/TZrerurgRcHJ2WTa1VQ1CIq18xncfpBJw4ojkiZZrKW2yIBWBP92j6Ug==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-ia32": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.28.2.tgz",
++      "integrity": "sha512-CYbnj78HsIeA+DhgUKgFCfvNsTHFhMMrinUrMZpDXJXKN8T3XViTZ/+wtHeVxEWY8ewSzTFN+nRmSwO2tZaLUQ==",
++      "cpu": [
++        "ia32"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-loong64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.28.2.tgz",
++      "integrity": "sha512-buwkd8nsph4R+ajRvw0qM5Hja/TXQow3ptzWO2EbG/cqcIkHloRrdlBtQlshyYGTNFvfkfJ5tpPLVkY4DtsPfQ==",
++      "cpu": [
++        "loong64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-mips64el": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.28.2.tgz",
++      "integrity": "sha512-ZVykbDyk7519VwiNb9Lcj9m8XM6v5V9uKPvrEMkkEedVewf+0itkhahp4HDpgERXhwLRpWFypsGbG/J8s0QjJA==",
++      "cpu": [
++        "mips64el"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-ppc64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.28.2.tgz",
++      "integrity": "sha512-CAXl+Dtd9UUuJd8pKKdwh6MLm3MUMiqMPmhZ3tTSXPqfyQ3vDl6R5hZdZ/kYojK4ofXtdfSv1tFq8XzWx3heNQ==",
++      "cpu": [
++        "ppc64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-riscv64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.28.2.tgz",
++      "integrity": "sha512-GeXCej4IQtU1B+QlDV8W/RRvbzI3O/Stss+/bCXv4lZls5WGRtu2a+3JkA3i4qIUlMXpcHebWpF8AkJhATowuA==",
++      "cpu": [
++        "riscv64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-s390x": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.28.2.tgz",
++      "integrity": "sha512-3H1weTYZPxt/WOhByszQZybS9w5lKzUn1FDMsgEChbHWQwHYQQRfBxgCcZvPhjHfKyJjIievvMmEUawJrdY9Dg==",
++      "cpu": [
++        "s390x"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/linux-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",
++      "integrity": "sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "linux"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/netbsd-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.2.tgz",
++      "integrity": "sha512-sSATRjPeDBg3pdgHoQfoYBob11Kk1FGa9lui5RIHZCoCkJa9QKlvl3/vKz2usCmYYjs7ymJR/2Nnsqe+Hjt5nw==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "netbsd"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/netbsd-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.28.2.tgz",
++      "integrity": "sha512-lqnzCV+mM0gIADaKihiCg6ifgfU2L3h5E33rNQBN1Y4MaVGnzryzmvvf7UHxprpQdE8hpqLolJ9Rl+SkIRDpyw==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "netbsd"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/openbsd-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.28.2.tgz",
++      "integrity": "sha512-AL2qJILH7lNjrDmCQDvdxMfAUIv8KMNZOvrwAQ8i8//ntL9FflhOyMJ8OZSMBb8/AWXe3/5v5S20y3zCoZWKoQ==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "openbsd"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/openbsd-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.28.2.tgz",
++      "integrity": "sha512-QtiuPytchRyC4rwUKhexJdQKvDuZ6hWloi3igqPQNUJCS1/v9EiO3UTOXR6A3FoMo4fnAKbWJdqaIwhOzh8qEw==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "openbsd"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/openharmony-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.2.tgz",
++      "integrity": "sha512-WkhYDmpTjLvGlScA1rwjRUmhl4k8oXR3cIbtqWmELgU/dFeHHlEllxDvdWcNJV9rbzCexB5vz8gtNewWLgCT7Q==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "openharmony"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/sunos-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.28.2.tgz",
++      "integrity": "sha512-GPMSkTOtMnv2U2F8gxe4Io6qmVs+YKyp832Etqqxr0hFngmXQ3rzwytelm3GIn7T4VviRUlf3sOgBOiTdvaf7g==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "sunos"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/win32-arm64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.28.2.tgz",
++      "integrity": "sha512-PIhhEkE9uPBleRBrQEJpUn7MBnibZzbGzYWPmY3x+YoVg/95zbjB4CxPPOQ8l5tYYM4mMaCthF8/1DIfBQQyWQ==",
++      "cpu": [
++        "arm64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "win32"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/win32-ia32": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.28.2.tgz",
++      "integrity": "sha512-YmJbfTlvU7Sdn9BB+4PRES4oB6pxgS37MAONj+hBr/cpXS1aBPKXxNnDbu+QCWPj0o9dgyxeq79g6c5P8KeuYA==",
++      "cpu": [
++        "ia32"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "win32"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/@esbuild/win32-x64": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz",
++      "integrity": "sha512-5ebpxr3nWMzrL/rnUI755Jkuee0bHL/Gq0WTF9lvcpv73wAp5eu8MfBUgWK9bhWvZjj7yX8etf/8tI8Ney695g==",
++      "cpu": [
++        "x64"
++      ],
++      "dev": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "win32"
++      ],
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/tsx/node_modules/esbuild": {
++      "version": "0.28.2",
++      "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
++      "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==",
++      "dev": true,
++      "hasInstallScript": true,
++      "license": "MIT",
++      "bin": {
++        "esbuild": "bin/esbuild"
++      },
++      "engines": {
++        "node": ">=18"
++      },
++      "optionalDependencies": {
++        "@esbuild/aix-ppc64": "0.28.2",
++        "@esbuild/android-arm": "0.28.2",
++        "@esbuild/android-arm64": "0.28.2",
++        "@esbuild/android-x64": "0.28.2",
++        "@esbuild/darwin-arm64": "0.28.2",
++        "@esbuild/darwin-x64": "0.28.2",
++        "@esbuild/freebsd-arm64": "0.28.2",
++        "@esbuild/freebsd-x64": "0.28.2",
++        "@esbuild/linux-arm": "0.28.2",
++        "@esbuild/linux-arm64": "0.28.2",
++        "@esbuild/linux-ia32": "0.28.2",
++        "@esbuild/linux-loong64": "0.28.2",
++        "@esbuild/linux-mips64el": "0.28.2",
++        "@esbuild/linux-ppc64": "0.28.2",
++        "@esbuild/linux-riscv64": "0.28.2",
++        "@esbuild/linux-s390x": "0.28.2",
++        "@esbuild/linux-x64": "0.28.2",
++        "@esbuild/netbsd-arm64": "0.28.2",
++        "@esbuild/netbsd-x64": "0.28.2",
++        "@esbuild/openbsd-arm64": "0.28.2",
++        "@esbuild/openbsd-x64": "0.28.2",
++        "@esbuild/openharmony-arm64": "0.28.2",
++        "@esbuild/sunos-x64": "0.28.2",
++        "@esbuild/win32-arm64": "0.28.2",
++        "@esbuild/win32-ia32": "0.28.2",
++        "@esbuild/win32-x64": "0.28.2"
++      }
++    },
+     "node_modules/typescript": {
+       "version": "5.9.3",
+       "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+diff --git a/package.json b/package.json
+index ddd59a1..5e7c340 100644
+--- a/package.json
++++ b/package.json
+@@ -9,7 +9,10 @@
+     "test": "vitest run src",
+     "test:e2e": "npm run build && npm run package:demo && playwright test --workers=1",
+     "preview": "vite preview",
+-    "package:demo": "node scripts/package-demo.mjs"
++    "package:demo": "node scripts/package-demo.mjs",
++    "legal:check": "tsx scripts/legal-rules.ts check",
++    "legal:list": "tsx scripts/legal-rules.ts list",
++    "legal:updates": "tsx scripts/legal-rules.ts check-updates"
+   },
+   "dependencies": {
+     "@supabase/supabase-js": "^2.118.0",
+@@ -23,6 +26,7 @@
+     "@types/node": "^26.6.5",
+     "@types/react": "^19.0.0",
+     "@types/react-dom": "^19.0.0",
++    "tsx": "^4.23.15",
+     "typescript": "^5.7.0",
+     "vite": "^6.1.0",
+     "vitest": "^3.0.0"
+diff --git a/src/main.tsx b/src/main.tsx
+index d440e76..c6be7c7 100644
+--- a/src/main.tsx
++++ b/src/main.tsx
+@@ -1,3 +1,7 @@
++import {JourneyPanel} from "./journey/JourneyPanel";
++import {trackJourney,declineQuest} from "./journey/engine";
++import {RomancePanel} from "./romance/RomancePanel";
++import {romanceAction,type RomanceAction} from "./romance/engine";
+ import { StoryPanel, StoryLocation } from "./story/StoryPanel";
+ import { storyAction } from "./story/engine";
+ import type { StoryAction } from "./story/types";
+@@ -52,6 +56,7 @@ function App({
+   const [focusedMember, setFocusedMember] = useState<number | undefined>(
+     undefined,
+   );
++  function romanticAction(a:RomanceAction){try{setS(romanceAction(current.current,a));notify("人物互動已記錄。");}catch(e){notify((e as Error).message);}}
+   function lifeAction(a: WorldAction) {
+     try {
+       setS(worldAction(current.current, a));
+@@ -90,6 +95,7 @@ function App({
+   const changeRef = useRef(onChange);
+   changeRef.current = onChange;
+   useEffect(() => {
++    const next=trackJourney(s);if(next!==s){setS(next);return;}
+     changeRef.current(s);
+   }, [s]);
+   const notify = (msg: string) => setNotice(msg);
+@@ -572,6 +578,8 @@ function App({
+             </div>
+           </aside>
+         </div>
++        {s.world&&<JourneyPanel state={s} onDecline={id=>{try{setS(declineQuest(current.current,id));}catch(e){notify((e as Error).message);}}} onTravel={place=>lifeAction({type:"travel",place})}/>}
++        {s.romance&&<RomancePanel state={s} onAction={romanticAction} onTravel={place=>lifeAction({type:"travel",place})} onAdvance={()=>{if(!paused){setSpeed(0);setS(old=>tick(old));}}}/>}
+         {s.story && (
+           <StoryPanel
+             state={s}
+diff --git a/src/modes/StartScreen.tsx b/src/modes/StartScreen.tsx
+index e4a5d57..00fd76b 100644
+--- a/src/modes/StartScreen.tsx
++++ b/src/modes/StartScreen.tsx
+@@ -40,6 +40,7 @@ export function StartScreen({
+         ))}
+       </div>
+       <section className="setup-form">
++        <label>固定人生種子<input type="number" min={0} max={4294967295} value={c.seed??20261023} onChange={e=>set({...c,seed:Number(e.target.value)})}/></label>
+         <label>
+           角色姓名
+           <input
+@@ -58,6 +59,7 @@ export function StartScreen({
+         </label>
+         {c.mode === "free" && (
+           <>
++            <label>起始感情狀態<select value={c.relationship??(c.spouse?"married":"single")} onChange={e=>set({...c,relationship:e.target.value as Setup["relationship"],spouse:e.target.value==="married",children:e.target.value==="married"?c.children:0})}><option value="single">單身</option><option value="dating">交往中（非婚姻）</option><option value="married">已婚開局背景</option></select></label>
+             <label>
+               家庭背景
+               <select
+diff --git a/src/modes/create.ts b/src/modes/create.ts
+index 5820c07..e5d6d0e 100644
+--- a/src/modes/create.ts
++++ b/src/modes/create.ts
+@@ -1,3 +1,5 @@
++import {createJourney} from "../journey/engine";
++import {createRomance} from "../romance/engine";
+ import { setupStory } from "../story/setup";
+ import { initial, type State } from "../simulation";
+ import { createClan, projectFamily, syncActive } from "../family/engine";
+@@ -11,6 +13,8 @@ export type Setup = {
+   age: number;
+   spouse: boolean;
+   children: number;
++  seed?:number;
++  relationship?:"single"|"dating"|"married";
+ };
+ export function createAdventure(config: Setup): State {
+   if (
+@@ -79,6 +83,11 @@ export function createAdventure(config: Setup): State {
+   if (story) s.story = setupStory(s);
+   projectFamily(s);
+   syncActive(s);
++  s.romance=createRomance(s,true);
++  if(config.relationship==="dating"&&!story){s.romance.partnerId=100;s.romance.bonds[100]={...s.romance.bonds[100],stage:"relationship",trust:50,affection:45};}
++  const seed=config.seed??20261023;if(!Number.isInteger(seed)||seed<0||seed>4294967295)throw Error("種子必須為32位元非負整數");
++  s.clan.seed=seed;s.world.seed=seed;s.romance.seed=seed;s.runMeta={version:1,kind:"normal",seed,difficulty:"standard",advantages:[]};
++  s.journey=createJourney(s);
+   s.logs = ["新人生開始：父母財產與玩家財產分開，所有市場均為虛構資料。"];
+   return s;
+ }
+diff --git a/src/simulation.ts b/src/simulation.ts
+index 8a10ca9..6528b9b 100644
+--- a/src/simulation.ts
++++ b/src/simulation.ts
+@@ -1,3 +1,5 @@
++import {createJourney,validateJourney,type Journey} from "./journey/engine";
++import {advanceRomance,validateRomance,type Romance} from "./romance/engine";
+ import { advanceStory } from "./story/engine";
+ import { validateStory } from "./story/validation";
+ import type { StoryState } from "./story/types";
+@@ -33,6 +35,9 @@ export type Member = { id: number; name: string; age: number; role: string };
+ export type State = {
+   version: 4;
+   story?: StoryState;
++  journey?:Journey;
++  romance?:Romance;
++  runMeta?:{version:1;kind:"normal"|"ngplus"|"mechanics_test";seed:number;difficulty:"standard"|"hard";advantages:string[];sourceRun?:string};
+   world?: World;
+   month: number;
+   age: number;
+@@ -51,7 +56,7 @@ export type State = {
+   clan: Clan;
+ };
+ export function initial(): State {
+-  return {
++  const s:State= {
+     version: 4,
+     month: 0,
+     age: 25,
+@@ -130,6 +135,7 @@ export function initial(): State {
+       { id: 3, name: "林星", age: 0, role: "子女" },
+     ]),
+   };
++  s.journey=createJourney(s);return s;
+ }
+ export const assets = (s: State) =>
+   s.cash +
+@@ -224,6 +230,7 @@ export function tick(input: State, random = Math.random): State {
+   recordPortfolioChange(input, s, "玩家月度收支與市場估值");
+   advanceClan(s);
+   advanceStory(s);
++  advanceRomance(s);
+   log(
+     s,
+     `收入 ${Math.round(s.income).toLocaleString()}，支出 ${Math.round(s.expense).toLocaleString()}，租金已入帳。`,
+@@ -245,6 +252,7 @@ export function transact(input: State, action: Action): State {
+   if (action.type === "marry" || action.type === "birth") {
+     if (s.age < 18 || s.age >= (action.type === "birth" ? 60 : 75))
+       throw Error("不符合此家庭事件的年齡條件");
++    if(s.romance&&action.type==="marry")throw Error("本模式不使用即時結婚；婚姻法律流程待驗證，可先經營交往與夫妻關係。");
+     const spouse = s.family.some((m) => m.role === "配偶" && m.age < 85);
+     const cost = action.type === "marry" ? 120000 : 50000;
+     if (action.type === "marry" && spouse) throw Error("已有在世配偶");
+@@ -512,6 +520,9 @@ export function parseSave(raw: string): State {
+   validateClan(s.clan);
+   if (s.world) validateWorld(s.world);
+   if (s.story) validateStory(s);
++  s.journey??=createJourney(s);validateJourney(s.journey);
++  if(s.romance)validateRomance(s.romance);
++  if(s.runMeta&&(!["normal","ngplus","mechanics_test"].includes(s.runMeta.kind)||!["standard","hard"].includes(s.runMeta.difficulty)||!Number.isInteger(s.runMeta.seed)||!Array.isArray(s.runMeta.advantages)||s.runMeta.advantages.length>2))throw Error("周目存檔無效");
+   s.version = 4;
+   return s;
+ }
+diff --git a/src/story/definitions.ts b/src/story/definitions.ts
+index 6fd3d3c..2febf36 100644
+--- a/src/story/definitions.ts
++++ b/src/story/definitions.ts
+@@ -52,7 +52,7 @@ export const storyChapters = [
+   },
+   {
+     id: 5,
+-    title: "繼承爭議",
++    title: "家族風暴",
+     status: "framework",
+     events: [
+       "partition-negotiation",
+@@ -64,7 +64,7 @@ export const storyChapters = [
+   },
+   {
+     id: 6,
+-    title: "下一代",
++    title: "傳承之後",
+     status: "framework",
+     events: ["continue-business", "dispute-history", "successor"],
+     legal: ["已確認的所有權與債務", "未決爭議承接"],
+diff --git a/src/style.css b/src/style.css
+index 0903db2..e8dbd3b 100644
+--- a/src/style.css
++++ b/src/style.css
+@@ -11,3 +11,4 @@
+ .promise-story{margin:24px 0;padding:26px;background:#fffcf1;border:1px solid #dedfc9;border-radius:20px;box-shadow:0 6px 25px #254c3410}.story-heading,.care-heading{display:flex;align-items:center;justify-content:space-between;gap:18px}.story-heading h2{margin:8px 0;color:#275a48}.story-heading small{letter-spacing:.12em;color:#6a806e}.chapter-trail{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.chapter-trail span{font-size:12px;border-radius:16px;padding:8px 12px;background:#edf0e4;color:#66735f}.chapter-trail .current{background:#285c48;color:#fff8df}.story-message,.story-alert{padding:16px;border-radius:12px;background:#ebf3e5;overflow-wrap:anywhere}.story-alert{background:#fae2cf;color:#794220}.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.story-tasks{list-style:none;padding:0}.story-tasks li{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid #e0e4d6}.story-tasks li button{flex-shrink:0;font-size:12px}.time-planner{padding:18px;background:#f4f0df;border-radius:14px}.time-planner form{display:flex;gap:10px;flex-wrap:wrap}.time-planner label{display:flex;flex-direction:column;gap:5px;font-size:12px}.time-planner input{width:80px;padding:9px;border:1px solid #bec9b7;border-radius:8px;background:#fffdf5}.time-planner p,.time-planner small{font-size:13px;line-height:1.7}.parent-houses{margin:24px 0}.parent-houses>div{display:grid;grid-template-columns:1fr 1fr;gap:16px}.house-story-card{display:flex;align-items:flex-start;flex-direction:column;text-align:left;white-space:normal;padding:20px;gap:9px;border-radius:14px;background:#f1ecd6}.house-story-card.rental{background:#e5eef0}.house-portrait{font-size:48px;color:#9c7241;line-height:1.1}.house-story-card.rental .house-portrait{color:#467888}.care-episode{padding:22px;margin:22px 0;border:1px solid #c5d7be;background:#f5f8ed;border-radius:18px}.care-heading{justify-content:flex-start}.medical-mark{display:flex;align-items:center;justify-content:center;background:#529578;color:white;border-radius:12px;min-width:54px;height:54px;font-size:36px}.care-options{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}.care-options article,.sibling-responses article{padding:16px;background:#fffdf3;border:1px solid #d9dec9;border-radius:12px}.care-options small{display:block;line-height:1.6;margin-bottom:12px}.care-options button{width:100%}.sibling-responses{display:grid;grid-template-columns:1fr 1fr;gap:12px}.family-status-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.family-status-cards article{padding:16px;background:#f3f3e8;border-radius:14px;min-width:0}.story-avatar{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:#d2bd88;border:3px solid #f9e7bc;border-radius:50%;color:#4c6549;font-size:20px}.family-status-cards p{font-size:13px}.family-status-cards small{display:block}.story-buttons{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.story-location>button{margin:8px 0}.story-location button{font-size:12px}.ownership-note{padding:12px;background:#e9f0df;border-radius:10px}.story-records{margin:24px 0}.story-records ol{padding-left:22px;max-height:440px;overflow:auto}.story-records li{padding:12px 4px;border-bottom:1px solid #e1e4d5}.story-records p{margin:5px 0;font-size:13px;overflow-wrap:anywhere}.story-location small,.promise-story small{white-space:normal}.side-content .story-location dl{display:grid;grid-template-columns:1fr 1fr;gap:10px}.story-location dd{margin:0;text-align:right}@media(max-width:700px){.promise-story{padding:16px}.story-grid,.parent-houses>div,.care-options,.sibling-responses{grid-template-columns:1fr}.family-status-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.story-heading{align-items:flex-start;flex-direction:column}.story-tasks li{align-items:flex-start}.care-episode{padding:14px}.chapter-trail span{font-size:11px}.family-status-cards article{padding:12px}.family-status-cards button{font-size:12px;white-space:normal}.story-location dl{font-size:12px}}
+ 
+ .public-demo-banner{display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:#fff0cb;border-bottom:1px solid #d8c491;padding:12px max(16px,calc((100vw - 1300px)/2));color:#5b4d2a;font-size:13px;line-height:1.6}.public-demo-banner span{flex:1;min-width:230px}
++.romance-profile{display:grid;grid-template-columns:minmax(180px,300px) 1fr;gap:24px}.portrait-placeholder{margin:0;max-width:300px}.portrait-placeholder svg{width:100%;height:auto}.portrait-placeholder figcaption{font-size:12px;background:#f9e6bf;padding:6px;color:#6d5035}.romance-roster{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}@media(max-width:650px){.romance-profile{grid-template-columns:1fr}.portrait-placeholder{max-width:220px;margin:auto}}
+diff --git a/tsconfig.json b/tsconfig.json
+index 27e04bc..880521b 100644
+--- a/tsconfig.json
++++ b/tsconfig.json
+@@ -1 +1,20 @@
+-{"compilerOptions":{"target":"ES2022","lib":["ES2022","DOM"],"module":"ESNext","moduleResolution":"Bundler","jsx":"react-jsx","strict":true,"esModuleInterop":true,"skipLibCheck":true,"noEmit":true},"include":["src"]}
++{
++  "compilerOptions": {
++    "target": "ES2022",
++    "lib": [
++      "ES2022",
++      "DOM"
++    ],
++    "module": "ESNext",
++    "moduleResolution": "Bundler",
++    "jsx": "react-jsx",
++    "strict": true,
++    "esModuleInterop": true,
++    "skipLibCheck": true,
++    "noEmit": true,
++    "resolveJsonModule": true
++  },
++  "include": [
++    "src"
++  ]
++}
