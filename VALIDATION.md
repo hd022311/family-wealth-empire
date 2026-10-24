@@ -68,3 +68,6 @@
 - 中間凍結提交曾因Vitest路徑匹配到原型而失敗： https://github.com/hd022311/family-wealth-empire/actions/runs/40058080722 。已新增明確測試include並本機重跑61/61，沒有把這輪失敗描述成部署成功。
 - GitHub API在網域設定生效後可存取；GET Pages 404，POST建立Pages回覆403 `Resource not accessible by integration`。不是缺少遊戲功能，也不是必須提供金鑰給前端；需要repo管理員在Settings/Pages選GitHub Actions。
 - workflow已拆分build／deploy／verify-public。沒有公開部署成功或外部遊玩已驗證的宣稱，後續實際結果須另行記錄。
+
+- 範圍凍結後再次完整執行 `npm run test:e2e`：33/33通過，包含城市鏡頭／動畫、股票／房產、家庭／接班、舊檔遷移、兩章照顧結案與單檔離線內容。這只驗證既有流程，沒有驗證未接入原型或長期遊戲性。
+- 最新遠端執行：https://github.com/hd022311/family-wealth-empire/actions/runs/40058348015 。透過GitHub API確認build成功（含npm ci、單元、建置、產物檢查、三尺寸Pages測試與artifact），deploy在configure-pages失敗，verify-public跳過；外部站址實際HTTP404。需管理員啟用Pages，不能稱已公開。

@@ -34,3 +34,5 @@ PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/chromium npx playwright test --config pl
 CI使用Playwright官方安裝的Chromium，不需設定最後一行的系統執行檔變數。
 
 公開站點驗收：設定 `PAGES_TEST_URL` 為完整HTTPS站址，再執行同一個pages.config測試；本機子路徑通過不等於公開驗收成功。
+
+目前可查的執行結果：https://github.com/hd022311/family-wealth-empire/actions/runs/40058348015 — build成功、deploy失敗、verify-public跳過。外部站址實測404，尚未可遊玩。此後僅文件更新不改遊戲產物；管理員啟用Pages後可用workflow_dispatch重新執行main。
