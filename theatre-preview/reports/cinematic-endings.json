@@ -1,0 +1,98 @@
+[
+  {
+    "ending": "E8",
+    "choices": [
+      "personal",
+      "solo",
+      "independent",
+      "evaluate",
+      "separate",
+      "mediate"
+    ],
+    "pass": true
+  },
+  {
+    "ending": "E5",
+    "choices": [
+      "personal",
+      "solo",
+      "independent",
+      "evaluate",
+      "separate",
+      "clarify"
+    ],
+    "pass": true
+  },
+  {
+    "ending": "E6",
+    "choices": [
+      "personal",
+      "solo",
+      "independent",
+      "evaluate",
+      "separate",
+      "legal"
+    ],
+    "pass": true
+  },
+  {
+    "ending": "E3",
+    "choices": [
+      "personal",
+      "solo",
+      "independent",
+      "evaluate",
+      "rushed",
+      "mediate"
+    ],
+    "pass": true
+  },
+  {
+    "ending": "E7",
+    "choices": [
+      "personal",
+      "solo",
+      "independent",
+      "evaluate",
+      "rushed",
+      "clarify"
+    ],
+    "pass": true
+  },
+  {
+    "ending": "E4",
+    "choices": [
+      "personal",
+      "promise",
+      "independent",
+      "evaluate",
+      "separate",
+      "mediate"
+    ],
+    "pass": true
+  },
+  {
+    "ending": "E1",
+    "choices": [
+      "shared",
+      "transparent",
+      "independent",
+      "evaluate",
+      "separate",
+      "mediate"
+    ],
+    "pass": true
+  },
+  {
+    "ending": "E2",
+    "choices": [
+      "professional",
+      "transparent",
+      "independent",
+      "reserve",
+      "separate",
+      "mediate"
+    ],
+    "pass": true
+  }
+]

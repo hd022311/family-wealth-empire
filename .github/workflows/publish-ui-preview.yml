@@ -45,7 +45,7 @@ jobs:
           shutil.copytree('theatre-preview', root / 'theatre-preview')
           assert not (root / 'theatre-ui-lab').exists(), 'Unexpected existing UI lab'
           shutil.copytree('theatre-ui-lab', root / 'theatre-ui-lab')
-          protected = json.loads(Path('theatre-ui-lab/reports/preserved-first-volume.json').read_text())
+          protected = json.loads(Path('theatre-preview/reports/cinematic-runtime.json').read_text())
           for item in protected['files']:
               assert digest(root / item['path']) == item['sha256'], 'Original volume changed' 
           changed = [name for name, checksum in before.items() if digest(root / name) != checksum]

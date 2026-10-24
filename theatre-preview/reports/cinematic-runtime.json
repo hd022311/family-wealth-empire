@@ -1,0 +1,21 @@
+{
+  "scope": "使用者選定 A 後的第一卷介面整合；story.mjs 分支與法律資料維持原雜湊。",
+  "files": [
+    {
+      "path": "theatre-preview/story.mjs",
+      "sha256": "40ad0811db5bf480eaff437611a38e5b43fa3906f0397559c849806ea0c5bb35"
+    },
+    {
+      "path": "theatre-preview/app.mjs",
+      "sha256": "9ac1260236b9e72d35fc41377be147f391bed9dacff0bc3ab297873b798305f8"
+    },
+    {
+      "path": "theatre-preview/index.html",
+      "sha256": "0ee0141d435f1c2cad9767fcf974ed0083e9c866c45dee0f6f06cde00b9b1087"
+    },
+    {
+      "path": "theatre-preview/theatre.css",
+      "sha256": "dfff3af18b45cf77dab98e47019cc5b2da4905784ed684f5edd15769d1bebf88"
+    }
+  ]
+}
