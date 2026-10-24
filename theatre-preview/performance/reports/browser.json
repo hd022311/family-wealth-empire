@@ -1,0 +1,153 @@
+{
+  "base": "http://127.0.0.1:4187/theatre-preview/performance/",
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1.25,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1.5,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1.25,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1.5,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": 1,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": 1.25,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": 1.5,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "beats": 7,
+      "choice": "listen",
+      "pass": true
+    }
+  ],
+  "expressionCases": 18,
+  "osReducedMotion": true,
+  "storageWrites": 0,
+  "consoleErrors": []
+}

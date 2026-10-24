@@ -1,0 +1,8 @@
+{
+  "manualDoesNotAdvance": true,
+  "pauseFreezes": true,
+  "resumeRetainsTime": true,
+  "modalDoesNotAutoResume": true,
+  "syntheticVisibilityHandler": true,
+  "nativeTabVisibility": "not physical-device verified"
+}

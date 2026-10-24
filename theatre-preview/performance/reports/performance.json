@@ -1,0 +1,53 @@
+{
+  "method": "Linux cloud Chromium, single observation per case; mobile emulation CPU4x, 80ms latency, 2Mbps; rAF is scheduling interval not GPU FPS; JS heap excludes images/GPU. Does not certify physical phones.",
+  "rows": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "coldReadyMs": 576,
+      "rafIntervalP95": 16.700000000000728,
+      "activeAnimations": 12,
+      "jsHeapMiB": 2.56536865234375,
+      "resourceEncodedBytes": 474706,
+      "longTasks": [],
+      "maxLongTask": 0,
+      "domNodes": 250
+    },
+    {
+      "name": "mobile-emulated",
+      "width": 390,
+      "height": 844,
+      "slow": true,
+      "coldReadyMs": 2838,
+      "rafIntervalP95": 16.799999999999272,
+      "activeAnimations": 12,
+      "jsHeapMiB": 2.5668678283691406,
+      "resourceEncodedBytes": 474371,
+      "longTasks": [
+        90,
+        55,
+        73
+      ],
+      "maxLongTask": 90,
+      "domNodes": 250
+    },
+    {
+      "name": "mobile-emulated-motion-off",
+      "width": 390,
+      "height": 844,
+      "slow": true,
+      "off": true,
+      "coldReadyMs": 2841,
+      "rafIntervalP95": 16.799999999999272,
+      "activeAnimations": 0,
+      "jsHeapMiB": 2.677959442138672,
+      "resourceEncodedBytes": 474371,
+      "longTasks": [
+        77
+      ],
+      "maxLongTask": 77,
+      "domNodes": 250
+    }
+  ]
+}

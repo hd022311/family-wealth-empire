@@ -1,0 +1,17 @@
+[
+  {
+    "choice": "listen",
+    "actor": "brother",
+    "pass": true
+  },
+  {
+    "choice": "clarify",
+    "actor": "sister",
+    "pass": true
+  },
+  {
+    "choice": "break",
+    "actor": "brother",
+    "pass": true
+  }
+]

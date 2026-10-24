@@ -1,0 +1,476 @@
+{
+  "locale": "zh-TW",
+  "method": "以實際瀏覽器擷取玩家可見文字與無障礙標籤，套用專案既有候選字／陸用詞／法律術語語境檢查，沒有自動繁簡轉換。",
+  "strings": 114,
+  "errorCount": 0,
+  "findings": [],
+  "codexContextReview": "劇情與三個選項人工逐句語意檢閱由 Codex 執行；不是法律審查或真人編輯簽核。其他兩個選項回應已於 scene.mjs 原文檢閱。",
+  "humanSignoff": {
+    "status": "awaiting_human_signoff",
+    "reviewer": null
+  },
+  "limitations": [
+    "掃描不是語言正確性的證明。",
+    "繁簡共用字不逐字判錯。",
+    "不把「法律程序」改為「法律程式」。",
+    "實體系統字型的區域字形尚待確認。"
+  ],
+  "catalog": [
+    {
+      "key": "rendered.0",
+      "text": "傳承人生劇場"
+    },
+    {
+      "key": "rendered.1",
+      "text": "獨立演出測試"
+    },
+    {
+      "key": "rendered.2",
+      "text": "播放演出"
+    },
+    {
+      "key": "rendered.3",
+      "text": "回顧"
+    },
+    {
+      "key": "rendered.4",
+      "text": "設定"
+    },
+    {
+      "key": "rendered.5",
+      "text": "分層向量佔位稿・非正式 2.5D 立繪"
+    },
+    {
+      "key": "rendered.6",
+      "text": "台灣住宅・家中客廳"
+    },
+    {
+      "key": "rendered.7",
+      "text": "兩間房子的承諾・獨立演出測試"
+    },
+    {
+      "key": "rendered.8",
+      "text": "遺囑公布"
+    },
+    {
+      "key": "rendered.9",
+      "text": "一份文件，讓沒說出口的話都回到桌上。"
+    },
+    {
+      "key": "rendered.10",
+      "text": "手動閱讀不限時；「播放演出」約 42 秒後停在選擇。"
+    },
+    {
+      "key": "rendered.11",
+      "text": "法律效果待核實"
+    },
+    {
+      "key": "rendered.12",
+      "text": "開始閱讀 →"
+    },
+    {
+      "key": "rendered.13",
+      "text": "人物演出區"
+    },
+    {
+      "key": "rendered.14",
+      "text": "林家安，平靜，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.15",
+      "text": "林家誠，平靜，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.16",
+      "text": "林雅婷，平靜，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.17",
+      "text": "閱讀工具"
+    },
+    {
+      "key": "rendered.18",
+      "text": "電影式字幕與選擇"
+    },
+    {
+      "key": "rendered.19",
+      "text": "演出與閱讀設定"
+    },
+    {
+      "key": "rendered.20",
+      "text": "關閉"
+    },
+    {
+      "key": "rendered.21",
+      "text": "閱讀"
+    },
+    {
+      "key": "rendered.22",
+      "text": "100%"
+    },
+    {
+      "key": "rendered.23",
+      "text": "125%"
+    },
+    {
+      "key": "rendered.24",
+      "text": "150%"
+    },
+    {
+      "key": "rendered.25",
+      "text": "逐字顯示"
+    },
+    {
+      "key": "rendered.26",
+      "text": "啟用"
+    },
+    {
+      "key": "rendered.27",
+      "text": "人物與鏡頭動態"
+    },
+    {
+      "key": "rendered.28",
+      "text": "已開啟"
+    },
+    {
+      "key": "rendered.29",
+      "text": "關閉動態會停用眨眼、呼吸、嘴型、震動與鏡頭轉場；靜態表情仍可辨識。"
+    },
+    {
+      "key": "rendered.30",
+      "text": "六種表情檢視"
+    },
+    {
+      "key": "rendered.31",
+      "text": "以下是分層向量佔位稿，不是正式 2.5D 立繪。檢視不會改寫原劇情。"
+    },
+    {
+      "key": "rendered.32",
+      "text": "林家安"
+    },
+    {
+      "key": "rendered.33",
+      "text": "林家誠"
+    },
+    {
+      "key": "rendered.34",
+      "text": "林雅婷"
+    },
+    {
+      "key": "rendered.35",
+      "text": "平靜"
+    },
+    {
+      "key": "rendered.36",
+      "text": "開心"
+    },
+    {
+      "key": "rendered.37",
+      "text": "憤怒"
+    },
+    {
+      "key": "rendered.38",
+      "text": "悲傷"
+    },
+    {
+      "key": "rendered.39",
+      "text": "震驚"
+    },
+    {
+      "key": "rendered.40",
+      "text": "懷疑"
+    },
+    {
+      "key": "rendered.41",
+      "text": "開啟表情檢視"
+    },
+    {
+      "key": "rendered.42",
+      "text": "重開測試場景"
+    },
+    {
+      "key": "rendered.43",
+      "text": "演出與素材"
+    },
+    {
+      "key": "rendered.44",
+      "text": "預設手動閱讀，不限時間。播放演出才會自動換句，約 42 秒後停在選擇；可隨時暫停。無配音，嘴型是文字節奏佔位，不是語音對嘴。"
+    },
+    {
+      "key": "rendered.45",
+      "text": "離開分頁或開啟此面板會暫停演出；返回後不會自行繼續。"
+    },
+    {
+      "key": "rendered.46",
+      "text": "尚未法律驗證，不認定文件有效，不產生財產權利、稅額、保險金或法院裁判。"
+    },
+    {
+      "key": "rendered.47",
+      "text": "素材規格、技術評估與未完成項目"
+    },
+    {
+      "key": "rendered.48",
+      "text": "關閉視窗"
+    },
+    {
+      "key": "rendered.49",
+      "text": "文字大小"
+    },
+    {
+      "key": "rendered.50",
+      "text": "停用"
+    },
+    {
+      "key": "rendered.51",
+      "text": "已關閉"
+    },
+    {
+      "key": "rendered.52",
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "key": "rendered.53",
+      "text": "1／7・手動閱讀，不限時"
+    },
+    {
+      "key": "rendered.54",
+      "text": "繼續 →"
+    },
+    {
+      "key": "rendered.55",
+      "text": "顯示全文或繼續下一句"
+    },
+    {
+      "key": "rendered.56",
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "key": "rendered.57",
+      "text": "2／7・手動閱讀，不限時"
+    },
+    {
+      "key": "rendered.58",
+      "text": "林家安，悲傷，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.59",
+      "text": "林家誠，懷疑，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.60",
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "key": "rendered.61",
+      "text": "3／7・手動閱讀，不限時"
+    },
+    {
+      "key": "rendered.62",
+      "text": "林家安，震驚，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.63",
+      "text": "林家誠，憤怒，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.64",
+      "text": "林雅婷，震驚，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.65",
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "key": "rendered.66",
+      "text": "4／7・手動閱讀，不限時"
+    },
+    {
+      "key": "rendered.67",
+      "text": "林雅婷，悲傷，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.68",
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "key": "rendered.69",
+      "text": "5／7・手動閱讀，不限時"
+    },
+    {
+      "key": "rendered.70",
+      "text": "林家誠，悲傷，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.71",
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "key": "rendered.72",
+      "text": "6／7・手動閱讀，不限時"
+    },
+    {
+      "key": "rendered.73",
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "key": "rendered.74",
+      "text": "7／7・手動閱讀，不限時"
+    },
+    {
+      "key": "rendered.75",
+      "text": "林雅婷，開心，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.76",
+      "text": "這一次，你想怎麼開口？"
+    },
+    {
+      "key": "rendered.77",
+      "text": "01"
+    },
+    {
+      "key": "rendered.78",
+      "text": "先聽哥哥說完"
+    },
+    {
+      "key": "rendered.79",
+      "text": "暫停文件討論，讓他說出在意的事。"
+    },
+    {
+      "key": "rendered.80",
+      "text": "→"
+    },
+    {
+      "key": "rendered.81",
+      "text": "02"
+    },
+    {
+      "key": "rendered.82",
+      "text": "一起列出待確認的事"
+    },
+    {
+      "key": "rendered.83",
+      "text": "分開記錄文件、所有權與每個人的疑問。"
+    },
+    {
+      "key": "rendered.84",
+      "text": "03"
+    },
+    {
+      "key": "rendered.85",
+      "text": "先休息，再約時間談"
+    },
+    {
+      "key": "rendered.86",
+      "text": "保留各自的空間；這次不作財產決定。"
+    },
+    {
+      "key": "rendered.87",
+      "text": "演出分支測試・不寫入第一卷"
+    },
+    {
+      "key": "rendered.88",
+      "text": "雅婷把紙移到桌子中央。「先寫下不知道的，不急著替任何人下結論。」"
+    },
+    {
+      "key": "rendered.89",
+      "text": "只演示人物回應，未決定法律結果"
+    },
+    {
+      "key": "rendered.90",
+      "text": "結束測試 →"
+    },
+    {
+      "key": "rendered.91",
+      "text": "這場對話，還沒有法律結論"
+    },
+    {
+      "key": "rendered.92",
+      "text": "先讓彼此被聽見。"
+    },
+    {
+      "key": "rendered.93",
+      "text": "文件效力、所有權與法律主張仍待核實。本測試不計算分產、特留分、稅額或理賠。"
+    },
+    {
+      "key": "rendered.94",
+      "text": "重新演出"
+    },
+    {
+      "key": "rendered.95",
+      "text": "檢視角色與表情"
+    },
+    {
+      "key": "rendered.96",
+      "text": "素材規格與技術評估"
+    },
+    {
+      "key": "rendered.97",
+      "text": "演出測試結束・不是第一卷結局"
+    },
+    {
+      "key": "rendered.98",
+      "text": "對話回顧"
+    },
+    {
+      "key": "rendered.99",
+      "text": "你的選擇"
+    },
+    {
+      "key": "rendered.100",
+      "text": "林家誠・平靜"
+    },
+    {
+      "key": "rendered.101",
+      "text": "同一張臉與服裝，切換眼眉、嘴角圖層。正式立繪仍待製作。"
+    },
+    {
+      "key": "rendered.102",
+      "text": "切換角色與六種表情"
+    },
+    {
+      "key": "rendered.103",
+      "text": "素材與表情檢視・非正式立繪"
+    },
+    {
+      "key": "rendered.104",
+      "text": "返回測試場景 →"
+    },
+    {
+      "key": "rendered.105",
+      "text": "家誠坐回椅子上。「我想知道，我以前做的那些，你們有沒有看見。」"
+    },
+    {
+      "key": "rendered.106",
+      "text": "家誠點了點頭。「今天先到這裡。下次，我希望我們都準備好再談。」"
+    },
+    {
+      "key": "rendered.107",
+      "text": "林家安，開心，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.108",
+      "text": "林家安，憤怒，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.109",
+      "text": "林家安，懷疑，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.110",
+      "text": "林家誠，開心，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.111",
+      "text": "林家誠，震驚，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.112",
+      "text": "林雅婷，憤怒，分層向量佔位立繪"
+    },
+    {
+      "key": "rendered.113",
+      "text": "林雅婷，懷疑，分層向量佔位立繪"
+    }
+  ]
+}

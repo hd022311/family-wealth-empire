@@ -1,0 +1,24 @@
+✔ 42 second rehearsal has three adult actors, six expressions and a safe choice stop (1.866351ms)
+✔ clock pause/resume retains time, background pause has no catch-up (0.568493ms)
+✔ replacing or cancelling a beat never dispatches the old callback (0.550416ms)
+✔ all seven automatic beats end in one choice gate in exactly 42 seconds (0.246019ms)
+✔ first volume runtime and legal/branch content stay byte-identical (1.268563ms)
+✔ rehearsal modules have no persistence, network collection or story-engine import (1.532399ms)
+✔ 729 ordered routes complete and all eight narrative endings are reachable (1.66618ms)
+✔ all routes conserve fictional cash, keep unique transaction ids, and credit no estate or insurance proceeds (2.32551ms)
+✔ choosing is immutable, sequential, and rejects duplicate, unknown or out-of-order decisions (0.515854ms)
+✔ every choice records an objective fact and a separate subjective memory, never a legal document (3.28562ms)
+✔ father and mother have independent estate ids, dates and unallocated statuses (1.163857ms)
+✔ legal gaps never produce percentages, taxes, claims or a court result (2.51274ms)
+✔ early care and budget choices change later sibling dialogue, not just the ending label (0.502073ms)
+✔ insurance has no guaranteed payout and good narrative endings remain reachable without new insurance (0.208573ms)
+✔ fixed decisions reproduce exact memories, expenses, documents and ending with no random source (5.584078ms)
+✔ authored speaking scenes respect father/mother death dates (7.62436ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 144.24493

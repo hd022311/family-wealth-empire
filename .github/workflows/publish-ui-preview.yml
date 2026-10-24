@@ -48,12 +48,16 @@ jobs:
           protected = json.loads(Path('theatre-preview/reports/cinematic-runtime.json').read_text())
           for item in protected['files']:
               assert digest(root / item['path']) == item['sha256'], 'Original volume changed' 
+          rehearsal = json.loads(Path('theatre-preview/performance/reports/protected.json').read_text())
+          for item in rehearsal['files']:
+              assert digest(root / item['path']) == item['sha256'], 'First-volume runtime changed during rehearsal publication'
           changed = [name for name, checksum in before.items() if digest(root / name) != checksum]
           assert not changed, f'Published game files changed: {changed}'
           proof = {'source_run_id': 40075521882, 'game_index_sha256': expected_index, 'preserved_game_files': len(before), 'changed_game_files': changed, 'game_files_sha256': before, 'design_directory': '/family-wealth-empire/ui-preview/'}
           proof['preview_directories'] = ['ui-preview/', 'theatre-preview/', 'theatre-ui-lab/']
           (root / 'ui-preview/deployment-proof.json').write_text(json.dumps(proof, indent=2))
           proof['first_volume_runtime'] = protected['files']
+          proof['performance_test_protected_runtime'] = rehearsal['files']
           (root / 'theatre-preview/publication-proof.json').write_text(json.dumps(proof, indent=2))
           (root / 'theatre-ui-lab/publication-proof.json').write_text(json.dumps(proof, indent=2))
           print(f'Preserved {len(before)} original game files; changed game files: 0')
@@ -83,6 +87,10 @@ jobs:
               except Exception:
                   if attempt == 11: raise
                   time.sleep(5)
+          rehearsal_page = urllib.request.urlopen(base + 'theatre-preview/performance/', timeout=30).read().decode()
+          assert 'lang="zh-TW"' in rehearsal_page and 'stage.css' in rehearsal_page
+          video = urllib.request.urlopen(base + 'theatre-preview/performance/screenshots/rehearsal-desktop.mp4', timeout=30).read()
+          assert b'ftyp' in video[:16], 'Missing actual rehearsal recording'
           focused = urllib.request.urlopen(base + 'ui-preview/focused.html', timeout=20).read().decode()
           assert '依需展開設計預覽' in focused
           for name in ['a-focus-desktop.png', 'b-focus-desktop.png', 'c-focus-desktop.png', 'a-focus-mobile.png', 'b-focus-mobile.png', 'c-focus-mobile.png']:
