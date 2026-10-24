@@ -1,0 +1,317 @@
+[
+  {
+    "device": "desktop",
+    "scheme": "a",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "a",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "a",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "b",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "b",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "b",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "c",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "c",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "scheme": "c",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "a",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "a",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "a",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "b",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "b",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "b",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "c",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "c",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "scheme": "c",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "a",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "a",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "a",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "b",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "b",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "b",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "c",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "c",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "scheme": "c",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "a",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "a",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "a",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "b",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "b",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "b",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "c",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "c",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "scheme": "c",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "a",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "a",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "a",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "b",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "b",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "b",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "c",
+    "scale": "1",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "c",
+    "scale": "1.25",
+    "pageOverflow": false,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "scheme": "c",
+    "scale": "1.5",
+    "pageOverflow": false,
+    "status": "passed"
+  }
+]
