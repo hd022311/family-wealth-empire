@@ -59,3 +59,12 @@
 2. 桌面、平板與手機是 Chromium viewport／觸控模擬，未驗證實體 iOS Safari。
 3. 正式 Supabase、實際跨裝置會員同步、台灣法律官方有效版本與專業審核，均未完成；資料庫測試是 PGlite。本次沒有正式遺囑分配、特留分、保險理賠、稅額或法院勝敗。
 4. 4173 預覽有 HTTP 回應與完整功能測試，但只確認環境內可達。公開預覽尚未成功。早期外部連線 CONNECT 403；網域規則生效後 Pinggy 的 SSH 代理連線仍關閉。已另外保存 `service.tunnelmole.com`、`*.tunnelmole.net` 的 HTTPS／WebSocket 預覽需求，第一次測試仍是 403，不能宣稱草稿已套用或 tunnel 已建立。外部網址必須另行產生並實際驗證，不以 loopback／私有 IP 代替。
+
+## V0.1 範圍凍結與Pages候選版（2026-10-24）
+- 新增的未驗收任務、戀愛與規則工具已保存在prototypes，不接入遊戲。Vitest明確限定 `src/**/*.test.ts`，避免誤將保存的原型當正式測試；未刪除既有核心斷言。
+- 凍結後核心：61/61 單元／資料庫通過；TypeScript/Vite公開子路徑建置通過；產物base／SW／秘密檢查通過。
+- 公開候選版的桌面、平板、手機尺寸各完成一次兩章、股票、購屋出租、刷新續玩、離線shell與模式隔離：3/3通過。這不是實體iOS Safari測試，也不是公開HTTPS驗收。
+- main首輪Actions： https://github.com/hd022311/family-wealth-empire/actions/runs/40056370336 ，建置及瀏覽器步驟通過，configure-pages因Pages尚未啟用而失敗。
+- 中間凍結提交曾因Vitest路徑匹配到原型而失敗： https://github.com/hd022311/family-wealth-empire/actions/runs/40058080722 。已新增明確測試include並本機重跑61/61，沒有把這輪失敗描述成部署成功。
+- GitHub API在網域設定生效後可存取；GET Pages 404，POST建立Pages回覆403 `Resource not accessible by integration`。不是缺少遊戲功能，也不是必須提供金鑰給前端；需要repo管理員在Settings/Pages選GitHub Actions。
+- workflow已拆分build／deploy／verify-public。沒有公開部署成功或外部遊玩已驗證的宣稱，後續實際結果須另行記錄。

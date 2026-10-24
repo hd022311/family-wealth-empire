@@ -42,7 +42,7 @@
 
 | 優先序 | 問題 | 現況／下一步 |
 |---|---|---|
-| P0 | 公開網站未成功交付 | main已推送，首輪Actions在configure-pages失敗：儲存庫Pages未啟用。嘗試由支援的enablement流程處理；若權限不足需repo管理員設定Pages Source為GitHub Actions |
+| P0 | 公開網站未成功交付 | main已推送，首輪Actions在configure-pages失敗：儲存庫Pages未啟用。API建立Pages已實測回覆403 Resource not accessible by integration；需repo管理員設定Pages Source為GitHub Actions，非遊戲故障 |
 | P1 | 未驗收原型整包接入會破壞穩定性 | 已保存並隔離原型，回到已驗證的核心，不擴大V0.1功能面 |
 | P1 | GitHub Pages子路徑資源與離線讀檔 | 已修正Vite base、SW註冊／快取範圍；本機三裝置子路徑測試通過。仍需公開站點驗收 |
 | P1 | 存檔保護與恢復 | 舊檔格式遷移前備份已驗證；下一步規劃玩家可操作的匯出、匯入與復原，不承諾永不遺失 |
