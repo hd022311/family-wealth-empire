@@ -1181,7 +1181,7 @@ export function City(props: Props) {
           this.labelReadingKey = labelKey;
           const selectedContainer = selected ? this.buildings.get(selected.id) : undefined;
           const visit = (object: Phaser.GameObjects.GameObject) => {
-            if (object instanceof Phaser.GameObjects.Text && !this.popupTexts.includes(object)) {
+            if (object instanceof Phaser.GameObjects.Text && !this.fading.has(object)) {
               object.setVisible(object.parentContainer === selectedContainer && !!selectedContainer);
               object.setFontSize(rootSize / Math.max(.1, screenScale * camera.zoom));
               object.setColor("#203f40").setBackgroundColor("#fffdf2");
