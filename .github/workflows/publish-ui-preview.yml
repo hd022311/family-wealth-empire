@@ -1,4 +1,4 @@
-name: Publish independent UI preview without rebuilding game
+name: Publish isolated design previews without rebuilding game
 on:
   workflow_dispatch:
 permissions:
@@ -41,10 +41,14 @@ jobs:
           before = {str(p.relative_to(root)): digest(p) for p in root.rglob('*') if p.is_file()}
           assert not (root / 'ui-preview').exists(), 'Unexpected existing design directory'
           shutil.copytree('ui-preview', root / 'ui-preview')
+          assert not (root / 'theatre-preview').exists(), 'Unexpected existing theatre directory'
+          shutil.copytree('theatre-preview', root / 'theatre-preview')
           changed = [name for name, checksum in before.items() if digest(root / name) != checksum]
           assert not changed, f'Published game files changed: {changed}'
           proof = {'source_run_id': 40075521882, 'game_index_sha256': expected_index, 'preserved_game_files': len(before), 'changed_game_files': changed, 'game_files_sha256': before, 'design_directory': '/family-wealth-empire/ui-preview/'}
+          proof['preview_directories'] = ['ui-preview/', 'theatre-preview/']
           (root / 'ui-preview/deployment-proof.json').write_text(json.dumps(proof, indent=2))
+          (root / 'theatre-preview/publication-proof.json').write_text(json.dumps(proof, indent=2))
           print(f'Preserved {len(before)} original game files; changed game files: 0')
           PY
       - uses: actions/configure-pages@v5
@@ -63,6 +67,8 @@ jobs:
               try:
                   html = urllib.request.urlopen(base + 'ui-preview/', timeout=20).read().decode()
                   assert '三套 UI 設計稿' in html and 'focused.html' in html
+                  theatre = urllib.request.urlopen(base + 'theatre-preview/', timeout=20).read().decode()
+                  assert '兩間房子的承諾' in theatre
                   break
               except Exception:
                   if attempt == 11: raise
@@ -73,6 +79,10 @@ jobs:
               data = urllib.request.urlopen(base + 'ui-preview/mockups/' + name, timeout=30).read()
               assert data[:8] == b'\x89PNG\r\n\x1a\n', name
               print(name, len(data), 'bytes')
+          for name in ['desktop-dialogue.png', 'mobile-dialogue.png']:
+              data = urllib.request.urlopen(base + 'theatre-preview/screenshots/' + name, timeout=30).read()
+              assert data[:8] == b'\x89PNG\r\n\x1a\n', name
+              print('Theatre screenshot verified:', name)
           game = urllib.request.urlopen(base, timeout=30).read()
           assert hashlib.sha256(game).hexdigest() == '0920f6a5bb0be088debf4e6f6894fd33dc3a59c1f91e33d037f3abd21b02e58a'
           print('Public preview images verified; original game index unchanged.')

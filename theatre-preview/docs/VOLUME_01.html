@@ -1,0 +1,177 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VOLUME_01</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f0e4;color:#183d37;font:18px/1.85 'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif}main{max-width:1150px;margin:24px auto;padding:24px;background:#fffaf0;border-radius:16px}nav{display:flex;flex-wrap:wrap;gap:12px;padding:16px 24px;background:#e4eadc}a{color:#285b48;text-underline-offset:4px}nav a,.actions a{display:inline-block;padding:10px 16px;min-height:48px;border:1px solid #b4c3ac;border-radius:10px;background:#fffaf0}h1{font-size:32px;line-height:1.5}h2{font-size:26px;margin-top:2em}h3{font-size:22px}p,li{line-height:1.85}table{display:block;overflow:auto;border-collapse:collapse;font-size:18px}th,td{border:1px solid #c8cbb6;padding:12px;min-width:150px;vertical-align:top}pre{overflow:auto;max-width:100%;padding:18px;background:#e8eddf;font-size:17px}code{overflow-wrap:anywhere}img{max-width:100%;height:auto;border-radius:12px}.hero-shots{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,30%);gap:20px;align-items:start}.photo{max-width:300px;justify-self:center}.note{border-left:4px solid #a3522e;padding:12px 18px;background:#f1e6d1}.actions{display:flex;flex-wrap:wrap;gap:12px}details{border-top:1px solid #c8cbb6;padding:12px 0}summary{cursor:pointer;min-height:48px;font-weight:bold}@media(max-width:700px){body{font-size:18px}main{margin:12px;padding:16px}nav{padding:12px}h1{font-size:27px}h2{font-size:23px}.hero-shots{grid-template-columns:1fr}table{font-size:18px}}</style></head><body><nav><a href="../index.html">開啟互動預覽</a><a href="OVERVIEW.html">交付總覽</a><a href="GDD.html">遊戲設計</a><a href="VOLUME_01.html">第一卷分支</a><a href="LEGAL_REVIEW.html">法律待核實</a><a href="ARCHITECTURE.html">架構與工作量</a></nav><main><h1>第一卷完整分支規劃：《兩間房子的承諾》</h1>
+<p>2026-10-24・敘事原型，不含正式法律結果。<a href="BRANCH_MAP.svg">分支圖</a>；<a href="routes.json">可重現路線資料</a>。</p>
+<h2>家庭、動機與時間</h2>
+<table>
+<thead>
+<tr>
+<th>人物</th>
+<th>開局年齡與角色</th>
+<th>自己的難處／目標</th>
+<th>可改變的互動</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>林家安</td>
+<td>30，主角、企劃專員，有配偶與子女</td>
+<td>想照顧父母，也想守住工作與自己的家庭</td>
+<td>是否說出界線、留下紀錄、聽取別人的需求</td>
+</tr>
+<tr>
+<td>陳怡君</td>
+<td>31，配偶，有自己的工作</td>
+<td>育兒、生活安全感、伴侶不要獨撐</td>
+<td>不是控制主角，而是提醒時間與現金壓力</td>
+</tr>
+<tr>
+<td>林建國</td>
+<td>64，父親、退休技師</td>
+<td>希望留在熟悉的環境；想讓房子成為靠山</td>
+<td>願不願尋求專業安排由角色台詞表達，不保證有效法律結果</td>
+</tr>
+<tr>
+<td>陳淑芬</td>
+<td>62，母親</td>
+<td>自己的居住、照顧與財產決定</td>
+<td>不被父親的心願或子女要求取代</td>
+</tr>
+<tr>
+<td>林家誠</td>
+<td>35，哥哥、工程工作，有配偶子女</td>
+<td>房貸、教育費、工作安排</td>
+<td>可用陪診等非金錢方式幫忙，不固定是反派</td>
+</tr>
+<tr>
+<td>林雅婷</td>
+<td>28，妹妹、輪班工作與進修</td>
+<td>輪班體力、接送、想被理解</td>
+<td>能協調、提問、拒絕，也能要求先查事實</td>
+</tr>
+</tbody>
+</table>
+<p>原設定：母親持有自住房、父親持有出租屋。這是虛構案情輸入，不代表未經核實即可作任何法律移轉。主角開局生活預備金180,000元，與父母資產分開；不是淨資產或完整家庭帳本。</p>
+<p>時間：2026-04開場→2026-05住院與照顧→2027心願與現金安排→2029-07-12父親死亡→2031-10-08母親死亡。死亡是此短篇的預設敘事時間點，不是玩家照顧成敗或有無保險造成的懲罰，也不是醫療預測。時間跳躍在畫面上標日期，沒有離線衰老。</p>
+<h2>六幕與重要選擇</h2>
+<table>
+<thead>
+<tr>
+<th>幕／選擇</th>
+<th>三個主要選項</th>
+<th>立刻留下的後果</th>
+<th>後續可觀察差異</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1 出院後，照顧如何開始</td>
+<td>親自陪伴／共同分工／專業協助</td>
+<td>虛構支出45,000／20,000／38,000；不同時間與責任敘述</td>
+<td>父母與配偶回應不同；後來談房產時，主角會想到不同照顧歷程</td>
+</tr>
+<tr>
+<td>D2 哥哥付不出這個月費用</td>
+<td>先墊並說清範圍／攤開各家預算／先答應全部</td>
+<td>支出60,000／20,000／95,000；是否把負擔說出來</td>
+<td>D3哥哥會提起被理解或尚未說清的費用；D6是否有過共同談事的經驗不同</td>
+</tr>
+<tr>
+<td>D3 父親說兩間房給你</td>
+<td>父母各自專業協助／先談晚年需求／只記口頭心願</td>
+<td>支出8,000／2,000／0；文件、意願、記憶分開記</td>
+<td>父親可能交來文件但效力pending；母親保留自主決定；後來清冊對話不同</td>
+</tr>
+<tr>
+<td>D4 生活與傳承需要現金</td>
+<td>評估壽險／保留現金／核對舊保單</td>
+<td>支出2,000／0／1,000；只有詢問或影本，不給付保險金</td>
+<td>父親死亡後分別提醒「申請不是承保」「影本不能確定權利」或「預備金先付生活」</td>
+</tr>
+<tr>
+<td>D5 父親死亡，母親在世</td>
+<td>分開盤點／先談兩屋去向／先付眼前費用再專業盤點</td>
+<td>支出6,000／3,000／12,000；事實完整度不同</td>
+<td>母親回應、自住房邊界、後續是否仍缺清冊不同；不假定母親繼承了哪個比例</td>
+</tr>
+<tr>
+<td>D6 母親死亡後，怎麼開始談</td>
+<td>協商／專業釐清後再談／各自尋求法律途徑</td>
+<td>前置示例支出3,000／8,000／12,000；態度與聯絡方式</td>
+<td>結合前五選擇，進入八種敘事方向；無裁判、移轉或理賠結果</td>
+</tr>
+</tbody>
+</table>
+<p>以上費用均為虛構劇情支出，不是醫療行情、保費報價、法定裁判費、完整長照費或律師公定收費。單次選擇即顯示費用，沒有事後偷偷加價；沒有保險金或遺產收入。</p>
+<h2>八種結局與判斷順序</h2>
+<p>依下列順序判斷，先命中的敘事條件成立。這是<strong>敘事路由</strong>，不是法律引擎。八種均可由六次真實選擇走到；所有未決法律事項保留，不以完成結局冒充法律結清。</p>
+<table>
+<thead>
+<tr>
+<th>結局</th>
+<th>條件（以前列優先）</th>
+<th>故事與教育目的</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E6 誰也沒有先退讓</td>
+<td>D6各自法律途徑</td>
+<td>停在裁判之前；法律途徑不必然是壞選擇，也不保證勝敗或全部凍結</td>
+</tr>
+<tr>
+<td>E7 走到談判桌之前</td>
+<td>D6先釐清，且D5先談兩屋去向</td>
+<td>承認清冊不足；父母各次遺產、原有所有權與財產鏈須分開確認</td>
+</tr>
+<tr>
+<td>E4 照顧者也需要被照顧</td>
+<td>D1親自照顧＋D2先答應全部</td>
+<td>經濟與照顧負荷累積；付出不自動改寫法定權利，也不是玩家失敗處罰</td>
+</tr>
+<tr>
+<td>E5 文件很齊，心事未完</td>
+<td>D3獨立專業協助＋D2非透明預算＋D6先釐清</td>
+<td>文件準備與關係修復是兩件事；「有文件」仍未等於效力已審核</td>
+</tr>
+<tr>
+<td>E3 遲來的一張餐桌</td>
+<td>D6協商，且D2先答應全部或D5先談兩屋</td>
+<td>先前誤解被承認；願意再談不等於簽成或完成有效分割</td>
+</tr>
+<tr>
+<td>E2 兩間房之外的生活</td>
+<td>D1專業照顧＋D2透明預算＋D4保留現金＋D5非搶先分屋＋D6協商</td>
+<td>保留自己的生活與流動性，不買新保險也可有正向敘事方向</td>
+</tr>
+<tr>
+<td>E1 留下可對話的家</td>
+<td>D1分工＋D2透明預算＋D3非僅口頭＋D5非搶先分屋＋D6協商</td>
+<td>可持續對話是關係成果；不改應繼分、不宣告房屋已到主角名下</td>
+</tr>
+<tr>
+<td>E8 把答案留給下一頁</td>
+<td>其他未命中組合</td>
+<td>留下事實、界線及待辦；不是下一代自動承接未處理的財產</td>
+</tr>
+</tbody>
+</table>
+<p>每個結局都有：短故事、六次選擇回顧、支出紀錄、法律主題導讀、官方來源、兩次死亡日期、適用版本待核實、不確定事項、其他安排的可能性，以及重新挑戰。法律細節自願展開，不強制讀完教材。</p>
+<h2>正式版本的「合法安排」分支（本次未啟用）</h2>
+<ul>
+<li>W1：父親就自己可處分的財產完成特定形式的遺囑；需具體文件、能力、形式、法規版本及 approved 效力規則。</li>
+<li>W2：母親獨立作出自己的遺囑安排；不能用父親的遺囑處分母親資產，也不能保證母親同意。</li>
+<li>P1：父親或其他合法要保人完成合約與受益人安排，需真實可用的契約事實、有效條款、承保狀態及 approved 規則；不能用「諮詢」取代契約成立。</li>
+<li>F1：父親死亡後建立單一遺產事件；先釐清夫妻財產、債務、繼承人與有效安排，再談分割；原型停在待核實。</li>
+<li>M1：母親死亡後建立另一事件，接續當時實際權利鏈；不得把兩間房再共同分一次。</li>
+<li>R1：兄妹可能提出特留分或其他主張；有效性、期間、對象、範圍與裁判均由獨立法律規則／人工事實審查處理。</li>
+<li>P2：特定有效保單如符合經驗證條件才進入理賠與稅務分支；款項是否取得、何時取得、如何課稅均不得先假定。</li>
+</ul>
+<p>這些正式分支已有接口與發布前置條件，<strong>沒有在原型中冒充已依法完成</strong>。本輪可完成的只有敘事後果，不是這些法律效果。</p>
+<h2>重玩建議路線</h2>
+<ol>
+<li><strong>共同分工</strong>：shared → transparent → meeting → reserve → separate → mediate，E1。</li>
+<li><strong>守住自己的生活</strong>：professional → transparent → meeting → reserve → practical → mediate，E2。沒有新保險。</li>
+<li><strong>先扛下來，再試著修復</strong>：professional → promise → oral → policy → separate → mediate，E3。</li>
+<li><strong>照顧者的極限</strong>：personal → promise → meeting → reserve → separate → clarify，E4。</li>
+<li><strong>文件與心事</strong>：shared → solo → independent → policy → separate → clarify，E5。</li>
+<li>其餘E6–E8的可重現路線見 routes.json；八條皆在瀏覽器驗收中實際走完，不透過URL或測試按鈕跳結局。</li>
+</ol></main></body></html>

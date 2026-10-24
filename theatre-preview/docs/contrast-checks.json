@@ -1,0 +1,26 @@
+[
+  {
+    "name": "內文",
+    "foreground": "#183D37",
+    "background": "#FFFAF0",
+    "ratio": 11.46
+  },
+  {
+    "name": "選項說明",
+    "foreground": "#4B6458",
+    "background": "#FFFAF0",
+    "ratio": 6.19
+  },
+  {
+    "name": "人物名稱",
+    "foreground": "#954B2E",
+    "background": "#FFFAF0",
+    "ratio": 6.07
+  },
+  {
+    "name": "主要操作",
+    "foreground": "#FFFAF0",
+    "background": "#245B49",
+    "ratio": 7.57
+  }
+]

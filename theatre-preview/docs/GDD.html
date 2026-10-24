@@ -1,0 +1,53 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GDD</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f0e4;color:#183d37;font:18px/1.85 'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif}main{max-width:1150px;margin:24px auto;padding:24px;background:#fffaf0;border-radius:16px}nav{display:flex;flex-wrap:wrap;gap:12px;padding:16px 24px;background:#e4eadc}a{color:#285b48;text-underline-offset:4px}nav a,.actions a{display:inline-block;padding:10px 16px;min-height:48px;border:1px solid #b4c3ac;border-radius:10px;background:#fffaf0}h1{font-size:32px;line-height:1.5}h2{font-size:26px;margin-top:2em}h3{font-size:22px}p,li{line-height:1.85}table{display:block;overflow:auto;border-collapse:collapse;font-size:18px}th,td{border:1px solid #c8cbb6;padding:12px;min-width:150px;vertical-align:top}pre{overflow:auto;max-width:100%;padding:18px;background:#e8eddf;font-size:17px}code{overflow-wrap:anywhere}img{max-width:100%;height:auto;border-radius:12px}.hero-shots{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,30%);gap:20px;align-items:start}.photo{max-width:300px;justify-self:center}.note{border-left:4px solid #a3522e;padding:12px 18px;background:#f1e6d1}.actions{display:flex;flex-wrap:wrap;gap:12px}details{border-top:1px solid #c8cbb6;padding:12px 0}summary{cursor:pointer;min-height:48px;font-weight:bold}@media(max-width:700px){body{font-size:18px}main{margin:12px;padding:16px}nav{padding:12px}h1{font-size:27px}h2{font-size:23px}.hero-shots{grid-template-columns:1fr}table{font-size:18px}}</style></head><body><nav><a href="../index.html">開啟互動預覽</a><a href="OVERVIEW.html">交付總覽</a><a href="GDD.html">遊戲設計</a><a href="VOLUME_01.html">第一卷分支</a><a href="LEGAL_REVIEW.html">法律待核實</a><a href="ARCHITECTURE.html">架構與工作量</a></nav><main><h1>《傳承人生劇場》遊戲設計文件</h1>
+<p>版本 0.1・2026-10-24（台灣時間）・供美術、閱讀與劇情選型。</p>
+<p>這是《家族財富帝國》的第二種<strong>規劃中</strong>體驗：每卷約5–10分鐘的現代台灣家庭互動視覺小說。本次只做第一卷的有限互動原型及規格，沒有整合正式經營模式、沒有改 State v4，也沒有正式法律計算。</p>
+<h2>一句話體驗</h2>
+<p>你想接住父母，也不想放掉自己的生活。六次選擇，讓同一個家庭以不同方式走到同一張餐桌前；房子不是唯一的答案。</p>
+<h2>產品界線</h2>
+<ul>
+<li>每卷獨立開局、人物對話→重要選擇→短期回應→時間跨越→後續反應→敘事結局→自願閱讀的法律回顧→重玩。</li>
+<li>不是經營模式的縮小版：沒有月份自動計時、城市點擊經營、股票交易或長期資產模擬。</li>
+<li>不是金融選擇題：沒有「答對法律就獎勵」；玩家選的是如何生活，法律規則不由選擇分數改寫。</li>
+<li>照顧、界線、工作、金錢與誤解均有取捨；哥哥的房貸、妹妹的輪班、配偶的家庭責任都可能合理。</li>
+<li>保險可以討論、評估或不採用；不保證承保、理賠、節稅或最好結局。</li>
+</ul>
+<h2>目標玩家與閱讀節奏</h2>
+<p>以40歲以上也能輕鬆閱讀為設計基準。桌面內文20px、手機／平板18px，100%／125%／150%放大為20/25/30px或18/22.5/27px；不靠小字塞資訊。</p>
+<p>每段通常兩個短句，預設分成2段，桌面約2–4行。小螢幕及放大後允許增加行數與面板捲動，不強迫壓回四行而裁字。一次只呈現對話或決策；每個決策有三個主要選項。具體支出與不確定性放在選項內，不能先扣款再揭露。</p>
+<p>第一卷目前有六次決策、22段對話與結局（約29個主要閱讀／決策畫面）；目標5–10分鐘是規劃值，尚未經真實玩家計時驗證。快速點擊可更短，展開全部法律資料會更久，不能以自動化腳本的完成時間宣稱玩家時長。</p>
+<h2>UI 與互動</h2>
+<ol>
+<li><strong>書架／封面</strong>：單一第一卷封面、開始按鈕、預估篇幅及原型標示。其餘卷只在選單裡列為企劃，不做五張活動卡常駐。</li>
+<li><strong>對話</strong>：大幅人物＋場景，底部一塊高對比對話區，一個「下一段」。沒有金額儀表板、資源列或人物好感條。</li>
+<li><strong>決策</strong>：角色前一畫面先說完，再顯示一個問題與2–3選項；不堆上同一段說明。選項寫出虛構成本及風險。</li>
+<li><strong>輔助功能</strong>：右上只有「台灣法律」和「選單」。選單內有字級、已讀對話、本輪事實、結局方向及重開。任一時刻只有一個可關閉視窗，內容可捲動，Escape可關閉，關閉後焦點回到原入口。</li>
+<li><strong>結局</strong>：兩段短故事＋三個操作：選擇回顧與法律、重新挑戰、其他結局方向。詳細回顧、法律、日期與其他可能結果都用自願展開，不把結局變成教材長頁。</li>
+<li><strong>觸控</strong>：主要目標至少48px；正常按鈕52px。面板不因150%字級遮住關閉／繼續按鈕。對話與決策區可獨立捲動。</li>
+<li>不強制音樂、旁白、打字機效果或自動播放；目前無聲音。未使用計時器強迫閱讀或作決定。</li>
+</ol>
+<h2>美術規格與本次資產狀態</h2>
+<ul>
+<li>方向：原創現代台灣2.5D自然光影，暖白、深玉綠、少量陶土色；不使用武俠、戰鬥、幻想金邊或他作遊戲素材。</li>
+<li>已製作<strong>概念素材</strong>：住宅巷口、客廳、醫院等待區、事務所四景；主角、配偶、父親、母親、哥哥、妹妹六人。</li>
+<li>場景四格圖／人物六欄圖用CSS定位展示，不代表已完成正式可交付的獨立背景與角色Sprite套件。</li>
+<li>角色目前各一個基礎表情，沒有正式五表情、眨眼、呼吸、換裝或老化素材；人物跨年未換外觀，這是明確的原型限制。</li>
+<li>正式製作應逐張拆出角色透明立繪、補齊至少一般／壓力／釋懷表情、修正手部與邊緣，增加手機構圖安全區及壓縮格式；概念圖仍需人工相似性與品質審查。</li>
+<li>現有原型會在父母死亡後停止其現時對話／登場；結局只以活著的主角出場，不讓過世NPC繼續參與即時協商。</li>
+</ul>
+<h2>重玩價值與界線</h2>
+<ul>
+<li>六次選擇皆留下事實、虛構支出、人物主觀記憶；前期照顧與預算會改變後期手足台詞。</li>
+<li>分支可在相同時間點交會，但記憶與文件狀態不重置；八結局依多個選擇組合判斷，並非最後一題八選一。</li>
+<li>本次已讀結局只留在頁面記憶體，重新整理即清除，不宣稱正式結局圖鑑／勳章／跨裝置紀錄。</li>
+<li>未加入帳號、追蹤、抽卡、付費、廣告或真實家庭資料蒐集。</li>
+</ul>
+<h2>法律與故事的五層區分</h2>
+<p>A. 法律確定規則：本次無 approved 規則，故無確定計算。
+B. 已知故事事實：虛構人物、兩棟房屋的原設定屋主、支出與事件日期。
+C. 人物反應：條件式寫作，不是法院或主管機關的判斷。
+D. 可能法律爭議：遺囑形式、特留分、夫妻財產、契約、分割、稅務等列為待查。
+E. 待確認司法結果：不產生勝敗、強制出售、全部凍結或稅額。</p>
+<p>人物願意協商，不等於有效協議；遺囑文件存在，不等於本原型已判定有效。故事跨至2029與2031的日期是假設時間，不是對未來法規的預測。</p>
+<h2>成功門檻（正式開發前）</h2>
+<p>邀請5–8名首次玩家，至少涵蓋40歲以上與手機使用者，觀察是否不用說明就能開始、繼續、看費用、作決策、開法律、重玩；訪談能否說出人物的難處，而非只記得金額。記錄實際完成時長、讀字舒適度及是否誤認法律已結算。</p>
+<p>本次自動測試能證明流程與版面的一部分，不能證明故事已夠有趣、時長已達標或具備正式法律教育效力。美術、閱讀與劇情獲確認後才估定正式製作範圍。</p></main></body></html>

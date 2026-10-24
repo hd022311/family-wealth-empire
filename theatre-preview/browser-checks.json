@@ -1,0 +1,152 @@
+[
+  {
+    "device": "desktop",
+    "width": 1440,
+    "height": 900,
+    "scale": "1",
+    "expectedEnding": "E1",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "width": 1440,
+    "height": 900,
+    "scale": "1.25",
+    "expectedEnding": "E2",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "desktop",
+    "width": 1440,
+    "height": 900,
+    "scale": "1.5",
+    "expectedEnding": "E3",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "width": 1366,
+    "height": 768,
+    "scale": "1",
+    "expectedEnding": "E4",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "width": 1366,
+    "height": 768,
+    "scale": "1.25",
+    "expectedEnding": "E5",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "laptop",
+    "width": 1366,
+    "height": 768,
+    "scale": "1.5",
+    "expectedEnding": "E6",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "width": 820,
+    "height": 1180,
+    "scale": "1",
+    "expectedEnding": "E7",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "width": 820,
+    "height": 1180,
+    "scale": "1.25",
+    "expectedEnding": "E8",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "tablet",
+    "width": 820,
+    "height": 1180,
+    "scale": "1.5",
+    "expectedEnding": "E1",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "width": 390,
+    "height": 844,
+    "scale": "1",
+    "expectedEnding": "E2",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "width": 390,
+    "height": 844,
+    "scale": "1.25",
+    "expectedEnding": "E3",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "mobile",
+    "width": 390,
+    "height": 844,
+    "scale": "1.5",
+    "expectedEnding": "E4",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "width": 320,
+    "height": 568,
+    "scale": "1",
+    "expectedEnding": "E5",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "width": 320,
+    "height": 568,
+    "scale": "1.25",
+    "expectedEnding": "E6",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  },
+  {
+    "device": "short-phone",
+    "width": 320,
+    "height": 568,
+    "scale": "1.5",
+    "expectedEnding": "E7",
+    "dialogues": 22,
+    "choices": 6,
+    "status": "passed"
+  }
+]

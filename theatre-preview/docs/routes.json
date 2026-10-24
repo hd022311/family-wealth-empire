@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "combinationCounts": {
+    "E1": 12,
+    "E2": 6,
+    "E3": 108,
+    "E4": 45,
+    "E5": 30,
+    "E6": 243,
+    "E7": 81,
+    "E8": 204
+  },
+  "note": "729個離散選項組合，不等於729段獨立劇情或法律結果。",
+  "samples": [
+    {
+      "endingId": "E1",
+      "title": "留下可對話的家",
+      "choices": [
+        "shared",
+        "transparent",
+        "meeting",
+        "reserve",
+        "separate",
+        "mediate"
+      ],
+      "choiceTitles": [
+        "先和手足排出分工",
+        "把各家的預算攤開談",
+        "先一起談晚年與居住需求",
+        "先保留生活預備金",
+        "先分開盤點兩位屋主的權利",
+        "先談大家承擔得起的協商方案"
+      ],
+      "fictionalCash": 129000,
+      "legalStatus": "pending_verification"
+    },
+    {
+      "endingId": "E2",
+      "title": "兩間房之外的生活",
+      "choices": [
+        "professional",
+        "transparent",
+        "meeting",
+        "reserve",
+        "practical",
+        "mediate"
+      ],
+      "choiceTitles": [
+        "詢問專業照顧安排",
+        "把各家的預算攤開談",
+        "先一起談晚年與居住需求",
+        "先保留生活預備金",
+        "先付眼前費用，再請專業盤點",
+        "先談大家承擔得起的協商方案"
+      ],
+      "fictionalCash": 105000,
+      "legalStatus": "pending_verification"
+    },
+    {
+      "endingId": "E3",
+      "title": "遲來的一張餐桌",
+      "choices": [
+        "professional",
+        "promise",
+        "oral",
+        "policy",
+        "separate",
+        "mediate"
+      ],
+      "choiceTitles": [
+        "詢問專業照顧安排",
+        "先答應全部，別讓爸媽擔心",
+        "把爸爸的話先記下來",
+        "先核對現有保單影本",
+        "先分開盤點兩位屋主的權利",
+        "先談大家承擔得起的協商方案"
+      ],
+      "fictionalCash": 37000,
+      "legalStatus": "pending_verification"
+    },
+    {
+      "endingId": "E4",
+      "title": "照顧者也需要被照顧",
+      "choices": [
+        "personal",
+        "promise",
+        "meeting",
+        "reserve",
+        "separate",
+        "clarify"
+      ],
+      "choiceTitles": [
+        "我先親自陪伴",
+        "先答應全部，別讓爸媽擔心",
+        "先一起談晚年與居住需求",
+        "先保留生活預備金",
+        "先分開盤點兩位屋主的權利",
+        "先請專業釐清主張，再談"
+      ],
+      "fictionalCash": 24000,
+      "legalStatus": "pending_verification"
+    },
+    {
+      "endingId": "E5",
+      "title": "文件很齊，心事未完",
+      "choices": [
+        "shared",
+        "solo",
+        "independent",
+        "policy",
+        "separate",
+        "clarify"
+      ],
+      "choiceTitles": [
+        "先和手足排出分工",
+        "這次我先墊，寫清楚範圍",
+        "請爸媽各自尋求專業協助",
+        "先核對現有保單影本",
+        "先分開盤點兩位屋主的權利",
+        "先請專業釐清主張，再談"
+      ],
+      "fictionalCash": 77000,
+      "legalStatus": "pending_verification"
+    },
+    {
+      "endingId": "E6",
+      "title": "誰也沒有先退讓",
+      "choices": [
+        "personal",
+        "transparent",
+        "meeting",
+        "evaluate",
+        "practical",
+        "legal"
+      ],
+      "choiceTitles": [
+        "我先親自陪伴",
+        "把各家的預算攤開談",
+        "先一起談晚年與居住需求",
+        "請父親評估壽險安排",
+        "先付眼前費用，再請專業盤點",
+        "暫不協商，各自尋求法律途徑"
+      ],
+      "fictionalCash": 87000,
+      "legalStatus": "pending_verification"
+    },
+    {
+      "endingId": "E7",
+      "title": "走到談判桌之前",
+      "choices": [
+        "shared",
+        "transparent",
+        "meeting",
+        "policy",
+        "rushed",
+        "clarify"
+      ],
+      "choiceTitles": [
+        "先和手足排出分工",
+        "把各家的預算攤開談",
+        "先一起談晚年與居住需求",
+        "先核對現有保單影本",
+        "先談兩間房最後給誰",
+        "先請專業釐清主張，再談"
+      ],
+      "fictionalCash": 126000,
+      "legalStatus": "pending_verification"
+    },
+    {
+      "endingId": "E8",
+      "title": "把答案留給下一頁",
+      "choices": [
+        "personal",
+        "transparent",
+        "oral",
+        "reserve",
+        "separate",
+        "clarify"
+      ],
+      "choiceTitles": [
+        "我先親自陪伴",
+        "把各家的預算攤開談",
+        "把爸爸的話先記下來",
+        "先保留生活預備金",
+        "先分開盤點兩位屋主的權利",
+        "先請專業釐清主張，再談"
+      ],
+      "fictionalCash": 101000,
+      "legalStatus": "pending_verification"
+    }
+  ]
+}

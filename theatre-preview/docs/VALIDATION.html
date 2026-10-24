@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VALIDATION</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f0e4;color:#183d37;font:18px/1.85 'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif}main{max-width:1150px;margin:24px auto;padding:24px;background:#fffaf0;border-radius:16px}nav{display:flex;flex-wrap:wrap;gap:12px;padding:16px 24px;background:#e4eadc}a{color:#285b48;text-underline-offset:4px}nav a,.actions a{display:inline-block;padding:10px 16px;min-height:48px;border:1px solid #b4c3ac;border-radius:10px;background:#fffaf0}h1{font-size:32px;line-height:1.5}h2{font-size:26px;margin-top:2em}h3{font-size:22px}p,li{line-height:1.85}table{display:block;overflow:auto;border-collapse:collapse;font-size:18px}th,td{border:1px solid #c8cbb6;padding:12px;min-width:150px;vertical-align:top}pre{overflow:auto;max-width:100%;padding:18px;background:#e8eddf;font-size:17px}code{overflow-wrap:anywhere}img{max-width:100%;height:auto;border-radius:12px}.hero-shots{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,30%);gap:20px;align-items:start}.photo{max-width:300px;justify-self:center}.note{border-left:4px solid #a3522e;padding:12px 18px;background:#f1e6d1}.actions{display:flex;flex-wrap:wrap;gap:12px}details{border-top:1px solid #c8cbb6;padding:12px 0}summary{cursor:pointer;min-height:48px;font-weight:bold}@media(max-width:700px){body{font-size:18px}main{margin:12px;padding:16px}nav{padding:12px}h1{font-size:27px}h2{font-size:23px}.hero-shots{grid-template-columns:1fr}table{font-size:18px}}</style></head><body><nav><a href="../index.html">開啟互動預覽</a><a href="OVERVIEW.html">交付總覽</a><a href="GDD.html">遊戲設計</a><a href="VOLUME_01.html">第一卷分支</a><a href="LEGAL_REVIEW.html">法律待核實</a><a href="ARCHITECTURE.html">架構與工作量</a></nav><main><h1>驗收與限制</h1>
+<p>2026-10-24・僅限《傳承人生劇場》獨立原型，不是正式經營模式或法律引擎驗收。</p>
+<h2>已完成</h2>
+<ul>
+<li><code>node --check app.mjs</code>／<code>story.mjs</code>：語法檢查。</li>
+<li><code>node --test story.test.mjs</code>：10項測試通過。枚舉729種離散選項組合，八種敘事結局均可達；測試支出守恆、無重複選擇、重播相同、父母事件分離、法律缺漏不產生計算、照顧／預算改變後續台詞、無保險也可有正向敘事、過世人物不繼續現時說話。</li>
+<li>瀏覽器15組完整路線：1440×900、1366×768、820×1180、390×844、320×568，各100／125／150%。每組以實際點擊走完22段對話與六次選擇、進入結局，再開法律回顧與重新開始；八結局均至少由一組走到。</li>
+<li>檢查整頁／對話內容／法律回顧的水平溢出、面板可捲動、畫面底部不裁切、基礎法律在開局前可查、三個選項可點、鍵盤焦點不逃出說明視窗、Escape關閉及重開後預備金／選擇重置。</li>
+<li>瀏覽器監測沒有頁面JS錯誤，也沒有App呼叫Storage的setItem／removeItem／clear。</li>
+<li>桌面與手機均提供封面、對話、決策與結局實際原型截圖；不是正式經營模式截圖。</li>
+<li>主文字／背景的純色配色抽樣檢查，見contrast-checks.json；不是完整無障礙認證。</li>
+</ul>
+<p>來源紀錄：根目錄 <code>browser-checks.json</code>、<code>docs/unit-results.txt</code>、<code>docs/routes.json</code>。</p>
+<h2>本次不能宣稱完成</h2>
+<ul>
+<li>法律條文、歷史版本、稅務公式、保單效力與司法結果尚無approved資料；上述10項不是「法律計算已通過」的證明。</li>
+<li>沒有真實玩家5–10分鐘計時、40歲以上可用性訪談、實體Windows／Mac／iPhone／Android／iPad及Safari驗收。</li>
+<li>人物只有概念表情，未做跨年老化、正式拆件、輕量動畫、配音／音樂或低階手機效能驗收。</li>
+<li>原型沒有永久存讀檔、跨裝置、正式勳章或第二至第五卷內容；重新整理會清除進度。</li>
+<li>729是選項組合，不是729條獨立長篇劇情，也不是遊戲有趣或商業成熟的證據。</li>
+</ul>
+<h2>發布方式</h2>
+<p>單獨追加 <code>/theatre-preview/</code>；既有經營遊戲與 <code>/ui-preview/</code> 保留。使用已發布遊戲產物逐檔比對，原遊戲7個檔案不變，不重建遊戲、不修改State v4，不發布尚未完成的教學修改。</p>
+<p>公開發布成功與否以GitHub Actions及外部驗證為準；發布時產生的 <a href="../publication-proof.json">原遊戲雜湊證明</a> 可核對原檔未變。對外連線與最終驗收結果會另外回報，不以本機localhost宣稱可公開。</p></main></body></html>

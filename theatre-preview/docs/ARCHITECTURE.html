@@ -1,0 +1,77 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ARCHITECTURE</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f0e4;color:#183d37;font:18px/1.85 'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif}main{max-width:1150px;margin:24px auto;padding:24px;background:#fffaf0;border-radius:16px}nav{display:flex;flex-wrap:wrap;gap:12px;padding:16px 24px;background:#e4eadc}a{color:#285b48;text-underline-offset:4px}nav a,.actions a{display:inline-block;padding:10px 16px;min-height:48px;border:1px solid #b4c3ac;border-radius:10px;background:#fffaf0}h1{font-size:32px;line-height:1.5}h2{font-size:26px;margin-top:2em}h3{font-size:22px}p,li{line-height:1.85}table{display:block;overflow:auto;border-collapse:collapse;font-size:18px}th,td{border:1px solid #c8cbb6;padding:12px;min-width:150px;vertical-align:top}pre{overflow:auto;max-width:100%;padding:18px;background:#e8eddf;font-size:17px}code{overflow-wrap:anywhere}img{max-width:100%;height:auto;border-radius:12px}.hero-shots{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,30%);gap:20px;align-items:start}.photo{max-width:300px;justify-self:center}.note{border-left:4px solid #a3522e;padding:12px 18px;background:#f1e6d1}.actions{display:flex;flex-wrap:wrap;gap:12px}details{border-top:1px solid #c8cbb6;padding:12px 0}summary{cursor:pointer;min-height:48px;font-weight:bold}@media(max-width:700px){body{font-size:18px}main{margin:12px;padding:16px}nav{padding:12px}h1{font-size:27px}h2{font-size:23px}.hero-shots{grid-template-columns:1fr}table{font-size:18px}}</style></head><body><nav><a href="../index.html">開啟互動預覽</a><a href="OVERVIEW.html">交付總覽</a><a href="GDD.html">遊戲設計</a><a href="VOLUME_01.html">第一卷分支</a><a href="LEGAL_REVIEW.html">法律待核實</a><a href="ARCHITECTURE.html">架構與工作量</a></nav><main><h1>獨立技術架構與工作量</h1>
+<h2>本次實作</h2>
+<p><code>theatre-preview/</code> 是獨立靜態頁：HTML／CSS／JavaScript ES modules，沒有新增或重建 Vite 專案、沒有安裝應用依賴，也沒有匯入 React／Phaser 正式遊戲入口。</p>
+<ul>
+<li><code>story.mjs</code>：版本、角色、六次決策、條件回應、虛構支出、記憶、八結局與法律pending封套。純函式、無隨機數。</li>
+<li><code>app.mjs</code>：閱讀流程、逐段對話、選擇、結局、回顧、基本法律知識與單一說明視窗。</li>
+<li><code>theatre.css</code>：回應式視覺小說布局、三字級、可捲動面板、觸控與焦點樣式。</li>
+<li><code>story.test.mjs</code>：邏輯測試；這些不是法律計算已核實的測試。</li>
+<li><code>assets/</code>：原創AI概念素材與來源狀態。</li>
+<li><code>docs/</code>：規格、分支圖、結局條件、路線、法律待查與驗收。</li>
+</ul>
+<p>資料只在頁面記憶體中。無 cookies、localStorage、IndexedDB、帳號、Supabase請求、分析事件或service worker註冊；重開只重置本頁run。重新整理會失去原型進度，已明確告知。既有 State v4 與瀏覽器遊戲存檔鍵完全不碰。</p>
+<p><code>schemaVersion:1</code> 是原型敘事資料版本，<strong>不是</strong>經營模式 State v4 的升級或遷移。對話串可合流，但run.choices、ledger、memories、documents保留；legalResults始終空。</p>
+<h2>事件與法律分離</h2>
+<pre><code>玩家選擇 → 敘事狀態／虛構支出／客觀事實／主觀記憶
+                 ↓
+          後續條件台詞與敘事結局
+                 ↓
+     法律封套（日期、待查事項、官方來源）
+                 ↓
+     尚無 approved 規則 → pending，不計算
+</code></pre>
+<p>父、母各有獨立estate ID、死亡日期與未分配清冊，沒有共用一筆「父母遺產」。人物情感不傳入法律比例。固定路由可重現，沒有抽籤式司法結果。</p>
+<h2>正式開發建議（先等方向確認）</h2>
+<ul>
+<li>沿用現有 React／TypeScript，新增隔離的 TheatreRenderer 與純 TypeScript story engine；Phaser經營城市不必在此模式啟動，減少下載與生命週期耦合。</li>
+<li>內容以版本化JSON／受驗證的型別編輯，先做簡單驗證CLI與Git差異審查，不急著做大型後台。</li>
+<li>規劃型別：VolumeDefinition、SceneNode、DialogueNode、DecisionNode、Consequence、Memory、EndingDefinition、LegalEventEnvelope、ApprovedRuleReference、NarrativeRun。</li>
+<li>法律adapter唯讀讀取經審核規則bundle與版本雜湊；法律未過關的分支保留pending，禁止內容檔直接寫入稅額或生效旗標。</li>
+<li>正式存檔另用 <code>theatre-profile-v1</code>／獨立雲端表與run ID；每卷釘選contentVersion，維護者決定舊內容相容策略，不遷移正式GameState v4。</li>
+<li>結局圖鑑、勳章、歷次重玩紀錄列為後續；不以本次記憶體陣列冒充永久成就。</li>
+<li>圖像換成分件立繪、表情manifest、背景與行動裝置安全區；WebP/AVIF、資產預載與失敗fallback、 reduced-motion與實體Safari驗證列入正式製作。</li>
+<li>無障礙：鍵盤完整走卷、語意化對話／決策、讀屏朗讀節奏及實體觸控須人工測試，不能只靠DOM或對比數值認證。</li>
+</ul>
+<h2>發布隔離</h2>
+<p>此原型放在 <code>/family-wealth-empire/theatre-preview/</code>，不改首頁經營入口、既有UI預覽與State v4。獨立預覽發布沿用已上線遊戲產物並比對雜湊，只追加預覽目錄；不重新建置正式遊戲或發布工作區未提交的教學程式。</p>
+<p>目前預覽的一次性部署機制仍釘選舊產物，若正式遊戲變更就應停止並以新基線重新驗證；不可用來回滾新遊戲。未改正式SW，也不承諾本原型離線可用。日後正式遊戲部署若要保留此目錄，需明確納入其發布規劃。</p>
+<h2>正式第一卷工作量估算</h2>
+<p>以下為人日粗估，不是報價或日曆工期；假設採本次選定風格、六角色、四主要場景、六次選擇與八敘事結局，工程熟悉現有專案。</p>
+<table>
+<thead>
+<tr>
+<th>工作</th>
+<th style="text-align: right;">人日</th>
+<th>主要依賴</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>劇本定稿、角色細節、分支編輯與可用性訪談</td>
+<td style="text-align: right;">8–12</td>
+<td>先確認語氣與人物動機；實測5–10分鐘</td>
+</tr>
+<tr>
+<td>React/TS獨立渲染、內容驗證、版本化重玩／獨立存檔</td>
+<td style="text-align: right;">10–16</td>
+<td>先確認資料隔離、法律adapter契約</td>
+</tr>
+<tr>
+<td>正式美術、分件立繪、至少三種基礎表情與四景適配</td>
+<td style="text-align: right;">10–18</td>
+<td>原創設計定稿、人工修正與壓縮</td>
+</tr>
+<tr>
+<td>QA、閱讀性、鍵盤、手機／平板／Safari及分支回歸</td>
+<td style="text-align: right;">5–8</td>
+<td>成熟內容與素材</td>
+</tr>
+<tr>
+<td>合計（不含法律專業審查）</td>
+<td style="text-align: right;"><strong>33–54</strong></td>
+<td>不含後四卷、雲端與大型後台</td>
+</tr>
+</tbody>
+</table>
+<p>法律／稅務／保險專業審查另計，依維護者提供的法源、情境、年度及測試案例逐項估算，不承諾2天就驗完所有法律。可先製作角色與敘事，不需等整套台灣法令研究完成。</p>
+<p>最大風險：法律效果被故事語氣誤認為確定、八結局只有標籤差異、照顧者被道德化評分、人物跨年素材不足、手機150%選項過長、素材首屏下載，以及後續正式部署漏帶原型目錄。應以玩家觀察與法源審查管理，不以729組合數代表故事品質。</p></main></body></html>
