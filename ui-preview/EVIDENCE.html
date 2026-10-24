@@ -1,0 +1,55 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EVIDENCE</title><style>body{max-width:1100px;margin:32px auto;padding:0 24px;color:#233e39;background:#fffcf4;font:18px/1.8 system-ui,sans-serif}h1{font-size:32px}h2{margin-top:2em}a{color:#285c48}table{display:block;overflow:auto;border-collapse:collapse;font-size:16px}th,td{border:1px solid #b8c6ba;padding:12px;min-width:150px;vertical-align:top}img{max-width:100%}code{overflow-wrap:anywhere}strong{color:#7d3826}@media(max-width:600px){body{margin:20px auto;padding:0 16px;font-size:16px}h1{font-size:26px}}@media print{table{font-size:11px}body{font-size:12px;line-height:1.5}th,td{min-width:0;padding:5px}}</style><p><a href="index.html">三套設計總覽</a> · <a href="prototype.html">原型</a></p><h1>研究來源、可用證據與排除紀錄</h1>
+<p>存取日期：2026-10-24。公開截圖的遊戲拍攝日期／版本多未標註；不得因此宣稱代表 2026 最新介面。未創建競品帳號、未執行外掛／機器人、未把競品圖片放進本專案正式素材。</p>
+<h2>F1｜Forge of Empires 官方介面指南：文字已核實、圖片未讀取</h2>
+<ul>
+<li><a href="https://support.innogames.com/kb/ForgeOfEmpires/en_DK/1167/Basics-%2B-Interface">Basics + Interface</a></li>
+<li>本地：<code>references/foe-interface.html</code>。</li>
+<li>官方文字明確說明頂部中央 Forge Points、左側顧問肖像及任務；頁尾有 Browser、Mobile 介面分別展示。</li>
+<li>圖片地址在 <code>tools-files.innogamescdn.com/support-knowledgebase/article/1167/</code>。8 個圖片請求遭 CONNECT 403；沒有看到便不能分析它們的 HUD 風格、按鈕尺寸或手機手勢。</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.innogames.foeandroid&amp;hl=en">Google Play</a> 的 <code>foe-play-1..6.png</code> 為本輪取得的商店圖片；已檢視 1–3 為標語＋城市宣傳編排，缺少完整 HUD。不作實際操作證據。</li>
+<li><code>ThScEo/AutoForge</code> 的 <code>img/map.PNG</code>、<code>img/hidden_rewards.png</code> 是機器人軟體自己的介面，<strong>不是 FoE 原生介面</strong>，已排除。未執行該軟體。</li>
+</ul>
+<h2>E1｜Elvenar 實際桌面城市與交易視窗（含第三方覆蓋）</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/paviad/elvenar-helper-extension/f3488b50ff14ec997e656b4c9b2bb0d0dca62533/docs/ss2.jpg">原始圖</a></li>
+<li><a href="https://github.com/paviad/elvenar-helper-extension/tree/f3488b50ff14ec997e656b4c9b2bb0d0dca62533">來源專案</a></li>
+<li>本地：<code>references/elvenar-helper-ss2.jpg</code>，已目視確認。</li>
+<li>可觀察原生部分：等角城市、頂部資源列、左側肖像、底部功能列、Grand Trader 窗口。</li>
+<li>左上白色 Helper Window 是外掛，不列為 Elvenar 原生設計。<code>ss1.jpg</code> 為外掛規劃格線圖，同樣排除。</li>
+<li>未證明當前正式版本、手機互動及任務展開流程。</li>
+<li><a href="https://support.innogames.com/kb/Elvenar/en_DK">官方支援</a> 可存取；<a href="https://play.google.com/store/apps/details?id=com.innogames.elvenar&amp;hl=en">Google Play</a> 本輪取得圖片偏宣傳合成，不用來證明手機布局或手勢。</li>
+</ul>
+<h2>B1｜Goodgame Big Farm：實際操作畫面未驗證</h2>
+<ul>
+<li><a href="https://bigfarm.goodgamestudios.com">瀏覽器版官方入口</a>，本地 <code>references/bigfarm-site.html</code>。</li>
+<li>HTML 嵌入 <code>https://bigfarm-html5.goodgamestudios.com/default/prototype.html?...</code>；入口頁不等於進入農場後的遊戲畫面，本輪沒有可核實的完整農場 HUD 截圖或操作紀錄。</li>
+<li><code>bigfarm.fandom.com</code> 回應 402，不能作已閱讀的遊戲畫面依據。</li>
+<li><code>bigfarm.com</code> 實際為 Big Farm Mobile Harvest 商店；JS 的 logo／商店連結可確認。<strong>與指定瀏覽器遊戲不同，不混用</strong>。</li>
+<li>Steam 搜尋命中 Big Farm Story（1329510），同樣是另一款產品，排除。</li>
+<li>所以本報告不對 Big Farm 的任務位置、事件視窗、手機手勢或視覺細節做未經證實的敘述；補齊這款的真實桌面畫面是研究未完成事項。</li>
+</ul>
+<h2>S1｜Sim Companies 實際生產頁（含第三方覆蓋）</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/mirceaman56/sim-companies-helper/3cafa82ffd8d57948fa6c91a4f2c182ce41bb3c8/docs/screenshots/Production.png">原始生產頁圖</a></li>
+<li><a href="https://github.com/mirceaman56/sim-companies-helper/tree/3cafa82ffd8d57948fa6c91a4f2c182ce41bb3c8">來源專案</a></li>
+<li>本地：<code>references/sim-production.png</code>，已目視確認。</li>
+<li>觀察原生建築生產頁的黑色頂部狀態列、左建築資料、中央生產需求／數量／狀態。右側 Production Helper 白色區塊是第三方外掛，已排除。</li>
+<li>不從該頁推定城市任務或手機實際操作；拍攝版本未標明。</li>
+</ul>
+<h2>S2｜Sim Companies 官方商店圖：局部介面可辨識、屬宣傳合成</h2>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.simcompanies.simcompaniespwa&amp;hl=en">Google Play</a></li>
+<li>本地 <code>sim-play-1.png</code>、<code>sim-play-2.png</code> 已目視確認。</li>
+<li>可辨識地圖、資源條、底部 Map／Warehouse／Search／Chat／Exchange，以及市場表格片段。</li>
+<li>圖上另有大型宣傳標語及多畫面編排；只能說圖片中存在這些元件，不能稱未剪輯手機實機截圖，也不能聲稱點擊、捲動、縮放已驗證。</li>
+<li><a href="https://www.simcompanies.com">官方網站</a> 可存取，但本輪未登入遊玩。</li>
+</ul>
+<h2>O1｜本專案公開遊戲：實際操作截圖</h2>
+<ul>
+<li><a href="https://hd022311.github.io/family-wealth-empire/">公開版</a></li>
+<li>新的隔離瀏覽器環境，點選「開始劇情人生」，拍攝 1440×900、390×844 城市及事件面板；未登入、未改動其他人的存檔。</li>
+<li><code>references/current-public-desktop.png</code>、<code>current-public-mobile.png</code>、各 <code>-panel.png</code>，另有實際 canvas 素材截圖。</li>
+<li>本機程式與 GitHub 對照：正式部署遊戲 <code>51da864</code>、本機 HEAD <code>7861a4e</code>（後者為文件）。工作區未提交教學修改保留，未部署。</li>
+</ul>
+<h2>素材使用界線</h2>
+<p>競品截圖只作內部研究證據，不放入正式遊戲或三套原創設計稿。交付的便攜設計包不含競品下載圖片／HTML，僅提供來源連結。三套城市與人物圖為 AI 生成的原創概念素材，仍需正式製作、品牌相似性檢查、拆件、尺寸／壓縮／效能與觸控驗證；不可當作已完成可遊玩的城市資產。</p></html>

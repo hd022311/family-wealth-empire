@@ -1,0 +1,326 @@
+[
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "screen": "city",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "screen": "building",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "screen": "family",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "screen": "work",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "screen": "finance",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "screen": "property",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "screen": "city",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "screen": "building",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "screen": "family",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "screen": "work",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "screen": "finance",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "screen": "property",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "screen": "city",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "screen": "building",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "screen": "family",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "screen": "work",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "screen": "finance",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "screen": "property",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "screen": "city",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "screen": "building",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "screen": "family",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "screen": "work",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "screen": "finance",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "screen": "property",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "screen": "city",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "screen": "building",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "screen": "family",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "screen": "work",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "screen": "finance",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "screen": "property",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "18px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "screen": "city",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "screen": "building",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "screen": "family",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "screen": "work",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "screen": "finance",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "screen": "property",
+    "errors": [],
+    "horizontalOverflow": false,
+    "bodyFont": "16px",
+    "images": 0
+  }
+]

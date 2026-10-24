@@ -1,0 +1,110 @@
+[
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "scale": "1",
+    "status": "passed"
+  },
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "scale": "1.25",
+    "status": "passed"
+  },
+  {
+    "scheme": "a",
+    "device": "desktop",
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "scale": "1",
+    "status": "passed"
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "scale": "1.25",
+    "status": "passed"
+  },
+  {
+    "scheme": "a",
+    "device": "mobile",
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "scale": "1",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "scale": "1.25",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "device": "desktop",
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "scale": "1",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "scale": "1.25",
+    "status": "passed"
+  },
+  {
+    "scheme": "b",
+    "device": "mobile",
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "scale": "1",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "scale": "1.25",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "device": "desktop",
+    "scale": "1.5",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "scale": "1",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "scale": "1.25",
+    "status": "passed"
+  },
+  {
+    "scheme": "c",
+    "device": "mobile",
+    "scale": "1.5",
+    "status": "passed"
+  }
+]

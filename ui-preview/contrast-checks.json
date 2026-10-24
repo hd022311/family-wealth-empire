@@ -1,0 +1,50 @@
+[
+  {
+    "name": "A text",
+    "foreground": "#183F3B",
+    "background": "#FFF9EB",
+    "ratio": 11.03
+  },
+  {
+    "name": "A secondary",
+    "foreground": "#496257",
+    "background": "#FFF9EB",
+    "ratio": 6.31
+  },
+  {
+    "name": "A button",
+    "foreground": "#FFFAF0",
+    "background": "#285C48",
+    "ratio": 7.44
+  },
+  {
+    "name": "B text",
+    "foreground": "#F6F0DC",
+    "background": "#142C3A",
+    "ratio": 12.69
+  },
+  {
+    "name": "B facts",
+    "foreground": "#F6F0DC",
+    "background": "#294757",
+    "ratio": 8.63
+  },
+  {
+    "name": "B secondary",
+    "foreground": "#D0DADB",
+    "background": "#142C3A",
+    "ratio": 10.15
+  },
+  {
+    "name": "C text",
+    "foreground": "#293E4C",
+    "background": "#FDF5DF",
+    "ratio": 10.23
+  },
+  {
+    "name": "C secondary",
+    "foreground": "#4C5D64",
+    "background": "#FDF5DF",
+    "ratio": 6.31
+  }
+]

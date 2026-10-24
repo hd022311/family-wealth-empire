@@ -1,0 +1,187 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>REPORT</title><style>body{max-width:1100px;margin:32px auto;padding:0 24px;color:#233e39;background:#fffcf4;font:18px/1.8 system-ui,sans-serif}h1{font-size:32px}h2{margin-top:2em}a{color:#285c48}table{display:block;overflow:auto;border-collapse:collapse;font-size:16px}th,td{border:1px solid #b8c6ba;padding:12px;min-width:150px;vertical-align:top}img{max-width:100%}code{overflow-wrap:anywhere}strong{color:#7d3826}@media(max-width:600px){body{margin:20px auto;padding:0 16px;font-size:16px}h1{font-size:26px}}@media print{table{font-size:11px}body{font-size:12px;line-height:1.5}th,td{min-width:0;padding:5px}}</style><p><a href="index.html">三套設計總覽</a> · <a href="prototype.html">原型</a></p><h1>《家族財富帝國》UI／UX 視覺方向評審</h1>
+<p>研究日期：2026-10-24。範圍：研究、三案設計稿、獨立展示原型。<strong>未修改正式遊戲、未推送、未部署。</strong></p>
+<p>建議選 <strong>A「港都日常」</strong>：保留城市作為主角，以溫暖、清楚、有材質感的 HUD、單一任務卡及按需開啟的操作抽屜，讓現有功能看起來屬於同一款生活經營遊戲。B 更擅長人物情感、但美術成本最高；C 台灣生活辨識度最強，但紙本視覺必須避免造成新的閱讀負擔。</p>
+<h2>先看設計稿</h2>
+<p>開啟 <a href="prototype.html">互動式三案評審</a>，可切換三案、桌面／手機、六個場景，以及 100%／125%／150% 字級。可以點城市標記及導覽查看不同畫面；這是<strong>視覺原型，沒有實際遊戲模擬、地圖拖曳或財務交易</strong>。也可勾選「現有城市素材對照」，確認同一套 HUD 套在目前程序繪製城市上的效果，避免把整張概念插畫的品質誤算成單純換介面的成果。</p>
+<ul>
+<li><a href="mockups/board-a.png">A 概覽</a> · <a href="mockups/board-b.png">B 概覽</a> · <a href="mockups/board-c.png">C 概覽</a></li>
+<li>每案六種畫面：城市、建築、家庭事件、工作、財務、房產；桌面和手機共 36 張基準截圖。</li>
+<li>所有城市插畫、人物概念肖像均為本輪生成的原創<strong>概念佔位素材</strong>，不是已完成的可遊玩地圖、Sprite、正式立繪或五表情素材。</li>
+<li>數字是便於比較版面的固定示意資料，不是讀取玩家存檔或產生法律／稅務結果。照顧選項沿用目前程式的成本與時間，未改規則。</li>
+</ul>
+<h2>研究證據界線</h2>
+<p>這次並未登入四款競品進行完整實機操作。<strong>完整四款的實際畫面比較尚未達成</strong>：Elvenar、Sim Companies 有可辨認的實際遊戲介面截圖；Forge of Empires 有官方介面指南，但其實際介面圖片 CDN 被目前環境拒絕存取；Goodgame Big Farm 未取得可核實的遊戲內操作畫面。以下以「畫面觀察」「官方文字」「未驗證」區分，不以印象補齊空格。來源與排除紀錄見 <a href="EVIDENCE.html">EVIDENCE.html</a>。</p>
+<h3>競品逐項比較</h3>
+<table>
+<thead>
+<tr>
+<th>面向</th>
+<th>Forge of Empires</th>
+<th>Elvenar</th>
+<th>Goodgame Big Farm</th>
+<th>Sim Companies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>城市主畫面</td>
+<td>官方指南確認城市為生產核心；商店宣傳圖有城市，但 HUD 被移除，不能據此判斷操作配置</td>
+<td>實際桌面畫面為鋪滿視野的密集等角城市，建築、樹木、地形形成完整世界〔E1〕</td>
+<td>未取得可核實實際畫面；不下配置結論</td>
+<td>商店合成圖可見等角產業地圖及建築標記，但不是未經編排的完整畫面〔S2〕</td>
+</tr>
+<tr>
+<td>HUD</td>
+<td>官方文字確認上方中央 Forge Points、左側顧問任務肖像〔F1〕；其他排列未視覺核實</td>
+<td>頂部資源列壓縮成圖示＋數字；左側肖像入口；底部功能圖示列〔E1〕</td>
+<td>未驗證</td>
+<td>生產實際畫面上方為深色資源狀態列，與下方建築操作分層〔S1〕</td>
+</tr>
+<tr>
+<td>功能入口</td>
+<td>官方指南提及建造、研究、地圖等入口；不推定本輪最新版位置</td>
+<td>下方圖示命令列，城市本身是互動主體；小圖示可讀性對本案不宜照用</td>
+<td>未驗證</td>
+<td>生產頁左側建築資料及升級／移動等操作，中央為當前生產任務〔S1〕</td>
+</tr>
+<tr>
+<td>任務提示</td>
+<td>任務由左側顧問肖像開啟，官方明確說明；不能聲稱已驗證高亮動畫</td>
+<td>左側人物肖像與提示圖示有存在感；任務展開流程未實測</td>
+<td>未驗證</td>
+<td>已觀察截圖不是教學／任務頁，無法評定任務引導</td>
+</tr>
+<tr>
+<td>事件／資訊視窗</td>
+<td>未取得可靠事件視窗畫面</td>
+<td>原生 Grand Trader 視窗以材質邊框、標題、頁籤、明確關閉鈕界定單一工作；交易列表密度仍高</td>
+<td>未驗證</td>
+<td>實際生產畫面以建築為上下文，生產需求、數量、狀態分區；家庭式事件不在證據範圍</td>
+</tr>
+<tr>
+<td>資訊層次</td>
+<td>官方文字呈現「資源→城市→顧問任務」分工；畫面效果待核實</td>
+<td>城市最底層、常駐資源／入口居邊緣、操作視窗獨立前景；不是把全部表格鋪在主畫面</td>
+<td>未驗證</td>
+<td>建築身份→生產決策→需求／狀態，適合借鑑物件導向的資訊結構</td>
+</tr>
+<tr>
+<td>視覺風格</td>
+<td>商店圖只能證實跨時代城市美術方向，無法證明實際 HUD 樣式</td>
+<td>建築、地形、木／金／紙質視窗具一致幻想世界語彙；不適合複製到現代台灣</td>
+<td>未驗證；不得用其他同名產品的農場美術替代</td>
+<td>克制工業／商業色彩，數值閱讀直接，但表格與管理感不宜整套移植</td>
+</tr>
+<tr>
+<td>手機操作</td>
+<td>官方指南明列 Browser／Mobile 差異，但圖片無法載入；未驗證點擊與手勢</td>
+<td>本輪手機商店圖偏宣傳合成；不據此判定可點目標、手勢或觸控尺寸</td>
+<td>未驗證；Big Farm Mobile Harvest 是另一產品，不當成瀏覽器版測試</td>
+<td>官方手機宣傳合成圖中可辨識底部 Map／Warehouse／Search／Chat／Exchange，但真實開啟行為、縮放、觸控尺寸未驗證</td>
+</tr>
+</tbody>
+</table>
+<p><strong>可以採用的結構原則</strong>：城市佔主視野；資源與任務分層；人物讓任務有情感歸屬；點選建築後才開啟其操作；用材質和圖示形成一致世界。<strong>不採用</strong>：小字、密集資源圖示、滿屏活動入口、幻想裝飾、工業報表主導、以課金或限時入口搶走任務注意力。最後一項是本案的設計取捨，並非本輪已對所有競品核實的觀察。</p>
+<h2>現有遊戲盤點與問題診斷</h2>
+<p>來源：GitHub <code>hd022311/family-wealth-empire</code>、本機程式、既有截圖，以及實際開啟公開版 <code>https://hd022311.github.io/family-wealth-empire/</code> 的桌面與手機畫面。對照畫面：<a href="references/current-public-desktop.png">桌面</a>、<a href="references/current-public-mobile.png">手機</a>。公開遊戲對應 <code>51da864</code>；工作區另有上一輪尚未提交的教學修改，本輪沒有把它當作已部署功能，也沒有繼續修改。</p>
+<p>保留：Vite／TypeScript／React／Phaser、現有等角城市與輸入處理、雙模式、工作收入、父母兩間房、照顧追蹤、虛擬股票、房產、家庭、State v4 本機存檔與字級設定。Supabase 未經驗證，設計稿不暗示雲端已啟用。</p>
+<p>主要問題不是缺少更多卡片，而是視覺層次尚未成立：</p>
+<ol>
+<li>頂部時間、現金、存檔、速度、設定等矩形控制權重接近，玩家難分「正在發生什麼」與「下一步做什麼」。</li>
+<li>左側入口、中央地圖、右側細節雖已完成遊戲式布局，仍大量使用相同面板／表單語言，像功能集合而不是一個世界。</li>
+<li>右側長期展示詳情，使城市探索與資料閱讀互相爭奪注意力。應改成「主畫面只見目標；選取後才見細節」。</li>
+<li>手機多排狀態與兩層導覽切碎視野；需要五個固定主入口與單一可展開面板，次要入口放明確的「更多」。</li>
+<li>目前城市為程序幾何素材，人物也缺少近距離辨識。只更換按鈕顏色無法得到概念稿的全部質感；應先改善 HUD，再分批替換少數高頻建築與人物，不承諾一次全城重畫。</li>
+</ol>
+<h2>A｜港都日常 — 建議優先</h2>
+<p><strong>感受</strong>：溫暖、可信、成熟的現代台灣城市經營。不是金融產品，也不靠大量仿古金邊營造遊戲感。</p>
+<ul>
+<li><strong>桌面</strong>：上方三組浮動 HUD（人物／重要財務／時間設定）；左側有文字的圖示功能列；城市佔主畫面；左下只有目前目標，右下只保留一則家庭近況。</li>
+<li><strong>手機</strong>：人物＋暫停、第二行現金與本月淨流入；底部城市／工作／家庭／資產／財務五入口。任務票卡置底部導覽上方；任務及存檔等次要入口在明確的展開面板，不做常駐多排。</li>
+<li><strong>城市與建築</strong>：選取輪廓＋短名稱標記＋操作抽屜；建築所有權、價格、現金需求先顯示，完整帳務按需展開。城市拖曳與縮放沿用現有 Phaser，不用整張背景替換互動場景。</li>
+<li><strong>家庭與對話</strong>：中型人物肖像配短段對話；同一事件只呈現當前抉擇，三種照顧方案可捲動比較，扣款／每月需求／時間先於確認。</li>
+<li><strong>工作／財務／房產</strong>：工作以「本月工作與時間」為主；財務先看現金、淨資產、收支，再開明細；房產以建築圖＋持有狀態＋租貸成本引導操作。</li>
+<li><strong>色彩</strong>：奶油白 <code>#FFF9EB</code>、深玉綠 <code>#183F3B</code>、主操作綠 <code>#285C48</code>、陶土 <code>#994B2C</code>。金色只作低面積裝飾。</li>
+<li><strong>字體</strong>：Noto Sans TC／系統繁中字體；數字等寬排列。內文桌面 18px、手機 16px；標題 24–30px。按鈕有完整文字及一致線條圖示，觸控目標至少 48px。</li>
+<li><strong>美術</strong>：柔和光影、騎樓、磁磚、陽台、機車等原創地方生活細節；不使用真實品牌招牌。先做住宅、公司、父母房屋等高頻建築的模組素材。</li>
+</ul>
+<h2>B｜人生劇場</h2>
+<p><strong>感受</strong>：城市是舞台，家人是長期相伴的人。適合強調《兩間房子的承諾》的情感記憶。</p>
+<ul>
+<li><strong>桌面</strong>：深藍夜色 HUD、底部功能列、家庭肖像列；任務像一張正在上演的生活片段。一般探索仍以城市為主，只有主動開啟事件才出現較大的雙欄人物場景。</li>
+<li><strong>手機</strong>：五入口底部導覽；人物卡與決策改用直式捲動面板，不把桌面雙欄縮成兩個窄欄。大肖像也不得擠掉選項與金額。</li>
+<li><strong>城市與建築</strong>：琥珀選取光環、建築名牌、弱背景光暈；不使用強制鏡頭飛行或持續閃爍。縮放與定位功能照舊。</li>
+<li><strong>家庭與對話</strong>：主要人物肖像更大，對話和具體成本相鄰；選項可先看影響，法律不確定性獨立顯示。情緒只改表達，不改權利。</li>
+<li><strong>工作／財務／房產</strong>：深色物件面板，重要數字少量提亮；工作以職涯卡、房產以資產卡呈現，明細仍是清楚可捲動的表格。</li>
+<li><strong>色彩／字體／按鈕</strong>：夜港藍 <code>#122D3E</code>、暖白 <code>#FFF5DD</code>、琥珀金 <code>#F2CE8B</code>、低飽和藍綠；無襯線繁中維持相同大字基準。實心主按鈕、清楚細框次按鈕，不能用淡色發光字取代對比。</li>
+<li><strong>美術</strong>：原創近距離人物、日夜同一套城市資產；人物表情、服裝、年齡變化是主要新增成本。概念稿的夜景不是強制全遊戲永遠夜晚。</li>
+</ul>
+<h2>C｜街坊手帳</h2>
+<p><strong>感受</strong>：把人生經營變成一本逐漸累積的生活紀錄，溫柔但不幼稚。以台灣家庭相簿、生活帳、街區插畫建立辨識度。</p>
+<ul>
+<li><strong>桌面</strong>：紙質小 HUD、底部書籤功能列、單一目標明信片；選取細節像展開的生活冊，城巿仍可在背後探索。</li>
+<li><strong>手機</strong>：單頁卡冊與五入口導覽；不用雙頁書、不強迫翻頁動畫。任務是短便箋，詳情需玩家主動展開。</li>
+<li><strong>城市與建築</strong>：乾淨的紙上立體等角建築，選取以印章／描邊表達；保留 Phaser 的深度、路徑及點擊邊界，不製作不可互動的拼貼背景。</li>
+<li><strong>家庭與對話</strong>：家庭相片式肖像、日期、短對話、可比較的照顧方案；記憶與法律文件在資訊上區分，不能讓口頭承諾看起來像正式文書。</li>
+<li><strong>工作／財務／房產</strong>：職涯卡、生活帳、房屋卡；明細區白底深字，紙紋只出現在外框，避免裝飾穿過數字。</li>
+<li><strong>色彩／字體／按鈕</strong>：米紙 <code>#FFF6DE</code>、墨藍 <code>#253E4D</code>、苔綠 <code>#426253</code>、磚紅 <code>#9B493B</code>。標題少量明體、內文維持無襯線；印章只用在狀態，主要按鈕仍有清楚文字與按壓回饋。</li>
+<li><strong>美術</strong>：原創淡彩／紙雕等角素材，一致光源；避免過度懷舊，仍是現代住宅、公司與城市生活。</li>
+</ul>
+<h2>重用範圍與工作量</h2>
+<p>以下為估算<strong>人日</strong>，不是報價或日曆交期。前提：一名熟悉現有專案的 React／Phaser 開發者，搭配 UI／美術及 QA；只改現有功能介面，不含新城市、劇情、戀愛或後端。完整範圍含必要的高頻美術升級；純 HUD 試作成本較低。</p>
+<table>
+<thead>
+<tr>
+<th>方案</th>
+<th>難度</th>
+<th style="text-align: right;">單一工作＋家庭事件試作</th>
+<th style="text-align: right;">完整既有介面改版</th>
+<th>其中工程／美術／QA</th>
+<th>主要風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>中</td>
+<td style="text-align: right;">10–16 人日</td>
+<td style="text-align: right;">23–37 人日</td>
+<td>13–20／6–10／4–7</td>
+<td>若只換 CSS 卻承諾整張概念城市品質，會造成落差；大字時浮動面板需避讓</td>
+</tr>
+<tr>
+<td>B</td>
+<td>高</td>
+<td style="text-align: right;">18–29 人日</td>
+<td style="text-align: right;">47–77 人日</td>
+<td>20–30／20–35／7–12</td>
+<td>肖像量、表情、夜景對比、事件畫面遮擋與素材載入成本最高</td>
+</tr>
+<tr>
+<td>C</td>
+<td>中高</td>
+<td style="text-align: right;">12–20 人日</td>
+<td style="text-align: right;">31–51 人日</td>
+<td>16–24／10–18／5–9</td>
+<td>書冊結構在小螢幕與 150% 字級的重排，以及紙質裝飾造成資訊密度回升</td>
+</tr>
+</tbody>
+</table>
+<p>三案都可從 <code>src/main.tsx</code> 的介面外殼、<code>src/game-layout.css</code>／<code>src/readability.css</code> 設計 token、現有各功能 Panel 的呈現層開始。<code>src/City.tsx</code> 保留相機、點擊、ResizeObserver、輸入邊界更新；避免 UI 重排時重建整個 Phaser 場景。事件按鈕仍呼叫原有行動與交易，不另寫一套模擬。</p>
+<h3>存檔影響</h3>
+<p>目標為 <strong>State v4 無變更、零遷移</strong>。新外觀、開關面板、HUD 排版不應寫入家族財務或人物資料；字級繼續使用既有偏好設定。三案沒有新增可改變遊戲結果的資料。</p>
+<p>風險不在配色，而在正式接入時的生命週期：重複掛載造成時間／自動存檔重複、事件按鈕雙觸發、Phaser 尺寸與點擊座標錯位、關閉抽屜誤清除未確認選擇、存讀檔入口藏得太深。後續需以原存檔快照比對及真實操作回歸驗證；<strong>本輪沒有宣稱完成這些正式遊戲改版測試</strong>。</p>
+<h2>可讀性與驗收紀錄</h2>
+<ul>
+<li>設計原型 JavaScript 語法檢查通過；36 個基準畫面未有頁面 JS 錯誤或整頁水平溢出。</li>
+<li>版面檢查：1440×900、1366×768、820×1180、390×844；三案、三種字級、六場景，合計 216 個組合。記錄見 <a href="layout-matrix.json">layout-matrix.json</a>。檢查包含整頁水平溢出、詳情面板水平溢出、HUD 互相重疊及主要固定按鈕的可達性；不是完整無障礙認證。</li>
+<li>原型入口、帶我前往、建築標記、面板捲動及關閉，共 18 組（三案×桌面／手機×三字級）互動檢查通過；見 <code>prototype-interactions.json</code>。這只驗證展示原型，未測正式財務交易。</li>
+<li>抽樣檢查 8 組主要文字／背景配色，對比為 6.31:1–12.69:1；見 <code>contrast-checks.json</code>。尚不代表所有半透明、圖片上文字與狀態顏色均通過完整無障礙稽核。</li>
+<li>150% 為桌面 27px、手機 24px，沒有把一般內文重新縮小；筆電高字級時 A 的導覽改為自身捲動，詳情也各自捲動。資訊不可用整頁無止境向下排列。</li>
+<li>尚未驗證 Windows／macOS／iOS／Android 實體裝置、Safari、真實讀屏、戶外亮度、40 歲以上玩家可用性測試。Chromium 視窗模擬不等於實體手機驗收。</li>
+<li>三套原型中的交易、時間、地圖移動是展示位置與流程，不是正式遊戲功能驗收。正式遊戲沒有因本輪被重建、上傳或部署。</li>
+</ul>
+<h2>建議選型與下一步</h2>
+<p>建議選 A；若最重視家庭故事，可在 A 的結構內選用 B 的人物事件呈現，但需另計人物素材成本，不同時引入三套裝飾。</p>
+<p>選定後才開始正式實作：先固定設計 token 和一個工作／家庭事件試點，再接入現有狀態，完成字級／存檔／地圖輸入回歸，最後逐步替換高頻美術。先做單一路徑可驗收版本，不同時重製全部城市與功能。</p>
+<p><strong>本輪交付供選方向；尚未授權及進行正式改版。</strong></p></html>
