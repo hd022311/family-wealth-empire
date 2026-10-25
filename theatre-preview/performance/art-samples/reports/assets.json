@@ -1,0 +1,100 @@
+{
+  "version": "art-candidate-1",
+  "date": "2026-10-25",
+  "approved_for_production": false,
+  "human_reviewer": null,
+  "identity_registration_approved": false,
+  "continuous_animation_approved": false,
+  "assets": [
+    {
+      "id": "male-pose1",
+      "character_name": "林家安",
+      "existing_character_id": "player",
+      "reference_asset": null,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "source_method": "image_gen 原創基準圖／以同角色基準圖參照編修",
+      "png_sha256": "606c2165fe944a01f73e054ee3c6b1466226657c060236f170500a627ff9dd9b",
+      "webp_sha256": "1edab48dde4970a81e2a7e019951ce3314032b6f767b4183c3bd84705ba9818f",
+      "review_status": "candidate_pending_art_review",
+      "registered_layers": false
+    },
+    {
+      "id": "male-expressions",
+      "character_name": "林家安",
+      "existing_character_id": "player",
+      "reference_asset": "male-pose1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_method": "image_gen 原創基準圖／以同角色基準圖參照編修",
+      "png_sha256": "f0e01b8dc43ab54b7b991d4ce08846cab2b437ebd2d5834da21e84c4d1f21d73",
+      "webp_sha256": "8c1418043bd59ce1c3956a3352ea2a3d41cbd88ca3d071381008157cd00e2bbb",
+      "review_status": "candidate_pending_art_review",
+      "registered_layers": false
+    },
+    {
+      "id": "male-pose2",
+      "character_name": "林家安",
+      "existing_character_id": "player",
+      "reference_asset": "male-pose1",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "source_method": "image_gen 原創基準圖／以同角色基準圖參照編修",
+      "png_sha256": "636106181b376d260ef61ebba626fe4663ec57bb8f571dfc18f28c2740757ab1",
+      "webp_sha256": "676ecc110130fedf256fb427bee9e2dcd430af9ceb83aab83879de7635cdeaa2",
+      "review_status": "candidate_pending_art_review",
+      "registered_layers": false
+    },
+    {
+      "id": "female-pose1",
+      "character_name": "林雅婷",
+      "existing_character_id": "sister",
+      "reference_asset": null,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "source_method": "image_gen 原創基準圖／以同角色基準圖參照編修",
+      "png_sha256": "f1cea215fd1176778b4b6aa0d61d6055c860c41ee7094ff7cf50323b69dad6e9",
+      "webp_sha256": "233da01939be086f6cdfd87fe7c47998f082e772e76495edec3449c932e931ef",
+      "review_status": "candidate_pending_art_review",
+      "registered_layers": false
+    },
+    {
+      "id": "female-expressions",
+      "character_name": "林雅婷",
+      "existing_character_id": "sister",
+      "reference_asset": "female-pose1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_method": "image_gen 原創基準圖／以同角色基準圖參照編修",
+      "png_sha256": "f4a2aec98b7d253335de5b0c000e20b549adbab1aff5d330ae953cb377ecafde",
+      "webp_sha256": "67d62b659a8b220692732c08f3d0f257bff53614b0453d4798c1de0b2e319939",
+      "review_status": "candidate_pending_art_review",
+      "registered_layers": false
+    },
+    {
+      "id": "female-pose2",
+      "character_name": "林雅婷",
+      "existing_character_id": "sister",
+      "reference_asset": "female-pose1",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "source_method": "image_gen 原創基準圖／以同角色基準圖參照編修",
+      "png_sha256": "71f517a20f032d31e3fadcca69800baf9a51a019f40902768e6988ae9fcf169a",
+      "webp_sha256": "338f9bb0bbff1fbc48e6e98f8d2685b16e36770d926629dbd4d11675b012fca6",
+      "review_status": "candidate_pending_art_review",
+      "registered_layers": false
+    }
+  ]
+}

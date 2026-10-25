@@ -1,0 +1,16 @@
+[
+  {
+    "actor": "male",
+    "frames": 10,
+    "recordedSeconds": 13.786059141159058,
+    "outputSeconds": 13.5,
+    "kind": "Expression and pose storyboard; not a continuous rigged animation"
+  },
+  {
+    "actor": "female",
+    "frames": 10,
+    "recordedSeconds": 13.659924983978271,
+    "outputSeconds": 13.5,
+    "kind": "Expression and pose storyboard; not a continuous rigged animation"
+  }
+]

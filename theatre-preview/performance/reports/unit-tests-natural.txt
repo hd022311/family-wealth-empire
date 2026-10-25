@@ -1,0 +1,29 @@
+✔ same seven speeches, dates-independent dialogue, three choices and 42-second budget (1.916646ms)
+✔ all six emotions share one path topology; interpolation has exact endpoints and finite coordinates (1.787582ms)
+✔ punctuation closes lips and pauses; ordinary speech contains closures instead of a permanent open-close loop (0.483886ms)
+✔ every lead pause and punctuated line fits before the original next beat (0.3535ms)
+✔ characters have staggered finite blinks and single-character breaths; shock has no breathing cue (0.257216ms)
+✔ 42 second rehearsal has three adult actors, six expressions and a safe choice stop (1.347041ms)
+✔ clock pause/resume retains time, background pause has no catch-up (0.287812ms)
+✔ replacing or cancelling a beat never dispatches the old callback (0.200781ms)
+✔ all seven automatic beats end in one choice gate in exactly 42 seconds (0.230416ms)
+✔ first volume runtime and legal/branch content stay byte-identical (0.93991ms)
+✔ rehearsal modules have no persistence, network collection or story-engine import (1.606621ms)
+✔ 729 ordered routes complete and all eight narrative endings are reachable (1.44011ms)
+✔ all routes conserve fictional cash, keep unique transaction ids, and credit no estate or insurance proceeds (1.675984ms)
+✔ choosing is immutable, sequential, and rejects duplicate, unknown or out-of-order decisions (0.362074ms)
+✔ every choice records an objective fact and a separate subjective memory, never a legal document (2.609594ms)
+✔ father and mother have independent estate ids, dates and unallocated statuses (0.889124ms)
+✔ legal gaps never produce percentages, taxes, claims or a court result (1.981082ms)
+✔ early care and budget choices change later sibling dialogue, not just the ending label (0.491047ms)
+✔ insurance has no guaranteed payout and good narrative endings remain reachable without new insurance (0.199429ms)
+✔ fixed decisions reproduce exact memories, expenses, documents and ending with no random source (5.763507ms)
+✔ authored speaking scenes respect father/mother death dates (6.99916ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 138.880205

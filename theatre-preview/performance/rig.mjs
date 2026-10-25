@@ -1,13 +1,6 @@
 import {CHARACTERS,EXPRESSION_LABELS,EXPRESSIONS}from'./scene.mjs';
 /** Original procedural VECTOR PLACEHOLDER. Shared geometry, not six generated faces. */
-const FACES={
- calm:{brows:['M139 158 Q158 148 179 156','M221 156 Q242 148 261 158'],eyes:['M139 180 Q159 168 180 181 Q160 190 139 180','M220 181 Q241 168 262 180 Q241 190 220 181'],mouth:'M177 243 Q200 249 223 242',irisY:180},
- happy:{brows:['M138 153 Q157 140 180 150','M220 150 Q243 140 263 153'],eyes:['M140 180 Q159 166 179 180 Q160 187 140 180','M221 180 Q242 166 262 180 Q242 187 221 180'],mouth:'M174 239 Q200 253 226 239 Q204 273 174 239',irisY:177},
- angry:{brows:['M138 148 L181 166','M219 166 L263 148'],eyes:['M140 178 L179 185 Q158 194 140 178','M221 185 L261 178 Q243 194 221 185'],mouth:'M177 252 Q200 239 225 252',irisY:184},
- sad:{brows:['M138 163 Q159 161 180 145','M220 145 Q242 161 263 163'],eyes:['M140 181 Q159 177 179 184 Q159 197 140 181','M221 184 Q242 177 262 181 Q242 197 221 184'],mouth:'M177 255 Q201 238 224 255',irisY:185},
- shocked:{brows:['M137 145 Q158 127 180 141','M220 141 Q242 127 264 145'],eyes:['M138 180 Q158 156 181 180 Q161 204 138 180','M219 180 Q242 156 264 180 Q242 204 219 180'],mouth:'M187 244 C186 224 214 224 215 245 C214 266 188 265 187 244',irisY:180},
- skeptical:{brows:['M137 145 Q159 131 180 143','M221 158 Q243 157 263 163'],eyes:['M139 179 Q159 162 180 179 Q160 194 139 179','M221 184 Q243 176 262 184 Q241 192 221 184'],mouth:'M177 249 Q199 244 222 250',irisY:180},
-};
+import{FACE_POSES,paintFace}from'./faces.mjs';
 export function createRig(id){
  const c=CHARACTERS[id];if(!c)throw Error('Unknown rehearsal actor');const uid=`rig-${id}`;
  const female=c.style==='sister',older=c.style==='brother';
@@ -44,6 +37,6 @@ export function createRig(id){
  <path d="M184 269 Q201 274 217 268" fill="none" stroke="#d7a387" stroke-width="2" opacity=".65"/>
  ${hairFront}${female?'<circle cx="113" cy="218" r="4" fill="#d3b77f"/><circle cx="287" cy="218" r="4" fill="#d3b77f"/>':''}
  </g></svg>`;
- const el=document.createElement('div');el.className='performer';el.dataset.actor=id;el.dataset.position='off';el.dataset.expression='calm';el.setAttribute('role','img');el.innerHTML=svg.replace(/\b(SKIN|HAIR|COAT|SHIRT|CHEEK)\b/g,x=>`${uid}-${x}`);setExpression(el,'calm');return el;
+ const el=document.createElement('div');el.className='performer';el.dataset.actor=id;el.dataset.position='off';el.dataset.expression='calm';el.setAttribute('role','img');el.innerHTML=svg.replace(/\b(SKIN|HAIR|COAT|SHIRT|CHEEK)\b/g,x=>`${uid}-${x}`);for(const [i,eye]of [...el.querySelectorAll('[data-eye]')].entries()){const ns='http://www.w3.org/2000/svg',clip=document.createElementNS(ns,'clipPath'),path=document.createElementNS(ns,'path');clip.id=`${uid}-eye-${i}`;path.dataset.eyeClip=String(i);clip.append(path);el.querySelector('defs').append(clip);const contents=document.createElementNS(ns,'g');contents.setAttribute('clip-path',`url(#${clip.id})`);for(const circle of [...eye.querySelectorAll('circle')])contents.append(circle);eye.append(contents);}setExpression(el,'calm');return el;
 }
-export function setExpression(el,name){if(!EXPRESSIONS.includes(name))throw Error('Unknown rehearsal expression');const f=FACES[name],id=el.dataset.actor;el.dataset.expression=name;el.setAttribute('aria-label',`${CHARACTERS[id].name}，${EXPRESSION_LABELS[name]}，分層向量佔位立繪`);el.querySelectorAll('[data-brow]').forEach((p,i)=>p.setAttribute('d',f.brows[i]));el.querySelectorAll('.eye-white').forEach((p,i)=>p.setAttribute('d',f.eyes[i]));el.querySelectorAll('.iris,.pupil').forEach(p=>p.setAttribute('cy',f.irisY));const m=el.querySelector('.mouth-rest');m.setAttribute('d',f.mouth);m.setAttribute('fill',name==='happy'||name==='shocked'?'#774d46':'none');}
+export function setExpression(el,name){if(!EXPRESSIONS.includes(name))throw Error('Unknown rehearsal expression');el.dataset.expression=name;el.setAttribute('aria-label',`${CHARACTERS[el.dataset.actor].name}，${EXPRESSION_LABELS[name]}，分層向量佔位立繪`);paintFace(el,FACE_POSES[name]);}

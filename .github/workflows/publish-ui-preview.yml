@@ -51,6 +51,8 @@ jobs:
           rehearsal = json.loads(Path('theatre-preview/performance/reports/protected.json').read_text())
           for item in rehearsal['files']:
               assert digest(root / item['path']) == item['sha256'], 'First-volume runtime changed during rehearsal publication'
+          baseline = json.loads(Path('theatre-preview/performance/before/baseline.json').read_text())
+          assert digest(root / 'theatre-preview/performance/before/rehearsal-desktop.mp4') == baseline['original_video_sha256'], 'Before recording changed'
           changed = [name for name, checksum in before.items() if digest(root / name) != checksum]
           assert not changed, f'Published game files changed: {changed}'
           proof = {'source_run_id': 40075521882, 'game_index_sha256': expected_index, 'preserved_game_files': len(before), 'changed_game_files': changed, 'game_files_sha256': before, 'design_directory': '/family-wealth-empire/ui-preview/'}
@@ -91,6 +93,11 @@ jobs:
           assert 'lang="zh-TW"' in rehearsal_page and 'stage.css' in rehearsal_page
           video = urllib.request.urlopen(base + 'theatre-preview/performance/screenshots/rehearsal-desktop.mp4', timeout=30).read()
           assert b'ftyp' in video[:16], 'Missing actual rehearsal recording'
+          for actor in ['male', 'female']:
+              art_page = urllib.request.urlopen(base + 'theatre-preview/performance/art-samples/?actor=' + actor, timeout=30).read().decode()
+              assert 'lang="zh-TW"' in art_page
+              clip = urllib.request.urlopen(base + 'theatre-preview/performance/art-samples/screenshots/' + actor + '-13s.mp4', timeout=30).read()
+              assert b'ftyp' in clip[:16], 'Missing character storyboard recording'
           focused = urllib.request.urlopen(base + 'ui-preview/focused.html', timeout=20).read().decode()
           assert '依需展開設計預覽' in focused
           for name in ['a-focus-desktop.png', 'b-focus-desktop.png', 'c-focus-desktop.png', 'a-focus-mobile.png', 'b-focus-mobile.png', 'c-focus-mobile.png']:

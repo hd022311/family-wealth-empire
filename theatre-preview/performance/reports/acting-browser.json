@@ -1,0 +1,8 @@
+{
+  "afterManualLineIdleAnimations": 0,
+  "headDrift": false,
+  "continuousMouth": false,
+  "expressionIntermediateFrame": true,
+  "motionOffCancels": true,
+  "pageErrors": []
+}

@@ -10,12 +10,12 @@ export const CHARACTERS={
 /** Duration is direction for optional rehearsal only. Manual reading never times out. */
 export const SCENE=[
  {id:'quiet',duration:6500,speaker:'sister',text:'這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。',actors:{player:'calm',brother:'calm',sister:'calm'},positions:{player:'left',brother:'right',sister:'center'},camera:'wide',light:'warm',direction:'家人入座，平靜地看向文件。'},
- {id:'memory',duration:6500,speaker:'player',text:'我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。',actors:{player:'sad',brother:'skeptical',sister:'calm'},camera:'player',light:'warm',direction:'家安低下眉眼，鏡頭緩緩靠近。'},
- {id:'objection',duration:6000,speaker:'brother',text:'等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？',actors:{player:'shocked',brother:'angry',sister:'shocked'},positions:{player:'left',brother:'forward',sister:'center'},camera:'brother',light:'tense',shake:true,direction:'家誠向前一步；鏡頭輕微晃動一次。'},
- {id:'surprise',duration:5500,speaker:'player',text:'哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。',actors:{player:'shocked',brother:'skeptical',sister:'sad'},camera:'player',light:'cool',direction:'焦點轉回家安，留一個呼吸的空白。'},
- {id:'pressure',duration:6500,speaker:'brother',text:'我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。',actors:{player:'sad',brother:'sad',sister:'sad'},camera:'brother',light:'cool',direction:'怒氣退去，家誠的嘴角與肩膀落下。'},
- {id:'listen',duration:6000,speaker:'sister',text:'我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。',actors:{player:'calm',brother:'skeptical',sister:'sad'},positions:{player:'left',brother:'right',sister:'center'},camera:'sister',light:'warm',direction:'雅婷靠近兩人，讓對話慢下來。'},
- {id:'pause',duration:5000,speaker:'player',text:'好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。',actors:{player:'calm',brother:'calm',sister:'happy'},positions:{player:'left',brother:'right',sister:'off'},camera:'wide',light:'warm',direction:'雅婷退到畫面外，家安與家誠重新面向彼此。'},
+ {id:'memory',duration:6500,speaker:'player',text:'我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。',actors:{player:'sad',brother:'skeptical',sister:'calm'},camera:'wide',light:'warm',direction:'先落下視線，再慢慢低頭；保留全景。'},
+ {id:'objection',duration:6000,speaker:'brother',text:'等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？',actors:{player:'shocked',brother:'angry',sister:'shocked'},positions:{player:'left',brother:'right',sister:'center'},camera:'brother',light:'tense',direction:'先收緊眉眼與嘴角，停一拍才開口；不走位，不震動。'},
+ {id:'surprise',duration:5500,speaker:'player',text:'哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。',actors:{player:'shocked',brother:'skeptical',sister:'sad'},camera:'player',light:'cool',direction:'先讓家安震驚後短暫定格，稍晚才調整頭部與鏡頭。'},
+ {id:'pressure',duration:6500,speaker:'brother',text:'我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。',actors:{player:'sad',brother:'sad',sister:'sad'},camera:'hold',light:'cool',direction:'先落下視線再落肩，稍晚安排一次輕微吐氣。'},
+ {id:'listen',duration:6000,speaker:'sister',text:'我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。',actors:{player:'calm',brother:'skeptical',sister:'sad'},positions:{player:'left',brother:'right',sister:'center'},camera:'wide',light:'warm',direction:'雅婷停一拍再開口，留在原位讓對話慢下來。'},
+ {id:'pause',duration:5000,speaker:'player',text:'好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。',actors:{player:'calm',brother:'calm',sister:'happy'},positions:{player:'left',brother:'right',sister:'center'},camera:'wide',light:'warm',direction:'保留三人的位置；家安與家誠重新看向彼此。'},
 ];
 export const OPTIONS=[
  {id:'listen',title:'先聽哥哥說完',hint:'暫停文件討論，讓他說出在意的事。',response:'家誠坐回椅子上。「我想知道，我以前做的那些，你們有沒有看見。」',actor:'brother',expression:'sad'},

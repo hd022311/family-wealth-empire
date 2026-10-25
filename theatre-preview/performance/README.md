@@ -1,3 +1,15 @@
+# 本輪：自然度改善與高品質美術候選稿
+
+先看 `review.html` 的男女候選圖與修改前後43秒影片。`art-samples/` 有每人六種表情、兩種姿勢與13.5秒有限分鏡；尚未完成正式分層與綁定，不宣稱是正式動畫素材。
+
+本輪技術／方案比較：`reports/NATURALNESS.html`。原 `TECHNICAL`、`ACCEPTANCE` 留為前次歷史紀錄。
+
+`before/` 保存上一輪錄影與互動版本。正式遊戲、第一卷與State v4沒有改動。原七段台詞／三選項／42秒總時長由新增回歸測試保護。
+
+測試：`node --test theatre-preview/*.test.mjs theatre-preview/performance/scripts/*.test.mjs`；瀏覽器與錄影腳本需設定PLAYWRIGHT_MODULE及本機4187埠，見下方原操作方式。
+
+---
+
 # 動態演出測試：遺囑公布
 
 獨立入口 `theatre-preview/performance/`，不接入第一卷完整預覽或正式經營模式。
