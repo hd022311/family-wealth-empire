@@ -1,4 +1,4 @@
-import {CHARACTERS,EXPRESSION_LABELS,EXPRESSIONS}from'./scene.mjs';
+import {CHARACTERS,EXPRESSION_LABELS,EXPRESSIONS}from'./scene.mjs?v=natural-1';
 /** Original procedural VECTOR PLACEHOLDER. Shared geometry, not six generated faces. */
 import{FACE_POSES,paintFace}from'./faces.mjs';
 export function createRig(id){

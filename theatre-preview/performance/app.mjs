@@ -1,5 +1,5 @@
-import{CHARACTERS,SCENE,OPTIONS,EXPRESSION_LABELS,EXPRESSIONS,DURATION}from'./scene.mjs';
-import{createRig,setExpression}from'./rig.mjs';
+import{CHARACTERS,SCENE,OPTIONS,EXPRESSION_LABELS,EXPRESSIONS,DURATION}from'./scene.mjs?v=natural-1';
+import{createRig,setExpression}from'./rig.mjs?v=natural-1';
 import{RehearsalClock}from'./clock.mjs';
 import{ActingDirector}from'./director.mjs';
 import{ACTING,glyphDelay,mouthAperture}from'./acting-plan.mjs';
