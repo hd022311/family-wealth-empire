@@ -6,15 +6,18 @@
     },
     {
       "path": "theatre-preview/app.mjs",
-      "sha256": "9ac1260236b9e72d35fc41377be147f391bed9dacff0bc3ab297873b798305f8"
+      "sha256": "39d9106f81a823229cd1e67251d902690e5cdcb7e9584807ef0df2106b69027a",
+      "previous_sha256": "9ac1260236b9e72d35fc41377be147f391bed9dacff0bc3ab297873b798305f8"
     },
     {
       "path": "theatre-preview/index.html",
-      "sha256": "0ee0141d435f1c2cad9767fcf974ed0083e9c866c45dee0f6f06cde00b9b1087"
+      "sha256": "8a6e6317c17bbe8aa5539596160c068516d4983602e45e8f95f81f38d5321fab",
+      "previous_sha256": "0ee0141d435f1c2cad9767fcf974ed0083e9c866c45dee0f6f06cde00b9b1087"
     },
     {
       "path": "theatre-preview/cinematic.css",
-      "sha256": "53bd37f6c07b02e878fe0b6b507286bec558b1702e2163e365082002b2aab0b1"
+      "sha256": "b113b0e1a0dec5b02ad7766a2b8b892b6f237bb7a5e5d5718dcc328c64b66a61",
+      "previous_sha256": "53bd37f6c07b02e878fe0b6b507286bec558b1702e2163e365082002b2aab0b1"
     },
     {
       "path": "theatre-preview/performance/app.mjs",
@@ -36,5 +39,6 @@
       "path": "theatre-preview/performance/screenshots/rehearsal-desktop.mp4",
       "sha256": "efe8ef43176ad81436a916d4a6c6211806bb0efdf857ed3b4b8298902da08357"
     }
-  ]
+  ],
+  "baseline_update": "2026-10-26：經使用者確認，第一卷續讀與重玩閉環更新 app/index/cinematic.css；story.mjs、正式經營模式及人物動畫不變。previous_sha256 保留上一輪保護基準。"
 }

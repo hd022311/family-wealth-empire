@@ -1,3 +1,5 @@
+> 2026-10-26 獨立劇場更新：第一卷續讀／結局收藏／略過已讀／兩輪比較已實作，六次選擇、八結局與法律pending不變。這不代表經營模式八結局或二周目完成；State v4不變。驗收見 [劇場續讀紀錄](theatre-preview/reports/READING_ACCEPTANCE.md)。公開部署結果另見交付紀錄。
+
 # 實際開發盤點與版本範圍
 
 > **目前公開版（2026-10-24）**：主畫面重排第一階段程式`51da864`已部署至[https://hd022311.github.io/family-wealth-empire/](https://hd022311.github.io/family-wealth-empire/)。[Actions](https://github.com/hd022311/family-wealth-empire/actions/runs/40075521882)的build、deploy、verify-public全部success，包含兩組公開瀏覽器驗證；另確認HTTPS 200及新版game-shell／設定入口／ResizeObserver程式已載入。詳見[前後截圖與本輪驗收](LAYOUT_ACCEPTANCE.md)。五步互動教學尚未啟用，留待第二階段；State v4及模擬規則不變。以下較早部署狀態為歷史紀錄。
