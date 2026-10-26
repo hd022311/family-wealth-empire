@@ -1,0 +1,126 @@
+{
+  "version": "male-partial-pilot-1",
+  "created": "2026-10-26",
+  "character_id": "player",
+  "character_name": "林家安",
+  "age": 33,
+  "art_direction": "原創半寫實日系2.5D角色候選稿",
+  "parent_reference": "../assets/male-pose1.png",
+  "parent_reference_sha256": "606c2165fe944a01f73e054ee3c6b1466226657c060236f170500a627ff9dd9b",
+  "source_method": "以同一高解析半身基準作image_gen局部編修；遊戲端僅採用眼睛與嘴巴範圍，未使用其他變體像素。",
+  "approved_for_production": false,
+  "human_reviewer": null,
+  "full_body_rig": false,
+  "voice_or_phoneme_sync": false,
+  "original_emotion_set_fully_rigged": false,
+  "local_layer_pixel_test_scope": "只驗證同一網站用半身基準與局部合成；不等於跨構圖的藝術同一性簽核。",
+  "sources": [
+    {
+      "id": "master",
+      "size": [
+        1024,
+        1536
+      ],
+      "source": "assets/master.png",
+      "source_sha256": "fbda5fc1f93303b205f3a52a42f8c08bf73839df7c134bfeaceb549724e48b0c",
+      "webp": "assets/master.webp",
+      "webp_sha256": "b3bf8fa6e3249c25b8d7fb728350e3a10a24129e3149629b282273fabb306e4d"
+    },
+    {
+      "id": "eyes-half",
+      "size": [
+        1024,
+        1536
+      ],
+      "source": "assets/eyes-half.png",
+      "source_sha256": "5ea45c1e3e87b5297009e7609479b24dde0cad76efe2aff59e290f62073861d3",
+      "webp": "assets/eyes-half.webp",
+      "webp_sha256": "2b2beeb1f44b35e9b09107c4ddb4731b6ff8e545a9d2f62c9fadbb37504d1fe8"
+    },
+    {
+      "id": "eyes-closed",
+      "size": [
+        1024,
+        1536
+      ],
+      "source": "assets/eyes-closed.png",
+      "source_sha256": "f22c2669e6ee430230aa619741690c67501f049d1cac091221359414dba32513",
+      "webp": "assets/eyes-closed.webp",
+      "webp_sha256": "b76d61d7486e1c3265b7ca80e8ad8f5e7e8fa5a005365187842df79435811243"
+    },
+    {
+      "id": "eyes-down",
+      "size": [
+        1024,
+        1536
+      ],
+      "source": "assets/eyes-down.png",
+      "source_sha256": "d567d6a0c79850d23f7c275a231d2189cd69826accfca01a3c3f53c0f45c990c",
+      "webp": "assets/eyes-down.webp",
+      "webp_sha256": "bc1fc3c1ffae5fcbd5c1f96440dcf46b67eee06a7ef4f7298bb0bf7bda883b46"
+    },
+    {
+      "id": "mouth-narrow",
+      "size": [
+        1024,
+        1536
+      ],
+      "source": "assets/mouth-narrow.png",
+      "source_sha256": "04e90e21b9a8ef85e91035808677421faa235cba5260ebaf22d84e55547f6256",
+      "webp": "assets/mouth-narrow.webp",
+      "webp_sha256": "24bba09f8fb5b2e96ec3d307683d97ef262ed715ff1beb05220d274fc2d3ea93"
+    },
+    {
+      "id": "mouth-open",
+      "size": [
+        1024,
+        1536
+      ],
+      "source": "assets/mouth-open.png",
+      "source_sha256": "545904e687095d881a5271f03d607312e9f906d61df9b2ae5bdecb6c3a268671",
+      "webp": "assets/mouth-open.webp",
+      "webp_sha256": "3d5e55d60157f5431d2259a952c2ed533ffb39439d0233d9429a73b6134bb55e"
+    }
+  ],
+  "runtime_source_format": {
+    "master": "WebP品質94、alpha品質100，有損副本；原PNG保留",
+    "features": "既有Canvas局部圖層的無損PNG封裝，尺寸202×82／102×55"
+  },
+  "packed_layers": [
+    {
+      "id": "half",
+      "width": 202,
+      "height": 82,
+      "bytes": 16583,
+      "sha256": "cfd5c05dc27849ab3f8649ead42af67318425c3b7f3a8714c9d8b4c62c4b3e75"
+    },
+    {
+      "id": "closed",
+      "width": 202,
+      "height": 82,
+      "bytes": 15867,
+      "sha256": "00b1dfc7bf233e32d83dda1d489baded78a788c7a6c2ce930cfe4cb949d1b722"
+    },
+    {
+      "id": "down",
+      "width": 202,
+      "height": 82,
+      "bytes": 16730,
+      "sha256": "b9d001ce45150f8a0868f3fcdc7be3301e21a404a6dd0103cd9d2b997a0aa7a6"
+    },
+    {
+      "id": "narrow",
+      "width": 102,
+      "height": 55,
+      "bytes": 10842,
+      "sha256": "cb0e96a9c04c7ede6f39ec0cfbca4d8927bb3ba8022c270ac51dbdda569e71ed"
+    },
+    {
+      "id": "open",
+      "width": 102,
+      "height": 55,
+      "bytes": 11329,
+      "sha256": "32d61755af1ebdf69a6f8684adc98ccb1a41d62414fa07179556d1d195a262cf"
+    }
+  ]
+}

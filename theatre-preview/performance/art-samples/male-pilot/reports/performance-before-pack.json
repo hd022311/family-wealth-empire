@@ -1,0 +1,27 @@
+{
+  "method": "Single observation per case on shared Linux Chromium; JS heap excludes decoded images and GPU. Not physical-device performance certification.",
+  "results": [
+    {
+      "device": "desktop",
+      "cpuRate": 1,
+      "network": "local unthrottled",
+      "readyMs": 764,
+      "encodedResourceBytes": 2696914,
+      "jsHeapMiB": 1.9649162292480469,
+      "draws": 3,
+      "idleDraws": 3,
+      "idleAnimations": 0
+    },
+    {
+      "device": "mobile-emulated",
+      "cpuRate": 4,
+      "network": "2Mbps,80ms",
+      "readyMs": 12139,
+      "encodedResourceBytes": 2696579,
+      "jsHeapMiB": 1.9257240295410156,
+      "draws": 3,
+      "idleDraws": 3,
+      "idleAnimations": 0
+    }
+  ]
+}

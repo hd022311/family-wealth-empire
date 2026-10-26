@@ -1,0 +1,156 @@
+{
+  "url": "http://127.0.0.1:4189/theatre-preview/performance/art-samples/male-pilot/",
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1.25,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1.5,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1.25,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1.5,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": 1,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": 1.25,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": 1.5,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "identityOutsideChanged": 0,
+      "inspectionFrames": 4,
+      "pass": true
+    }
+  ],
+  "pausedDoesNotAdvance": true,
+  "modalDoesNotAutoResume": true,
+  "revealedTextStaysFull": true,
+  "osReducedMotion": true,
+  "failedAssetStopsPlay": true,
+  "storageWrites": 0,
+  "pageErrors": []
+}

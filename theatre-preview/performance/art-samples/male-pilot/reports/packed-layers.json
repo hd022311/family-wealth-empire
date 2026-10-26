@@ -1,0 +1,40 @@
+{
+  "method": "Lossless serialization of the same Canvas2D feature layers; original PNG/WebP sources untouched",
+  "layers": [
+    {
+      "id": "half",
+      "width": 202,
+      "height": 82,
+      "bytes": 16583,
+      "sha256": "cfd5c05dc27849ab3f8649ead42af67318425c3b7f3a8714c9d8b4c62c4b3e75"
+    },
+    {
+      "id": "closed",
+      "width": 202,
+      "height": 82,
+      "bytes": 15867,
+      "sha256": "00b1dfc7bf233e32d83dda1d489baded78a788c7a6c2ce930cfe4cb949d1b722"
+    },
+    {
+      "id": "down",
+      "width": 202,
+      "height": 82,
+      "bytes": 16730,
+      "sha256": "b9d001ce45150f8a0868f3fcdc7be3301e21a404a6dd0103cd9d2b997a0aa7a6"
+    },
+    {
+      "id": "narrow",
+      "width": 102,
+      "height": 55,
+      "bytes": 10842,
+      "sha256": "cb0e96a9c04c7ede6f39ec0cfbca4d8927bb3ba8022c270ac51dbdda569e71ed"
+    },
+    {
+      "id": "open",
+      "width": 102,
+      "height": 55,
+      "bytes": 11329,
+      "sha256": "32d61755af1ebdf69a6f8684adc98ccb1a41d62414fa07179556d1d195a262cf"
+    }
+  ]
+}

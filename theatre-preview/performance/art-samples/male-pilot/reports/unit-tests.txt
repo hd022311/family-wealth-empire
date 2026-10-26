@@ -1,0 +1,37 @@
+✔ original line is unchanged; take ends at 13.5 seconds with no auto replay (1.827359ms)
+✔ pause holds the next cue and resumes from remaining time; stop removes all work (1.639087ms)
+✔ replay is deterministic and does not inherit a former playthrough (1.220039ms)
+✔ three-state blinks and punctuation closures are bounded; no forced voice synchronization (0.272298ms)
+✔ feature masks fit the narrow permitted regions; nose, hair, jaw and clothing remain outside (0.192849ms)
+✔ first volume and previous 43-second prototype remain byte-identical (3.819006ms)
+✔ pilot modules never import game state or persist playthrough data (0.873129ms)
+✔ compiled layer sprites keep exact dimensions and build hashes (0.537646ms)
+✔ same seven speeches, dates-independent dialogue, three choices and 42-second budget (1.358157ms)
+✔ all six emotions share one path topology; interpolation has exact endpoints and finite coordinates (1.764355ms)
+✔ punctuation closes lips and pauses; ordinary speech contains closures instead of a permanent open-close loop (2.078416ms)
+✔ every lead pause and punctuated line fits before the original next beat (0.344086ms)
+✔ characters have staggered finite blinks and single-character breaths; shock has no breathing cue (1.023475ms)
+✔ 42 second rehearsal has three adult actors, six expressions and a safe choice stop (1.536334ms)
+✔ clock pause/resume retains time, background pause has no catch-up (0.326129ms)
+✔ replacing or cancelling a beat never dispatches the old callback (0.365107ms)
+✔ all seven automatic beats end in one choice gate in exactly 42 seconds (0.292699ms)
+✔ first volume runtime and legal/branch content stay byte-identical (1.207751ms)
+✔ rehearsal modules have no persistence, network collection or story-engine import (2.817584ms)
+✔ 729 ordered routes complete and all eight narrative endings are reachable (1.485918ms)
+✔ all routes conserve fictional cash, keep unique transaction ids, and credit no estate or insurance proceeds (2.472286ms)
+✔ choosing is immutable, sequential, and rejects duplicate, unknown or out-of-order decisions (0.382152ms)
+✔ every choice records an objective fact and a separate subjective memory, never a legal document (3.506126ms)
+✔ father and mother have independent estate ids, dates and unallocated statuses (1.316033ms)
+✔ legal gaps never produce percentages, taxes, claims or a court result (2.499116ms)
+✔ early care and budget choices change later sibling dialogue, not just the ending label (0.503905ms)
+✔ insurance has no guaranteed payout and good narrative endings remain reachable without new insurance (0.291727ms)
+✔ fixed decisions reproduce exact memories, expenses, documents and ending with no random source (6.468527ms)
+✔ authored speaking scenes respect father/mother death dates (7.795636ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 211.731973

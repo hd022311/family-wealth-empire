@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "frame": "portrait",
+      "state": "base",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "portrait",
+      "state": "half",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "portrait",
+      "state": "closed",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "portrait",
+      "state": "down",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "portrait",
+      "state": "narrow",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "portrait",
+      "state": "open",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "detail",
+      "state": "base",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "detail",
+      "state": "half",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "detail",
+      "state": "closed",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "detail",
+      "state": "down",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "detail",
+      "state": "narrow",
+      "differingChannels": 0,
+      "maxDifference": 0
+    },
+    {
+      "frame": "detail",
+      "state": "open",
+      "differingChannels": 0,
+      "maxDifference": 0
+    }
+  ],
+  "identityLock": {
+    "changedOutside": 0,
+    "changedInside": 8448,
+    "unchangedOutside": 517826,
+    "frame": {
+      "x": 190,
+      "y": 0,
+      "width": 600,
+      "height": 900
+    },
+    "meaning": "限定區域以外與同一張解碼基準圖逐像素相同；不是人類美術自然度簽核。"
+  }
+}

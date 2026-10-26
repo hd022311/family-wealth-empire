@@ -1,0 +1,10 @@
+{
+  "targetTakeMs": 13500,
+  "actualTakeElapsedMs": 13906,
+  "recordedSourceSeconds": 14.184247016906738,
+  "outputVideoSeconds": 14,
+  "frames": 47,
+  "audio": false,
+  "method": "Actual browser screen recording, original speed, ending held to 14 seconds; no retiming of facial cues",
+  "pageErrors": []
+}

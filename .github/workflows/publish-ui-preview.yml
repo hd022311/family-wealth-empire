@@ -51,6 +51,17 @@ jobs:
           rehearsal = json.loads(Path('theatre-preview/performance/reports/protected.json').read_text())
           for item in rehearsal['files']:
               assert digest(root / item['path']) == item['sha256'], 'First-volume runtime changed during rehearsal publication'
+          pilot = json.loads(Path('theatre-preview/performance/art-samples/male-pilot/reports/preserved.json').read_text())
+          for item in pilot['files']:
+              assert digest(root / item['path']) == item['sha256'], 'Existing runtime changed during portrait-pilot publication'
+          packed = json.loads(Path('theatre-preview/performance/art-samples/male-pilot/reports/packed-layers.json').read_text())
+          for item in packed['layers']:
+              assert digest(root / ('theatre-preview/performance/art-samples/male-pilot/assets/layers/' + item['id'] + '.png')) == item['sha256'], 'Packed portrait layer changed'
+          pilot_assets = json.loads(Path('theatre-preview/performance/art-samples/male-pilot/reports/assets.json').read_text())
+          for item in pilot_assets['sources']:
+              pilot_root = root / 'theatre-preview/performance/art-samples/male-pilot'
+              assert digest(pilot_root / item['source']) == item['source_sha256'], 'Portrait source changed'
+              assert digest(pilot_root / item['webp']) == item['webp_sha256'], 'Portrait runtime source changed'
           baseline = json.loads(Path('theatre-preview/performance/before/baseline.json').read_text())
           assert digest(root / 'theatre-preview/performance/before/rehearsal-desktop.mp4') == baseline['original_video_sha256'], 'Before recording changed'
           changed = [name for name, checksum in before.items() if digest(root / name) != checksum]
@@ -60,6 +71,7 @@ jobs:
           (root / 'ui-preview/deployment-proof.json').write_text(json.dumps(proof, indent=2))
           proof['first_volume_runtime'] = protected['files']
           proof['performance_test_protected_runtime'] = rehearsal['files']
+          proof['portrait_pilot_protected_runtime'] = pilot['files']
           (root / 'theatre-preview/publication-proof.json').write_text(json.dumps(proof, indent=2))
           (root / 'theatre-ui-lab/publication-proof.json').write_text(json.dumps(proof, indent=2))
           print(f'Preserved {len(before)} original game files; changed game files: 0')
@@ -98,6 +110,10 @@ jobs:
               assert 'lang="zh-TW"' in art_page
               clip = urllib.request.urlopen(base + 'theatre-preview/performance/art-samples/screenshots/' + actor + '-13s.mp4', timeout=30).read()
               assert b'ftyp' in clip[:16], 'Missing character storyboard recording'
+          pilot_page = urllib.request.urlopen(base + 'theatre-preview/performance/art-samples/male-pilot/?v=pilot-1', timeout=30).read().decode()
+          assert 'lang="zh-TW"' in pilot_page and 'pilot.css' in pilot_page
+          pilot_clip = urllib.request.urlopen(base + 'theatre-preview/performance/art-samples/male-pilot/screenshots/male-pilot-14s.mp4', timeout=30).read()
+          assert b'ftyp' in pilot_clip[:16], 'Portrait pilot video missing'
           focused = urllib.request.urlopen(base + 'ui-preview/focused.html', timeout=20).read().decode()
           assert '依需展開設計預覽' in focused
           for name in ['a-focus-desktop.png', 'b-focus-desktop.png', 'c-focus-desktop.png', 'a-focus-mobile.png', 'b-focus-mobile.png', 'c-focus-mobile.png']:

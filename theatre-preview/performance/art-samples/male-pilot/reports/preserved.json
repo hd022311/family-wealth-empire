@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "theatre-preview/story.mjs",
+      "sha256": "40ad0811db5bf480eaff437611a38e5b43fa3906f0397559c849806ea0c5bb35"
+    },
+    {
+      "path": "theatre-preview/app.mjs",
+      "sha256": "9ac1260236b9e72d35fc41377be147f391bed9dacff0bc3ab297873b798305f8"
+    },
+    {
+      "path": "theatre-preview/index.html",
+      "sha256": "0ee0141d435f1c2cad9767fcf974ed0083e9c866c45dee0f6f06cde00b9b1087"
+    },
+    {
+      "path": "theatre-preview/cinematic.css",
+      "sha256": "53bd37f6c07b02e878fe0b6b507286bec558b1702e2163e365082002b2aab0b1"
+    },
+    {
+      "path": "theatre-preview/performance/app.mjs",
+      "sha256": "29f9de473b69a99d2619472bb4606315ebe02168799428cc92682bf22f03aaa2"
+    },
+    {
+      "path": "theatre-preview/performance/scene.mjs",
+      "sha256": "f862d76eaa5b3c08327f7fe041bef30a68e9c0c23ce0d00711b53a514af2097f"
+    },
+    {
+      "path": "theatre-preview/performance/rig.mjs",
+      "sha256": "cf3b90cd43bf7547c093f6ebe466e61f44fc2a5df8cb52602ab2ef0a95dd1f20"
+    },
+    {
+      "path": "theatre-preview/performance/stage.css",
+      "sha256": "c0ddb32fa3d977fc938d87176bdd1112c763905b9e64963e71c2894f6e65b13c"
+    },
+    {
+      "path": "theatre-preview/performance/screenshots/rehearsal-desktop.mp4",
+      "sha256": "efe8ef43176ad81436a916d4a6c6211806bb0efdf857ed3b4b8298902da08357"
+    }
+  ]
+}
