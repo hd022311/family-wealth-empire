@@ -1,0 +1,264 @@
+{
+  "base": "http://127.0.0.1:4191/theatre-preview/",
+  "cases": [
+    {
+      "mode": "dialogue",
+      "width": 1440,
+      "height": 900,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 1440,
+      "height": 900,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 1440,
+      "height": 900,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 1366,
+      "height": 768,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 1366,
+      "height": 768,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 1366,
+      "height": 768,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 820,
+      "height": 1180,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 820,
+      "height": 1180,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 820,
+      "height": 1180,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 390,
+      "height": 844,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 390,
+      "height": 844,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 390,
+      "height": 844,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 320,
+      "height": 568,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 320,
+      "height": 568,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 320,
+      "height": 568,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "dialogue",
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 1440,
+      "height": 900,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 1440,
+      "height": 900,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 1440,
+      "height": 900,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 1366,
+      "height": 768,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 1366,
+      "height": 768,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 1366,
+      "height": 768,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 820,
+      "height": 1180,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 820,
+      "height": 1180,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 820,
+      "height": 1180,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 390,
+      "height": 844,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 390,
+      "height": 844,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 390,
+      "height": 844,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 320,
+      "height": 568,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 320,
+      "height": 568,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 320,
+      "height": 568,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "mode": "choice",
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "pass": true
+    }
+  ],
+  "beforeRefreshNoSubmission": true,
+  "selectionNotSubmitted": true,
+  "doubleClickOneDecision": true,
+  "afterRefreshOneDecision": true,
+  "backgroundCannotAdvance": true,
+  "touchSelectionConfirmedOnce": true,
+  "errors": []
+}

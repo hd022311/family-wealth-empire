@@ -1,0 +1,11 @@
+{
+  "locale": "zh-TW",
+  "files": [
+    "app.mjs",
+    "choice-controls.mjs"
+  ],
+  "errorCount": 0,
+  "findings": [],
+  "scope": "新增介面原始碼候選字掃描及Codex文案／實際截圖檢閱；不是法律或語文專家簽核。",
+  "humanSignoff": null
+}
