@@ -1,4 +1,4 @@
-> 2026-10-26更新：第一卷已加入獨立本機續讀與最多100輪完成紀錄（fwe.theatre.volume1.reading.v1、schema 1、故事版本釘選），不讀寫State v4。以下記憶體限定敘述為早期原型歷史狀態；目前驗收以 reports/READING_ACCEPTANCE.md 為準。沒有雲端或正式法律計算。
+> 2026-10-26更新：第一卷已加入獨立本機續讀與歷次完成紀錄（容量受瀏覽器限制）（fwe.theatre.volume1.reading.v1、schema 1、故事版本釘選），不讀寫State v4。以下記憶體限定敘述為早期原型歷史狀態；目前驗收以 reports/READING_ACCEPTANCE.md 為準。沒有雲端或正式法律計算。
 
 # 獨立技術架構與工作量
 

@@ -7,7 +7,7 @@
     },
     {
       "path": "theatre-preview/app.mjs",
-      "sha256": "39d9106f81a823229cd1e67251d902690e5cdcb7e9584807ef0df2106b69027a",
+      "sha256": "6d1f0fba99c1ec29b33229a715f8acd68a9b75a2003cec06914374ae0f53e05a",
       "previous_sha256": "9ac1260236b9e72d35fc41377be147f391bed9dacff0bc3ab297873b798305f8"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "path": "theatre-preview/reading-state.mjs",
-      "sha256": "fb3e9c71751fbb317db7adc0d5487908f06afe0c789c55b2c0fa31bab3747f2d"
+      "sha256": "7cf106c373f32e827f7623343926898524157a01f1319630806659ad9a9fe7ab"
     }
   ],
   "baseline_update": "2026-10-26：經使用者確認，第一卷續讀與重玩閉環更新 app/index/cinematic.css；story.mjs、正式經營模式及人物動畫不變。previous_sha256 保留上一輪保護基準。"
