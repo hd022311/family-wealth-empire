@@ -1,0 +1,154 @@
+{
+  "base": "http://127.0.0.1:4191/theatre-preview/",
+  "cases": [
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1.25",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1.5",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1.25",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1.5",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1.25",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1.5",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1.25",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1.5",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": "1",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": "1.25",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": "1.5",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "noSpoilers": true,
+      "noOverflow": true,
+      "canOpenAndClose": true
+    }
+  ],
+  "importantChoiceStops": true,
+  "unreadBranchStops": true,
+  "noAutomaticChoices": true,
+  "resume": true,
+  "errors": []
+}

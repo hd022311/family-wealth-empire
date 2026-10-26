@@ -17,3 +17,11 @@ export function validate(data){
 export function load(storage){try{const raw=storage.getItem(KEY);return {data:raw?validate(JSON.parse(raw)):null,error:null};}catch{return {data:null,error:'無法讀取劇場紀錄；原資料未覆寫。可暫時閱讀，或在選單確認重設劇場紀錄。'};}}
 export function save(storage,data){try{validate(structuredClone(data));storage.setItem(KEY,JSON.stringify(data));return true;}catch{return false;}}
 export const passageKey=(node,line)=>JSON.stringify([node.speaker,node.date,node.lines?.[line]]);
+/** Skip only exact passages already acknowledged; never cross a choice node. */
+export function skipPosition(flow,cursor,line,seen){
+ let skipped=0;
+ while(flow[cursor]?.kind==='dialogue'&&seen.has(passageKey(flow[cursor],line))){
+  skipped++;if(line<flow[cursor].lines.length-1)line++;else{line=0;cursor++;}
+ }
+ return {cursor,line,skipped,reason:flow[cursor]?.kind==='choice'?'choice':flow[cursor]?.kind==='ending'?'ending':'unread'};
+}

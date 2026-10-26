@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {galleryBody} from './ending-gallery.mjs';import {ENDINGS} from './story.mjs';
+import {skipPosition,passageKey} from './reading-state.mjs';
+test('locked collection never includes ending names, text, objectives or reveal controls',()=>{const html=galleryBody([]);for(const e of ENDINGS){assert.ok(!html.includes(e.title));assert.ok(!html.includes(e.objective));for(const s of e.story)assert.ok(!html.includes(s));}assert.equal((html.match(/is-locked/g)||[]).length,8);assert.ok(!html.includes('顯示劇透'));});
+test('only earned entries display their story; collection is not a data table',()=>{const html=galleryBody([{ending:'E1',cash:123,date:'2026-10-26'}]);assert.ok(html.includes(ENDINGS[0].title));for(const e of ENDINGS.slice(1))assert.ok(!html.includes(e.title));assert.ok(!/<table|<input/.test(html));assert.equal((html.match(/is-collected/g)||[]).length,1);});
+const a={kind:'dialogue',speaker:'brother',date:'x',lines:['同一句','另一句']},b={kind:'dialogue',speaker:'brother',date:'x',lines:['新的反應']};
+test('skip stops at first unread line even within a dialogue, and never marks it as seen',()=>{const seen=new Set([passageKey(a,0)]);assert.deepEqual(skipPosition([a,b],0,0,seen),{cursor:0,line:1,skipped:1,reason:'unread'});assert.equal(seen.size,1);});
+test('skip stops at changed branch, despite same character and date',()=>{const seen=new Set(a.lines.map((_,i)=>passageKey(a,i)));assert.deepEqual(skipPosition([a,b],0,0,seen),{cursor:1,line:0,skipped:2,reason:'unread'});});
+test('skip stops at choice even if every following dialogue was read',()=>{const flow=[a,{kind:'choice',decision:0},b],seen=new Set([...a.lines.map((_,i)=>passageKey(a,i)),passageKey(b,0)]);assert.deepEqual(skipPosition(flow,0,0,seen),{cursor:1,line:0,skipped:2,reason:'choice'});assert.deepEqual(skipPosition(flow,1,0,seen),{cursor:1,line:0,skipped:0,reason:'choice'});});

@@ -1,0 +1,26 @@
+{
+  "locale": "zh-TW",
+  "scope": "第一卷介面、續讀、結局收藏及原始故事的原始碼候選字掃描；另由Codex檢閱新增玩家文案與實際截圖。不是人類語文或法律專業簽核。",
+  "files": [
+    "app.mjs",
+    "reading-state.mjs",
+    "ending-gallery.mjs",
+    "story.mjs"
+  ],
+  "errorCount": 0,
+  "findings": [
+    {
+      "key": "story.mjs",
+      "type": "shared_term_context",
+      "severity": "review",
+      "note": "此處為法律／辦理程序，可保留；不是電腦程式。"
+    },
+    {
+      "key": "story.mjs",
+      "type": "legal_assertion_context",
+      "severity": "review",
+      "note": "核對是否為否定或不確定性說明，不能只憑關鍵字判錯；非法律效力審核。"
+    }
+  ],
+  "humanSignoff": null
+}
