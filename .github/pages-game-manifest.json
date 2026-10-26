@@ -1,0 +1,15 @@
+{
+  "base_url": "https://hd022311.github.io/family-wealth-empire/",
+  "source_run_id": 40075521882,
+  "index_sha256": "0920f6a5bb0be088debf4e6f6894fd33dc3a59c1f91e33d037f3abd21b02e58a",
+  "files": {
+    "sw.js": "ccde2e975c64082a92faa501d07cc44f0bf088aaa459e783319678b475453bae",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index.html": "0920f6a5bb0be088debf4e6f6894fd33dc3a59c1f91e33d037f3abd21b02e58a",
+    "assets/index-CE5quA96.js": "e4c881c7c72d59093e50f4ba7252704c1e8fdfc9f319ad9e25b7507ee5f11fcd",
+    "assets/index-70AI4GWK.css": "e4bee6b6453bee25e0ec33c8983d7e8a102faaa5d7b303c0e3939826f24eb38c",
+    "assets/react-CpBKTXw1.js": "03f623a2f986fe0e852b34dfc0dc169bfc00f2993f780f887a269601b327af27",
+    "assets/phaser-Czz4FBZH.js": "a457e09aa916bbe0c7669ed49cddb5ece24db69f11f0c4a2f96fa7b7e6290051"
+  },
+  "purpose": "Preserve the already published formal game byte-for-byte; never accept changing live checksums automatically."
+}

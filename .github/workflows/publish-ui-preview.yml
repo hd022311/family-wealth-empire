@@ -17,25 +17,30 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      # One-time design review: reuse the already deployed game artifact verbatim.
-      # Abort if the live game changes; do not rebuild or roll back a newer game.
-      - uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          run-id: 40075521882
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path: original-artifact
+      # Reuse the published formal game against committed checksums. No rebuild.
+      # Pages artifacts are short-lived; HTTPS restoration keeps this preview
+      # publisher independent of expired artifacts and rejects changed game files.
       - name: Preserve published game and add isolated design directory
         run: |
           mkdir site
-          tar -xf original-artifact/artifact.tar -C site
           python3 - <<'PY'
           from pathlib import Path
           import hashlib, json, shutil, urllib.request
           root = Path('site')
+          manifest = json.loads(Path('.github/pages-game-manifest.json').read_text())
+          assert manifest['index_sha256'] == '0920f6a5bb0be088debf4e6f6894fd33dc3a59c1f91e33d037f3abd21b02e58a'
+          for name, checksum in manifest['files'].items():
+              relative = Path(name)
+              assert not relative.is_absolute() and '..' not in relative.parts, 'Unsafe game manifest path'
+              request = urllib.request.Request(manifest['base_url'] + name, headers={'Accept-Encoding': 'identity'})
+              data = urllib.request.urlopen(request, timeout=60).read()
+              assert hashlib.sha256(data).hexdigest() == checksum, 'Live game changed: refusing stale publication: ' + name
+              target = root / relative
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(data)
           expected_index = '0920f6a5bb0be088debf4e6f6894fd33dc3a59c1f91e33d037f3abd21b02e58a'
           digest = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
-          assert digest(root / 'index.html') == expected_index, 'Wrong original game artifact'
+          assert digest(root / 'index.html') == expected_index, 'Unexpected preserved game index'
           live = urllib.request.urlopen('https://hd022311.github.io/family-wealth-empire/', timeout=30).read()
           assert hashlib.sha256(live).hexdigest() == expected_index, 'Live game changed: refusing stale publication'
           before = {str(p.relative_to(root)): digest(p) for p in root.rglob('*') if p.is_file()}
@@ -67,6 +72,7 @@ jobs:
           changed = [name for name, checksum in before.items() if digest(root / name) != checksum]
           assert not changed, f'Published game files changed: {changed}'
           proof = {'source_run_id': 40075521882, 'game_index_sha256': expected_index, 'preserved_game_files': len(before), 'changed_game_files': changed, 'game_files_sha256': before, 'design_directory': '/family-wealth-empire/ui-preview/'}
+          proof['game_restore_method'] = 'Published HTTPS files verified against committed checksum manifest; no rebuild'
           proof['preview_directories'] = ['ui-preview/', 'theatre-preview/', 'theatre-ui-lab/']
           (root / 'ui-preview/deployment-proof.json').write_text(json.dumps(proof, indent=2))
           proof['first_volume_runtime'] = protected['files']
