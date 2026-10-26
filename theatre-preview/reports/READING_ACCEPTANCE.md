@@ -34,3 +34,6 @@ Chromium測試：1440×900、1366×768、820×1180、390×844、320×568、844×
 
 ## 修改檔案
 app.mjs、reading-state.mjs、reading-state.test.mjs、cinematic.css、index.html；瀏覽器腳本、README、進度／架構／驗收文件。三份歷史保護 manifest 對 app/index/css 更新為本輪授權基準，保留 previous_sha256；story與動畫檔案未變。
+
+## 公開驗證
+2026-10-26：公開HTTPS完成相同三路線、逐段重新整理、18組尺寸字級、壞檔不覆寫及儲存受阻仍可閱讀測試；詳 reading/public-browser.json。正式遊戲7個已發布檔案與原story.mjs逐一SHA256比對通過。Actions：40270856651成功；後續僅補警告文字繼承大字級及公開測試紀錄。受管理瀏覽器代理憑證影響，Chromium測試使用ignoreHTTPSErrors；另以Python正常TLS驗證HTTPS成功。

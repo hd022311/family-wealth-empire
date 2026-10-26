@@ -1,0 +1,130 @@
+{
+  "base": "https://hd022311.github.io/family-wealth-empire/theatre-preview/?v=reading-1",
+  "results": [
+    {
+      "routes": [
+        "留下可對話的家",
+        "誰也沒有先退讓",
+        "把答案留給下一頁"
+      ],
+      "completedRecords": 3,
+      "reload": true,
+      "skipStopsAtChoice": true
+    },
+    {
+      "reloadEveryPassage": 49,
+      "decisions": 6
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "scale": "1.5",
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "corruptPreserved": true,
+  "blockedPlayable": true
+}
