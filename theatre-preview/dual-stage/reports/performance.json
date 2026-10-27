@@ -3,19 +3,19 @@
   "results": [
     {
       "mode": "desktop",
-      "readyMs": 355,
-      "encodedResourceBytes": 1382438,
+      "readyMs": 360,
+      "encodedResourceBytes": 1392747,
       "idleDraws": 0,
-      "jsHeapBytesExcludingImagesCanvasGPU": 2070006,
+      "jsHeapBytesExcludingImagesCanvasGPU": 2081237,
       "requests": [
-        "stage.css",
-        "app.mjs",
-        "scene.mjs",
+        "stage.css?v=cinematic-1",
+        "app.mjs?v=cinematic-1",
         "renderer.mjs",
         "scene.mjs",
+        "scene.mjs",
         "cast-master.webp",
-        "cast-soft.webp",
         "cast-tense.webp",
+        "cast-soft.webp",
         "cast-blink.webp",
         "living-room.webp",
         "favicon.ico"
@@ -23,21 +23,21 @@
     },
     {
       "mode": "mobile-throttled",
-      "readyMs": 6952,
-      "encodedResourceBytes": 1382103,
+      "readyMs": 7005,
+      "encodedResourceBytes": 1392412,
       "idleDraws": 0,
-      "jsHeapBytesExcludingImagesCanvasGPU": 2065409,
+      "jsHeapBytesExcludingImagesCanvasGPU": 1474793,
       "requests": [
-        "stage.css",
-        "app.mjs",
+        "stage.css?v=cinematic-1",
+        "app.mjs?v=cinematic-1",
         "scene.mjs",
         "renderer.mjs",
         "scene.mjs",
         "cast-master.webp",
         "cast-tense.webp",
+        "cast-soft.webp",
         "living-room.webp",
-        "cast-blink.webp",
-        "cast-soft.webp"
+        "cast-blink.webp"
       ]
     }
   ]
