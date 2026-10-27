@@ -1,0 +1,763 @@
+{
+  "base": "http://127.0.0.1:4191/theatre-preview/dual-stage/?v=subtitles-1",
+  "rows": [
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "quiet",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "memory",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "objection",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "surprise",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "pressure",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "listen",
+      "font": 22,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "pause",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "quiet",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "memory",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "objection",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "surprise",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "pressure",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "listen",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "pause",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "quiet",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "memory",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "objection",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "surprise",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "pressure",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "listen",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "pause",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "quiet",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "memory",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "objection",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "surprise",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "pressure",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "listen",
+      "font": 22,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "pause",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "quiet",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "memory",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "objection",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "surprise",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "pressure",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "listen",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "pause",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "quiet",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "memory",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "objection",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "surprise",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "pressure",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "listen",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "pause",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "quiet",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "memory",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "objection",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "surprise",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "pressure",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "listen",
+      "font": 22,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 72,
+      "scale": 1,
+      "beat": "pause",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "quiet",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "memory",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "objection",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "surprise",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "pressure",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "listen",
+      "font": 27.5,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 87,
+      "scale": 1.25,
+      "beat": "pause",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "quiet",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "memory",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "objection",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "surprise",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "pressure",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "listen",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 102,
+      "scale": 1.5,
+      "beat": "pause",
+      "font": 33,
+      "overflow": false,
+      "expand": true,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 78,
+      "scale": 1,
+      "beat": "quiet",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 78,
+      "scale": 1,
+      "beat": "memory",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 78,
+      "scale": 1,
+      "beat": "objection",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 78,
+      "scale": 1,
+      "beat": "surprise",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 78,
+      "scale": 1,
+      "beat": "pressure",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 108,
+      "scale": 1,
+      "beat": "listen",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 78,
+      "scale": 1,
+      "beat": "pause",
+      "font": 22,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 132,
+      "scale": 1.25,
+      "beat": "quiet",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 132,
+      "scale": 1.25,
+      "beat": "memory",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 93,
+      "scale": 1.25,
+      "beat": "objection",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 132,
+      "scale": 1.25,
+      "beat": "surprise",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 132,
+      "scale": 1.25,
+      "beat": "pressure",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 132,
+      "scale": 1.25,
+      "beat": "listen",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 93,
+      "scale": 1.25,
+      "beat": "pause",
+      "font": 27.5,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    },
+    {
+      "height": 155,
+      "scale": 1.5,
+      "beat": "quiet",
+      "font": 33,
+      "overflow": false,
+      "expand": false,
+      "text": "這是爸爸留下的文件。我們先一起看，有不明白的地方，再請專業的人確認。"
+    },
+    {
+      "height": 155,
+      "scale": 1.5,
+      "beat": "memory",
+      "font": 33,
+      "overflow": false,
+      "expand": false,
+      "text": "我記得爸爸提過出租屋的心願。但媽媽的房子，還是要讓她自己說。"
+    },
+    {
+      "height": 155,
+      "scale": 1.5,
+      "beat": "objection",
+      "font": 33,
+      "overflow": false,
+      "expand": false,
+      "text": "等等。你們已經談好了？以前那些沒說清楚的事，就這樣算了嗎？"
+    },
+    {
+      "height": 155,
+      "scale": 1.5,
+      "beat": "surprise",
+      "font": 33,
+      "overflow": false,
+      "expand": false,
+      "text": "哥，我沒有說房子已經是我的。我以為……我們今天是來一起看資料。"
+    },
+    {
+      "height": 155,
+      "scale": 1.5,
+      "beat": "pressure",
+      "font": 33,
+      "overflow": false,
+      "expand": false,
+      "text": "我不是只在說房子。我也有孩子、房貸，卻一直不知道，你們到底怎麼看我。"
+    },
+    {
+      "height": 155,
+      "scale": 1.5,
+      "beat": "listen",
+      "font": 33,
+      "overflow": false,
+      "expand": false,
+      "text": "我們先停一下，好嗎？把每個人的話聽完，不要替爸爸、媽媽，也不要替彼此作決定。"
+    },
+    {
+      "height": 155,
+      "scale": 1.5,
+      "beat": "pause",
+      "font": 33,
+      "overflow": false,
+      "expand": false,
+      "text": "好。先不談誰拿到什麼。我想知道，你最在意的是哪一件事。"
+    }
+  ],
+  "pass": true,
+  "physicalIPhone": false
+}
