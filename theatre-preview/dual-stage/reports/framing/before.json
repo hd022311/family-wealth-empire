@@ -1,0 +1,1502 @@
+[
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 248.39584960937498,
+        "top": 79.453310546875,
+        "right": 270.701787109375,
+        "bottom": 100.36512695312501
+      },
+      {
+        "id": "sister",
+        "left": 425.99453125,
+        "top": 86.63564453125,
+        "right": 445.8912109375,
+        "bottom": 106.53232421875
+      },
+      {
+        "id": "brother",
+        "left": 624.051328125,
+        "top": 82.08203125,
+        "right": 647.177109375,
+        "bottom": 104.20234375000001
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "全景",
+    "caption": {
+      "x": 33.75,
+      "y": 174,
+      "width": 776.5,
+      "height": 156,
+      "top": 174,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 59,
+      "top": 0,
+      "right": 844,
+      "bottom": 59,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 207.85986328125003,
+        "top": 88.69744140624996,
+        "right": 241.57798828125004,
+        "bottom": 120.30818359374997
+      },
+      {
+        "id": "sister",
+        "left": 410.33384765625,
+        "top": 94.04385009765622,
+        "right": 441.3801123046875,
+        "bottom": 125.09011474609372
+      },
+      {
+        "id": "brother",
+        "left": 636.4830664062499,
+        "top": 93.70785156249997,
+        "right": 671.10435546875,
+        "bottom": 126.82386718749997
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "中景",
+    "caption": {
+      "x": 33.75,
+      "y": 212.625,
+      "width": 776.5,
+      "height": 117.375,
+      "top": 212.625,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 59,
+      "top": 0,
+      "right": 844,
+      "bottom": 59,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 102.46858520507813,
+        "top": 87.36554321289063,
+        "right": 143.11096801757813,
+        "bottom": 125.46777709960938
+      },
+      {
+        "id": "brother",
+        "left": 529.7007543945313,
+        "top": 90.55484130859375,
+        "right": 578.5415014648438,
+        "bottom": 137.27207763671876
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "哥哥特寫",
+    "caption": {
+      "x": 33.75,
+      "y": 212.625,
+      "width": 776.5,
+      "height": 117.375,
+      "top": 212.625,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 59,
+      "top": 0,
+      "right": 844,
+      "bottom": 59,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 275.2398046875,
+        "top": 87.557734375,
+        "right": 323.4085546875,
+        "bottom": 132.7159375
+      },
+      {
+        "id": "brother",
+        "left": 751.8919104003908,
+        "top": 90.08713134765625,
+        "right": 793.622928466797,
+        "bottom": 130.00375732421875
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 33.75,
+      "y": 212.625,
+      "width": 776.5,
+      "height": 117.375,
+      "top": 212.625,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 59,
+      "top": 0,
+      "right": 844,
+      "bottom": 59,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 250.2018701171875,
+        "top": 91.2551318359375,
+        "right": 269.46608886718747,
+        "bottom": 109.31533691406251
+      },
+      {
+        "id": "sister",
+        "left": 427.751640625,
+        "top": 97.458056640625,
+        "right": 444.93513671875,
+        "bottom": 114.64155273437501
+      },
+      {
+        "id": "brother",
+        "left": 625.2716015625,
+        "top": 93.525390625,
+        "right": 645.2438671875,
+        "bottom": 112.629296875
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "全景",
+    "caption": {
+      "x": 33.75,
+      "y": 174,
+      "width": 776.5,
+      "height": 156,
+      "top": 174,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 72.5,
+      "top": 0,
+      "right": 844,
+      "bottom": 72.5,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 215.44242187500004,
+        "top": 93.979609375,
+        "right": 236.38992187500003,
+        "bottom": 113.617890625
+      },
+      {
+        "id": "sister",
+        "left": 417.948984375,
+        "top": 97.30108398437498,
+        "right": 437.23658203125,
+        "bottom": 116.588681640625
+      },
+      {
+        "id": "brother",
+        "left": 641.557109375,
+        "top": 97.09234374999998,
+        "right": 663.065703125,
+        "bottom": 117.66578124999998
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "中景",
+    "caption": {
+      "x": 33.75,
+      "y": 174,
+      "width": 776.5,
+      "height": 156,
+      "top": 174,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 72.5,
+      "top": 0,
+      "right": 844,
+      "bottom": 72.5,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 111.6082763671875,
+        "top": 93.15216308593749,
+        "right": 136.8574951171875,
+        "bottom": 116.8233056640625
+      },
+      {
+        "id": "brother",
+        "left": 536.858779296875,
+        "top": 95.133525390625,
+        "right": 567.201259765625,
+        "bottom": 124.156767578125
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "哥哥特寫",
+    "caption": {
+      "x": 33.75,
+      "y": 174,
+      "width": 776.5,
+      "height": 156,
+      "top": 174,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 72.5,
+      "top": 0,
+      "right": 844,
+      "bottom": 72.5,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 286.07203124999995,
+        "top": 93.2715625,
+        "right": 315.99703124999996,
+        "bottom": 121.32625000000002
+      },
+      {
+        "id": "brother",
+        "left": 758.0079443359375,
+        "top": 94.84295898437499,
+        "right": 783.9334814453125,
+        "bottom": 119.641298828125
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 33.75,
+      "y": 174,
+      "width": 776.5,
+      "height": 156,
+      "top": 174,
+      "right": 810.25,
+      "bottom": 330,
+      "left": 33.75
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 72.5,
+      "top": 0,
+      "right": 844,
+      "bottom": 72.5,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 267.01470825195315,
+        "top": 122.7589709472656,
+        "right": 318.52677856445314,
+        "bottom": 171.05153686523437
+      },
+      {
+        "id": "sister",
+        "left": 469.4430273437501,
+        "top": 139.34544677734377,
+        "right": 515.3912939453126,
+        "bottom": 185.29371337890626
+      },
+      {
+        "id": "brother",
+        "left": 699.334443359375,
+        "top": 128.82958984375,
+        "right": 752.739814453125,
+        "bottom": 179.91298828125002
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "全景",
+    "caption": {
+      "x": 38.390625,
+      "y": 330.625,
+      "width": 883.21875,
+      "height": 133.375,
+      "top": 330.625,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 86,
+      "top": 0,
+      "right": 960,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 225.94220703125004,
+        "top": 130.04416015625,
+        "right": 281.95533203125,
+        "bottom": 182.55646484375
+      },
+      {
+        "id": "sister",
+        "left": 456.19931640625003,
+        "top": 138.92570556640624,
+        "right": 507.77390136718753,
+        "bottom": 190.50029052734374
+      },
+      {
+        "id": "brother",
+        "left": 716.94478515625,
+        "top": 138.3675390625,
+        "right": 774.45826171875,
+        "bottom": 193.3804296875
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "中景",
+    "caption": {
+      "x": 38.390625,
+      "y": 330.625,
+      "width": 883.21875,
+      "height": 133.375,
+      "top": 330.625,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 86,
+      "top": 0,
+      "right": 960,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 103.91248168945313,
+        "top": 127.83158813476564,
+        "right": 171.4283020019531,
+        "bottom": 191.1276696777344
+      },
+      {
+        "id": "brother",
+        "left": 592.6042504882813,
+        "top": 133.12970458984375,
+        "right": 673.7393334960938,
+        "bottom": 210.73717529296877
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "哥哥特寫",
+    "caption": {
+      "x": 38.390625,
+      "y": 330.625,
+      "width": 883.21875,
+      "height": 133.375,
+      "top": 330.625,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 86,
+      "top": 0,
+      "right": 960,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 298.08886718749994,
+        "top": 128.15085937499998,
+        "right": 378.10761718749995,
+        "bottom": 203.16843749999998
+      },
+      {
+        "id": "brother",
+        "left": 846.7745178222656,
+        "top": 132.35273681640626,
+        "right": 916.0987976074218,
+        "bottom": 198.66291748046876
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 38.390625,
+      "y": 330.625,
+      "width": 883.21875,
+      "height": 133.375,
+      "top": 330.625,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 86,
+      "top": 0,
+      "right": 960,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 283.1246620178223,
+        "top": 134.61098098754883,
+        "right": 307.5041786193848,
+        "bottom": 157.46677780151367
+      },
+      {
+        "id": "sister",
+        "left": 485.1166870117188,
+        "top": 142.46099090576172,
+        "right": 506.8629791259766,
+        "bottom": 164.20728302001953
+      },
+      {
+        "id": "brother",
+        "left": 710.2194519042969,
+        "top": 137.48406982421875,
+        "right": 735.4950256347656,
+        "bottom": 161.66070556640625
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "全景",
+    "caption": {
+      "x": 38.390625,
+      "y": 237.203125,
+      "width": 883.21875,
+      "height": 226.796875,
+      "top": 237.203125,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 113,
+      "top": 0,
+      "right": 960,
+      "bottom": 113,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 243.4598266601563,
+        "top": 138.05889892578122,
+        "right": 269.9695922851563,
+        "bottom": 162.91180419921872
+      },
+      {
+        "id": "sister",
+        "left": 473.7921997070313,
+        "top": 142.262336730957,
+        "right": 498.20130310058596,
+        "bottom": 166.6714401245117
+      },
+      {
+        "id": "brother",
+        "left": 728.6671020507813,
+        "top": 141.99816894531247,
+        "right": 755.8869506835938,
+        "bottom": 168.03454589843747
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "中景",
+    "caption": {
+      "x": 38.390625,
+      "y": 237.203125,
+      "width": 883.21875,
+      "height": 226.796875,
+      "top": 237.203125,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 113,
+      "top": 0,
+      "right": 960,
+      "bottom": 113,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 125.02746963500977,
+        "top": 137.01173782348633,
+        "right": 156.98120498657227,
+        "bottom": 166.96836471557617
+      },
+      {
+        "id": "brother",
+        "left": 609.1410903930664,
+        "top": 139.51921844482422,
+        "right": 647.5405197143555,
+        "bottom": 176.24910736083984
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "哥哥特寫",
+    "caption": {
+      "x": 38.390625,
+      "y": 237.203125,
+      "width": 883.21875,
+      "height": 226.796875,
+      "top": 237.203125,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 113,
+      "top": 0,
+      "right": 960,
+      "bottom": 113,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 323.11403808593747,
+        "top": 137.162841796875,
+        "right": 360.98513183593747,
+        "bottom": 172.6669921875
+      },
+      {
+        "id": "brother",
+        "left": 860.9040962219239,
+        "top": 139.15149688720703,
+        "right": 893.7137351989746,
+        "bottom": 170.53462982177734
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 38.390625,
+      "y": 237.203125,
+      "width": 883.21875,
+      "height": 226.796875,
+      "top": 237.203125,
+      "right": 921.609375,
+      "bottom": 464,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 113,
+      "top": 0,
+      "right": 960,
+      "bottom": 113,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 342.13443481445313,
+        "top": 145.4013537597656,
+        "right": 434.2027551269531,
+        "bottom": 231.71540405273439
+      },
+      {
+        "id": "sister",
+        "left": 612.4149023437501,
+        "top": 175.0466186523438,
+        "right": 694.5389501953125,
+        "bottom": 257.1706665039063
+      },
+      {
+        "id": "brother",
+        "left": 923.0641308593749,
+        "top": 156.25146484375,
+        "right": 1018.516376953125,
+        "bottom": 247.55361328125002
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "全景",
+    "caption": {
+      "x": 51.1875,
+      "y": 510.625,
+      "width": 1177.625,
+      "height": 133.375,
+      "top": 510.625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 86,
+      "top": 0,
+      "right": 1280,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 286.15783203125,
+        "top": 158.42228515624996,
+        "right": 386.27095703125,
+        "bottom": 252.27833984374996
+      },
+      {
+        "id": "sister",
+        "left": 593.1024414062499,
+        "top": 174.2964086914062,
+        "right": 685.2824951171874,
+        "bottom": 266.4764624023437
+      },
+      {
+        "id": "brother",
+        "left": 945.82291015625,
+        "top": 173.29878906249996,
+        "right": 1048.61763671875,
+        "bottom": 271.6241796875
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "中景",
+    "caption": {
+      "x": 51.1875,
+      "y": 510.625,
+      "width": 1177.625,
+      "height": 133.375,
+      "top": 510.625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 86,
+      "top": 0,
+      "right": 1280,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 120.35095825195312,
+        "top": 154.46772094726555,
+        "right": 241.0230285644531,
+        "bottom": 267.5977868652343
+      },
+      {
+        "id": "brother",
+        "left": 775.8858911132812,
+        "top": 163.93712646484374,
+        "right": 920.8998803710937,
+        "bottom": 302.64615966796873
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "哥哥特寫",
+    "caption": {
+      "x": 51.1875,
+      "y": 510.625,
+      "width": 1177.625,
+      "height": 133.375,
+      "top": 510.625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 86,
+      "top": 0,
+      "right": 1280,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 375.8826171875,
+        "top": 155.03835937500003,
+        "right": 518.9013671875,
+        "bottom": 289.1184375
+      },
+      {
+        "id": "brother",
+        "left": 1116.8544006347654,
+        "top": 162.54843994140617,
+        "right": 1240.7587585449216,
+        "bottom": 281.0656518554687
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 51.1875,
+      "y": 510.625,
+      "width": 1177.625,
+      "height": 133.375,
+      "top": 510.625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 86,
+      "top": 0,
+      "right": 1280,
+      "bottom": 86,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 351.19380157470704,
+        "top": 163.88294342041016,
+        "right": 428.00424102783205,
+        "bottom": 235.89273040771485
+      },
+      {
+        "id": "sister",
+        "left": 621.2289208984375,
+        "top": 188.61529235839845,
+        "right": 689.7430871582031,
+        "bottom": 257.1294586181641
+      },
+      {
+        "id": "brother",
+        "left": 929.1852709960938,
+        "top": 172.9349365234375,
+        "right": 1008.8188403320313,
+        "bottom": 249.1061767578125
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "全景",
+    "caption": {
+      "x": 51.1875,
+      "y": 469.90625,
+      "width": 1177.625,
+      "height": 174.09375,
+      "top": 469.90625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 113,
+      "top": 0,
+      "right": 1280,
+      "bottom": 113,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 296.0087939453125,
+        "top": 174.7460009765624,
+        "right": 379.53082519531256,
+        "bottom": 253.0479052734374
+      },
+      {
+        "id": "sister",
+        "left": 602.9957275390625,
+        "top": 187.98940979003896,
+        "right": 679.8993835449219,
+        "bottom": 264.89306579589834
+      },
+      {
+        "id": "brother",
+        "left": 952.4149072265626,
+        "top": 187.1571191406249,
+        "right": 1038.1741357421874,
+        "bottom": 269.18768554687495
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "中景",
+    "caption": {
+      "x": 51.1875,
+      "y": 469.90625,
+      "width": 1177.625,
+      "height": 174.09375,
+      "top": 469.90625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 113,
+      "top": 0,
+      "right": 1280,
+      "bottom": 113,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 132.22488555908203,
+        "top": 171.44680084228514,
+        "right": 232.89876251220704,
+        "bottom": 265.82856048583983
+      },
+      {
+        "id": "brother",
+        "left": 785.1853155517579,
+        "top": 179.34690368652343,
+        "right": 906.1670843505859,
+        "bottom": 295.0685955810547
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "哥哥特寫",
+    "caption": {
+      "x": 51.1875,
+      "y": 469.90625,
+      "width": 1177.625,
+      "height": 174.09375,
+      "top": 469.90625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 113,
+      "top": 0,
+      "right": 1280,
+      "bottom": 113,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 389.955419921875,
+        "top": 171.92287109375002,
+        "right": 509.2726074218749,
+        "bottom": 283.782734375
+      },
+      {
+        "id": "brother",
+        "left": 1124.80011138916,
+        "top": 178.18835510253905,
+        "right": 1228.1706100463866,
+        "bottom": 277.0644842529297
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 51.1875,
+      "y": 469.90625,
+      "width": 1177.625,
+      "height": 174.09375,
+      "top": 469.90625,
+      "right": 1228.8125,
+      "bottom": 644,
+      "left": 51.1875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 113,
+      "top": 0,
+      "right": 1280,
+      "bottom": 113,
+      "left": 0
+    }
+  }
+]

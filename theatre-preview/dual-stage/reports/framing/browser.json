@@ -1,0 +1,3090 @@
+{
+  "base": "http://127.0.0.1:4191/theatre-preview/dual-stage/?v=framing-1",
+  "rows": [
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 201.94106666666664,
+          "top": 97.53999999999999,
+          "right": 296.46906666666666,
+          "bottom": 186.16
+        },
+        {
+          "id": "sister",
+          "left": 377.26800000000003,
+          "top": 106.34171428571429,
+          "right": 466.73199999999997,
+          "bottom": 195.8057142857143
+        },
+        {
+          "id": "brother",
+          "left": 546.6869333333334,
+          "top": 103.55808695652175,
+          "right": 642.9029333333333,
+          "bottom": 195.5907826086957
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 181.88199999999998,
+          "top": 100.96875,
+          "right": 287.38199999999995,
+          "bottom": 199.875
+        },
+        {
+          "id": "sister",
+          "left": 373.47,
+          "top": 109.59714285714286,
+          "right": 470.53,
+          "bottom": 206.65714285714284
+        },
+        {
+          "id": "brother",
+          "left": 558.7280000000001,
+          "top": 105.42956521739131,
+          "right": 660.008,
+          "bottom": 202.30608695652177
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 221.30250240275893,
+          "top": 99.5722947761194,
+          "right": 350.82986558683854,
+          "bottom": 221.004197761194
+        },
+        {
+          "id": "brother",
+          "left": 494.4580485357304,
+          "top": 99.5722947761194,
+          "right": 621.4095834746721,
+          "bottom": 221.004197761194
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 301.37344086021506,
+          "top": 88.99596774193549,
+          "right": 441.346559139785,
+          "bottom": 220.22076612903226
+        },
+        {
+          "id": "brother",
+          "left": 829.23,
+          "top": 103.87,
+          "right": 926.29,
+          "bottom": 196.71
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 229.64082640773407,
+          "top": 99.5722947761194,
+          "right": 351.0727293928087,
+          "bottom": 221.004197761194
+        },
+        {
+          "id": "brother",
+          "left": 490.1674546302578,
+          "top": 99.5722947761194,
+          "right": 617.1189895691995,
+          "bottom": 221.004197761194
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 327.9350806451613,
+          "top": 84.59677419354838,
+          "right": 431.66491935483873,
+          "bottom": 188.3266129032258
+        },
+        {
+          "id": "brother",
+          "left": 831.9079386236825,
+          "top": 101.89065406075636,
+          "right": 923.6120613763175,
+          "bottom": 189.60764104153753
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 201.94106666666664,
+          "top": 97.53999999999999,
+          "right": 296.46906666666666,
+          "bottom": 186.16
+        },
+        {
+          "id": "sister",
+          "left": 377.26800000000003,
+          "top": 106.34171428571429,
+          "right": 466.73199999999997,
+          "bottom": 195.8057142857143
+        },
+        {
+          "id": "brother",
+          "left": 546.6869333333334,
+          "top": 103.55808695652175,
+          "right": 642.9029333333333,
+          "bottom": 195.5907826086957
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 243.1556526593932,
+          "top": 92.94103773584905,
+          "right": 322.96697341411016,
+          "bottom": 167.7641509433962
+        },
+        {
+          "id": "sister",
+          "left": 386.9502840909091,
+          "top": 98.04261363636363,
+          "right": 457.0497159090909,
+          "bottom": 168.14204545454544
+        },
+        {
+          "id": "brother",
+          "left": 523.241073820037,
+          "top": 95.86345319280844,
+          "right": 598.6363001064597,
+          "bottom": 167.98062616243027
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 243.1556526593932,
+          "top": 92.94103773584905,
+          "right": 322.96697341411016,
+          "bottom": 167.7641509433962
+        },
+        {
+          "id": "sister",
+          "left": 386.9502840909091,
+          "top": 98.04261363636363,
+          "right": 457.0497159090909,
+          "bottom": 168.14204545454544
+        },
+        {
+          "id": "brother",
+          "left": 523.241073820037,
+          "top": 95.86345319280844,
+          "right": 598.6363001064597,
+          "bottom": 167.98062616243027
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 291.56782564450475,
+          "top": 88.51865671641791,
+          "right": 375.74693012211674,
+          "bottom": 167.4365671641791
+        },
+        {
+          "id": "brother",
+          "left": 469.0900780189959,
+          "top": 88.51865671641791,
+          "right": 551.5951662143826,
+          "bottom": 167.4365671641791
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 325.87612903225806,
+          "top": 81.64516129032258,
+          "right": 416.84387096774196,
+          "bottom": 166.92741935483872
+        },
+        {
+          "id": "brother",
+          "left": 840.0623868567886,
+          "top": 95.86345319280844,
+          "right": 915.4576131432113,
+          "bottom": 167.98062616243027
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 296.986855495251,
+          "top": 88.51865671641791,
+          "right": 375.9047659430122,
+          "bottom": 167.4365671641791
+        },
+        {
+          "id": "brother",
+          "left": 466.3016451831751,
+          "top": 88.51865671641791,
+          "right": 548.8067333785617,
+          "bottom": 167.4365671641791
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 337.15887096774196,
+          "top": 81.64516129032258,
+          "right": 422.44112903225806,
+          "bottom": 166.92741935483872
+        },
+        {
+          "id": "brother",
+          "left": 840.0623868567886,
+          "top": 95.86345319280844,
+          "right": 915.4576131432113,
+          "bottom": 167.98062616243027
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 201.94106666666664,
+          "top": 97.53999999999999,
+          "right": 296.46906666666666,
+          "bottom": 186.16
+        },
+        {
+          "id": "sister",
+          "left": 377.26800000000003,
+          "top": 106.34171428571429,
+          "right": 466.73199999999997,
+          "bottom": 195.8057142857143
+        },
+        {
+          "id": "brother",
+          "left": 546.6869333333334,
+          "top": 103.55808695652175,
+          "right": 642.9029333333333,
+          "bottom": 195.5907826086957
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 259.6448478042718,
+          "top": 90.64150943396226,
+          "right": 332.0976779929511,
+          "bottom": 158.56603773584905
+        },
+        {
+          "id": "sister",
+          "left": 390.1818181818182,
+          "top": 95.27272727272727,
+          "right": 453.8181818181818,
+          "bottom": 158.9090909090909
+        },
+        {
+          "id": "brother",
+          "left": 513.9067904181895,
+          "top": 93.29448233106014,
+          "right": 582.3506837845875,
+          "bottom": 158.7625542467452
+        }
+      ],
+      "captionHeight": 156,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 259.6448478042718,
+          "top": 90.64150943396226,
+          "right": 332.0976779929511,
+          "bottom": 158.56603773584905
+        },
+        {
+          "id": "sister",
+          "left": 390.1818181818182,
+          "top": 95.27272727272727,
+          "right": 453.8181818181818,
+          "bottom": 158.9090909090909
+        },
+        {
+          "id": "brother",
+          "left": 513.9067904181895,
+          "top": 93.29448233106014,
+          "right": 582.3506837845875,
+          "bottom": 158.7625542467452
+        }
+      ],
+      "captionHeight": 156,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 303.593487109905,
+          "top": 86.6268656716418,
+          "right": 380.0113975576662,
+          "bottom": 158.26865671641792
+        },
+        {
+          "id": "brother",
+          "left": 464.7484396200814,
+          "top": 86.6268656716418,
+          "right": 539.6466757123474,
+          "bottom": 158.26865671641792
+        }
+      ],
+      "captionHeight": 156,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 330.06967741935483,
+          "top": 80.38709677419355,
+          "right": 412.6503225806452,
+          "bottom": 157.80645161290323
+        },
+        {
+          "id": "brother",
+          "left": 843.538053316801,
+          "top": 93.29448233106014,
+          "right": 911.981946683199,
+          "bottom": 158.7625542467452
+        }
+      ],
+      "captionHeight": 156,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 308.51289009497964,
+          "top": 86.6268656716418,
+          "right": 380.1546811397558,
+          "bottom": 158.26865671641792
+        },
+        {
+          "id": "brother",
+          "left": 462.2170963364993,
+          "top": 86.6268656716418,
+          "right": 537.1153324287652,
+          "bottom": 158.26865671641792
+        }
+      ],
+      "captionHeight": 156,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 341.0903225806452,
+          "top": 80.38709677419355,
+          "right": 418.50967741935483,
+          "bottom": 157.80645161290323
+        },
+        {
+          "id": "brother",
+          "left": 843.538053316801,
+          "top": 93.29448233106014,
+          "right": 911.981946683199,
+          "bottom": 158.7625542467452
+        }
+      ],
+      "captionHeight": 156,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 259.6448478042718,
+          "top": 90.64150943396226,
+          "right": 332.0976779929511,
+          "bottom": 158.56603773584905
+        },
+        {
+          "id": "sister",
+          "left": 390.1818181818182,
+          "top": 95.27272727272727,
+          "right": 453.8181818181818,
+          "bottom": 158.9090909090909
+        },
+        {
+          "id": "brother",
+          "left": 513.9067904181895,
+          "top": 93.29448233106014,
+          "right": 582.3506837845875,
+          "bottom": 158.7625542467452
+        }
+      ],
+      "captionHeight": 156,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 229.69600000000003,
+          "top": 101.6,
+          "right": 337.216,
+          "bottom": 202.39999999999998
+        },
+        {
+          "id": "sister",
+          "left": 429.12,
+          "top": 111.61142857142858,
+          "right": 530.88,
+          "bottom": 213.37142857142857
+        },
+        {
+          "id": "brother",
+          "left": 621.824,
+          "top": 108.44521739130434,
+          "right": 731.264,
+          "bottom": 213.12695652173912
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 206.88,
+          "top": 105.5,
+          "right": 326.88,
+          "bottom": 218
+        },
+        {
+          "id": "sister",
+          "left": 424.8,
+          "top": 115.31428571428572,
+          "right": 535.2,
+          "bottom": 225.71428571428572
+        },
+        {
+          "id": "brother",
+          "left": 635.52,
+          "top": 110.57391304347826,
+          "right": 750.72,
+          "bottom": 220.76521739130433
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 237.6,
+          "top": 104.27000000000001,
+          "right": 386.4,
+          "bottom": 243.77
+        },
+        {
+          "id": "brother",
+          "left": 561.6,
+          "top": 110.97460869565217,
+          "right": 734.4,
+          "bottom": 276.2615652173913
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 312,
+          "top": 101.12,
+          "right": 532.8,
+          "bottom": 308.12
+        },
+        {
+          "id": "brother",
+          "left": 943.2,
+          "top": 108.80000000000001,
+          "right": 1053.6000000000001,
+          "bottom": 214.40000000000003
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 237.6,
+          "top": 106.688,
+          "right": 386.4,
+          "bottom": 255.488
+        },
+        {
+          "id": "brother",
+          "left": 561.6,
+          "top": 110.97460869565217,
+          "right": 734.4,
+          "bottom": 276.2615652173913
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 326.4,
+          "top": 101.792,
+          "right": 537.6,
+          "bottom": 312.99199999999996
+        },
+        {
+          "id": "brother",
+          "left": 943.2,
+          "top": 108.80000000000001,
+          "right": 1053.6000000000001,
+          "bottom": 214.40000000000003
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 229.69600000000003,
+          "top": 101.6,
+          "right": 337.216,
+          "bottom": 202.39999999999998
+        },
+        {
+          "id": "sister",
+          "left": 429.12,
+          "top": 111.61142857142858,
+          "right": 530.88,
+          "bottom": 213.37142857142857
+        },
+        {
+          "id": "brother",
+          "left": 621.824,
+          "top": 108.44521739130434,
+          "right": 731.264,
+          "bottom": 213.12695652173912
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.25",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 229.69600000000003,
+          "top": 101.6,
+          "right": 337.216,
+          "bottom": 202.39999999999998
+        },
+        {
+          "id": "sister",
+          "left": 429.12,
+          "top": 111.61142857142858,
+          "right": 530.88,
+          "bottom": 213.37142857142857
+        },
+        {
+          "id": "brother",
+          "left": 621.824,
+          "top": 108.44521739130434,
+          "right": 731.264,
+          "bottom": 213.12695652173912
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.25",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 206.88,
+          "top": 105.5,
+          "right": 326.88,
+          "bottom": 218
+        },
+        {
+          "id": "sister",
+          "left": 424.8,
+          "top": 115.31428571428572,
+          "right": 535.2,
+          "bottom": 225.71428571428572
+        },
+        {
+          "id": "brother",
+          "left": 635.52,
+          "top": 110.57391304347826,
+          "right": 750.72,
+          "bottom": 220.76521739130433
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.25",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 237.6,
+          "top": 104.27000000000001,
+          "right": 386.4,
+          "bottom": 243.77
+        },
+        {
+          "id": "brother",
+          "left": 561.6,
+          "top": 110.97460869565217,
+          "right": 734.4,
+          "bottom": 276.2615652173913
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.25",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 312,
+          "top": 101.12,
+          "right": 532.8,
+          "bottom": 308.12
+        },
+        {
+          "id": "brother",
+          "left": 943.2,
+          "top": 108.80000000000001,
+          "right": 1053.6000000000001,
+          "bottom": 214.40000000000003
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.25",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 237.6,
+          "top": 106.688,
+          "right": 386.4,
+          "bottom": 255.488
+        },
+        {
+          "id": "brother",
+          "left": 561.6,
+          "top": 110.97460869565217,
+          "right": 734.4,
+          "bottom": 276.2615652173913
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.25",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 328.875,
+          "top": 101,
+          "right": 535.125,
+          "bottom": 307.25
+        },
+        {
+          "id": "brother",
+          "left": 943.2,
+          "top": 108.80000000000001,
+          "right": 1053.6000000000001,
+          "bottom": 214.40000000000003
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.25",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 229.69600000000003,
+          "top": 101.6,
+          "right": 337.216,
+          "bottom": 202.39999999999998
+        },
+        {
+          "id": "sister",
+          "left": 429.12,
+          "top": 111.61142857142858,
+          "right": 530.88,
+          "bottom": 213.37142857142857
+        },
+        {
+          "id": "brother",
+          "left": 621.824,
+          "top": 108.44521739130434,
+          "right": 731.264,
+          "bottom": 213.12695652173912
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.5",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 229.69600000000003,
+          "top": 101.6,
+          "right": 337.216,
+          "bottom": 202.39999999999998
+        },
+        {
+          "id": "sister",
+          "left": 429.12,
+          "top": 111.61142857142858,
+          "right": 530.88,
+          "bottom": 213.37142857142857
+        },
+        {
+          "id": "brother",
+          "left": 621.824,
+          "top": 108.44521739130434,
+          "right": 731.264,
+          "bottom": 213.12695652173912
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.5",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 206.88,
+          "top": 105.5,
+          "right": 326.88,
+          "bottom": 218
+        },
+        {
+          "id": "sister",
+          "left": 424.8,
+          "top": 115.31428571428572,
+          "right": 535.2,
+          "bottom": 225.71428571428572
+        },
+        {
+          "id": "brother",
+          "left": 635.52,
+          "top": 110.57391304347826,
+          "right": 750.72,
+          "bottom": 220.76521739130433
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.5",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 237.6,
+          "top": 104.27000000000001,
+          "right": 386.4,
+          "bottom": 243.77
+        },
+        {
+          "id": "brother",
+          "left": 561.6,
+          "top": 110.97460869565217,
+          "right": 734.4,
+          "bottom": 276.2615652173913
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.5",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 323.5088709677419,
+          "top": 97.66733870967742,
+          "right": 521.291129032258,
+          "bottom": 283.0882056451613
+        },
+        {
+          "id": "brother",
+          "left": 943.2,
+          "top": 108.80000000000001,
+          "right": 1053.6000000000001,
+          "bottom": 214.40000000000003
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.5",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 237.6,
+          "top": 106.688,
+          "right": 386.4,
+          "bottom": 255.488
+        },
+        {
+          "id": "brother",
+          "left": 561.6,
+          "top": 110.97460869565217,
+          "right": 734.4,
+          "bottom": 276.2615652173913
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.5",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 339.28956653225805,
+          "top": 97.66733870967742,
+          "right": 524.710433467742,
+          "bottom": 283.0882056451613
+        },
+        {
+          "id": "brother",
+          "left": 943.2,
+          "top": 108.80000000000001,
+          "right": 1053.6000000000001,
+          "bottom": 214.40000000000003
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "1.5",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 229.69600000000003,
+          "top": 101.6,
+          "right": 337.216,
+          "bottom": 202.39999999999998
+        },
+        {
+          "id": "sister",
+          "left": 429.12,
+          "top": 111.61142857142858,
+          "right": 530.88,
+          "bottom": 213.37142857142857
+        },
+        {
+          "id": "brother",
+          "left": 621.824,
+          "top": 108.44521739130434,
+          "right": 731.264,
+          "bottom": 213.12695652173912
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 214.38293333333337,
+          "top": 99.36,
+          "right": 314.73493333333334,
+          "bottom": 193.44
+        },
+        {
+          "id": "sister",
+          "left": 400.512,
+          "top": 108.70400000000001,
+          "right": 495.488,
+          "bottom": 203.68
+        },
+        {
+          "id": "brother",
+          "left": 580.3690666666666,
+          "top": 105.74886956521739,
+          "right": 682.5130666666666,
+          "bottom": 203.45182608695654
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 193.088,
+          "top": 103,
+          "right": 305.08799999999997,
+          "bottom": 208
+        },
+        {
+          "id": "sister",
+          "left": 396.48,
+          "top": 112.16,
+          "right": 499.52,
+          "bottom": 215.2
+        },
+        {
+          "id": "brother",
+          "left": 593.152,
+          "top": 107.73565217391304,
+          "right": 700.672,
+          "bottom": 210.58086956521737
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 221.76000000000005,
+          "top": 101.852,
+          "right": 360.64000000000004,
+          "bottom": 232.052
+        },
+        {
+          "id": "brother",
+          "left": 524.16,
+          "top": 108.1096347826087,
+          "right": 685.4399999999999,
+          "bottom": 262.3774608695652
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 291.2,
+          "top": 98.912,
+          "right": 497.28000000000003,
+          "bottom": 292.112
+        },
+        {
+          "id": "brother",
+          "left": 880.32,
+          "top": 106.08000000000001,
+          "right": 983.36,
+          "bottom": 204.64000000000004
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 221.76000000000005,
+          "top": 104.1088,
+          "right": 360.64000000000004,
+          "bottom": 242.9888
+        },
+        {
+          "id": "brother",
+          "left": 524.16,
+          "top": 108.1096347826087,
+          "right": 685.4399999999999,
+          "bottom": 262.3774608695652
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 305.3673387096774,
+          "top": 99.30645161290323,
+          "right": 501.03266129032255,
+          "bottom": 294.9717741935484
+        },
+        {
+          "id": "brother",
+          "left": 880.32,
+          "top": 106.08000000000001,
+          "right": 983.36,
+          "bottom": 204.64000000000004
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 214.38293333333337,
+          "top": 99.36,
+          "right": 314.73493333333334,
+          "bottom": 193.44
+        },
+        {
+          "id": "sister",
+          "left": 400.512,
+          "top": 108.70400000000001,
+          "right": 495.488,
+          "bottom": 203.68
+        },
+        {
+          "id": "brother",
+          "left": 580.3690666666666,
+          "top": 105.74886956521739,
+          "right": 682.5130666666666,
+          "bottom": 203.45182608695654
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.25",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 214.38293333333337,
+          "top": 99.36,
+          "right": 314.73493333333334,
+          "bottom": 193.44
+        },
+        {
+          "id": "sister",
+          "left": 400.512,
+          "top": 108.70400000000001,
+          "right": 495.488,
+          "bottom": 203.68
+        },
+        {
+          "id": "brother",
+          "left": 580.3690666666666,
+          "top": 105.74886956521739,
+          "right": 682.5130666666666,
+          "bottom": 203.45182608695654
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.25",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 193.088,
+          "top": 103,
+          "right": 305.08799999999997,
+          "bottom": 208
+        },
+        {
+          "id": "sister",
+          "left": 396.48,
+          "top": 112.16,
+          "right": 499.52,
+          "bottom": 215.2
+        },
+        {
+          "id": "brother",
+          "left": 593.152,
+          "top": 107.73565217391304,
+          "right": 700.672,
+          "bottom": 210.58086956521737
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.25",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 221.76000000000005,
+          "top": 101.852,
+          "right": 360.64000000000004,
+          "bottom": 232.052
+        },
+        {
+          "id": "brother",
+          "left": 524.16,
+          "top": 108.1096347826087,
+          "right": 685.4399999999999,
+          "bottom": 262.3774608695652
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.25",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 299.72387096774196,
+          "top": 96.35483870967742,
+          "right": 488.75612903225806,
+          "bottom": 273.5725806451613
+        },
+        {
+          "id": "brother",
+          "left": 880.32,
+          "top": 106.08000000000001,
+          "right": 983.36,
+          "bottom": 204.64000000000004
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.25",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 221.76000000000005,
+          "top": 104.1088,
+          "right": 360.64000000000004,
+          "bottom": 242.9888
+        },
+        {
+          "id": "brother",
+          "left": 524.16,
+          "top": 108.1096347826087,
+          "right": 685.4399999999999,
+          "bottom": 262.3774608695652
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.25",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 314.59112903225804,
+          "top": 96.35483870967742,
+          "right": 491.80887096774194,
+          "bottom": 273.5725806451613
+        },
+        {
+          "id": "brother",
+          "left": 880.32,
+          "top": 106.08000000000001,
+          "right": 983.36,
+          "bottom": 204.64000000000004
+        }
+      ],
+      "captionHeight": 146.25,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.25",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 214.38293333333337,
+          "top": 99.36,
+          "right": 314.73493333333334,
+          "bottom": 193.44
+        },
+        {
+          "id": "sister",
+          "left": 400.512,
+          "top": 108.70400000000001,
+          "right": 495.488,
+          "bottom": 203.68
+        },
+        {
+          "id": "brother",
+          "left": 580.3690666666666,
+          "top": 105.74886956521739,
+          "right": 682.5130666666666,
+          "bottom": 203.45182608695654
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.5",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 214.38293333333337,
+          "top": 99.36,
+          "right": 314.73493333333334,
+          "bottom": 193.44
+        },
+        {
+          "id": "sister",
+          "left": 400.512,
+          "top": 108.70400000000001,
+          "right": 495.488,
+          "bottom": 203.68
+        },
+        {
+          "id": "brother",
+          "left": 580.3690666666666,
+          "top": 105.74886956521739,
+          "right": 682.5130666666666,
+          "bottom": 203.45182608695654
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.5",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 193.088,
+          "top": 103,
+          "right": 305.08799999999997,
+          "bottom": 208
+        },
+        {
+          "id": "sister",
+          "left": 396.48,
+          "top": 112.16,
+          "right": 499.52,
+          "bottom": 215.2
+        },
+        {
+          "id": "brother",
+          "left": 593.152,
+          "top": 107.73565217391304,
+          "right": 700.672,
+          "bottom": 210.58086956521737
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.5",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 224.76677312584803,
+          "top": 101.852,
+          "right": 363.64677312584803,
+          "bottom": 232.052
+        },
+        {
+          "id": "brother",
+          "left": 526.1452769928766,
+          "top": 105.62663246268657,
+          "right": 677.4411767554274,
+          "bottom": 250.3444496268657
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.5",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 310.8327419354839,
+          "top": 93.02217741935485,
+          "right": 477.6472580645161,
+          "bottom": 249.4107862903226
+        },
+        {
+          "id": "brother",
+          "left": 880.32,
+          "top": 106.08000000000001,
+          "right": 983.36,
+          "bottom": 204.64000000000004
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.5",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 224.76677312584803,
+          "top": 104.1088,
+          "right": 363.64677312584803,
+          "bottom": 242.9888
+        },
+        {
+          "id": "brother",
+          "left": 526.1452769928766,
+          "top": 105.62663246268657,
+          "right": 677.4411767554274,
+          "bottom": 250.3444496268657
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.5",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 325.00569556451615,
+          "top": 93.02217741935485,
+          "right": 481.39430443548383,
+          "bottom": 249.4107862903226
+        },
+        {
+          "id": "brother",
+          "left": 880.32,
+          "top": 106.08000000000001,
+          "right": 983.36,
+          "bottom": 204.64000000000004
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 896,
+      "height": 504,
+      "scale": "1.5",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 214.38293333333337,
+          "top": 99.36,
+          "right": 314.73493333333334,
+          "bottom": 193.44
+        },
+        {
+          "id": "sister",
+          "left": 400.512,
+          "top": 108.70400000000001,
+          "right": 495.488,
+          "bottom": 203.68
+        },
+        {
+          "id": "brother",
+          "left": 580.3690666666666,
+          "top": 105.74886956521739,
+          "right": 682.5130666666666,
+          "bottom": 203.45182608695654
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 306.2613333333333,
+          "top": 112.8,
+          "right": 449.6213333333333,
+          "bottom": 247.2
+        },
+        {
+          "id": "sister",
+          "left": 572.16,
+          "top": 126.14857142857143,
+          "right": 707.84,
+          "bottom": 261.8285714285714
+        },
+        {
+          "id": "brother",
+          "left": 829.0986666666666,
+          "top": 121.92695652173913,
+          "right": 975.0186666666667,
+          "bottom": 261.50260869565216
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 275.8399999999999,
+          "top": 118,
+          "right": 435.8399999999999,
+          "bottom": 268
+        },
+        {
+          "id": "sister",
+          "left": 566.4,
+          "top": 131.0857142857143,
+          "right": 713.6,
+          "bottom": 278.28571428571433
+        },
+        {
+          "id": "brother",
+          "left": 847.3600000000001,
+          "top": 124.76521739130435,
+          "right": 1000.96,
+          "bottom": 271.68695652173915
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 316.8,
+          "top": 116.36,
+          "right": 515.2,
+          "bottom": 302.36
+        },
+        {
+          "id": "brother",
+          "left": 748.8,
+          "top": 125.29947826086956,
+          "right": 979.2,
+          "bottom": 345.68208695652174
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 416,
+          "top": 112.16000000000001,
+          "right": 710.4000000000001,
+          "bottom": 388.1600000000001
+        },
+        {
+          "id": "brother",
+          "left": 1257.6000000000001,
+          "top": 122.4,
+          "right": 1404.8,
+          "bottom": 263.20000000000005
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 316.8,
+          "top": 119.584,
+          "right": 515.2,
+          "bottom": 317.98400000000004
+        },
+        {
+          "id": "brother",
+          "left": 748.8,
+          "top": 125.29947826086956,
+          "right": 979.2,
+          "bottom": 345.68208695652174
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 435.2,
+          "top": 113.05600000000001,
+          "right": 716.8,
+          "bottom": 394.65600000000006
+        },
+        {
+          "id": "brother",
+          "left": 1257.6000000000001,
+          "top": 122.4,
+          "right": 1404.8,
+          "bottom": 263.20000000000005
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 306.2613333333333,
+          "top": 112.8,
+          "right": 449.6213333333333,
+          "bottom": 247.2
+        },
+        {
+          "id": "sister",
+          "left": 572.16,
+          "top": 126.14857142857143,
+          "right": 707.84,
+          "bottom": 261.8285714285714
+        },
+        {
+          "id": "brother",
+          "left": 829.0986666666666,
+          "top": 121.92695652173913,
+          "right": 975.0186666666667,
+          "bottom": 261.50260869565216
+        }
+      ],
+      "captionHeight": 89.28125,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.25",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 306.2613333333333,
+          "top": 112.8,
+          "right": 449.6213333333333,
+          "bottom": 247.2
+        },
+        {
+          "id": "sister",
+          "left": 572.16,
+          "top": 126.14857142857143,
+          "right": 707.84,
+          "bottom": 261.8285714285714
+        },
+        {
+          "id": "brother",
+          "left": 829.0986666666666,
+          "top": 121.92695652173913,
+          "right": 975.0186666666667,
+          "bottom": 261.50260869565216
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.25",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 275.8399999999999,
+          "top": 118,
+          "right": 435.8399999999999,
+          "bottom": 268
+        },
+        {
+          "id": "sister",
+          "left": 566.4,
+          "top": 131.0857142857143,
+          "right": 713.6,
+          "bottom": 278.28571428571433
+        },
+        {
+          "id": "brother",
+          "left": 847.3600000000001,
+          "top": 124.76521739130435,
+          "right": 1000.96,
+          "bottom": 271.68695652173915
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.25",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 316.8,
+          "top": 116.36,
+          "right": 515.2,
+          "bottom": 302.36
+        },
+        {
+          "id": "brother",
+          "left": 748.8,
+          "top": 125.29947826086956,
+          "right": 979.2,
+          "bottom": 345.68208695652174
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.25",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 416,
+          "top": 112.16000000000001,
+          "right": 710.4000000000001,
+          "bottom": 388.1600000000001
+        },
+        {
+          "id": "brother",
+          "left": 1257.6000000000001,
+          "top": 122.4,
+          "right": 1404.8,
+          "bottom": 263.20000000000005
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.25",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 316.8,
+          "top": 119.584,
+          "right": 515.2,
+          "bottom": 317.98400000000004
+        },
+        {
+          "id": "brother",
+          "left": 748.8,
+          "top": 125.29947826086956,
+          "right": 979.2,
+          "bottom": 345.68208695652174
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.25",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 435.2,
+          "top": 113.05600000000001,
+          "right": 716.8,
+          "bottom": 394.65600000000006
+        },
+        {
+          "id": "brother",
+          "left": 1257.6000000000001,
+          "top": 122.4,
+          "right": 1404.8,
+          "bottom": 263.20000000000005
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.25",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 306.2613333333333,
+          "top": 112.8,
+          "right": 449.6213333333333,
+          "bottom": 247.2
+        },
+        {
+          "id": "sister",
+          "left": 572.16,
+          "top": 126.14857142857143,
+          "right": 707.84,
+          "bottom": 261.8285714285714
+        },
+        {
+          "id": "brother",
+          "left": 829.0986666666666,
+          "top": 121.92695652173913,
+          "right": 975.0186666666667,
+          "bottom": 261.50260869565216
+        }
+      ],
+      "captionHeight": 103.625,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.5",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 306.2613333333333,
+          "top": 112.8,
+          "right": 449.6213333333333,
+          "bottom": 247.2
+        },
+        {
+          "id": "sister",
+          "left": 572.16,
+          "top": 126.14857142857143,
+          "right": 707.84,
+          "bottom": 261.8285714285714
+        },
+        {
+          "id": "brother",
+          "left": 829.0986666666666,
+          "top": 121.92695652173913,
+          "right": 975.0186666666667,
+          "bottom": 261.50260869565216
+        }
+      ],
+      "captionHeight": 120.9375,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.5",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 275.8399999999999,
+          "top": 118,
+          "right": 435.8399999999999,
+          "bottom": 268
+        },
+        {
+          "id": "sister",
+          "left": 566.4,
+          "top": 131.0857142857143,
+          "right": 713.6,
+          "bottom": 278.28571428571433
+        },
+        {
+          "id": "brother",
+          "left": 847.3600000000001,
+          "top": 124.76521739130435,
+          "right": 1000.96,
+          "bottom": 271.68695652173915
+        }
+      ],
+      "captionHeight": 120.9375,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.5",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 316.8,
+          "top": 116.36,
+          "right": 515.2,
+          "bottom": 302.36
+        },
+        {
+          "id": "brother",
+          "left": 748.8,
+          "top": 125.29947826086956,
+          "right": 979.2,
+          "bottom": 345.68208695652174
+        }
+      ],
+      "captionHeight": 120.9375,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.5",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 416,
+          "top": 112.16000000000001,
+          "right": 710.4000000000001,
+          "bottom": 388.1600000000001
+        },
+        {
+          "id": "brother",
+          "left": 1257.6000000000001,
+          "top": 122.4,
+          "right": 1404.8,
+          "bottom": 263.20000000000005
+        }
+      ],
+      "captionHeight": 120.9375,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.5",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 316.8,
+          "top": 119.584,
+          "right": 515.2,
+          "bottom": 317.98400000000004
+        },
+        {
+          "id": "brother",
+          "left": 748.8,
+          "top": 125.29947826086956,
+          "right": 979.2,
+          "bottom": 345.68208695652174
+        }
+      ],
+      "captionHeight": 120.9375,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.5",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 435.2,
+          "top": 113.05600000000001,
+          "right": 716.8,
+          "bottom": 394.65600000000006
+        },
+        {
+          "id": "brother",
+          "left": 1257.6000000000001,
+          "top": 122.4,
+          "right": 1404.8,
+          "bottom": 263.20000000000005
+        }
+      ],
+      "captionHeight": 172.078125,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "1.5",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 306.2613333333333,
+          "top": 112.8,
+          "right": 449.6213333333333,
+          "bottom": 247.2
+        },
+        {
+          "id": "sister",
+          "left": 572.16,
+          "top": 126.14857142857143,
+          "right": 707.84,
+          "bottom": 261.8285714285714
+        },
+        {
+          "id": "brother",
+          "left": 829.0986666666666,
+          "top": 121.92695652173913,
+          "right": 975.0186666666667,
+          "bottom": 261.50260869565216
+        }
+      ],
+      "captionHeight": 120.9375,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 184.8534291929733,
+          "top": 81.82665094339623,
+          "right": 229.0987122118412,
+          "bottom": 123.30660377358491
+        },
+        {
+          "id": "sister",
+          "left": 264.569365530303,
+          "top": 84.65482954545455,
+          "right": 303.430634469697,
+          "bottom": 123.51609848484848
+        },
+        {
+          "id": "brother",
+          "left": 340.12537071110796,
+          "top": 83.44676069435833,
+          "right": 381.92248788407755,
+          "bottom": 123.42661190328579
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 184.8534291929733,
+          "top": 81.82665094339623,
+          "right": 229.0987122118412,
+          "bottom": 123.30660377358491
+        },
+        {
+          "id": "sister",
+          "left": 264.569365530303,
+          "top": 84.65482954545455,
+          "right": 303.430634469697,
+          "bottom": 123.51609848484848
+        },
+        {
+          "id": "brother",
+          "left": 340.12537071110796,
+          "top": 83.44676069435833,
+          "right": 381.92248788407755,
+          "bottom": 123.42661190328579
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 211.69185606060606,
+          "top": 79.375,
+          "right": 258.3585227272727,
+          "bottom": 123.125
+        },
+        {
+          "id": "brother",
+          "left": 310.1054924242424,
+          "top": 79.375,
+          "right": 355.8441287878788,
+          "bottom": 123.125
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 224.70494623655912,
+          "top": 75.56451612903226,
+          "right": 275.13505376344085,
+          "bottom": 122.84274193548387
+        },
+        {
+          "id": "brother",
+          "left": 569.8214414135152,
+          "top": 83.44676069435833,
+          "right": 611.6185585864848,
+          "bottom": 123.42661190328579
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 214.69602272727272,
+          "top": 79.375,
+          "right": 258.44602272727275,
+          "bottom": 123.125
+        },
+        {
+          "id": "brother",
+          "left": 308.55965909090907,
+          "top": 79.375,
+          "right": 354.29829545454544,
+          "bottom": 123.125
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 231.96088709677417,
+          "top": 75.56451612903226,
+          "right": 279.2391129032258,
+          "bottom": 122.84274193548387
+        },
+        {
+          "id": "brother",
+          "left": 569.8214414135152,
+          "top": 83.44676069435833,
+          "right": 611.6185585864848,
+          "bottom": 123.42661190328579
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 184.8534291929733,
+          "top": 81.82665094339623,
+          "right": 229.0987122118412,
+          "bottom": 123.30660377358491
+        },
+        {
+          "id": "sister",
+          "left": 264.569365530303,
+          "top": 84.65482954545455,
+          "right": 303.430634469697,
+          "bottom": 123.51609848484848
+        },
+        {
+          "id": "brother",
+          "left": 340.12537071110796,
+          "top": 83.44676069435833,
+          "right": 381.92248788407755,
+          "bottom": 123.42661190328579
+        }
+      ],
+      "captionHeight": 123.375,
+      "bodyFont": 22,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.25",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 192.6752268899029,
+          "top": 80.73584905660377,
+          "right": 233.429943871035,
+          "bottom": 118.94339622641509
+        },
+        {
+          "id": "sister",
+          "left": 266.10227272727275,
+          "top": 83.3409090909091,
+          "right": 301.89772727272725,
+          "bottom": 119.13636363636363
+        },
+        {
+          "id": "brother",
+          "left": 335.6975696102316,
+          "top": 82.22814631122132,
+          "right": 374.1972596288305,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.25",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 192.6752268899029,
+          "top": 80.73584905660377,
+          "right": 233.429943871035,
+          "bottom": 118.94339622641509
+        },
+        {
+          "id": "sister",
+          "left": 266.10227272727275,
+          "top": 83.3409090909091,
+          "right": 301.89772727272725,
+          "bottom": 119.13636363636363
+        },
+        {
+          "id": "brother",
+          "left": 335.6975696102316,
+          "top": 82.22814631122132,
+          "right": 374.1972596288305,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.25",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 217.3963364993216,
+          "top": 78.4776119402985,
+          "right": 260.38141112618723,
+          "bottom": 118.77611940298507
+        },
+        {
+          "id": "brother",
+          "left": 308.0459972862958,
+          "top": 78.4776119402985,
+          "right": 350.1762550881954,
+          "bottom": 118.77611940298507
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.25",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 226.6941935483871,
+          "top": 74.96774193548387,
+          "right": 273.1458064516129,
+          "bottom": 118.51612903225806
+        },
+        {
+          "id": "brother",
+          "left": 571.4701549907006,
+          "top": 82.22814631122132,
+          "right": 609.9698450092994,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.25",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 220.16350067842603,
+          "top": 78.4776119402985,
+          "right": 260.4620081411126,
+          "bottom": 118.77611940298507
+        },
+        {
+          "id": "brother",
+          "left": 306.62211668928086,
+          "top": 78.4776119402985,
+          "right": 348.75237449118043,
+          "bottom": 118.77611940298507
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.25",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 233.8258064516129,
+          "top": 74.96774193548387,
+          "right": 277.3741935483871,
+          "bottom": 118.51612903225806
+        },
+        {
+          "id": "brother",
+          "left": 571.4701549907006,
+          "top": 82.22814631122132,
+          "right": 609.9698450092994,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.25",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 192.6752268899029,
+          "top": 80.73584905660377,
+          "right": 233.429943871035,
+          "bottom": 118.94339622641509
+        },
+        {
+          "id": "sister",
+          "left": 266.10227272727275,
+          "top": 83.3409090909091,
+          "right": 301.89772727272725,
+          "bottom": 119.13636363636363
+        },
+        {
+          "id": "brother",
+          "left": 335.6975696102316,
+          "top": 82.22814631122132,
+          "right": 374.1972596288305,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 27.5,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.5",
+      "beat": "quiet",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 192.6752268899029,
+          "top": 80.73584905660377,
+          "right": 233.429943871035,
+          "bottom": 118.94339622641509
+        },
+        {
+          "id": "sister",
+          "left": 266.10227272727275,
+          "top": 83.3409090909091,
+          "right": 301.89772727272725,
+          "bottom": 119.13636363636363
+        },
+        {
+          "id": "brother",
+          "left": 335.6975696102316,
+          "top": 82.22814631122132,
+          "right": 374.1972596288305,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.5",
+      "beat": "memory",
+      "shot": "三人近中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 192.6752268899029,
+          "top": 80.73584905660377,
+          "right": 233.429943871035,
+          "bottom": 118.94339622641509
+        },
+        {
+          "id": "sister",
+          "left": 266.10227272727275,
+          "top": 83.3409090909091,
+          "right": 301.89772727272725,
+          "bottom": 119.13636363636363
+        },
+        {
+          "id": "brother",
+          "left": 335.6975696102316,
+          "top": 82.22814631122132,
+          "right": 374.1972596288305,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.5",
+      "beat": "objection",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "player",
+          "left": 217.3963364993216,
+          "top": 78.4776119402985,
+          "right": 260.38141112618723,
+          "bottom": 118.77611940298507
+        },
+        {
+          "id": "brother",
+          "left": 308.0459972862958,
+          "top": 78.4776119402985,
+          "right": 350.1762550881954,
+          "bottom": 118.77611940298507
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.5",
+      "beat": "surprise",
+      "shot": "主角特寫",
+      "faces": [
+        {
+          "id": "player",
+          "left": 226.6941935483871,
+          "top": 74.96774193548387,
+          "right": 273.1458064516129,
+          "bottom": 118.51612903225806
+        },
+        {
+          "id": "brother",
+          "left": 571.4701549907006,
+          "top": 82.22814631122132,
+          "right": 609.9698450092994,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.5",
+      "beat": "pressure",
+      "shot": "衝突雙人",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 220.16350067842603,
+          "top": 78.4776119402985,
+          "right": 260.4620081411126,
+          "bottom": 118.77611940298507
+        },
+        {
+          "id": "brother",
+          "left": 306.62211668928086,
+          "top": 78.4776119402985,
+          "right": 348.75237449118043,
+          "bottom": 118.77611940298507
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.5",
+      "beat": "listen",
+      "shot": "妹妹特寫",
+      "faces": [
+        {
+          "id": "sister",
+          "left": 233.8258064516129,
+          "top": 74.96774193548387,
+          "right": 277.3741935483871,
+          "bottom": 118.51612903225806
+        },
+        {
+          "id": "brother",
+          "left": 571.4701549907006,
+          "top": 82.22814631122132,
+          "right": 609.9698450092994,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 33,
+      "barHeight": 56
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "scale": "1.5",
+      "beat": "pause",
+      "shot": "三人中景",
+      "faces": [
+        {
+          "id": "player",
+          "left": 192.6752268899029,
+          "top": 80.73584905660377,
+          "right": 233.429943871035,
+          "bottom": 118.94339622641509
+        },
+        {
+          "id": "sister",
+          "left": 266.10227272727275,
+          "top": 83.3409090909091,
+          "right": 301.89772727272725,
+          "bottom": 119.13636363636363
+        },
+        {
+          "id": "brother",
+          "left": 335.6975696102316,
+          "top": 82.22814631122132,
+          "right": 374.1972596288305,
+          "bottom": 119.05393676379417
+        }
+      ],
+      "captionHeight": 128,
+      "bodyFont": 33,
+      "barHeight": 56
+    }
+  ],
+  "comparison": [
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "100%",
+      "oldFaceHeight": 19.89667968750001,
+      "newFaceHeight": 89.464,
+      "faceRatio": 4.49642862051025,
+      "oldCaptionHeight": 156,
+      "newCaptionHeight": 89.28125,
+      "newBodyFont": 22
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "scale": "100%",
+      "oldFaceHeight": 45.948266601562494,
+      "newFaceHeight": 101.75999999999999,
+      "faceRatio": 2.214664611451079,
+      "oldCaptionHeight": 133.375,
+      "newCaptionHeight": 89.28125,
+      "newBodyFont": 22
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": "100%",
+      "oldFaceHeight": 82.12404785156252,
+      "newFaceHeight": 135.68,
+      "faceRatio": 1.6521348319951146,
+      "oldCaptionHeight": 133.375,
+      "newCaptionHeight": 89.28125,
+      "newBodyFont": 22
+    }
+  ],
+  "allFontsPreserved": true,
+  "faceSafety": true,
+  "iconTargets44": true,
+  "touchRotationChoicePreserved": true,
+  "errors": []
+}

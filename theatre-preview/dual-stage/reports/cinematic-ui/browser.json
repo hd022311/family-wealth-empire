@@ -1,5 +1,5 @@
 {
-  "base": "http://127.0.0.1:4191/theatre-preview/dual-stage/?v=cinematic-1",
+  "base": "http://127.0.0.1:4191/theatre-preview/dual-stage/?v=cinematic-2",
   "cases": [
     {
       "width": 1280,

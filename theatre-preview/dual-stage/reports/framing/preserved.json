@@ -1,0 +1,96 @@
+{
+  "baseline": "5cba216",
+  "scope": "人物／背景素材、演出資料及Transport、第一卷與局部樣機不變",
+  "files": [
+    {
+      "path": "theatre-preview/dual-stage/scene.mjs",
+      "sha256": "11904ebecade728b492d2a380d9c248eacd55f0984184b7244a682dc8bc73fb2"
+    },
+    {
+      "path": "theatre-preview/story.mjs",
+      "sha256": "40ad0811db5bf480eaff437611a38e5b43fa3906f0397559c849806ea0c5bb35"
+    },
+    {
+      "path": "theatre-preview/app.mjs",
+      "sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728"
+    },
+    {
+      "path": "theatre-preview/reading-state.mjs",
+      "sha256": "87e5c8d722a8a66b17b68fd70cd4ce02db090b0aadd19fd93e0125b036f45940"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/app.mjs",
+      "sha256": "c0c3f1ec9c27d840c905438b4ae53b46a193c9f53674847bc0bb6f0b4158a2eb"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-blink.png",
+      "sha256": "07d9fa89016d1e0ecd0b6213e5121f5af8276e32c6435f8b73e0f2caaac9d2c4"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-blink.webp",
+      "sha256": "99c318d04396420f3ee47c39adf806cbed1cf37f23d7f76bcb2b45ffb2bd6d55"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-master.png",
+      "sha256": "0f839da2556af50bfa026d63179c69eed73b8413904ae3d4ea002dce659fca47"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-master.webp",
+      "sha256": "bbed8d6400263608fb41dca2ff6d2cec0005bde123bd8e35209e81cf148844ef"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-soft.png",
+      "sha256": "033c1f6ec30bd1aea5bb7a3ae3a042ecd8396b888155edc3f1e43d0a379b0a5a"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-soft.webp",
+      "sha256": "e8469c6e950c4681c944c61de1bbd32a8946ad1953ad8ae69e68027ac0059fed"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-tense.png",
+      "sha256": "9c3a85c9518e19b85f4e195f0b511d8e95ca35a20351fe6886a0db4654d71184"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/cast-tense.webp",
+      "sha256": "fdb7981ee90e7db944619574194d85bb94a9f3d61104675306f094b05375233f"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/living-room.png",
+      "sha256": "dca7a8f6eb9bd82be5580140b76b3f28fb1baef9b888f3749c962ab9b05ab89d"
+    },
+    {
+      "path": "theatre-preview/dual-stage/assets/living-room.webp",
+      "sha256": "164992a2d66732a3e23429f17a5cb283a394ca8335d298e748aea5c2b17a8352"
+    }
+  ],
+  "portraitDialogueScreenshotsUnchanged": [
+    {
+      "path": "theatre-preview/dual-stage/screenshots/portrait-beat-0.png",
+      "sha256": "1b0926f3f9c0d64e8612f40a92e9738621a2ac7dd34916449c43675037a6cb18"
+    },
+    {
+      "path": "theatre-preview/dual-stage/screenshots/portrait-beat-1.png",
+      "sha256": "34993fbed353c99e9f0464d88a180be6df2f2cf53d4b820fd175c91244a9d578"
+    },
+    {
+      "path": "theatre-preview/dual-stage/screenshots/portrait-beat-2.png",
+      "sha256": "95b3c6ab7f57e1880e49c650518c71c193e21a9590aadb7fbd530847d0ca30e8"
+    },
+    {
+      "path": "theatre-preview/dual-stage/screenshots/portrait-beat-3.png",
+      "sha256": "00205bdd5f4d2e3d689eeca4db88a94eed492c00bb10fe1410542aefe6eeddc1"
+    },
+    {
+      "path": "theatre-preview/dual-stage/screenshots/portrait-beat-4.png",
+      "sha256": "e236fdfd85e6d768bb17d179d8583be19d3af8d970d23f532834241df8538db1"
+    },
+    {
+      "path": "theatre-preview/dual-stage/screenshots/portrait-beat-5.png",
+      "sha256": "d5a5ea2da95cb59c39bb2970fe4d87ad61dfac1c14ab777cb8eb6680200e5ed7"
+    },
+    {
+      "path": "theatre-preview/dual-stage/screenshots/portrait-beat-6.png",
+      "sha256": "82260afeba46802b2e5c9b0b765e46773ba7533851f72f31201eba420c0d906d"
+    }
+  ]
+}

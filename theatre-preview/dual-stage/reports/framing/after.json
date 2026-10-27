@@ -1,0 +1,1502 @@
+[
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 201.94106666666664,
+        "top": 97.53999999999999,
+        "right": 296.46906666666666,
+        "bottom": 186.16
+      },
+      {
+        "id": "sister",
+        "left": 377.26800000000003,
+        "top": 106.34171428571429,
+        "right": 466.73199999999997,
+        "bottom": 195.8057142857143
+      },
+      {
+        "id": "brother",
+        "left": 546.6869333333334,
+        "top": 103.55808695652175,
+        "right": 642.9029333333333,
+        "bottom": 195.5907826086957
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "三人中景",
+    "caption": {
+      "x": 25.3125,
+      "y": 242.71875,
+      "width": 793.375,
+      "height": 89.28125,
+      "top": 242.71875,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 181.88199999999998,
+        "top": 100.96875,
+        "right": 287.38199999999995,
+        "bottom": 199.875
+      },
+      {
+        "id": "sister",
+        "left": 373.47,
+        "top": 109.59714285714286,
+        "right": 470.53,
+        "bottom": 206.65714285714284
+      },
+      {
+        "id": "brother",
+        "left": 558.7280000000001,
+        "top": 105.42956521739131,
+        "right": 660.008,
+        "bottom": 202.30608695652177
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "三人近中景",
+    "caption": {
+      "x": 25.3125,
+      "y": 242.71875,
+      "width": 793.375,
+      "height": 89.28125,
+      "top": 242.71875,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 221.30250240275893,
+        "top": 99.5722947761194,
+        "right": 350.82986558683854,
+        "bottom": 221.004197761194
+      },
+      {
+        "id": "brother",
+        "left": 494.4580485357304,
+        "top": 99.5722947761194,
+        "right": 621.4095834746721,
+        "bottom": 221.004197761194
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "衝突雙人",
+    "caption": {
+      "x": 25.3125,
+      "y": 242.71875,
+      "width": 793.375,
+      "height": 89.28125,
+      "top": 242.71875,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 301.37344086021506,
+        "top": 88.99596774193549,
+        "right": 441.346559139785,
+        "bottom": 220.22076612903226
+      },
+      {
+        "id": "brother",
+        "left": 829.23,
+        "top": 103.87,
+        "right": 926.29,
+        "bottom": 196.71
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 25.3125,
+      "y": 242.71875,
+      "width": 793.375,
+      "height": 89.28125,
+      "top": 242.71875,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 259.6448478042718,
+        "top": 90.64150943396226,
+        "right": 332.0976779929511,
+        "bottom": 158.56603773584905
+      },
+      {
+        "id": "sister",
+        "left": 390.1818181818182,
+        "top": 95.27272727272727,
+        "right": 453.8181818181818,
+        "bottom": 158.9090909090909
+      },
+      {
+        "id": "brother",
+        "left": 513.9067904181895,
+        "top": 93.29448233106014,
+        "right": 582.3506837845875,
+        "bottom": 158.7625542467452
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "三人中景",
+    "caption": {
+      "x": 25.3125,
+      "y": 176,
+      "width": 793.375,
+      "height": 156,
+      "top": 176,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 259.6448478042718,
+        "top": 90.64150943396226,
+        "right": 332.0976779929511,
+        "bottom": 158.56603773584905
+      },
+      {
+        "id": "sister",
+        "left": 390.1818181818182,
+        "top": 95.27272727272727,
+        "right": 453.8181818181818,
+        "bottom": 158.9090909090909
+      },
+      {
+        "id": "brother",
+        "left": 513.9067904181895,
+        "top": 93.29448233106014,
+        "right": 582.3506837845875,
+        "bottom": 158.7625542467452
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "三人近中景",
+    "caption": {
+      "x": 25.3125,
+      "y": 176,
+      "width": 793.375,
+      "height": 156,
+      "top": 176,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 303.593487109905,
+        "top": 86.6268656716418,
+        "right": 380.0113975576662,
+        "bottom": 158.26865671641792
+      },
+      {
+        "id": "brother",
+        "left": 464.7484396200814,
+        "top": 86.6268656716418,
+        "right": 539.6466757123474,
+        "bottom": 158.26865671641792
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "衝突雙人",
+    "caption": {
+      "x": 25.3125,
+      "y": 176,
+      "width": 793.375,
+      "height": 156,
+      "top": 176,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 330.06967741935483,
+        "top": 80.38709677419355,
+        "right": 412.6503225806452,
+        "bottom": 157.80645161290323
+      },
+      {
+        "id": "brother",
+        "left": 843.538053316801,
+        "top": 93.29448233106014,
+        "right": 911.981946683199,
+        "bottom": 158.7625542467452
+      }
+    ],
+    "picture": {
+      "width": 844,
+      "height": 390
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 25.3125,
+      "y": 176,
+      "width": 793.375,
+      "height": 156,
+      "top": 176,
+      "right": 818.6875,
+      "bottom": 332,
+      "left": 25.3125
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 844,
+      "height": 56,
+      "top": 0,
+      "right": 844,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 229.69600000000003,
+        "top": 101.6,
+        "right": 337.216,
+        "bottom": 202.39999999999998
+      },
+      {
+        "id": "sister",
+        "left": 429.12,
+        "top": 111.61142857142858,
+        "right": 530.88,
+        "bottom": 213.37142857142857
+      },
+      {
+        "id": "brother",
+        "left": 621.824,
+        "top": 108.44521739130434,
+        "right": 731.264,
+        "bottom": 213.12695652173912
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "三人中景",
+    "caption": {
+      "x": 28.796875,
+      "y": 392.71875,
+      "width": 902.40625,
+      "height": 89.28125,
+      "top": 392.71875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 206.88,
+        "top": 105.5,
+        "right": 326.88,
+        "bottom": 218
+      },
+      {
+        "id": "sister",
+        "left": 424.8,
+        "top": 115.31428571428572,
+        "right": 535.2,
+        "bottom": 225.71428571428572
+      },
+      {
+        "id": "brother",
+        "left": 635.52,
+        "top": 110.57391304347826,
+        "right": 750.72,
+        "bottom": 220.76521739130433
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "三人近中景",
+    "caption": {
+      "x": 28.796875,
+      "y": 392.71875,
+      "width": 902.40625,
+      "height": 89.28125,
+      "top": 392.71875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 237.6,
+        "top": 104.27000000000001,
+        "right": 386.4,
+        "bottom": 243.77
+      },
+      {
+        "id": "brother",
+        "left": 561.6,
+        "top": 110.97460869565217,
+        "right": 734.4,
+        "bottom": 276.2615652173913
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "衝突雙人",
+    "caption": {
+      "x": 28.796875,
+      "y": 392.71875,
+      "width": 902.40625,
+      "height": 89.28125,
+      "top": 392.71875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 312,
+        "top": 101.12,
+        "right": 532.8,
+        "bottom": 308.12
+      },
+      {
+        "id": "brother",
+        "left": 943.2,
+        "top": 108.80000000000001,
+        "right": 1053.6000000000001,
+        "bottom": 214.40000000000003
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 28.796875,
+      "y": 392.71875,
+      "width": 902.40625,
+      "height": 89.28125,
+      "top": 392.71875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 229.69600000000003,
+        "top": 101.6,
+        "right": 337.216,
+        "bottom": 202.39999999999998
+      },
+      {
+        "id": "sister",
+        "left": 429.12,
+        "top": 111.61142857142858,
+        "right": 530.88,
+        "bottom": 213.37142857142857
+      },
+      {
+        "id": "brother",
+        "left": 621.824,
+        "top": 108.44521739130434,
+        "right": 731.264,
+        "bottom": 213.12695652173912
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "三人中景",
+    "caption": {
+      "x": 28.796875,
+      "y": 309.921875,
+      "width": 902.40625,
+      "height": 172.078125,
+      "top": 309.921875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 206.88,
+        "top": 105.5,
+        "right": 326.88,
+        "bottom": 218
+      },
+      {
+        "id": "sister",
+        "left": 424.8,
+        "top": 115.31428571428572,
+        "right": 535.2,
+        "bottom": 225.71428571428572
+      },
+      {
+        "id": "brother",
+        "left": 635.52,
+        "top": 110.57391304347826,
+        "right": 750.72,
+        "bottom": 220.76521739130433
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "三人近中景",
+    "caption": {
+      "x": 28.796875,
+      "y": 309.921875,
+      "width": 902.40625,
+      "height": 172.078125,
+      "top": 309.921875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 237.6,
+        "top": 104.27000000000001,
+        "right": 386.4,
+        "bottom": 243.77
+      },
+      {
+        "id": "brother",
+        "left": 561.6,
+        "top": 110.97460869565217,
+        "right": 734.4,
+        "bottom": 276.2615652173913
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "衝突雙人",
+    "caption": {
+      "x": 28.796875,
+      "y": 309.921875,
+      "width": 902.40625,
+      "height": 172.078125,
+      "top": 309.921875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "scale": "1.5",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 323.5088709677419,
+        "top": 97.66733870967742,
+        "right": 521.291129032258,
+        "bottom": 283.0882056451613
+      },
+      {
+        "id": "brother",
+        "left": 943.2,
+        "top": 108.80000000000001,
+        "right": 1053.6000000000001,
+        "bottom": 214.40000000000003
+      }
+    ],
+    "picture": {
+      "width": 960,
+      "height": 540
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 28.796875,
+      "y": 309.921875,
+      "width": 902.40625,
+      "height": 172.078125,
+      "top": 309.921875,
+      "right": 931.203125,
+      "bottom": 482,
+      "left": 28.796875
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 56,
+      "top": 0,
+      "right": 960,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 306.2613333333333,
+        "top": 112.8,
+        "right": 449.6213333333333,
+        "bottom": 247.2
+      },
+      {
+        "id": "sister",
+        "left": 572.16,
+        "top": 126.14857142857143,
+        "right": 707.84,
+        "bottom": 261.8285714285714
+      },
+      {
+        "id": "brother",
+        "left": 829.0986666666666,
+        "top": 121.92695652173913,
+        "right": 975.0186666666667,
+        "bottom": 261.50260869565216
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "三人中景",
+    "caption": {
+      "x": 38.390625,
+      "y": 572.71875,
+      "width": 1203.21875,
+      "height": 89.28125,
+      "top": 572.71875,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 275.8399999999999,
+        "top": 118,
+        "right": 435.8399999999999,
+        "bottom": 268
+      },
+      {
+        "id": "sister",
+        "left": 566.4,
+        "top": 131.0857142857143,
+        "right": 713.6,
+        "bottom": 278.28571428571433
+      },
+      {
+        "id": "brother",
+        "left": 847.3600000000001,
+        "top": 124.76521739130435,
+        "right": 1000.96,
+        "bottom": 271.68695652173915
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "三人近中景",
+    "caption": {
+      "x": 38.390625,
+      "y": 572.71875,
+      "width": 1203.21875,
+      "height": 89.28125,
+      "top": 572.71875,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 316.8,
+        "top": 116.36,
+        "right": 515.2,
+        "bottom": 302.36
+      },
+      {
+        "id": "brother",
+        "left": 748.8,
+        "top": 125.29947826086956,
+        "right": 979.2,
+        "bottom": 345.68208695652174
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "衝突雙人",
+    "caption": {
+      "x": 38.390625,
+      "y": 572.71875,
+      "width": 1203.21875,
+      "height": 89.28125,
+      "top": 572.71875,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 416,
+        "top": 112.16000000000001,
+        "right": 710.4000000000001,
+        "bottom": 388.1600000000001
+      },
+      {
+        "id": "brother",
+        "left": 1257.6000000000001,
+        "top": 122.4,
+        "right": 1404.8,
+        "bottom": 263.20000000000005
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 38.390625,
+      "y": 572.71875,
+      "width": 1203.21875,
+      "height": 89.28125,
+      "top": 572.71875,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "quiet",
+    "elapsed": 0,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 4,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 1,
+    "faces": [
+      {
+        "id": "player",
+        "left": 306.2613333333333,
+        "top": 112.8,
+        "right": 449.6213333333333,
+        "bottom": 247.2
+      },
+      {
+        "id": "sister",
+        "left": 572.16,
+        "top": 126.14857142857143,
+        "right": 707.84,
+        "bottom": 261.8285714285714
+      },
+      {
+        "id": "brother",
+        "left": 829.0986666666666,
+        "top": 121.92695652173913,
+        "right": 975.0186666666667,
+        "bottom": 261.50260869565216
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "三人中景",
+    "caption": {
+      "x": 38.390625,
+      "y": 541.0625,
+      "width": 1203.21875,
+      "height": 120.9375,
+      "top": 541.0625,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "memory",
+    "elapsed": 6500,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 5,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 2,
+    "faces": [
+      {
+        "id": "player",
+        "left": 275.8399999999999,
+        "top": 118,
+        "right": 435.8399999999999,
+        "bottom": 268
+      },
+      {
+        "id": "sister",
+        "left": 566.4,
+        "top": 131.0857142857143,
+        "right": 713.6,
+        "bottom": 278.28571428571433
+      },
+      {
+        "id": "brother",
+        "left": 847.3600000000001,
+        "top": 124.76521739130435,
+        "right": 1000.96,
+        "bottom": 271.68695652173915
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "三人近中景",
+    "caption": {
+      "x": 38.390625,
+      "y": 541.0625,
+      "width": 1203.21875,
+      "height": 120.9375,
+      "top": 541.0625,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "objection",
+    "elapsed": 13000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 6,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 3,
+    "faces": [
+      {
+        "id": "player",
+        "left": 316.8,
+        "top": 116.36,
+        "right": 515.2,
+        "bottom": 302.36
+      },
+      {
+        "id": "brother",
+        "left": 748.8,
+        "top": 125.29947826086956,
+        "right": 979.2,
+        "bottom": 345.68208695652174
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "衝突雙人",
+    "caption": {
+      "x": 38.390625,
+      "y": 541.0625,
+      "width": 1203.21875,
+      "height": 120.9375,
+      "top": 541.0625,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "scale": "1.5",
+    "beat": "surprise",
+    "elapsed": 19000,
+    "running": false,
+    "mode": "scene",
+    "draft": null,
+    "choice": null,
+    "commits": 0,
+    "portrait": false,
+    "reduced": false,
+    "frames": 7,
+    "ready": true,
+    "pausedByVisibility": false,
+    "historyCount": 4,
+    "faces": [
+      {
+        "id": "player",
+        "left": 416,
+        "top": 112.16000000000001,
+        "right": 710.4000000000001,
+        "bottom": 388.1600000000001
+      },
+      {
+        "id": "brother",
+        "left": 1257.6000000000001,
+        "top": 122.4,
+        "right": 1404.8,
+        "bottom": 263.20000000000005
+      }
+    ],
+    "picture": {
+      "width": 1280,
+      "height": 720
+    },
+    "shot": "主角特寫",
+    "caption": {
+      "x": 38.390625,
+      "y": 541.0625,
+      "width": 1203.21875,
+      "height": 120.9375,
+      "top": 541.0625,
+      "right": 1241.609375,
+      "bottom": 662,
+      "left": 38.390625
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 56,
+      "top": 0,
+      "right": 1280,
+      "bottom": 56,
+      "left": 0
+    }
+  }
+]
