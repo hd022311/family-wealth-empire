@@ -1,0 +1,44 @@
+{
+  "scope": "單次Linux Chromium觀察，不是實體手機FPS／記憶體測量；JS heap不含圖像、Canvas或GPU。",
+  "results": [
+    {
+      "mode": "desktop",
+      "readyMs": 355,
+      "encodedResourceBytes": 1382438,
+      "idleDraws": 0,
+      "jsHeapBytesExcludingImagesCanvasGPU": 2070006,
+      "requests": [
+        "stage.css",
+        "app.mjs",
+        "scene.mjs",
+        "renderer.mjs",
+        "scene.mjs",
+        "cast-master.webp",
+        "cast-soft.webp",
+        "cast-tense.webp",
+        "cast-blink.webp",
+        "living-room.webp",
+        "favicon.ico"
+      ]
+    },
+    {
+      "mode": "mobile-throttled",
+      "readyMs": 6952,
+      "encodedResourceBytes": 1382103,
+      "idleDraws": 0,
+      "jsHeapBytesExcludingImagesCanvasGPU": 2065409,
+      "requests": [
+        "stage.css",
+        "app.mjs",
+        "scene.mjs",
+        "renderer.mjs",
+        "scene.mjs",
+        "cast-master.webp",
+        "cast-tense.webp",
+        "living-room.webp",
+        "cast-blink.webp",
+        "cast-soft.webp"
+      ]
+    }
+  ]
+}

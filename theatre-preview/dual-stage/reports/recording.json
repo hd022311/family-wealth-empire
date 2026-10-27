@@ -1,0 +1,30 @@
+[
+  {
+    "name": "landscape-16x9",
+    "width": 1280,
+    "height": 720,
+    "targetSceneMs": 42000,
+    "actualElapsedMs": 42438,
+    "sourceSeconds": 42.397926807403564,
+    "outputSeconds": 44,
+    "frames": 930,
+    "audio": false,
+    "choiceAtEnd": true,
+    "automaticChoice": null,
+    "method": "Actual Chromium CDP screen recording at original timeline speed, 24fps encoding and a short final hold; no generated motion or voice."
+  },
+  {
+    "name": "portrait-9x16",
+    "width": 432,
+    "height": 768,
+    "targetSceneMs": 42000,
+    "actualElapsedMs": 42278,
+    "sourceSeconds": 42.45691418647766,
+    "outputSeconds": 44,
+    "frames": 927,
+    "audio": false,
+    "choiceAtEnd": true,
+    "automaticChoice": null,
+    "method": "Actual Chromium CDP screen recording at original timeline speed, 24fps encoding and a short final hold; no generated motion or voice."
+  }
+]

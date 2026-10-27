@@ -1,0 +1,97 @@
+{
+  "formalApprovedArtCount": 0,
+  "userReferenceImagesAvailable": true,
+  "references": [
+    "使用者附上的多人同框概念圖（構圖與光影參考，非正式素材）",
+    "使用者附上的16:9／9:16比較概念圖（構圖參考）",
+    "既有male-pose1原創概念稿（家安）",
+    "既有female-pose1原創概念稿（雅婷）"
+  ],
+  "assets": [
+    {
+      "path": "assets/cast-blink.png",
+      "bytes": 2326258,
+      "sha256": "07d9fa89016d1e0ecd0b6213e5121f5af8276e32c6435f8b73e0f2caaac9d2c4",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "保留的概念原始稿",
+      "placeholder": true
+    },
+    {
+      "path": "assets/cast-blink.webp",
+      "bytes": 268482,
+      "sha256": "99c318d04396420f3ee47c39adf806cbed1cf37f23d7f76bcb2b45ffb2bd6d55",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "網頁載入用WebP（有損色彩壓縮、透明度保留）",
+      "placeholder": true
+    },
+    {
+      "path": "assets/cast-master.png",
+      "bytes": 2444975,
+      "sha256": "0f839da2556af50bfa026d63179c69eed73b8413904ae3d4ea002dce659fca47",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "保留的概念原始稿",
+      "placeholder": true
+    },
+    {
+      "path": "assets/cast-master.webp",
+      "bytes": 322842,
+      "sha256": "bbed8d6400263608fb41dca2ff6d2cec0005bde123bd8e35209e81cf148844ef",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "網頁載入用WebP（有損色彩壓縮、透明度保留）",
+      "placeholder": true
+    },
+    {
+      "path": "assets/cast-soft.png",
+      "bytes": 2337912,
+      "sha256": "033c1f6ec30bd1aea5bb7a3ae3a042ecd8396b888155edc3f1e43d0a379b0a5a",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "保留的概念原始稿",
+      "placeholder": true
+    },
+    {
+      "path": "assets/cast-soft.webp",
+      "bytes": 279868,
+      "sha256": "e8469c6e950c4681c944c61de1bbd32a8946ad1953ad8ae69e68027ac0059fed",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "網頁載入用WebP（有損色彩壓縮、透明度保留）",
+      "placeholder": true
+    },
+    {
+      "path": "assets/cast-tense.png",
+      "bytes": 2362487,
+      "sha256": "9c3a85c9518e19b85f4e195f0b511d8e95ca35a20351fe6886a0db4654d71184",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "保留的概念原始稿",
+      "placeholder": true
+    },
+    {
+      "path": "assets/cast-tense.webp",
+      "bytes": 287710,
+      "sha256": "fdb7981ee90e7db944619574194d85bb94a9f3d61104675306f094b05375233f",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "網頁載入用WebP（有損色彩壓縮、透明度保留）",
+      "placeholder": true
+    },
+    {
+      "path": "assets/living-room.png",
+      "bytes": 2045101,
+      "sha256": "dca7a8f6eb9bd82be5580140b76b3f28fb1baef9b888f3749c962ab9b05ab89d",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "保留的概念原始稿",
+      "placeholder": true
+    },
+    {
+      "path": "assets/living-room.webp",
+      "bytes": 197158,
+      "sha256": "164992a2d66732a3e23429f17a5cb283a394ca8335d298e748aea5c2b17a8352",
+      "status": "original_ai_concept_not_art_approved",
+      "use": "網頁載入用WebP（有損色彩壓縮、透明度保留）",
+      "placeholder": true
+    }
+  ],
+  "limits": [
+    "三種臉部演出狀態與局部眨眼，不是六表情正式分層包",
+    "沒有完整手部／身體骨架、語音對嘴或正式PSD",
+    "技術像素限制不等於人類美術簽核"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "scope": "既有第一卷、UI試稿與人物樣機執行程式／美術凍結；不包括本輪新目錄。",
+  "files": [
+    {
+      "path": "theatre-preview/app.mjs",
+      "sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728"
+    },
+    {
+      "path": "theatre-preview/assets/cast-concept.png",
+      "sha256": "96b627ffece4e01ddc74413acf669f0c0a0545ab2a34e5547d63803e87e11e76"
+    },
+    {
+      "path": "theatre-preview/assets/scenes-concept.png",
+      "sha256": "529f1db0f909e9a982c7db5bba8ee7721ae39f849f3a46eb45b17d477a189f8b"
+    },
+    {
+      "path": "theatre-preview/choice-controls.mjs",
+      "sha256": "9ecae0c1e3ce6cc68748fe3132f9d9d40b2edb164d6708d655d656e03cdde216"
+    },
+    {
+      "path": "theatre-preview/choice-controls.test.mjs",
+      "sha256": "115a66bca9e35e10c4154d3626630588bc20805cd6c216e50183f12d14c7bca6"
+    },
+    {
+      "path": "theatre-preview/cinematic.css",
+      "sha256": "b232ccbbc73868ea749a5ec50b7517a7e7fbd57dea36ed084708ea8876f71ac6"
+    },
+    {
+      "path": "theatre-preview/ending-gallery.mjs",
+      "sha256": "b6b86dde8c1f209917133e87abaf952eb2f4bcaa48ecbfbd91cf7ee3efa2ef60"
+    },
+    {
+      "path": "theatre-preview/ending-gallery.test.mjs",
+      "sha256": "223f1e857d0686010a97d953134cd6e7eba4c6bbd37bd8c76fc9c1cc70902a39"
+    },
+    {
+      "path": "theatre-preview/performance/acting-plan.mjs",
+      "sha256": "61d4afaadf4472ddc8581191d708aea28ea9ec660b8ac099f0b30b4e4fa43ef1"
+    },
+    {
+      "path": "theatre-preview/performance/app.mjs",
+      "sha256": "29f9de473b69a99d2619472bb4606315ebe02168799428cc92682bf22f03aaa2"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/female-expressions.png",
+      "sha256": "f4a2aec98b7d253335de5b0c000e20b549adbab1aff5d330ae953cb377ecafde"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/female-expressions.webp",
+      "sha256": "67d62b659a8b220692732c08f3d0f257bff53614b0453d4798c1de0b2e319939"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/female-pose1.png",
+      "sha256": "f1cea215fd1176778b4b6aa0d61d6055c860c41ee7094ff7cf50323b69dad6e9"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/female-pose1.webp",
+      "sha256": "233da01939be086f6cdfd87fe7c47998f082e772e76495edec3449c932e931ef"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/female-pose2.png",
+      "sha256": "71f517a20f032d31e3fadcca69800baf9a51a019f40902768e6988ae9fcf169a"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/female-pose2.webp",
+      "sha256": "338f9bb0bbff1fbc48e6e98f8d2685b16e36770d926629dbd4d11675b012fca6"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/male-expressions.png",
+      "sha256": "f0e01b8dc43ab54b7b991d4ce08846cab2b437ebd2d5834da21e84c4d1f21d73"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/male-expressions.webp",
+      "sha256": "8c1418043bd59ce1c3956a3352ea2a3d41cbd88ca3d071381008157cd00e2bbb"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/male-pose1.png",
+      "sha256": "606c2165fe944a01f73e054ee3c6b1466226657c060236f170500a627ff9dd9b"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/male-pose1.webp",
+      "sha256": "1edab48dde4970a81e2a7e019951ce3314032b6f767b4183c3bd84705ba9818f"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/male-pose2.png",
+      "sha256": "636106181b376d260ef61ebba626fe4663ec57bb8f571dfc18f28c2740757ab1"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/assets/male-pose2.webp",
+      "sha256": "676ecc110130fedf256fb427bee9e2dcd430af9ceb83aab83879de7635cdeaa2"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/app.mjs",
+      "sha256": "c0c3f1ec9c27d840c905438b4ae53b46a193c9f53674847bc0bb6f0b4158a2eb"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/eyes-closed.png",
+      "sha256": "f22c2669e6ee430230aa619741690c67501f049d1cac091221359414dba32513"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/eyes-closed.webp",
+      "sha256": "b76d61d7486e1c3265b7ca80e8ad8f5e7e8fa5a005365187842df79435811243"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/eyes-down.png",
+      "sha256": "d567d6a0c79850d23f7c275a231d2189cd69826accfca01a3c3f53c0f45c990c"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/eyes-down.webp",
+      "sha256": "bc1fc3c1ffae5fcbd5c1f96440dcf46b67eee06a7ef4f7298bb0bf7bda883b46"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/eyes-half.png",
+      "sha256": "5ea45c1e3e87b5297009e7609479b24dde0cad76efe2aff59e290f62073861d3"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/eyes-half.webp",
+      "sha256": "2b2beeb1f44b35e9b09107c4ddb4731b6ff8e545a9d2f62c9fadbb37504d1fe8"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/layers/closed.png",
+      "sha256": "00b1dfc7bf233e32d83dda1d489baded78a788c7a6c2ce930cfe4cb949d1b722"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/layers/down.png",
+      "sha256": "b9d001ce45150f8a0868f3fcdc7be3301e21a404a6dd0103cd9d2b997a0aa7a6"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/layers/half.png",
+      "sha256": "cfd5c05dc27849ab3f8649ead42af67318425c3b7f3a8714c9d8b4c62c4b3e75"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/layers/narrow.png",
+      "sha256": "cb0e96a9c04c7ede6f39ec0cfbca4d8927bb3ba8022c270ac51dbdda569e71ed"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/layers/open.png",
+      "sha256": "32d61755af1ebdf69a6f8684adc98ccb1a41d62414fa07179556d1d195a262cf"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/master.png",
+      "sha256": "fbda5fc1f93303b205f3a52a42f8c08bf73839df7c134bfeaceb549724e48b0c"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/master.webp",
+      "sha256": "b3bf8fa6e3249c25b8d7fb728350e3a10a24129e3149629b282273fabb306e4d"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/mouth-narrow.png",
+      "sha256": "04e90e21b9a8ef85e91035808677421faa235cba5260ebaf22d84e55547f6256"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/mouth-narrow.webp",
+      "sha256": "24bba09f8fb5b2e96ec3d307683d97ef262ed715ff1beb05220d274fc2d3ea93"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/mouth-open.png",
+      "sha256": "545904e687095d881a5271f03d607312e9f906d61df9b2ae5bdecb6c3a268671"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/assets/mouth-open.webp",
+      "sha256": "3d5e55d60157f5431d2259a952c2ed533ffb39439d0233d9429a73b6134bb55e"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/layers.mjs",
+      "sha256": "8854d0711529384c0aeacd8c137c4d35f233ad459e816e345229446d1655bde9"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/pilot.css",
+      "sha256": "767cbc8a7dcc3cdee752d763ed860ed25b310d13ade49da5b01105f74c2b2a10"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/player.mjs",
+      "sha256": "3c7e36f0bf89bcfb6cb5ac92cd15dc891b5a84f33420081971ff39e07fcb4aa3"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/renderer.mjs",
+      "sha256": "fdae6f7d7e988ef7524302ec590457c6cd92eaad2d85bab5a62db1e6702f165d"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/male-pilot/take.mjs",
+      "sha256": "a7594e6f75d8d51b19eff5b34380463fe3983c3b742cfec47e13a4c51d8c2abb"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/samples.css",
+      "sha256": "2152ad30268c8c5ac8fd66d7dbbf4c7863d3628ecf5c6d935a5f0434cca90781"
+    },
+    {
+      "path": "theatre-preview/performance/art-samples/samples.mjs",
+      "sha256": "e9d3d03a0c3610b598d4bdce7274180e736ee8ca7557a9718dfb927dcb829650"
+    },
+    {
+      "path": "theatre-preview/performance/clock.mjs",
+      "sha256": "d66197a0700056e02111635ca650ed06864fa0c5ae414b8ba0ad94a73f7b6693"
+    },
+    {
+      "path": "theatre-preview/performance/director.mjs",
+      "sha256": "4d81441b299c4a93a5a1103893950b2c151833254db7ad70a65d690e8f1c199b"
+    },
+    {
+      "path": "theatre-preview/performance/faces.mjs",
+      "sha256": "a80a1f50ee7d9512bf61b0584e9f3aa752d19dc5667728991fd7fc00912cb7d2"
+    },
+    {
+      "path": "theatre-preview/performance/rig.mjs",
+      "sha256": "cf3b90cd43bf7547c093f6ebe466e61f44fc2a5df8cb52602ab2ef0a95dd1f20"
+    },
+    {
+      "path": "theatre-preview/performance/scene.mjs",
+      "sha256": "f862d76eaa5b3c08327f7fe041bef30a68e9c0c23ce0d00711b53a514af2097f"
+    },
+    {
+      "path": "theatre-preview/performance/stage.css",
+      "sha256": "c0ddb32fa3d977fc938d87176bdd1112c763905b9e64963e71c2894f6e65b13c"
+    },
+    {
+      "path": "theatre-preview/reading-state.mjs",
+      "sha256": "87e5c8d722a8a66b17b68fd70cd4ce02db090b0aadd19fd93e0125b036f45940"
+    },
+    {
+      "path": "theatre-preview/reading-state.test.mjs",
+      "sha256": "0c1815ee6dfcdae1e02c6ef7636951e82b3b4fc72b2f1b70a957bbc7f50299bb"
+    },
+    {
+      "path": "theatre-preview/story.mjs",
+      "sha256": "40ad0811db5bf480eaff437611a38e5b43fa3906f0397559c849806ea0c5bb35"
+    },
+    {
+      "path": "theatre-preview/story.test.mjs",
+      "sha256": "c54eef505bda25bc8cd3cdffb8b15ea10b5915e81a5367699a7a1b545e977d3c"
+    },
+    {
+      "path": "theatre-preview/theatre.css",
+      "sha256": "dfff3af18b45cf77dab98e47019cc5b2da4905784ed684f5edd15769d1bebf88"
+    },
+    {
+      "path": "theatre-ui-lab/assets/brother-conflict.png",
+      "sha256": "9970c3d110a78a1842c7505bd01e6bd55e8057087c724e7fdb4f2e4adf6fbc09"
+    },
+    {
+      "path": "theatre-ui-lab/assets/brother-conflict.webp",
+      "sha256": "980e0bbb32369ee43bd9951fbd1b1ad98292961cdcb02cb595e267df8b6db216"
+    },
+    {
+      "path": "theatre-ui-lab/assets/cast.webp",
+      "sha256": "a92f4f9f06b3f87ce2c11e326a6bc867f27d105a65bd12e36e6e8985ca974cfd"
+    },
+    {
+      "path": "theatre-ui-lab/assets/scenes.webp",
+      "sha256": "d0ba0fe6f48269009e737208ca461900168390b12efa91c0537f7462f94383c8"
+    },
+    {
+      "path": "theatre-ui-lab/copy.mjs",
+      "sha256": "fdaff58269251af7df88321754c5adacbcff5291a21b9a809ed8be6f179ff9c8"
+    },
+    {
+      "path": "theatre-ui-lab/fixtures.mjs",
+      "sha256": "09bfbf7e1da1bc4b2cc0629d6dda88c1b0f56ad394959a1a54e52ae5c5c550bc"
+    },
+    {
+      "path": "theatre-ui-lab/lab.css",
+      "sha256": "bcafa81b6ebc8c3e4966a640a2d066d99676fcf554eb1ed211d62efdb5b8ee2c"
+    },
+    {
+      "path": "theatre-ui-lab/lab.mjs",
+      "sha256": "bad3164fb6a8d0374e0df266367c3fdfbd846b92875914cef4ad419703fd25b9"
+    }
+  ]
+}
