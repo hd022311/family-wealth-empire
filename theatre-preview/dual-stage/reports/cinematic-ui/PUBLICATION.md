@@ -4,13 +4,13 @@
 https://github.com/hd022311/family-wealth-empire/actions/runs/40462594932
 
 公開操作入口：
-https://hd022311.github.io/family-wealth-empire/theatre-preview/dual-stage/?v=cinematic-2
+https://hd022311.github.io/family-wealth-empire/theatre-preview/dual-stage/?v=cinematic-3
 
 外部Chromium重新執行：
 - public-browser.json：27組UI尺寸字級、189個字幕安全區、對話與抉擇互斥、已選才金色、已讀回顧不暴雷、選單暫停／繼續及選取旋轉保持。
 - public-progress.json：27組演出版面、189次台詞位置旋轉、播放中旋轉、選擇前後、觸控及重複確認防護，三人表情合成框外像素變化0。
 
-首次公開測試使用cinematic-1入口，介面／演出功能與最新相同；後續只補靜態資源版本標記為cinematic-2，避免曾看舊版的瀏覽器混用renderer快取。這份補刊不新增遊戲或劇情。
+首次公開測試使用cinematic-1入口，介面／演出功能與最新相同；後續補上靜態資源版本標記避免renderer舊快取，並將閱讀說明收合；最新入口cinematic-3使用同一演出與選擇機制。這份補刊不新增遊戲或劇情。
 
 Chromium使用ignoreHTTPSErrors以相容受管理環境的代理憑證；另以Python正常TLS獨立檢查HTTPS及公開檔案雜湊。實體iPhone／iPad Safari、Android低階機及Windows/Mac實機字型仍待人工驗收，不把視窗模擬當成實機驗收。
 
