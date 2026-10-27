@@ -1,5 +1,5 @@
 import {Transport,BEATS,beatAt,shotAt,DURATION,OPTIONS,CHARACTERS} from './scene.mjs';
-import {Renderer} from './renderer.mjs';
+import {Renderer} from './renderer.mjs?v=cinematic-2';
 const $=id=>document.getElementById(id),screen=$('screen'),picture=document.querySelector('.picture'),transport=new Transport(),renderer=new Renderer($('stage')),media=matchMedia('(prefers-reduced-motion: reduce)');
 let ready=false,raf=null,lastDraw=-Infinity,reduced=false,userReduced=false,portrait=innerHeight>innerWidth,previousMode='',captionKey='',pausedByVisibility=false,manualStep=false;
 let historyRows=[],historyReturn=false;
