@@ -618,7 +618,7 @@ export const NODES=[
       "father"
     ],
     "shot": "duo",
-    "date": "2026-05-03",
+    "date": "2026-05-02",
     "setting": "living",
     "emotion": "calm",
     "route": "A",
@@ -633,7 +633,7 @@ export const NODES=[
       "father"
     ],
     "shot": "duo",
-    "date": "2026-05-03",
+    "date": "2026-05-02",
     "setting": "living",
     "emotion": "calm",
     "route": "A",
@@ -648,7 +648,7 @@ export const NODES=[
       "player"
     ],
     "shot": "duo",
-    "date": "2026-05-03",
+    "date": "2026-05-02",
     "setting": "living",
     "emotion": "calm",
     "route": "A",
@@ -663,7 +663,7 @@ export const NODES=[
       "father"
     ],
     "shot": "duo",
-    "date": "2026-05-03",
+    "date": "2026-05-02",
     "setting": "living",
     "emotion": "calm",
     "route": "A",
@@ -678,7 +678,7 @@ export const NODES=[
       "player"
     ],
     "shot": "duo",
-    "date": "2026-05-03",
+    "date": "2026-05-02",
     "setting": "living",
     "emotion": "calm",
     "route": "A",
