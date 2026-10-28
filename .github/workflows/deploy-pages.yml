@@ -2,6 +2,10 @@ name: Deploy public game to GitHub Pages
 on:
   push:
     branches: [main]
+    # Isolated prologue updates use the checksum-preserving preview publisher.
+    paths-ignore:
+      - theatre-preview/prologue/**
+      - .github/workflows/publish-ui-preview.yml
   workflow_dispatch:
 permissions:
   contents: read
