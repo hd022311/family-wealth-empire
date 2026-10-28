@@ -144,3 +144,5 @@ jobs:
           assert hashlib.sha256(game).hexdigest() == '0920f6a5bb0be088debf4e6f6894fd33dc3a59c1f91e33d037f3abd21b02e58a'
           print('Public preview images verified; original game index unchanged.')
           PY
+      - name: Verify public prologue runtime recordings and preserved game
+        run: python3 theatre-preview/prologue/scripts/verify-public.py
