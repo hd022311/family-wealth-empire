@@ -6,13 +6,15 @@
     },
     {
       "path": "theatre-preview/app.mjs",
-      "sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
-      "previous_sha256": "c50d835e9885142157797d5032f3a67f9615403af7e1517193f35297905f88ec"
+      "sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e",
+      "previous_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "authorized_update": "字幕呈現層移除段末句號；原劇本、法源與存檔識別不變"
     },
     {
       "path": "theatre-preview/index.html",
-      "sha256": "da803bb95da4b9717c9e8975dfa8ab4006d07b578c63ec921cf852b778032eed",
-      "previous_sha256": "f35eb9d4f058bd5746152e606bf8133425024433e8d357759c128951c18a8e77"
+      "sha256": "31581661b7e7bba4081a8f964ee50cbc2997d574d198262af66c2319971ec67e",
+      "previous_sha256": "da803bb95da4b9717c9e8975dfa8ab4006d07b578c63ec921cf852b778032eed",
+      "authorized_update": "字幕呈現層移除段末句號；原劇本、法源與存檔識別不變"
     },
     {
       "path": "theatre-preview/cinematic.css",
@@ -20,5 +22,6 @@
       "previous_sha256": "dcc04b545e584909305961581252e0371ff72e6cf48c1ae68c1729de5ded1124"
     }
   ],
-  "baseline_update": "2026-10-26：已核准的第一卷對話／重要抉擇介面與明確確認防誤觸更新；story、法律分支、正式遊戲與人物動畫不變。"
+  "baseline_update": "2026-10-26：已核准的第一卷對話／重要抉擇介面與明確確認防誤觸更新；story、法律分支、正式遊戲與人物動畫不變。",
+  "subtitle_style_update": "使用者授權統一字幕句尾標點；只核准呈現層與入口快取更新"
 }

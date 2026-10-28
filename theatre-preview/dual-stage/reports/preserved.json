@@ -3,7 +3,9 @@
   "files": [
     {
       "path": "theatre-preview/app.mjs",
-      "sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728"
+      "sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e",
+      "previous_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "authorized_update": "字幕呈現層移除段末句號；原劇本、法源與存檔識別不變"
     },
     {
       "path": "theatre-preview/assets/cast-concept.png",
@@ -27,7 +29,9 @@
     },
     {
       "path": "theatre-preview/ending-gallery.mjs",
-      "sha256": "b6b86dde8c1f209917133e87abaf952eb2f4bcaa48ecbfbd91cf7ee3efa2ef60"
+      "sha256": "7181887957aa13165a607fdde747d79aad04519d8450a3a58778586397a01d3e",
+      "previous_sha256": "b6b86dde8c1f209917133e87abaf952eb2f4bcaa48ecbfbd91cf7ee3efa2ef60",
+      "authorized_update": "字幕呈現層移除段末句號；原劇本、法源與存檔識別不變"
     },
     {
       "path": "theatre-preview/ending-gallery.test.mjs",
@@ -39,7 +43,9 @@
     },
     {
       "path": "theatre-preview/performance/app.mjs",
-      "sha256": "29f9de473b69a99d2619472bb4606315ebe02168799428cc92682bf22f03aaa2"
+      "sha256": "05537ad8734ee3f9b3e9e7fc46cdf1470aed183185fb4dd12b8c2ce529186ef9",
+      "previous_sha256": "29f9de473b69a99d2619472bb4606315ebe02168799428cc92682bf22f03aaa2",
+      "authorized_update": "字幕呈現層移除段末句號；原劇本、法源與存檔識別不變"
     },
     {
       "path": "theatre-preview/performance/art-samples/assets/female-expressions.png",
@@ -265,5 +271,6 @@
       "path": "theatre-ui-lab/lab.mjs",
       "sha256": "bad3164fb6a8d0374e0df266367c3fdfbd846b92875914cef4ad419703fd25b9"
     }
-  ]
+  ],
+  "subtitle_style_update": "使用者授權統一字幕句尾標點；只核准呈現層與入口快取更新"
 }

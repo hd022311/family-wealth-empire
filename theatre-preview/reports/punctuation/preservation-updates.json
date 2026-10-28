@@ -1,0 +1,151 @@
+{
+  "reason": "User requested punctuation-only subtitle display update",
+  "sourceStoryUnchanged": true,
+  "readStateUnchanged": true,
+  "updates": [
+    {
+      "manifest": "theatre-preview/reports/cinematic-runtime.json",
+      "path": "theatre-preview/app.mjs",
+      "old_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "new_sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e"
+    },
+    {
+      "manifest": "theatre-preview/reports/cinematic-runtime.json",
+      "path": "theatre-preview/index.html",
+      "old_sha256": "da803bb95da4b9717c9e8975dfa8ab4006d07b578c63ec921cf852b778032eed",
+      "new_sha256": "31581661b7e7bba4081a8f964ee50cbc2997d574d198262af66c2319971ec67e"
+    },
+    {
+      "manifest": "theatre-preview/reports/cinematic-runtime.json",
+      "path": "theatre-preview/ending-gallery.mjs",
+      "old_sha256": "b6b86dde8c1f209917133e87abaf952eb2f4bcaa48ecbfbd91cf7ee3efa2ef60",
+      "new_sha256": "7181887957aa13165a607fdde747d79aad04519d8450a3a58778586397a01d3e"
+    },
+    {
+      "manifest": "theatre-preview/performance/reports/protected.json",
+      "path": "theatre-preview/app.mjs",
+      "old_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "new_sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e"
+    },
+    {
+      "manifest": "theatre-preview/performance/reports/protected.json",
+      "path": "theatre-preview/index.html",
+      "old_sha256": "da803bb95da4b9717c9e8975dfa8ab4006d07b578c63ec921cf852b778032eed",
+      "new_sha256": "31581661b7e7bba4081a8f964ee50cbc2997d574d198262af66c2319971ec67e"
+    },
+    {
+      "manifest": "theatre-preview/performance/art-samples/male-pilot/reports/preserved.json",
+      "path": "theatre-preview/app.mjs",
+      "old_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "new_sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e"
+    },
+    {
+      "manifest": "theatre-preview/performance/art-samples/male-pilot/reports/preserved.json",
+      "path": "theatre-preview/index.html",
+      "old_sha256": "da803bb95da4b9717c9e8975dfa8ab4006d07b578c63ec921cf852b778032eed",
+      "new_sha256": "31581661b7e7bba4081a8f964ee50cbc2997d574d198262af66c2319971ec67e"
+    },
+    {
+      "manifest": "theatre-preview/performance/art-samples/male-pilot/reports/preserved.json",
+      "path": "theatre-preview/performance/app.mjs",
+      "old_sha256": "29f9de473b69a99d2619472bb4606315ebe02168799428cc92682bf22f03aaa2",
+      "new_sha256": "05537ad8734ee3f9b3e9e7fc46cdf1470aed183185fb4dd12b8c2ce529186ef9"
+    },
+    {
+      "manifest": "theatre-preview/dual-stage/reports/preserved.json",
+      "path": "theatre-preview/app.mjs",
+      "old_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "new_sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e"
+    },
+    {
+      "manifest": "theatre-preview/dual-stage/reports/preserved.json",
+      "path": "theatre-preview/ending-gallery.mjs",
+      "old_sha256": "b6b86dde8c1f209917133e87abaf952eb2f4bcaa48ecbfbd91cf7ee3efa2ef60",
+      "new_sha256": "7181887957aa13165a607fdde747d79aad04519d8450a3a58778586397a01d3e"
+    },
+    {
+      "manifest": "theatre-preview/dual-stage/reports/preserved.json",
+      "path": "theatre-preview/performance/app.mjs",
+      "old_sha256": "29f9de473b69a99d2619472bb4606315ebe02168799428cc92682bf22f03aaa2",
+      "new_sha256": "05537ad8734ee3f9b3e9e7fc46cdf1470aed183185fb4dd12b8c2ce529186ef9"
+    },
+    {
+      "manifest": "theatre-preview/dual-stage/reports/framing/preserved.json",
+      "path": "theatre-preview/app.mjs",
+      "old_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "new_sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/index.html",
+      "old_sha256": "da803bb95da4b9717c9e8975dfa8ab4006d07b578c63ec921cf852b778032eed",
+      "new_sha256": "31581661b7e7bba4081a8f964ee50cbc2997d574d198262af66c2319971ec67e"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/ending-gallery.mjs",
+      "old_sha256": "b6b86dde8c1f209917133e87abaf952eb2f4bcaa48ecbfbd91cf7ee3efa2ef60",
+      "new_sha256": "7181887957aa13165a607fdde747d79aad04519d8450a3a58778586397a01d3e"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/app.mjs",
+      "old_sha256": "c2015cf02e3108b14ab3c969ea5d0a71fdf7995085b5b5fbd82b454083c14728",
+      "new_sha256": "c61d0a588e233406c12aa15fa0db59a0bea945efc60701260a2b60799cdf211e"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/reports/cinematic-runtime.json",
+      "old_sha256": "89d8d8cae0320b5ca27688343aee09443e20dbb78a6f04fd49cdb61b935c32e9",
+      "new_sha256": "bae9cf9deef9a3ba27edce25d39880e5878de12d48ae4a68301afa827598168a"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/performance/index.html",
+      "old_sha256": "294338753fc751384aec126ea2bf84b8dc0da4ab5b6b6198ecabc1283f7fbd19",
+      "new_sha256": "38e3dab866a0154e3c2e8c6ffcf32dc7efda371bc576198120a67dacb9300c85"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/performance/app.mjs",
+      "old_sha256": "29f9de473b69a99d2619472bb4606315ebe02168799428cc92682bf22f03aaa2",
+      "new_sha256": "05537ad8734ee3f9b3e9e7fc46cdf1470aed183185fb4dd12b8c2ce529186ef9"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/dual-stage/index.html",
+      "old_sha256": "e30384f42c0a8e7aa01a8ef5cde6f2071c8e3562d28493441eeeb835d33a6c02",
+      "new_sha256": "58113fc44e98f11284905f056bad5967a995977193119c157aea874cf928d1e6"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/dual-stage/app.mjs",
+      "old_sha256": "a702885e3f9d287381078ae3e89749981fedf0b61fb4ba0e37bbf7adb6729726",
+      "new_sha256": "1ec1aace8fde4f0207efba6d3aa9c6bb016ad3fc68da3ff7ff318a7d8c887242"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/performance/reports/protected.json",
+      "old_sha256": "206d7b61b1eba5d0f644c2c980bd5000e8a0724294ce1df0fbd9073ef7427cc3",
+      "new_sha256": "d18e93af6c51c26efab34f1aa68aafd36f3edca316eb6614681ab6a75e3282f0"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/performance/art-samples/male-pilot/reports/preserved.json",
+      "old_sha256": "30c332796bc352b91e96fbd24cb3d04d6fafd536203f1f21941d4d8e695856e7",
+      "new_sha256": "a35796df119c94d2b3561f6bbf72fe7587175aa5b4427b02c70f1ea4c900fb32"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/dual-stage/reports/preserved.json",
+      "old_sha256": "ffdf3ee986a73b70c77830feac8600aa7c7c6c0a1bd60d271ea12a5ab7690236",
+      "new_sha256": "885bbe73b2dde2a511ce310b4a41e08c0b0acec3a27da94840502d631ea2d1fb"
+    },
+    {
+      "manifest": "theatre-preview/prologue/reports/preserved.json",
+      "path": "theatre-preview/dual-stage/reports/framing/preserved.json",
+      "old_sha256": "b6ee257c57c90683534eb276f46cb3d6eb52b99c3b852fbf165c743b64b2e71c",
+      "new_sha256": "23c7d222ca9006d0df35f6a2d50adea4f6ac84ee3cbc377e81e2b51fab8138cf"
+    }
+  ]
+}
