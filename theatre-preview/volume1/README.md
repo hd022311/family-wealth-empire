@@ -1,6 +1,8 @@
 # 《兩間房子的承諾》第一卷整合版
 
-公開入口預定為 `/family-wealth-empire/theatre-preview/volume1/`。發布驗證完成前不宣稱已公開。
+整合版入口：https://hd022311.github.io/family-wealth-empire/theatre-preview/volume1/
+
+部署與外部HTTPS結果以GitHub Actions為準，實體手機仍待玩家驗收。
 
 此版本將既有82秒前言與原本六次選擇、八種敘事結局接在同一個閱讀引擎；沒有新增劇情選擇、正式法律計算或經營模式功能。
 

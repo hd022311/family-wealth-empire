@@ -5,3 +5,4 @@
 
 #caption{bottom:var(--controls-height,60px)}
 #reading-controls{flex-wrap:wrap}
+.collection-intro{font-size:inherit}
