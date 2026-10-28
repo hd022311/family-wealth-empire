@@ -6,6 +6,7 @@ on:
     paths-ignore:
       - theatre-preview/prologue/**
       - theatre-preview/volume1/**
+      - theatre-preview/opening-v02/**
       - .github/workflows/publish-ui-preview.yml
   workflow_dispatch:
 permissions:

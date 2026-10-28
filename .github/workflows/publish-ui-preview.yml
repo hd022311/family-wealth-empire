@@ -6,6 +6,7 @@ on:
     paths:
       - theatre-preview/prologue/**
       - theatre-preview/volume1/**
+      - theatre-preview/opening-v02/**
       - .github/workflows/publish-ui-preview.yml
 permissions:
   contents: read
@@ -149,3 +150,5 @@ jobs:
         run: python3 theatre-preview/prologue/scripts/verify-public.py
       - name: Verify integrated first volume and unchanged game
         run: python3 theatre-preview/volume1/scripts/verify-public.py
+      - name: Verify independent V0.2 opening and unchanged game
+        run: python3 theatre-preview/opening-v02/scripts/verify-public.py
