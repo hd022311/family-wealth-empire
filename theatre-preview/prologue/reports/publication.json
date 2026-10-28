@@ -1,10 +1,19 @@
 {
-  "status": "awaiting_external_verification",
-  "expectedUrl": "https://hd022311.github.io/family-wealth-empire/theatre-preview/prologue/",
+  "status": "published_external_https_verified",
   "workflow": "publish-ui-preview.yml",
   "initialBranchAttempt": "https://github.com/hd022311/family-wealth-empire/actions/runs/40611606883",
   "initialAttemptResult": "rejected_by_existing_main_only_environment_rule",
   "currentMethod": "main push with prologue-only path triggers; formal game build ignores prologue-only paths; all published formal files pinned by SHA256",
   "existingPublicGameChanged": false,
-  "formalVolumeIntegrated": false
+  "formalVolumeIntegrated": false,
+  "url": "https://hd022311.github.io/family-wealth-empire/theatre-preview/prologue/",
+  "successfulPublicationRun": "https://github.com/hd022311/family-wealth-empire/actions/runs/40612087781",
+  "externalVerification": {
+    "method": "GitHub Actions runner uses normal TLS and compares each published prologue file with committed SHA256 plus all 7 formal game files",
+    "prologueFiles": 45,
+    "result": "pass",
+    "publicBrowserInteraction": "not_verified_local_network_proxy_blocks_GitHub_Pages",
+    "localBrowserInteraction": "21_layouts_357_shots_pass",
+    "physicalDevices": "not_tested"
+  }
 }

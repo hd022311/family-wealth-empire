@@ -13,7 +13,11 @@ python3 -m http.server 4191 --bind 0.0.0.0
 開啟 `http://localhost:4191/theatre-preview/prologue/`，旋轉視窗會自動重新構圖，不重啟故事。
 `4191` 是開發預覽埠，不是公開託管。`prologue-review.html` 是內含全部必要素材的單檔審閱版；已驗證透過HTTP只請求該HTML即可運作，直接file://開啟因本環境瀏覽器政策尚未驗證。
 
-公開發布狀態記錄於 `reports/REVIEW.html`；沒有公開發布成功前不得把預定路徑宣稱為公開網址。
+公開預覽：https://hd022311.github.io/family-wealth-empire/theatre-preview/prologue/
+
+部署與外部HTTPS完整性驗證通過：https://github.com/hd022311/family-wealth-empire/actions/runs/40612087781
+
+互動測試為本機Chromium；本環境代理封鎖GitHub Pages，公開網址瀏覽器操作與實體iPhone仍待人工驗收。發布明細記錄於 `reports/publication.json`。
 
 ## 操作
 
