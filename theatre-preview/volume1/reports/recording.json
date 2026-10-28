@@ -1,0 +1,30 @@
+[
+  {
+    "name": "landscape",
+    "width": 1280,
+    "height": 720,
+    "prologueTargetMs": 82000,
+    "prologueActualMs": 82198,
+    "firstChoiceLedger": 0,
+    "finalLedger": 6,
+    "finalEnding": "E1",
+    "encodedSeconds": 98.541667,
+    "frames": 1701,
+    "audio": false,
+    "method": "Actual browser recording: original-speed 82s prologue; remaining dialogue advanced manually for acceptance, not recommended reading speed."
+  },
+  {
+    "name": "portrait",
+    "width": 432,
+    "height": 768,
+    "prologueTargetMs": 82000,
+    "prologueActualMs": 82576,
+    "firstChoiceLedger": 0,
+    "finalLedger": 6,
+    "finalEnding": "E1",
+    "encodedSeconds": 98.583333,
+    "frames": 1703,
+    "audio": false,
+    "method": "Actual browser recording: original-speed 82s prologue; remaining dialogue advanced manually for acceptance, not recommended reading speed."
+  }
+]

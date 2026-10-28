@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "legacyActiveExact": true,
+  "legacyArchivePreserved": true,
+  "legacyBytesUnchanged": true,
+  "formalSentinelUnchanged": true,
+  "replayReloadReturnsOriginal": true,
+  "effectsOffPersists": true,
+  "osReducedMotion": true,
+  "playingRotation": true,
+  "legalCopyExact": true,
+  "multiTabStaleWriteBlocked": true,
+  "corruptV2NotOverwritten": true,
+  "errors": []
+}

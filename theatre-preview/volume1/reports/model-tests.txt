@@ -1,0 +1,16 @@
+✔ 17 prologue cues replace old intro and first-care prelude; exactly 6 canonical gates (1.603076ms)
+✔ all729 routes reach eight canonical endings, exactly6 ledger entries and independent archives (3533.187488ms)
+✔ skip never crosses unread lines or any of six choice gates (0.509224ms)
+✔ legacy active positions all map exactly, archives and raw seen keys survive migration (9.313954ms)
+✔ new key preserves legacy bytes; invalid newer save never falls back and overwrites (0.474051ms)
+✔ new run keeps previous unfinished snapshot and all completed histories (7.357628ms)
+✔ draft, elapsed and selected line survive serialization; fabricated cash never trusted (0.537867ms)
+✔ standalone prologue imports only read segments and preferences, never its demo choice (1.131077ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3616.630534

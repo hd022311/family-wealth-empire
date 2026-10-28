@@ -1,0 +1,2 @@
+import test from'node:test';import assert from'node:assert/strict';import fs from'node:fs';import crypto from'node:crypto';
+test('standalone prologue, prior theatre, art, raw law/story and legacy save modules are byte-identical',()=>{const manifest=JSON.parse(fs.readFileSync(new URL('reports/baseline.json',import.meta.url)));for(const row of manifest.files){const data=fs.readFileSync(new URL('../../'+row.path,import.meta.url));assert.equal(crypto.createHash('sha256').update(data).digest('hex'),row.sha256,row.path);}});

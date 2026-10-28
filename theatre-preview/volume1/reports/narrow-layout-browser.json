@@ -1,0 +1,2887 @@
+{
+  "pass": true,
+  "layouts": 3,
+  "shots": 51,
+  "captionNeverOverlapsControls": true,
+  "allNameAndDialogueFontsExact": true,
+  "rows": [
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 0,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "player",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        },
+        {
+          "id": "brother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 1,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 249.92000000000002,
+          "right": 363.52000000000004,
+          "top": 109.8608695652174,
+          "bottom": 218.5217391304348
+        },
+        {
+          "id": "sister",
+          "left": 458.65999999999997,
+          "right": 541.02,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 2,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 126.38000000000002,
+          "right": 191.70000000000002,
+          "top": 79.30000000000001,
+          "bottom": 144.62
+        },
+        {
+          "id": "player",
+          "left": 251.34,
+          "right": 316.66,
+          "top": 84.24464285714285,
+          "bottom": 145.48214285714286
+        },
+        {
+          "id": "mother",
+          "left": 376.29999999999995,
+          "right": 441.62,
+          "top": 86.7287037037037,
+          "bottom": 154.46796296296299
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 3,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 4,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "player",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        },
+        {
+          "id": "spouse",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.64642201834863,
+          "bottom": 179.65100917431192
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 5,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 6,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 249.92000000000002,
+          "right": 363.52000000000004,
+          "top": 95.04347826086956,
+          "bottom": 208.64347826086959
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 7,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 126.38000000000002,
+          "right": 191.70000000000002,
+          "top": 79.30000000000001,
+          "bottom": 144.62
+        },
+        {
+          "id": "mother",
+          "left": 251.34,
+          "right": 316.66,
+          "top": 86.7287037037037,
+          "bottom": 154.46796296296299
+        },
+        {
+          "id": "player",
+          "left": 376.29999999999995,
+          "right": 441.62,
+          "top": 84.24464285714285,
+          "bottom": 145.48214285714286
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 8,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 9,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 10,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 11,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "sister",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 12,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "sister",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 13,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "spouse",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.64642201834863,
+          "bottom": 179.65100917431192
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 14,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 15,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1",
+      "i": 16,
+      "caption": {
+        "x": 0,
+        "y": 228.40625,
+        "width": 568,
+        "height": 43.59375,
+        "top": 228.40625,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 449.734375,
+        "y": 274,
+        "width": 102.265625,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 449.734375
+      },
+      "name": 20,
+      "text": 24,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 0,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "player",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        },
+        {
+          "id": "brother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 1,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 252.28620730976635,
+          "right": 361.1537926902337,
+          "top": 107.70041941282204,
+          "bottom": 211.83463151587776
+        },
+        {
+          "id": "sister",
+          "left": 458.65999999999997,
+          "right": 541.02,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 2,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 126.38000000000002,
+          "right": 191.70000000000002,
+          "top": 79.30000000000001,
+          "bottom": 144.62
+        },
+        {
+          "id": "player",
+          "left": 251.34,
+          "right": 316.66,
+          "top": 84.24464285714285,
+          "bottom": 145.48214285714286
+        },
+        {
+          "id": "mother",
+          "left": 376.29999999999995,
+          "right": 441.62,
+          "top": 86.7287037037037,
+          "bottom": 154.46796296296299
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 3,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 4,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "player",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        },
+        {
+          "id": "spouse",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.64642201834863,
+          "bottom": 179.65100917431192
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 5,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 6,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 249.92000000000002,
+          "right": 363.52000000000004,
+          "top": 95.04347826086956,
+          "bottom": 208.64347826086959
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 7,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 126.38000000000002,
+          "right": 191.70000000000002,
+          "top": 79.30000000000001,
+          "bottom": 144.62
+        },
+        {
+          "id": "mother",
+          "left": 251.34,
+          "right": 316.66,
+          "top": 86.7287037037037,
+          "bottom": 154.46796296296299
+        },
+        {
+          "id": "player",
+          "left": 376.29999999999995,
+          "right": 441.62,
+          "top": 84.24464285714285,
+          "bottom": 145.48214285714286
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 8,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 9,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 10,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 11,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "sister",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 12,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "sister",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 13,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "spouse",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.64642201834863,
+          "bottom": 179.65100917431192
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 14,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 15,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.25",
+      "i": 16,
+      "caption": {
+        "x": 0,
+        "y": 220,
+        "width": 568,
+        "height": 52,
+        "top": 220,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 429.171875,
+        "y": 274,
+        "width": 122.828125,
+        "height": 44,
+        "top": 274,
+        "right": 552,
+        "bottom": 318,
+        "left": 429.171875
+      },
+      "name": 25,
+      "text": 30,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 0,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "player",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        },
+        {
+          "id": "brother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 1,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 255.0423487118035,
+          "right": 358.3976512881965,
+          "top": 105.18394248052726,
+          "bottom": 204.04553624925103
+        },
+        {
+          "id": "sister",
+          "left": 458.65999999999997,
+          "right": 541.02,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 2,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 126.38000000000002,
+          "right": 191.70000000000002,
+          "top": 79.30000000000001,
+          "bottom": 144.62
+        },
+        {
+          "id": "player",
+          "left": 251.34,
+          "right": 316.66,
+          "top": 84.24464285714285,
+          "bottom": 145.48214285714286
+        },
+        {
+          "id": "mother",
+          "left": 376.29999999999995,
+          "right": 441.62,
+          "top": 86.7287037037037,
+          "bottom": 154.46796296296299
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 3,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 4,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "player",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        },
+        {
+          "id": "spouse",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.64642201834863,
+          "bottom": 179.65100917431192
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 5,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 6,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 251.81866327180143,
+          "right": 361.6213367281986,
+          "top": 93.8052196053469,
+          "bottom": 203.6078930617441
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 7,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 126.38000000000002,
+          "right": 191.70000000000002,
+          "top": 79.30000000000001,
+          "bottom": 144.62
+        },
+        {
+          "id": "mother",
+          "left": 251.34,
+          "right": 316.66,
+          "top": 86.7287037037037,
+          "bottom": 154.46796296296299
+        },
+        {
+          "id": "player",
+          "left": 376.29999999999995,
+          "right": 441.62,
+          "top": 84.24464285714285,
+          "bottom": 145.48214285714286
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 8,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "father",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 9,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 10,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "brother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 95.59913043478261,
+          "bottom": 174.37826086956522
+        },
+        {
+          "id": "father",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 84.85652173913044,
+          "bottom": 167.21652173913043
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 11,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "sister",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 12,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "sister",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 101.14095238095238,
+          "bottom": 183.50095238095238
+        },
+        {
+          "id": "mother",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 13,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "spouse",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.64642201834863,
+          "bottom": 179.65100917431192
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 14,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 15,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "scale": "1.5",
+      "i": 16,
+      "caption": {
+        "x": 0,
+        "y": 211.609375,
+        "width": 568,
+        "height": 60.390625,
+        "top": 211.609375,
+        "right": 568,
+        "bottom": 272,
+        "left": 0
+      },
+      "controls": {
+        "x": 0,
+        "y": 272,
+        "width": 568,
+        "height": 48,
+        "top": 272,
+        "right": 568,
+        "bottom": 320,
+        "left": 0
+      },
+      "next": {
+        "x": 408.609375,
+        "y": 272.5,
+        "width": 143.390625,
+        "height": 47,
+        "top": 272.5,
+        "right": 552,
+        "bottom": 319.5,
+        "left": 408.609375
+      },
+      "name": 30,
+      "text": 36,
+      "overflow": false,
+      "faces": [
+        {
+          "id": "mother",
+          "left": 163.29999999999998,
+          "right": 245.66,
+          "top": 94.22314814814814,
+          "bottom": 179.6335185185185
+        },
+        {
+          "id": "player",
+          "left": 322.34,
+          "right": 404.7,
+          "top": 91.09107142857142,
+          "bottom": 168.30357142857142
+        }
+      ],
+      "bar": 56
+    }
+  ],
+  "physicalDevices": false
+}

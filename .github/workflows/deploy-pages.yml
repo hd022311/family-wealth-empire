@@ -5,6 +5,7 @@ on:
     # Isolated prologue updates use the checksum-preserving preview publisher.
     paths-ignore:
       - theatre-preview/prologue/**
+      - theatre-preview/volume1/**
       - .github/workflows/publish-ui-preview.yml
   workflow_dispatch:
 permissions:

@@ -1,0 +1,120 @@
+{
+  "total": 729,
+  "counts": {
+    "E8": 204,
+    "E1": 12,
+    "E4": 45,
+    "E3": 108,
+    "E2": 6,
+    "E5": 30,
+    "E7": 81,
+    "E6": 243
+  },
+  "witnesses": {
+    "E8": {
+      "ending": "E8",
+      "title": "把答案留給下一頁",
+      "route": [
+        "personal",
+        "solo",
+        "independent",
+        "evaluate",
+        "separate",
+        "mediate"
+      ],
+      "cash": 56000
+    },
+    "E1": {
+      "ending": "E1",
+      "title": "留下可對話的家",
+      "route": [
+        "shared",
+        "transparent",
+        "independent",
+        "evaluate",
+        "separate",
+        "mediate"
+      ],
+      "cash": 121000
+    },
+    "E4": {
+      "ending": "E4",
+      "title": "照顧者也需要被照顧",
+      "route": [
+        "personal",
+        "promise",
+        "independent",
+        "evaluate",
+        "separate",
+        "mediate"
+      ],
+      "cash": 21000
+    },
+    "E3": {
+      "ending": "E3",
+      "title": "遲來的一張餐桌",
+      "route": [
+        "shared",
+        "promise",
+        "independent",
+        "evaluate",
+        "separate",
+        "mediate"
+      ],
+      "cash": 46000
+    },
+    "E2": {
+      "ending": "E2",
+      "title": "兩間房之外的生活",
+      "route": [
+        "professional",
+        "transparent",
+        "independent",
+        "reserve",
+        "separate",
+        "mediate"
+      ],
+      "cash": 105000
+    },
+    "E5": {
+      "ending": "E5",
+      "title": "文件很齊，心事未完",
+      "route": [
+        "personal",
+        "solo",
+        "independent",
+        "evaluate",
+        "separate",
+        "clarify"
+      ],
+      "cash": 51000
+    },
+    "E7": {
+      "ending": "E7",
+      "title": "走到談判桌之前",
+      "route": [
+        "personal",
+        "solo",
+        "independent",
+        "evaluate",
+        "rushed",
+        "clarify"
+      ],
+      "cash": 54000
+    },
+    "E6": {
+      "ending": "E6",
+      "title": "誰也沒有先退讓",
+      "route": [
+        "personal",
+        "solo",
+        "independent",
+        "evaluate",
+        "separate",
+        "legal"
+      ],
+      "cash": 47000
+    }
+  },
+  "legalCalculations": false
+}

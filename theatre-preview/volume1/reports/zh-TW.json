@@ -1,0 +1,13 @@
+{
+  "locale": "zh-TW",
+  "findings": [],
+  "narrativeDisplay": "uses shared subtitleText(); terminal Chinese period removed; emotion punctuation retained",
+  "officialLegalCopy": "raw KNOWLEDGE unchanged",
+  "reviewedTerms": [
+    "前言重看",
+    "閱讀備份",
+    "生活預備金",
+    "重要抉擇",
+    "字幕情緒特效"
+  ]
+}
