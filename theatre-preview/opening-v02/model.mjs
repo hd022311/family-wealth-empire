@@ -1,4 +1,4 @@
-import {NODES} from './story.mjs?v=opening-2';
+import {NODES} from './story.mjs?v=text-types-1';
 export const KEY='fwe.theatre.opening.v02.v1';
 export const LABELS={player:'我',father:'爸爸',mother:'媽媽',brother:'哥哥',sister:'妹妹',spouse:'怡君'};
 export function normalizeName(value){const text=String(value??'').normalize('NFC').trim();if(!text)return'家安';if([...text].length>8||/[\p{C}\p{Zl}\p{Zp}<>]/u.test(text))throw Error('請使用八個字以內的名字，不含換行或特殊控制符號');return text;}

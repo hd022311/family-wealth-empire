@@ -1,0 +1,1172 @@
+[
+  {
+    "device": "desktop",
+    "width": 1440,
+    "height": 900,
+    "scale": "1",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 414,
+            "right": 622.8,
+            "top": 143.89285714285714,
+            "bottom": 339.6428571428571
+          },
+          {
+            "id": "brother",
+            "left": 817.2,
+            "right": 1026,
+            "top": 155.32173913043476,
+            "bottom": 355.0434782608695
+          }
+        ],
+        "captionTop": 771.40625
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 633.6,
+            "right": 921.6,
+            "top": 175.71428571428572,
+            "bottom": 445.7142857142857
+          }
+        ],
+        "captionTop": 804.40625
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(244, 221, 181)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 673.2,
+            "right": 882,
+            "top": 143.89285714285714,
+            "bottom": 339.6428571428571
+          }
+        ],
+        "captionTop": 804.40625
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "desktop",
+    "width": 1440,
+    "height": 900,
+    "scale": "1.25",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 414,
+            "right": 622.8,
+            "top": 143.89285714285714,
+            "bottom": 339.6428571428571
+          },
+          {
+            "id": "brother",
+            "left": 817.2,
+            "right": 1026,
+            "top": 155.32173913043476,
+            "bottom": 355.0434782608695
+          }
+        ],
+        "captionTop": 756.75
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 633.6,
+            "right": 921.6,
+            "top": 175.71428571428572,
+            "bottom": 445.7142857142857
+          }
+        ],
+        "captionTop": 796
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(244, 221, 181)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 673.2,
+            "right": 882,
+            "top": 143.89285714285714,
+            "bottom": 339.6428571428571
+          }
+        ],
+        "captionTop": 796
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "desktop",
+    "width": 1440,
+    "height": 900,
+    "scale": "1.5",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 414,
+            "right": 622.8,
+            "top": 143.89285714285714,
+            "bottom": 339.6428571428571
+          },
+          {
+            "id": "brother",
+            "left": 817.2,
+            "right": 1026,
+            "top": 155.32173913043476,
+            "bottom": 355.0434782608695
+          }
+        ],
+        "captionTop": 742.109375
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 633.6,
+            "right": 921.6,
+            "top": 175.71428571428572,
+            "bottom": 445.7142857142857
+          }
+        ],
+        "captionTop": 787.609375
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(244, 221, 181)",
+        "cap": 852,
+        "footer": 852,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 673.2,
+            "right": 882,
+            "top": 143.89285714285714,
+            "bottom": 339.6428571428571
+          }
+        ],
+        "captionTop": 787.609375
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "portrait",
+    "width": 390,
+    "height": 844,
+    "scale": "1",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 111.00892857142857,
+            "bottom": 220.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 117.41304347826087,
+            "bottom": 229.32608695652175
+          }
+        ],
+        "captionTop": 693.8125
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 113.1,
+            "right": 276.9,
+            "top": 129.8125,
+            "bottom": 283.375
+          }
+        ],
+        "captionTop": 696.8125
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(244, 221, 181)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 113.1,
+            "right": 276.9,
+            "top": 129.8125,
+            "bottom": 283.375
+          }
+        ],
+        "captionTop": 696.8125
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "portrait",
+    "width": 390,
+    "height": 844,
+    "scale": "1.25",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 111.00892857142857,
+            "bottom": 220.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 117.41304347826087,
+            "bottom": 229.32608695652175
+          }
+        ],
+        "captionTop": 631.75
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 113.1,
+            "right": 276.9,
+            "top": 129.8125,
+            "bottom": 283.375
+          }
+        ],
+        "captionTop": 680
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(244, 221, 181)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 113.1,
+            "right": 276.9,
+            "top": 129.8125,
+            "bottom": 283.375
+          }
+        ],
+        "captionTop": 680
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "portrait",
+    "width": 390,
+    "height": 844,
+    "scale": "1.5",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 111.00892857142857,
+            "bottom": 220.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 117.41304347826087,
+            "bottom": 229.32608695652175
+          }
+        ],
+        "captionTop": 606.90625
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 113.1,
+            "right": 276.9,
+            "top": 129.8125,
+            "bottom": 283.375
+          }
+        ],
+        "captionTop": 663.21875
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(244, 221, 181)",
+        "cap": 784,
+        "footer": 784,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 113.1,
+            "right": 276.9,
+            "top": 129.8125,
+            "bottom": 283.375
+          }
+        ],
+        "captionTop": 663.21875
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "landscape",
+    "width": 844,
+    "height": 390,
+    "scale": "1",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 242.64999999999998,
+            "right": 365.03,
+            "top": 109.1705357142857,
+            "bottom": 223.90178571428572
+          },
+          {
+            "id": "brother",
+            "left": 478.96999999999997,
+            "right": 601.3499999999999,
+            "top": 115.8691304347826,
+            "bottom": 232.9282608695652
+          }
+        ],
+        "captionTop": 261.40625
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 372.9584435797666,
+            "right": 538.5615564202335,
+            "top": 126.53696498054474,
+            "bottom": 281.78988326848247
+          }
+        ],
+        "captionTop": 294.40625
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(244, 221, 181)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 394.57000000000005,
+            "right": 516.95,
+            "top": 109.1705357142857,
+            "bottom": 223.90178571428572
+          }
+        ],
+        "captionTop": 294.40625
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "landscape",
+    "width": 844,
+    "height": 390,
+    "scale": "1.25",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 242.64999999999998,
+            "right": 365.03,
+            "top": 109.1705357142857,
+            "bottom": 223.90178571428572
+          },
+          {
+            "id": "brother",
+            "left": 478.96999999999997,
+            "right": 601.3499999999999,
+            "top": 115.8691304347826,
+            "bottom": 232.9282608695652
+          }
+        ],
+        "captionTop": 246.75
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 375.8637613488976,
+            "right": 535.6562386511025,
+            "top": 124.2023346303502,
+            "bottom": 274.0077821011673
+          }
+        ],
+        "captionTop": 286
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(244, 221, 181)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 394.57000000000005,
+            "right": 516.95,
+            "top": 109.1705357142857,
+            "bottom": 223.90178571428572
+          }
+        ],
+        "captionTop": 286
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "landscape",
+    "width": 844,
+    "height": 390,
+    "scale": "1.5",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 243.55465629053177,
+            "right": 364.1253437094682,
+            "top": 108.44357976653696,
+            "bottom": 221.47859922178986
+          },
+          {
+            "id": "brother",
+            "left": 482.9700659077291,
+            "right": 597.3499340922708,
+            "top": 112.21689634511684,
+            "bottom": 221.6237267825045
+          }
+        ],
+        "captionTop": 232.109375
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 378.76907911802857,
+            "right": 532.7509208819715,
+            "top": 121.86770428015564,
+            "bottom": 266.2256809338521
+          }
+        ],
+        "captionTop": 277.609375
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(244, 221, 181)",
+        "cap": 342,
+        "footer": 342,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 394.57000000000005,
+            "right": 516.95,
+            "top": 109.1705357142857,
+            "bottom": 223.90178571428572
+          }
+        ],
+        "captionTop": 277.609375
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "short",
+    "width": 844,
+    "height": 300,
+    "scale": "1",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 252.27060959792476,
+            "right": 355.4093904020752,
+            "top": 101.43968871595331,
+            "bottom": 198.13229571984436
+          },
+          {
+            "id": "brother",
+            "left": 491.2384901138406,
+            "right": 589.0815098861593,
+            "top": 104.66746554823247,
+            "bottom": 198.25644098262433
+          }
+        ],
+        "captionTop": 208.40625
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 404.19060959792483,
+            "right": 507.32939040207526,
+            "top": 101.43968871595331,
+            "bottom": 198.13229571984436
+          }
+        ],
+        "captionTop": 208.40625
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(244, 221, 181)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 404.19060959792483,
+            "right": 507.32939040207526,
+            "top": 101.43968871595331,
+            "bottom": 198.13229571984436
+          }
+        ],
+        "captionTop": 208.40625
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "short",
+    "width": 844,
+    "height": 300,
+    "scale": "1.25",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 255.17592736705575,
+            "right": 352.5040726329442,
+            "top": 99.10505836575875,
+            "bottom": 190.35019455252916
+          },
+          {
+            "id": "brother",
+            "left": 493.99463151587776,
+            "right": 586.3253684841222,
+            "top": 102.15098861593769,
+            "bottom": 190.46734571599762
+          }
+        ],
+        "captionTop": 200
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 407.0959273670558,
+            "right": 504.4240726329443,
+            "top": 99.10505836575875,
+            "bottom": 190.35019455252916
+          }
+        ],
+        "captionTop": 200
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(244, 221, 181)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 407.0959273670558,
+            "right": 504.4240726329443,
+            "top": 99.10505836575875,
+            "bottom": 190.35019455252916
+          }
+        ],
+        "captionTop": 200
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "short",
+    "width": 844,
+    "height": 300,
+    "scale": "1.5",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 258.08124513618674,
+            "right": 349.5987548638132,
+            "top": 96.77042801556419,
+            "bottom": 182.568093385214
+          },
+          {
+            "id": "brother",
+            "left": 496.7507729179149,
+            "right": 583.569227082085,
+            "top": 99.6345116836429,
+            "bottom": 182.67825044937086
+          }
+        ],
+        "captionTop": 191.609375
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 410.0012451361868,
+            "right": 501.5187548638133,
+            "top": 96.77042801556419,
+            "bottom": 182.568093385214
+          }
+        ],
+        "captionTop": 191.609375
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(244, 221, 181)",
+        "cap": 252,
+        "footer": 252,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 410.0012451361868,
+            "right": 501.5187548638133,
+            "top": 96.77042801556419,
+            "bottom": 182.568093385214
+          }
+        ],
+        "captionTop": 191.609375
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "tablet",
+    "width": 820,
+    "height": 1180,
+    "scale": "1",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 162.83928571428572,
+            "bottom": 393.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 176.30434782608697,
+            "bottom": 411.60869565217394
+          }
+        ],
+        "captionTop": 1029.8125
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(248, 251, 255)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 237.8,
+            "right": 582.2,
+            "top": 202.375,
+            "bottom": 525.25
+          }
+        ],
+        "captionTop": 1066.40625
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 24,
+        "color": "rgb(244, 221, 181)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 237.8,
+            "right": 582.2,
+            "top": 202.375,
+            "bottom": 525.25
+          }
+        ],
+        "captionTop": 1066.40625
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "tablet",
+    "width": 820,
+    "height": 1180,
+    "scale": "1.25",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 162.83928571428572,
+            "bottom": 393.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 176.30434782608697,
+            "bottom": 411.60869565217394
+          }
+        ],
+        "captionTop": 1014.25
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(248, 251, 255)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 237.8,
+            "right": 582.2,
+            "top": 202.375,
+            "bottom": 525.25
+          }
+        ],
+        "captionTop": 1058
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 30,
+        "color": "rgb(244, 221, 181)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 237.8,
+            "right": 582.2,
+            "top": 202.375,
+            "bottom": 525.25
+          }
+        ],
+        "captionTop": 1058
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  },
+  {
+    "device": "tablet",
+    "width": 820,
+    "height": 1180,
+    "scale": "1.5",
+    "samples": [
+      {
+        "type": "dialogue",
+        "nameHidden": false,
+        "name": "哥哥",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 162.83928571428572,
+            "bottom": 393.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 176.30434782608697,
+            "bottom": 411.60869565217394
+          }
+        ],
+        "captionTop": 998.703125
+      },
+      {
+        "type": "narration",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(248, 251, 255)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 237.8,
+            "right": 582.2,
+            "top": 202.375,
+            "bottom": 525.25
+          }
+        ],
+        "captionTop": 1049.609375
+      },
+      {
+        "type": "thought",
+        "nameHidden": true,
+        "name": "",
+        "font": 36,
+        "color": "rgb(244, 221, 181)",
+        "cap": 1120,
+        "footer": 1120,
+        "overflow": false,
+        "faces": [
+          {
+            "id": "player",
+            "left": 237.8,
+            "right": 582.2,
+            "top": 202.375,
+            "bottom": 525.25
+          }
+        ],
+        "captionTop": 1049.609375
+      }
+    ],
+    "rotation": true,
+    "refresh": true,
+    "errors": []
+  }
+]

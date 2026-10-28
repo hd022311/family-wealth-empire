@@ -12,7 +12,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "whisper",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "cold2",
@@ -27,7 +28,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "cold3",
@@ -42,7 +44,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "anger",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "cold4",
@@ -57,7 +60,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "cold-action",
@@ -71,7 +75,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "narration"
   },
   {
     "id": "cold5",
@@ -85,7 +90,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "mono1",
@@ -99,7 +105,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "mono2",
@@ -114,7 +121,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "mono3",
@@ -130,7 +138,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "mono4",
@@ -145,7 +154,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "narration"
   },
   {
     "id": "mono5",
@@ -160,7 +170,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "mono6",
@@ -174,7 +185,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "sadness",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "meal1",
@@ -190,7 +202,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "meal2",
@@ -205,7 +218,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "meal3",
@@ -220,7 +234,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "meal-action",
@@ -234,7 +249,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "narration"
   },
   {
     "id": "meal4",
@@ -249,7 +265,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "meal5",
@@ -264,7 +281,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "meal6",
@@ -279,7 +297,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "life1",
@@ -294,7 +313,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "life2",
@@ -309,7 +329,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "life3",
@@ -324,7 +345,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "life4",
@@ -339,7 +361,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "life5",
@@ -354,7 +377,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "life6",
@@ -369,7 +393,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "life7",
@@ -384,7 +409,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "table1",
@@ -400,7 +426,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "table2",
@@ -415,7 +442,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "invite1",
@@ -430,7 +458,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "invite2",
@@ -445,7 +474,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "invite3",
@@ -460,7 +490,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "invite4",
@@ -475,7 +506,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "invite5",
@@ -490,7 +522,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "invite6",
@@ -505,7 +538,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "lifestyle",
@@ -517,7 +551,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "choice"
   },
   {
     "id": "A-0",
@@ -532,7 +567,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-1",
@@ -547,7 +583,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-2",
@@ -562,7 +599,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-3",
@@ -577,7 +615,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-4",
@@ -592,7 +631,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-5",
@@ -607,7 +647,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-action",
@@ -622,7 +663,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": true
+    "mind": true,
+    "textType": "narration"
   },
   {
     "id": "A-6",
@@ -637,7 +679,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-7",
@@ -652,7 +695,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-8",
@@ -667,7 +711,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "A-9",
@@ -682,7 +727,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "A",
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "B-0",
@@ -697,7 +743,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-1",
@@ -712,7 +759,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-2",
@@ -727,7 +775,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-3",
@@ -742,7 +791,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-4",
@@ -757,7 +807,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-5",
@@ -772,7 +823,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-action",
@@ -787,7 +839,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": true
+    "mind": true,
+    "textType": "narration"
   },
   {
     "id": "B-6",
@@ -802,7 +855,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-7",
@@ -817,7 +871,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-8",
@@ -832,7 +887,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "B-9",
@@ -847,7 +903,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "B",
-    "mind": true
+    "mind": true,
+    "textType": "narration"
   },
   {
     "id": "C-0",
@@ -862,7 +919,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-1",
@@ -877,7 +935,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-2",
@@ -892,7 +951,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-3",
@@ -907,7 +967,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "firm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-4",
@@ -922,7 +983,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-5",
@@ -937,7 +999,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-6",
@@ -952,7 +1015,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-action",
@@ -967,7 +1031,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": true
+    "mind": true,
+    "textType": "narration"
   },
   {
     "id": "C-7",
@@ -982,7 +1047,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-8",
@@ -997,7 +1063,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-9",
@@ -1012,7 +1079,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "C-10",
@@ -1027,7 +1095,8 @@ export const NODES=[
     "setting": "living",
     "emotion": "calm",
     "route": "C",
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "hospital1",
@@ -1042,7 +1111,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "hospital2",
@@ -1057,7 +1127,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "hospital3",
@@ -1072,7 +1143,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "callback-A",
@@ -1087,7 +1159,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": "A",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "callback-B",
@@ -1102,7 +1175,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": "B",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "callback-C",
@@ -1117,7 +1191,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": "C",
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "hospital4",
@@ -1131,7 +1206,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "hospital5",
@@ -1146,7 +1222,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "hospital6",
@@ -1161,7 +1238,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "dialogue"
   },
   {
     "id": "hospital7",
@@ -1175,7 +1253,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": true
+    "mind": true,
+    "textType": "thought"
   },
   {
     "id": "care",
@@ -1187,7 +1266,8 @@ export const NODES=[
     "setting": "hospital",
     "emotion": "calm",
     "route": null,
-    "mind": false
+    "mind": false,
+    "textType": "choice"
   }
 ];
 export const RESPONSES=[["A", "先答應爸爸，再協調安排", "先承諾回家，再討論原本的親子行程"], ["B", "保留親子約定，另約時間", "保留出遊，向爸爸提出具體替代時間"], ["C", "先了解需求，再協調時間", "確認工作範圍，也說出彼此的時間限制"]];

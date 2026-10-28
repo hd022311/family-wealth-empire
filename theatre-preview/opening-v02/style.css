@@ -2,3 +2,9 @@
 #player-name{display:block;width:min(100%,360px);min-height:52px;margin:12px 0;padding:8px 12px;color:#fff;background:#0b1d2b;border:1px solid #b1c5d5;border-radius:4px;font:inherit;font-size:calc(24px * var(--scale))}#name-help{font-size:calc(18px * var(--scale))}#name-error{color:#ffbdac}#result{left:6%;right:auto;bottom:6%;width:88%;max-height:calc(100dvh - 90px);overflow:auto}#result p{line-height:1.7}#home{bottom:5%;max-height:calc(100dvh - 85px)}#screen{font-size:calc(24px * var(--scale))}#progress{font-size:14px}#name{font-size:calc(20px * var(--scale))}#text{font-size:calc(24px * var(--scale))}#decision-number{display:block}#modal .dialog-body button{min-height:44px}#modal-body a{display:block}.note{font-size:.9em;color:#dce6ef}#result a{margin-left:12px}.volume-header span{font-size:16px}
 @media(orientation:portrait){#home{bottom:12px}#result{left:12px;width:calc(100% - 24px);bottom:12px}#caption{padding-inline:16px}}
 @media(orientation:landscape) and (max-height:360px){#home{bottom:8px;max-height:calc(100dvh - 68px)}#result{bottom:8px;max-height:calc(100dvh - 68px)}#decision-number{font-size:14px;margin-bottom:4px}#decision-title{font-size:1.05em}#prompt{margin-top:4px}.confirm-row{padding:6px 14px}#caption-content{gap:10px}#name{max-width:38%}}
+
+/* Three textual voices share the same 24px baseline and safe subtitle geometry. */
+#caption[data-text-type="thought"] #text,[data-text-type="thought"]#full-reading,.dialog-body p[data-text-type="thought"]{color:#f4ddb5;letter-spacing:.025em;font-style:normal}
+#caption[data-text-type="narration"] #text,[data-text-type="narration"]#full-reading,.dialog-body p[data-text-type="narration"]{color:#f8fbff;letter-spacing:normal;font-style:normal}
+#caption[data-text-type="thought"] #caption-content,#caption[data-text-type="narration"] #caption-content{display:block}
+#caption[data-text-type="thought"] #text,#caption[data-text-type="narration"] #text{font-size:calc(24px * var(--scale))}
