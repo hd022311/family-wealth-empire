@@ -1,6 +1,11 @@
 name: Publish isolated design previews without rebuilding game
 on:
   workflow_dispatch:
+  push:
+    branches: [preview/prologue-82s]
+    paths:
+      - theatre-preview/prologue/**
+      - .github/workflows/publish-ui-preview.yml
 permissions:
   contents: read
   actions: read
