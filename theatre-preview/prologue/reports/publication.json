@@ -1,0 +1,8 @@
+{
+  "status": "not_published",
+  "reason": "GitHub auth status reports current GH_TOKEN invalid; no public URL has been claimed.",
+  "localPath": "/theatre-preview/prologue/",
+  "standaloneReview": "prologue-review.html",
+  "existingPublicGameChanged": false,
+  "formalVolumeIntegrated": false
+}

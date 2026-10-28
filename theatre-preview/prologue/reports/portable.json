@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "opensAsSingleHttpFile": true,
+  "fileProtocol": "not_verified_browser_file_policy",
+  "networkRequests": [
+    "http://127.0.0.1:4191/theatre-preview/prologue/prologue-review.html"
+  ],
+  "choiceGate": true,
+  "errors": []
+}

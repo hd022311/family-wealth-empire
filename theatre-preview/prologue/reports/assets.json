@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/family-candidates.png",
+    "status": "candidate_not_approved",
+    "bytes": 2600945,
+    "sha256": "287cb0e037a45ae7876a66e9d1067ccde51c71fe7305e47cb4ac136bdec84b79"
+  },
+  {
+    "path": "assets/family-candidates.webp",
+    "status": "candidate_not_approved",
+    "bytes": 370940,
+    "sha256": "ebe97988fc0caa941620fbf67e3b50ec71571ef4841dfae54e9182df71d84ce3"
+  },
+  {
+    "path": "assets/places-candidates.png",
+    "status": "candidate_not_approved",
+    "bytes": 2576211,
+    "sha256": "e4bdeeeafc7ef98fbb38f2e7eaed9a6c58e4f34da2074cfc538bfa0b1c8ba25f"
+  },
+  {
+    "path": "assets/places-candidates.webp",
+    "status": "candidate_not_approved",
+    "bytes": 400536,
+    "sha256": "ab6110f8f1825d67a016a797bbd00d65319a278d3aef7b8aed8320bdc89c8d29"
+  },
+  {
+    "path": "assets/table-room-candidate.png",
+    "status": "candidate_not_approved",
+    "bytes": 2033784,
+    "sha256": "6f3b7677e6ea34fa8af3466ce091ba8b7fcbfe03f6092fac646a9e918372f9c6"
+  },
+  {
+    "path": "assets/table-room-candidate.webp",
+    "status": "candidate_not_approved",
+    "bytes": 241928,
+    "sha256": "d0e5931c9a6976ae7a1a9e799afd857fa684e23f3ac4797634bf2b4a5cee0f37"
+  }
+]

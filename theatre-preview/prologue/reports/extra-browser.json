@@ -1,0 +1,9 @@
+{
+  "autoFinalGateVisibleAndStopped": true,
+  "idleNoAnimation": true,
+  "shortHeight150ThirdOption": true,
+  "reloadRetainsDraftNotCommitted": true,
+  "doubleConfirmDoesNotReplay": true,
+  "backgroundPauses": true,
+  "errors": []
+}

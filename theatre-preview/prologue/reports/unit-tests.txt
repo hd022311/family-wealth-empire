@@ -1,0 +1,15 @@
+✔ 82s / suspense within12s / six original choices and eight endings unchanged (1.256536ms)
+✔ cold opening after father death never casts father; flashback before hospitalization; separate ownership not assigned (0.238878ms)
+✔ manual progression gates at existing first choice and never chooses automatically (0.43313ms)
+✔ read skip stops at first unread and at decision, replay keeps seen but not selection (0.231708ms)
+✔ versioned preview resume rejects malformed or incompatible records (1.668645ms)
+✔ runtime writes only separate prologue key and contains no formal game imports or legal engine (0.498258ms)
+✔ formal volume, all prior stage samples and legal files preserved by SHA256 (171.640436ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 252.672737

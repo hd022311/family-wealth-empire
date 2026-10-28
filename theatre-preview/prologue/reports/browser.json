@@ -1,0 +1,4303 @@
+{
+  "base": "http://127.0.0.1:4191/theatre-preview/prologue/",
+  "pass": true,
+  "layoutCount": 21,
+  "shotChecks": 357,
+  "rows": [
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 0,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 1,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 2,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 3,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 4,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 5,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 6,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 7,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 8,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 9,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 10,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 11,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 12,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 13,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 14,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 15,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "index": 16,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 0,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 1,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 2,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 3,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 4,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 5,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 6,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 7,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 8,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 9,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 10,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 11,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 12,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 13,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 14,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 15,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "index": 16,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 0,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 1,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 2,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 3,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 4,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 5,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 6,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 7,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 8,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 9,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 10,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 11,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 12,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 13,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 14,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 15,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "index": 16,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 0,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 1,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 2,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 3,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 4,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 5,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 6,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 7,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 8,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 9,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 10,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 11,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 12,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 13,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 14,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 15,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "index": 16,
+      "font": 22,
+      "captionHeight": 65.296875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 0,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 1,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 2,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 3,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 4,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 5,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 6,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 7,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 8,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 9,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 10,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 11,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 12,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 13,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 14,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 15,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "index": 16,
+      "font": 27.5,
+      "captionHeight": 77.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 0,
+      "font": 33,
+      "captionHeight": 135.625,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 1,
+      "font": 33,
+      "captionHeight": 135.625,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 2,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 3,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 4,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 5,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 6,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 7,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 8,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 9,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 10,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 11,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 12,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 13,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 14,
+      "font": 33,
+      "captionHeight": 135.625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 15,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "index": 16,
+      "font": 33,
+      "captionHeight": 89.4375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 0,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 1,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 2,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 3,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 4,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 5,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 6,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 7,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 8,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 9,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 10,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 11,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 12,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 13,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 14,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 15,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "index": 16,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 0,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 1,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 2,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 3,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 4,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 5,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 6,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 7,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 8,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 9,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 10,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 11,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 12,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 13,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 14,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 15,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "index": 16,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 0,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 1,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 2,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 3,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 4,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 5,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 6,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 7,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 8,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 9,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 10,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 11,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 12,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 13,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 14,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 15,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "index": 16,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 0,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 1,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 2,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 3,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 4,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 5,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 6,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 7,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 8,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 9,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 10,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 11,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 12,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 13,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 14,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 15,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "index": 16,
+      "font": 22,
+      "captionHeight": 60.046875,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 0,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 1,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 2,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 3,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 4,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 5,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 6,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 7,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 8,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 9,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 10,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 11,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 12,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 13,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 14,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 15,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "index": 16,
+      "font": 27.5,
+      "captionHeight": 71.8125,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 0,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 1,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 2,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "player",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 3,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 4,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 5,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 6,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 7,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 8,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 9,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 10,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 11,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 12,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 13,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 14,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 15,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "index": 16,
+      "font": 33,
+      "captionHeight": 83.5625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 0,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 1,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 2,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 3,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 4,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 5,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 6,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 7,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 8,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 9,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 10,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 11,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 12,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 13,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 14,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 15,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "index": 16,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 0,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 1,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 2,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 3,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 4,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 5,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 6,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 7,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 8,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 9,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 10,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 11,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 12,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 13,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 14,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 15,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "index": 16,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 0,
+      "font": 30,
+      "captionHeight": 188.75,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 1,
+      "font": 30,
+      "captionHeight": 188.75,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 2,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 3,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 4,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 5,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 6,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 7,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 8,
+      "font": 30,
+      "captionHeight": 188.75,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 9,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 10,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 11,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 12,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 13,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 14,
+      "font": 30,
+      "captionHeight": 188.75,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 15,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "index": 16,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 0,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 1,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 2,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 3,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 4,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 5,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 6,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 7,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 8,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 9,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 10,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 11,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 12,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 13,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 14,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 15,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "index": 16,
+      "font": 20,
+      "captionHeight": 102.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 0,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 1,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 2,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 3,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 4,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 5,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 6,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 7,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 8,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 9,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 10,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 11,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 12,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 13,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 14,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 15,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "index": 16,
+      "font": 25,
+      "captionHeight": 122.375,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 0,
+      "font": 30,
+      "captionHeight": 188.75,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 1,
+      "font": 30,
+      "captionHeight": 188.75,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 2,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 3,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 4,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 5,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 6,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 7,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 8,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 9,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 10,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 11,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 12,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 13,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 14,
+      "font": 30,
+      "captionHeight": 188.75,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 15,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "index": 16,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 0,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 1,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 2,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 3,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 4,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 5,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 6,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 7,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 8,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 9,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 10,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 11,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 12,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 13,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 14,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 15,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "index": 16,
+      "font": 20,
+      "captionHeight": 71.5,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 0,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 1,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 2,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 3,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 4,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 5,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 6,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 7,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 8,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 9,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 10,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 11,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 12,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 13,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 14,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 15,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "index": 16,
+      "font": 25,
+      "captionHeight": 83.625,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 0,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "player",
+        "brother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 1,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "brother",
+        "sister"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 2,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "player",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 3,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "father",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 4,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "player",
+        "spouse"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 5,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 6,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 7,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "mother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 8,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "father",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 9,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 10,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "brother",
+        "father"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 11,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 12,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "sister",
+        "mother"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 13,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "spouse",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 14,
+      "font": 30,
+      "captionHeight": 142.25,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 15,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "index": 16,
+      "font": 30,
+      "captionHeight": 95.75,
+      "cast": [
+        "mother",
+        "player"
+      ]
+    }
+  ],
+  "reload": true,
+  "skipStopsAtUnreadAndChoice": true,
+  "formalSaveSentinelsUnchanged": true,
+  "rotation": true,
+  "systemReducedMotion": true,
+  "corruptDataPreserved": true,
+  "physicalDevicesTested": false,
+  "errors": []
+}

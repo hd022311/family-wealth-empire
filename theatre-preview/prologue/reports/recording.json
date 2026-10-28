@@ -1,0 +1,30 @@
+[
+  {
+    "name": "landscape-16x9",
+    "width": 1280,
+    "height": 720,
+    "targetMs": 82000,
+    "actualElapsedMs": 82436,
+    "sourceSeconds": 82.14721012115479,
+    "encodedSeconds": 85,
+    "frames": 1642,
+    "modeAtEnd": "choice",
+    "choice": null,
+    "audio": false,
+    "method": "Actual browser CDP recording at original playback speed; 24fps encoding, finite cuts with concept poses, not 24fps character animation."
+  },
+  {
+    "name": "portrait-9x16",
+    "width": 432,
+    "height": 768,
+    "targetMs": 82000,
+    "actualElapsedMs": 82256,
+    "sourceSeconds": 82.11883902549744,
+    "encodedSeconds": 85,
+    "frames": 1642,
+    "modeAtEnd": "choice",
+    "choice": null,
+    "audio": false,
+    "method": "Actual browser CDP recording at original playback speed; 24fps encoding, finite cuts with concept poses, not 24fps character animation."
+  }
+]
