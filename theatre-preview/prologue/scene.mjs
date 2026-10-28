@@ -25,12 +25,13 @@ export const CUES=[
 ];
 export const DURATION=CUES.reduce((n,c)=>n+c.seconds*1000,0);
 export const CARE=DECISIONS[0];
-export function state(){return {version:VERSION,index:0,seen:[],mode:'scene',draft:null,choice:null,scale:1,reduced:false};}
+export function state(){return {version:VERSION,index:0,seen:[],mode:'scene',draft:null,choice:null,scale:1,reduced:false,emotionEffects:true};}
 export function validate(s){
  if(!s||s.version!==VERSION||!Number.isInteger(s.index)||s.index<0||s.index>=CUES.length||!Array.isArray(s.seen)||s.seen.some(id=>!CUES.some(c=>c.id===id))||!['scene','choice','result'].includes(s.mode)||![1,1.25,1.5].includes(s.scale)||typeof s.reduced!=='boolean')throw Error('invalid preview');
+ if(s.emotionEffects!==undefined&&typeof s.emotionEffects!=='boolean')throw Error('invalid effects');
  if(s.mode!=='scene'&&s.index!==CUES.length-1)throw Error('invalid gate');
  const valid=id=>id===null||CARE.options.some(o=>o.id===id);
- if(!valid(s.draft)||!valid(s.choice)||(s.mode==='result'&&!s.choice)||(s.mode!=='result'&&s.choice!==null))throw Error('invalid choice');return structuredClone(s);
+ if(!valid(s.draft)||!valid(s.choice)||(s.mode==='result'&&!s.choice)||(s.mode!=='result'&&s.choice!==null))throw Error('invalid choice');return {...structuredClone(s),emotionEffects:s.emotionEffects??true};
 }
 export function next(s){if(s.mode!=='scene')return false;const id=CUES[s.index].id;if(!s.seen.includes(id))s.seen.push(id);if(s.index<CUES.length-1)s.index++;else s.mode='choice';return true;}
 export function skipRead(s){if(s.mode!=='scene')return 0;let n=0;while(s.mode==='scene'&&s.seen.includes(CUES[s.index].id)){next(s);n++;}return n;}

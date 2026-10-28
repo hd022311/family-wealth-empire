@@ -1,0 +1,3 @@
+import test from'node:test';import assert from'node:assert/strict';import{SPEAKERS,speakerFor,contrast,NAME_BACKGROUND}from'./speakers.mjs';import{CAST}from'../story.mjs';
+test('six fixed colors with explicit full names and roles, never color-only identification',()=>{assert.equal(new Set(Object.values(SPEAKERS).map(s=>s.color)).size,6);for(const[id,s]of Object.entries(SPEAKERS)){assert.equal(speakerFor(id).name,CAST[id].name);assert.ok(speakerFor(id).text.includes(s.label));assert.ok(contrast(s.color,NAME_BACKGROUND)>=7);}});
+test('neutral narrator is readable, actor identity never rewrites dialogue',()=>{assert.equal(speakerFor(null).text,'那一天');assert.equal(speakerFor('unknown').text,'那一天');assert.ok(contrast('#f8fbff','#07111e')>=7);});

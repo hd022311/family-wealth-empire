@@ -9,8 +9,8 @@
       "height": 720,
       "scale": 1,
       "index": 0,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "player",
         "brother"
@@ -21,8 +21,8 @@
       "height": 720,
       "scale": 1,
       "index": 1,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "brother",
         "sister"
@@ -33,8 +33,8 @@
       "height": 720,
       "scale": 1,
       "index": 2,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "player",
@@ -46,8 +46,8 @@
       "height": 720,
       "scale": 1,
       "index": 3,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "player"
@@ -58,8 +58,8 @@
       "height": 720,
       "scale": 1,
       "index": 4,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "player",
         "spouse"
@@ -70,8 +70,8 @@
       "height": 720,
       "scale": 1,
       "index": 5,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "father"
@@ -82,8 +82,8 @@
       "height": 720,
       "scale": 1,
       "index": 6,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father"
       ]
@@ -93,8 +93,8 @@
       "height": 720,
       "scale": 1,
       "index": 7,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "mother",
@@ -106,8 +106,8 @@
       "height": 720,
       "scale": 1,
       "index": 8,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "mother"
@@ -118,8 +118,8 @@
       "height": 720,
       "scale": 1,
       "index": 9,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "brother",
         "father"
@@ -130,8 +130,8 @@
       "height": 720,
       "scale": 1,
       "index": 10,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "brother",
         "father"
@@ -142,8 +142,8 @@
       "height": 720,
       "scale": 1,
       "index": 11,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "sister",
         "mother"
@@ -154,8 +154,8 @@
       "height": 720,
       "scale": 1,
       "index": 12,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "sister",
         "mother"
@@ -166,8 +166,8 @@
       "height": 720,
       "scale": 1,
       "index": 13,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "spouse",
         "player"
@@ -178,8 +178,8 @@
       "height": 720,
       "scale": 1,
       "index": 14,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "player"
@@ -190,8 +190,8 @@
       "height": 720,
       "scale": 1,
       "index": 15,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "player"
@@ -202,8 +202,8 @@
       "height": 720,
       "scale": 1,
       "index": 16,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "player"
@@ -214,8 +214,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 0,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "player",
         "brother"
@@ -226,8 +226,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 1,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "brother",
         "sister"
@@ -238,8 +238,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 2,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "player",
@@ -251,8 +251,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 3,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "player"
@@ -263,8 +263,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 4,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "player",
         "spouse"
@@ -275,8 +275,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 5,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "mother",
         "father"
@@ -287,8 +287,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 6,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father"
       ]
@@ -298,8 +298,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 7,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "mother",
@@ -311,8 +311,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 8,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "mother"
@@ -323,8 +323,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 9,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "brother",
         "father"
@@ -335,8 +335,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 10,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "brother",
         "father"
@@ -347,8 +347,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 11,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "sister",
         "mother"
@@ -359,8 +359,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 12,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "sister",
         "mother"
@@ -371,8 +371,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 13,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "spouse",
         "player"
@@ -383,8 +383,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 14,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "mother",
         "player"
@@ -395,8 +395,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 15,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "mother",
         "player"
@@ -407,8 +407,8 @@
       "height": 720,
       "scale": 1.25,
       "index": 16,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "mother",
         "player"
@@ -419,8 +419,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 0,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "player",
         "brother"
@@ -431,8 +431,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 1,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "brother",
         "sister"
@@ -443,8 +443,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 2,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father",
         "player",
@@ -456,8 +456,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 3,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father",
         "player"
@@ -468,8 +468,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 4,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "player",
         "spouse"
@@ -480,8 +480,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 5,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "mother",
         "father"
@@ -492,8 +492,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 6,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father"
       ]
@@ -503,8 +503,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 7,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father",
         "mother",
@@ -516,8 +516,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 8,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father",
         "mother"
@@ -528,8 +528,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 9,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "brother",
         "father"
@@ -540,8 +540,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 10,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "brother",
         "father"
@@ -552,8 +552,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 11,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "sister",
         "mother"
@@ -564,8 +564,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 12,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "sister",
         "mother"
@@ -576,8 +576,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 13,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "spouse",
         "player"
@@ -588,8 +588,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 14,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "mother",
         "player"
@@ -600,8 +600,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 15,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "mother",
         "player"
@@ -612,8 +612,8 @@
       "height": 720,
       "scale": 1.5,
       "index": 16,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "mother",
         "player"
@@ -624,8 +624,8 @@
       "height": 390,
       "scale": 1,
       "index": 0,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "player",
         "brother"
@@ -636,8 +636,8 @@
       "height": 390,
       "scale": 1,
       "index": 1,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "brother",
         "sister"
@@ -648,8 +648,8 @@
       "height": 390,
       "scale": 1,
       "index": 2,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "player",
@@ -661,8 +661,8 @@
       "height": 390,
       "scale": 1,
       "index": 3,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "player"
@@ -673,8 +673,8 @@
       "height": 390,
       "scale": 1,
       "index": 4,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "player",
         "spouse"
@@ -685,8 +685,8 @@
       "height": 390,
       "scale": 1,
       "index": 5,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "father"
@@ -697,8 +697,8 @@
       "height": 390,
       "scale": 1,
       "index": 6,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father"
       ]
@@ -708,8 +708,8 @@
       "height": 390,
       "scale": 1,
       "index": 7,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "mother",
@@ -721,8 +721,8 @@
       "height": 390,
       "scale": 1,
       "index": 8,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "father",
         "mother"
@@ -733,8 +733,8 @@
       "height": 390,
       "scale": 1,
       "index": 9,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "brother",
         "father"
@@ -745,8 +745,8 @@
       "height": 390,
       "scale": 1,
       "index": 10,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "brother",
         "father"
@@ -757,8 +757,8 @@
       "height": 390,
       "scale": 1,
       "index": 11,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "sister",
         "mother"
@@ -769,8 +769,8 @@
       "height": 390,
       "scale": 1,
       "index": 12,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "sister",
         "mother"
@@ -781,8 +781,8 @@
       "height": 390,
       "scale": 1,
       "index": 13,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "spouse",
         "player"
@@ -793,8 +793,8 @@
       "height": 390,
       "scale": 1,
       "index": 14,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "player"
@@ -805,8 +805,8 @@
       "height": 390,
       "scale": 1,
       "index": 15,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "player"
@@ -817,8 +817,8 @@
       "height": 390,
       "scale": 1,
       "index": 16,
-      "font": 22,
-      "captionHeight": 65.296875,
+      "font": 24,
+      "captionHeight": 80.59375,
       "cast": [
         "mother",
         "player"
@@ -829,8 +829,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 0,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "player",
         "brother"
@@ -841,8 +841,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 1,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "brother",
         "sister"
@@ -853,8 +853,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 2,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "player",
@@ -866,8 +866,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 3,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "player"
@@ -878,8 +878,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 4,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "player",
         "spouse"
@@ -890,8 +890,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 5,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "mother",
         "father"
@@ -902,8 +902,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 6,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father"
       ]
@@ -913,8 +913,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 7,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "mother",
@@ -926,8 +926,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 8,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "father",
         "mother"
@@ -938,8 +938,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 9,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "brother",
         "father"
@@ -950,8 +950,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 10,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "brother",
         "father"
@@ -962,8 +962,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 11,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "sister",
         "mother"
@@ -974,8 +974,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 12,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "sister",
         "mother"
@@ -986,8 +986,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 13,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "spouse",
         "player"
@@ -998,8 +998,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 14,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 137.25,
       "cast": [
         "mother",
         "player"
@@ -1010,8 +1010,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 15,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "mother",
         "player"
@@ -1022,8 +1022,8 @@
       "height": 390,
       "scale": 1.25,
       "index": 16,
-      "font": 27.5,
-      "captionHeight": 77.375,
+      "font": 30,
+      "captionHeight": 95.25,
       "cast": [
         "mother",
         "player"
@@ -1034,8 +1034,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 0,
-      "font": 33,
-      "captionHeight": 135.625,
+      "font": 36,
+      "captionHeight": 160.28125,
       "cast": [
         "player",
         "brother"
@@ -1046,8 +1046,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 1,
-      "font": 33,
-      "captionHeight": 135.625,
+      "font": 36,
+      "captionHeight": 160.28125,
       "cast": [
         "brother",
         "sister"
@@ -1058,8 +1058,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 2,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father",
         "player",
@@ -1071,8 +1071,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 3,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father",
         "player"
@@ -1083,8 +1083,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 4,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "player",
         "spouse"
@@ -1095,8 +1095,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 5,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "mother",
         "father"
@@ -1107,8 +1107,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 6,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father"
       ]
@@ -1118,8 +1118,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 7,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "father",
         "mother",
@@ -1131,8 +1131,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 8,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 160.28125,
       "cast": [
         "father",
         "mother"
@@ -1143,8 +1143,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 9,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "brother",
         "father"
@@ -1155,8 +1155,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 10,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "brother",
         "father"
@@ -1167,8 +1167,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 11,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "sister",
         "mother"
@@ -1179,8 +1179,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 12,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "sister",
         "mother"
@@ -1191,8 +1191,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 13,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "spouse",
         "player"
@@ -1203,8 +1203,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 14,
-      "font": 33,
-      "captionHeight": 135.625,
+      "font": 36,
+      "captionHeight": 160.28125,
       "cast": [
         "mother",
         "player"
@@ -1215,8 +1215,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 15,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "mother",
         "player"
@@ -1227,8 +1227,8 @@
       "height": 390,
       "scale": 1.5,
       "index": 16,
-      "font": 33,
-      "captionHeight": 89.4375,
+      "font": 36,
+      "captionHeight": 109.890625,
       "cast": [
         "mother",
         "player"
@@ -1239,8 +1239,8 @@
       "height": 300,
       "scale": 1,
       "index": 0,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "player",
         "brother"
@@ -1251,8 +1251,8 @@
       "height": 300,
       "scale": 1,
       "index": 1,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "brother",
         "sister"
@@ -1263,8 +1263,8 @@
       "height": 300,
       "scale": 1,
       "index": 2,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "player",
@@ -1276,8 +1276,8 @@
       "height": 300,
       "scale": 1,
       "index": 3,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "player"
@@ -1288,8 +1288,8 @@
       "height": 300,
       "scale": 1,
       "index": 4,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "player",
         "spouse"
@@ -1300,8 +1300,8 @@
       "height": 300,
       "scale": 1,
       "index": 5,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "father"
@@ -1312,8 +1312,8 @@
       "height": 300,
       "scale": 1,
       "index": 6,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father"
       ]
@@ -1323,8 +1323,8 @@
       "height": 300,
       "scale": 1,
       "index": 7,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "mother",
@@ -1336,8 +1336,8 @@
       "height": 300,
       "scale": 1,
       "index": 8,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "mother"
@@ -1348,8 +1348,8 @@
       "height": 300,
       "scale": 1,
       "index": 9,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "brother",
         "father"
@@ -1360,8 +1360,8 @@
       "height": 300,
       "scale": 1,
       "index": 10,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "brother",
         "father"
@@ -1372,8 +1372,8 @@
       "height": 300,
       "scale": 1,
       "index": 11,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "sister",
         "mother"
@@ -1384,8 +1384,8 @@
       "height": 300,
       "scale": 1,
       "index": 12,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "sister",
         "mother"
@@ -1396,8 +1396,8 @@
       "height": 300,
       "scale": 1,
       "index": 13,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "spouse",
         "player"
@@ -1408,8 +1408,8 @@
       "height": 300,
       "scale": 1,
       "index": 14,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "player"
@@ -1420,8 +1420,8 @@
       "height": 300,
       "scale": 1,
       "index": 15,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "player"
@@ -1432,8 +1432,8 @@
       "height": 300,
       "scale": 1,
       "index": 16,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "player"
@@ -1444,8 +1444,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 0,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "player",
         "brother"
@@ -1456,8 +1456,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 1,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "brother",
         "sister"
@@ -1468,8 +1468,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 2,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "player",
@@ -1481,8 +1481,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 3,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "player"
@@ -1493,8 +1493,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 4,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "player",
         "spouse"
@@ -1505,8 +1505,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 5,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "father"
@@ -1517,8 +1517,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 6,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father"
       ]
@@ -1528,8 +1528,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 7,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "mother",
@@ -1541,8 +1541,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 8,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "mother"
@@ -1553,8 +1553,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 9,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "brother",
         "father"
@@ -1565,8 +1565,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 10,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "brother",
         "father"
@@ -1577,8 +1577,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 11,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "sister",
         "mother"
@@ -1589,8 +1589,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 12,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "sister",
         "mother"
@@ -1601,8 +1601,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 13,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "spouse",
         "player"
@@ -1613,8 +1613,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 14,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "player"
@@ -1625,8 +1625,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 15,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "player"
@@ -1637,8 +1637,8 @@
       "height": 300,
       "scale": 1.25,
       "index": 16,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "player"
@@ -1649,8 +1649,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 0,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "player",
         "brother"
@@ -1661,8 +1661,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 1,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "brother",
         "sister"
@@ -1673,8 +1673,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 2,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "player",
@@ -1686,8 +1686,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 3,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "player"
@@ -1698,8 +1698,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 4,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "player",
         "spouse"
@@ -1710,8 +1710,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 5,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "father"
@@ -1722,8 +1722,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 6,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father"
       ]
@@ -1733,8 +1733,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 7,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "mother",
@@ -1746,8 +1746,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 8,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "mother"
@@ -1758,8 +1758,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 9,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "brother",
         "father"
@@ -1770,8 +1770,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 10,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "brother",
         "father"
@@ -1782,8 +1782,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 11,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "sister",
         "mother"
@@ -1794,8 +1794,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 12,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "sister",
         "mother"
@@ -1806,8 +1806,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 13,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "spouse",
         "player"
@@ -1818,8 +1818,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 14,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "player"
@@ -1830,8 +1830,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 15,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "player"
@@ -1842,8 +1842,8 @@
       "height": 300,
       "scale": 1.5,
       "index": 16,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "player"
@@ -1854,8 +1854,8 @@
       "height": 260,
       "scale": 1,
       "index": 0,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "player",
         "brother"
@@ -1866,8 +1866,8 @@
       "height": 260,
       "scale": 1,
       "index": 1,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "brother",
         "sister"
@@ -1878,8 +1878,8 @@
       "height": 260,
       "scale": 1,
       "index": 2,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "player",
@@ -1891,8 +1891,8 @@
       "height": 260,
       "scale": 1,
       "index": 3,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "player"
@@ -1903,8 +1903,8 @@
       "height": 260,
       "scale": 1,
       "index": 4,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "player",
         "spouse"
@@ -1915,8 +1915,8 @@
       "height": 260,
       "scale": 1,
       "index": 5,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "father"
@@ -1927,8 +1927,8 @@
       "height": 260,
       "scale": 1,
       "index": 6,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father"
       ]
@@ -1938,8 +1938,8 @@
       "height": 260,
       "scale": 1,
       "index": 7,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "mother",
@@ -1951,8 +1951,8 @@
       "height": 260,
       "scale": 1,
       "index": 8,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "father",
         "mother"
@@ -1963,8 +1963,8 @@
       "height": 260,
       "scale": 1,
       "index": 9,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "brother",
         "father"
@@ -1975,8 +1975,8 @@
       "height": 260,
       "scale": 1,
       "index": 10,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "brother",
         "father"
@@ -1987,8 +1987,8 @@
       "height": 260,
       "scale": 1,
       "index": 11,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "sister",
         "mother"
@@ -1999,8 +1999,8 @@
       "height": 260,
       "scale": 1,
       "index": 12,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "sister",
         "mother"
@@ -2011,8 +2011,8 @@
       "height": 260,
       "scale": 1,
       "index": 13,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "spouse",
         "player"
@@ -2023,8 +2023,8 @@
       "height": 260,
       "scale": 1,
       "index": 14,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "player"
@@ -2035,8 +2035,8 @@
       "height": 260,
       "scale": 1,
       "index": 15,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "player"
@@ -2047,8 +2047,8 @@
       "height": 260,
       "scale": 1,
       "index": 16,
-      "font": 22,
-      "captionHeight": 60.046875,
+      "font": 24,
+      "captionHeight": 43.59375,
       "cast": [
         "mother",
         "player"
@@ -2059,8 +2059,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 0,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "player",
         "brother"
@@ -2071,8 +2071,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 1,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "brother",
         "sister"
@@ -2083,8 +2083,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 2,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "player",
@@ -2096,8 +2096,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 3,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "player"
@@ -2108,8 +2108,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 4,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "player",
         "spouse"
@@ -2120,8 +2120,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 5,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "father"
@@ -2132,8 +2132,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 6,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father"
       ]
@@ -2143,8 +2143,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 7,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "mother",
@@ -2156,8 +2156,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 8,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "father",
         "mother"
@@ -2168,8 +2168,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 9,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "brother",
         "father"
@@ -2180,8 +2180,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 10,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "brother",
         "father"
@@ -2192,8 +2192,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 11,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "sister",
         "mother"
@@ -2204,8 +2204,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 12,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "sister",
         "mother"
@@ -2216,8 +2216,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 13,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "spouse",
         "player"
@@ -2228,8 +2228,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 14,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "player"
@@ -2240,8 +2240,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 15,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "player"
@@ -2252,8 +2252,8 @@
       "height": 260,
       "scale": 1.25,
       "index": 16,
-      "font": 27.5,
-      "captionHeight": 71.8125,
+      "font": 30,
+      "captionHeight": 52,
       "cast": [
         "mother",
         "player"
@@ -2264,8 +2264,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 0,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "player",
         "brother"
@@ -2276,8 +2276,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 1,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "brother",
         "sister"
@@ -2288,8 +2288,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 2,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "player",
@@ -2301,8 +2301,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 3,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "player"
@@ -2313,8 +2313,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 4,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "player",
         "spouse"
@@ -2325,8 +2325,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 5,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "father"
@@ -2337,8 +2337,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 6,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father"
       ]
@@ -2348,8 +2348,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 7,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "mother",
@@ -2361,8 +2361,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 8,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "father",
         "mother"
@@ -2373,8 +2373,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 9,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "brother",
         "father"
@@ -2385,8 +2385,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 10,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "brother",
         "father"
@@ -2397,8 +2397,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 11,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "sister",
         "mother"
@@ -2409,8 +2409,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 12,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "sister",
         "mother"
@@ -2421,8 +2421,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 13,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "spouse",
         "player"
@@ -2433,8 +2433,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 14,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "player"
@@ -2445,8 +2445,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 15,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "player"
@@ -2457,8 +2457,8 @@
       "height": 260,
       "scale": 1.5,
       "index": 16,
-      "font": 33,
-      "captionHeight": 83.5625,
+      "font": 36,
+      "captionHeight": 60.390625,
       "cast": [
         "mother",
         "player"
@@ -2469,8 +2469,8 @@
       "height": 844,
       "scale": 1,
       "index": 0,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "player",
         "brother"
@@ -2481,8 +2481,8 @@
       "height": 844,
       "scale": 1,
       "index": 1,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "brother",
         "sister"
@@ -2493,8 +2493,8 @@
       "height": 844,
       "scale": 1,
       "index": 2,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "player",
         "father"
@@ -2505,8 +2505,8 @@
       "height": 844,
       "scale": 1,
       "index": 3,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "father",
         "player"
@@ -2517,8 +2517,8 @@
       "height": 844,
       "scale": 1,
       "index": 4,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "player",
         "spouse"
@@ -2529,8 +2529,8 @@
       "height": 844,
       "scale": 1,
       "index": 5,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "father"
@@ -2541,8 +2541,8 @@
       "height": 844,
       "scale": 1,
       "index": 6,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "father"
       ]
@@ -2552,8 +2552,8 @@
       "height": 844,
       "scale": 1,
       "index": 7,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "father"
@@ -2564,8 +2564,8 @@
       "height": 844,
       "scale": 1,
       "index": 8,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "father",
         "mother"
@@ -2576,8 +2576,8 @@
       "height": 844,
       "scale": 1,
       "index": 9,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "brother",
         "father"
@@ -2588,8 +2588,8 @@
       "height": 844,
       "scale": 1,
       "index": 10,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "brother",
         "father"
@@ -2600,8 +2600,8 @@
       "height": 844,
       "scale": 1,
       "index": 11,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "sister",
         "mother"
@@ -2612,8 +2612,8 @@
       "height": 844,
       "scale": 1,
       "index": 12,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "sister",
         "mother"
@@ -2624,8 +2624,8 @@
       "height": 844,
       "scale": 1,
       "index": 13,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "spouse",
         "player"
@@ -2636,8 +2636,8 @@
       "height": 844,
       "scale": 1,
       "index": 14,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "player"
@@ -2648,8 +2648,8 @@
       "height": 844,
       "scale": 1,
       "index": 15,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "player"
@@ -2660,8 +2660,8 @@
       "height": 844,
       "scale": 1,
       "index": 16,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "player"
@@ -2672,8 +2672,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 0,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 198.75,
       "cast": [
         "player",
         "brother"
@@ -2684,8 +2684,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 1,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 198.75,
       "cast": [
         "brother",
         "sister"
@@ -2696,8 +2696,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 2,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "player",
         "father"
@@ -2708,8 +2708,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 3,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "father",
         "player"
@@ -2720,8 +2720,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 4,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "player",
         "spouse"
@@ -2732,8 +2732,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 5,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "father"
@@ -2744,8 +2744,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 6,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "father"
       ]
@@ -2755,8 +2755,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 7,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "father"
@@ -2767,8 +2767,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 8,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 198.75,
       "cast": [
         "father",
         "mother"
@@ -2779,8 +2779,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 9,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "brother",
         "father"
@@ -2791,8 +2791,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 10,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "brother",
         "father"
@@ -2803,8 +2803,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 11,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "sister",
         "mother"
@@ -2815,8 +2815,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 12,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "sister",
         "mother"
@@ -2827,8 +2827,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 13,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "spouse",
         "player"
@@ -2839,8 +2839,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 14,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 198.75,
       "cast": [
         "mother",
         "player"
@@ -2851,8 +2851,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 15,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "player"
@@ -2863,8 +2863,8 @@
       "height": 844,
       "scale": 1.25,
       "index": 16,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "player"
@@ -2875,8 +2875,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 0,
-      "font": 30,
-      "captionHeight": 188.75,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "player",
         "brother"
@@ -2887,8 +2887,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 1,
-      "font": 30,
-      "captionHeight": 188.75,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "brother",
         "sister"
@@ -2899,8 +2899,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 2,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "player",
         "father"
@@ -2911,8 +2911,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 3,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "father",
         "player"
@@ -2923,8 +2923,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 4,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "player",
         "spouse"
@@ -2935,8 +2935,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 5,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "mother",
         "father"
@@ -2947,8 +2947,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 6,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "father"
       ]
@@ -2958,8 +2958,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 7,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "mother",
         "father"
@@ -2970,8 +2970,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 8,
-      "font": 30,
-      "captionHeight": 188.75,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "father",
         "mother"
@@ -2982,8 +2982,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 9,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "brother",
         "father"
@@ -2994,8 +2994,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 10,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "brother",
         "father"
@@ -3006,8 +3006,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 11,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "sister",
         "mother"
@@ -3018,8 +3018,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 12,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "sister",
         "mother"
@@ -3030,8 +3030,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 13,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "spouse",
         "player"
@@ -3042,8 +3042,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 14,
-      "font": 30,
-      "captionHeight": 188.75,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "mother",
         "player"
@@ -3054,8 +3054,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 15,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "mother",
         "player"
@@ -3066,8 +3066,8 @@
       "height": 844,
       "scale": 1.5,
       "index": 16,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "mother",
         "player"
@@ -3078,8 +3078,8 @@
       "height": 768,
       "scale": 1,
       "index": 0,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "player",
         "brother"
@@ -3090,8 +3090,8 @@
       "height": 768,
       "scale": 1,
       "index": 1,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "brother",
         "sister"
@@ -3102,8 +3102,8 @@
       "height": 768,
       "scale": 1,
       "index": 2,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "player",
         "father"
@@ -3114,8 +3114,8 @@
       "height": 768,
       "scale": 1,
       "index": 3,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "father",
         "player"
@@ -3126,8 +3126,8 @@
       "height": 768,
       "scale": 1,
       "index": 4,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "player",
         "spouse"
@@ -3138,8 +3138,8 @@
       "height": 768,
       "scale": 1,
       "index": 5,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "father"
@@ -3150,8 +3150,8 @@
       "height": 768,
       "scale": 1,
       "index": 6,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "father"
       ]
@@ -3161,8 +3161,8 @@
       "height": 768,
       "scale": 1,
       "index": 7,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "mother",
         "father"
@@ -3173,8 +3173,8 @@
       "height": 768,
       "scale": 1,
       "index": 8,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "father",
         "mother"
@@ -3185,8 +3185,8 @@
       "height": 768,
       "scale": 1,
       "index": 9,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "brother",
         "father"
@@ -3197,8 +3197,8 @@
       "height": 768,
       "scale": 1,
       "index": 10,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "brother",
         "father"
@@ -3209,8 +3209,8 @@
       "height": 768,
       "scale": 1,
       "index": 11,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "sister",
         "mother"
@@ -3221,8 +3221,8 @@
       "height": 768,
       "scale": 1,
       "index": 12,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "sister",
         "mother"
@@ -3233,8 +3233,8 @@
       "height": 768,
       "scale": 1,
       "index": 13,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "spouse",
         "player"
@@ -3245,8 +3245,8 @@
       "height": 768,
       "scale": 1,
       "index": 14,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "player"
@@ -3257,8 +3257,8 @@
       "height": 768,
       "scale": 1,
       "index": 15,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "player"
@@ -3269,8 +3269,8 @@
       "height": 768,
       "scale": 1,
       "index": 16,
-      "font": 20,
-      "captionHeight": 102.5,
+      "font": 24,
+      "captionHeight": 127.375,
       "cast": [
         "mother",
         "player"
@@ -3281,8 +3281,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 0,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 198.75,
       "cast": [
         "player",
         "brother"
@@ -3293,8 +3293,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 1,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 198.75,
       "cast": [
         "brother",
         "sister"
@@ -3305,8 +3305,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 2,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "player",
         "father"
@@ -3317,8 +3317,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 3,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "father",
         "player"
@@ -3329,8 +3329,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 4,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "player",
         "spouse"
@@ -3341,8 +3341,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 5,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "father"
@@ -3353,8 +3353,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 6,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "father"
       ]
@@ -3364,8 +3364,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 7,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "father"
@@ -3376,8 +3376,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 8,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "father",
         "mother"
@@ -3388,8 +3388,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 9,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "brother",
         "father"
@@ -3400,8 +3400,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 10,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "brother",
         "father"
@@ -3412,8 +3412,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 11,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "sister",
         "mother"
@@ -3424,8 +3424,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 12,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "sister",
         "mother"
@@ -3436,8 +3436,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 13,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "spouse",
         "player"
@@ -3448,8 +3448,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 14,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 198.75,
       "cast": [
         "mother",
         "player"
@@ -3460,8 +3460,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 15,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "player"
@@ -3472,8 +3472,8 @@
       "height": 768,
       "scale": 1.25,
       "index": 16,
-      "font": 25,
-      "captionHeight": 122.375,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "player"
@@ -3484,8 +3484,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 0,
-      "font": 30,
-      "captionHeight": 188.75,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "player",
         "brother"
@@ -3496,8 +3496,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 1,
-      "font": 30,
-      "captionHeight": 188.75,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "brother",
         "sister"
@@ -3508,8 +3508,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 2,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "player",
         "father"
@@ -3520,8 +3520,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 3,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "father",
         "player"
@@ -3532,8 +3532,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 4,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "player",
         "spouse"
@@ -3544,8 +3544,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 5,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "mother",
         "father"
@@ -3556,8 +3556,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 6,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "father"
       ]
@@ -3567,8 +3567,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 7,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "mother",
         "father"
@@ -3579,8 +3579,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 8,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "father",
         "mother"
@@ -3591,8 +3591,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 9,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "brother",
         "father"
@@ -3603,8 +3603,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 10,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "brother",
         "father"
@@ -3615,8 +3615,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 11,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "sister",
         "mother"
@@ -3627,8 +3627,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 12,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "sister",
         "mother"
@@ -3639,8 +3639,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 13,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "spouse",
         "player"
@@ -3651,8 +3651,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 14,
-      "font": 30,
-      "captionHeight": 188.75,
+      "font": 36,
+      "captionHeight": 232.890625,
       "cast": [
         "mother",
         "player"
@@ -3663,8 +3663,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 15,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "mother",
         "player"
@@ -3675,8 +3675,8 @@
       "height": 768,
       "scale": 1.5,
       "index": 16,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "mother",
         "player"
@@ -3687,8 +3687,8 @@
       "height": 1180,
       "scale": 1,
       "index": 0,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "player",
         "brother"
@@ -3699,8 +3699,8 @@
       "height": 1180,
       "scale": 1,
       "index": 1,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "brother",
         "sister"
@@ -3711,8 +3711,8 @@
       "height": 1180,
       "scale": 1,
       "index": 2,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "player",
         "father"
@@ -3723,8 +3723,8 @@
       "height": 1180,
       "scale": 1,
       "index": 3,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "father",
         "player"
@@ -3735,8 +3735,8 @@
       "height": 1180,
       "scale": 1,
       "index": 4,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "player",
         "spouse"
@@ -3747,8 +3747,8 @@
       "height": 1180,
       "scale": 1,
       "index": 5,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "mother",
         "father"
@@ -3759,8 +3759,8 @@
       "height": 1180,
       "scale": 1,
       "index": 6,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "father"
       ]
@@ -3770,8 +3770,8 @@
       "height": 1180,
       "scale": 1,
       "index": 7,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "mother",
         "father"
@@ -3782,8 +3782,8 @@
       "height": 1180,
       "scale": 1,
       "index": 8,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "father",
         "mother"
@@ -3794,8 +3794,8 @@
       "height": 1180,
       "scale": 1,
       "index": 9,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "brother",
         "father"
@@ -3806,8 +3806,8 @@
       "height": 1180,
       "scale": 1,
       "index": 10,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "brother",
         "father"
@@ -3818,8 +3818,8 @@
       "height": 1180,
       "scale": 1,
       "index": 11,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "sister",
         "mother"
@@ -3830,8 +3830,8 @@
       "height": 1180,
       "scale": 1,
       "index": 12,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "sister",
         "mother"
@@ -3842,8 +3842,8 @@
       "height": 1180,
       "scale": 1,
       "index": 13,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "spouse",
         "player"
@@ -3854,8 +3854,8 @@
       "height": 1180,
       "scale": 1,
       "index": 14,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "mother",
         "player"
@@ -3866,8 +3866,8 @@
       "height": 1180,
       "scale": 1,
       "index": 15,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "mother",
         "player"
@@ -3878,8 +3878,8 @@
       "height": 1180,
       "scale": 1,
       "index": 16,
-      "font": 20,
-      "captionHeight": 71.5,
+      "font": 24,
+      "captionHeight": 90.1875,
       "cast": [
         "mother",
         "player"
@@ -3890,8 +3890,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 0,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "player",
         "brother"
@@ -3902,8 +3902,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 1,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "brother",
         "sister"
@@ -3914,8 +3914,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 2,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "player",
         "father"
@@ -3926,8 +3926,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 3,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "father",
         "player"
@@ -3938,8 +3938,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 4,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "player",
         "spouse"
@@ -3950,8 +3950,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 5,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "mother",
         "father"
@@ -3962,8 +3962,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 6,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "father"
       ]
@@ -3973,8 +3973,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 7,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "mother",
         "father"
@@ -3985,8 +3985,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 8,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "father",
         "mother"
@@ -3997,8 +3997,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 9,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "brother",
         "father"
@@ -4009,8 +4009,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 10,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "brother",
         "father"
@@ -4021,8 +4021,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 11,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "sister",
         "mother"
@@ -4033,8 +4033,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 12,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "sister",
         "mother"
@@ -4045,8 +4045,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 13,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "spouse",
         "player"
@@ -4057,8 +4057,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 14,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 152.25,
       "cast": [
         "mother",
         "player"
@@ -4069,8 +4069,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 15,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "mother",
         "player"
@@ -4081,8 +4081,8 @@
       "height": 1180,
       "scale": 1.25,
       "index": 16,
-      "font": 25,
-      "captionHeight": 83.625,
+      "font": 30,
+      "captionHeight": 105.75,
       "cast": [
         "mother",
         "player"
@@ -4093,8 +4093,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 0,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "player",
         "brother"
@@ -4105,8 +4105,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 1,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "brother",
         "sister"
@@ -4117,8 +4117,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 2,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "player",
         "father"
@@ -4129,8 +4129,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 3,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "father",
         "player"
@@ -4141,8 +4141,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 4,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "player",
         "spouse"
@@ -4153,8 +4153,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 5,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "mother",
         "father"
@@ -4165,8 +4165,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 6,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "father"
       ]
@@ -4176,8 +4176,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 7,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "mother",
         "father"
@@ -4188,8 +4188,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 8,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "father",
         "mother"
@@ -4200,8 +4200,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 9,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "brother",
         "father"
@@ -4212,8 +4212,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 10,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "brother",
         "father"
@@ -4224,8 +4224,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 11,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "sister",
         "mother"
@@ -4236,8 +4236,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 12,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "sister",
         "mother"
@@ -4248,8 +4248,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 13,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "spouse",
         "player"
@@ -4260,8 +4260,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 14,
-      "font": 30,
-      "captionHeight": 142.25,
+      "font": 36,
+      "captionHeight": 177.09375,
       "cast": [
         "mother",
         "player"
@@ -4272,8 +4272,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 15,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "mother",
         "player"
@@ -4284,8 +4284,8 @@
       "height": 1180,
       "scale": 1.5,
       "index": 16,
-      "font": 30,
-      "captionHeight": 95.75,
+      "font": 36,
+      "captionHeight": 121.296875,
       "cast": [
         "mother",
         "player"

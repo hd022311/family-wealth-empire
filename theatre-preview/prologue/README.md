@@ -48,3 +48,17 @@ python3 -m http.server 4191 --bind 0.0.0.0
 測試腳本目前引用此雲端環境的Playwright安裝路徑；遊戲本身不依賴此路徑。
 
 錄影是實際Chromium播放畫面：82秒故事後停在照顧選擇，影片額外保留短暫尾畫面，無配音與音樂。24fps是影片編碼規格，並非24張／秒人物動畫。
+
+## 字幕閱讀與情緒小型測試
+
+- 姓名20px、對話24px基準，三種字級等比例放大；短高度不縮字。
+- 六名人物有固定識別色，搭配姓名、身分與色條；對話保持白色，未改人物亮度與素材。
+- `emotions.mjs`是可重用六狀態字幕元件，只有3句套用憤怒／悲傷／堅定，其餘14句維持平靜。
+- 特效只作用於字幕內層，不影響攝影機安全區、Canvas、選項或劇情計時；震幅上限2.5 CSS px，180ms單次。
+- 新增獨立前言的可選設定 `emotionEffects`，舊紀錄缺少時預設開啟，不變更版本／日期／已讀位置。
+- 系統或手動減少動態優先於此設定，關閉立即恢復文字；切回開啟不重播目前句，重看可重新比較。
+- 新驗收與四支比較短片：`reports/emotions/REVIEW.html`。原82秒影片保留作上一版基線。
+- `node --test theatre-preview/prologue/*.test.mjs`
+- `node theatre-preview/prologue/scripts/emotion-browser.mjs`
+- `node theatre-preview/prologue/scripts/readability-browser.mjs`
+- `node theatre-preview/prologue/scripts/emotion-record.mjs`

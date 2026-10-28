@@ -1,0 +1,309 @@
+{
+  "pass": true,
+  "baselineCommit": "f478c13",
+  "rows": [
+    {
+      "phase": "before",
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "nameFont": 13,
+      "bodyFont": 22,
+      "color": "rgb(217, 232, 243)",
+      "bodyColor": "rgb(255, 247, 233)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 191.953125,
+        "width": 844,
+        "height": 60.046875,
+        "top": 191.953125,
+        "right": 844,
+        "bottom": 252,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "before",
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "nameFont": 16.25,
+      "bodyFont": 27.5,
+      "color": "rgb(217, 232, 243)",
+      "bodyColor": "rgb(255, 247, 233)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 180.1875,
+        "width": 844,
+        "height": 71.8125,
+        "top": 180.1875,
+        "right": 844,
+        "bottom": 252,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "before",
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "nameFont": 19.5,
+      "bodyFont": 33,
+      "color": "rgb(217, 232, 243)",
+      "bodyColor": "rgb(255, 247, 233)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 168.4375,
+        "width": 844,
+        "height": 83.5625,
+        "top": 168.4375,
+        "right": 844,
+        "bottom": 252,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "nameFont": 14,
+      "bodyFont": 20,
+      "color": "rgb(217, 232, 243)",
+      "bodyColor": "rgb(255, 247, 233)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 712.5,
+        "width": 390,
+        "height": 71.5,
+        "top": 712.5,
+        "right": 390,
+        "bottom": 784,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "nameFont": 17.5,
+      "bodyFont": 25,
+      "color": "rgb(217, 232, 243)",
+      "bodyColor": "rgb(255, 247, 233)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 700.375,
+        "width": 390,
+        "height": 83.625,
+        "top": 700.375,
+        "right": 390,
+        "bottom": 784,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "nameFont": 21,
+      "bodyFont": 30,
+      "color": "rgb(217, 232, 243)",
+      "bodyColor": "rgb(255, 247, 233)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 641.75,
+        "width": 390,
+        "height": 142.25,
+        "top": 641.75,
+        "right": 390,
+        "bottom": 784,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "after",
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "nameFont": 20,
+      "bodyFont": 24,
+      "color": "rgb(155, 217, 255)",
+      "bodyColor": "rgb(248, 251, 255)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 208.40625,
+        "width": 844,
+        "height": 43.59375,
+        "top": 208.40625,
+        "right": 844,
+        "bottom": 252,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "after",
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "nameFont": 25,
+      "bodyFont": 30,
+      "color": "rgb(155, 217, 255)",
+      "bodyColor": "rgb(248, 251, 255)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 200,
+        "width": 844,
+        "height": 52,
+        "top": 200,
+        "right": 844,
+        "bottom": 252,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "after",
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "nameFont": 30,
+      "bodyFont": 36,
+      "color": "rgb(155, 217, 255)",
+      "bodyColor": "rgb(248, 251, 255)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 191.609375,
+        "width": 844,
+        "height": 60.390625,
+        "top": 191.609375,
+        "right": 844,
+        "bottom": 252,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "nameFont": 20,
+      "bodyFont": 24,
+      "color": "rgb(155, 217, 255)",
+      "bodyColor": "rgb(248, 251, 255)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 693.8125,
+        "width": 390,
+        "height": 90.1875,
+        "top": 693.8125,
+        "right": 390,
+        "bottom": 784,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "nameFont": 25,
+      "bodyFont": 30,
+      "color": "rgb(155, 217, 255)",
+      "bodyColor": "rgb(248, 251, 255)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 631.75,
+        "width": 390,
+        "height": 152.25,
+        "top": 631.75,
+        "right": 390,
+        "bottom": 784,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "nameFont": 30,
+      "bodyFont": 36,
+      "color": "rgb(155, 217, 255)",
+      "bodyColor": "rgb(248, 251, 255)",
+      "overflow": false,
+      "caption": {
+        "x": 0,
+        "y": 606.90625,
+        "width": 390,
+        "height": 177.09375,
+        "top": 606.90625,
+        "right": 390,
+        "bottom": 784,
+        "left": 0
+      },
+      "name": "林家安（主角）"
+    }
+  ],
+  "colors": [
+    {
+      "id": "player",
+      "label": "主角",
+      "color": "#9bd9ff",
+      "contrast": 12.421783520811822
+    },
+    {
+      "id": "father",
+      "label": "父親",
+      "color": "#f5d38b",
+      "contrast": 13.153003711529054
+    },
+    {
+      "id": "mother",
+      "label": "母親",
+      "color": "#f1b7ca",
+      "contrast": 11.161404014124587
+    },
+    {
+      "id": "brother",
+      "label": "哥哥",
+      "color": "#ffb29b",
+      "contrast": 10.91506587576287
+    },
+    {
+      "id": "sister",
+      "label": "妹妹",
+      "color": "#c8beff",
+      "contrast": 11.070111791329097
+    },
+    {
+      "id": "spouse",
+      "label": "配偶",
+      "color": "#a7e1c0",
+      "contrast": 12.793171541591576
+    }
+  ],
+  "physicalIPhone": false
+}

@@ -1,0 +1,1795 @@
+{
+  "base": "http://127.0.0.1:4191/theatre-preview/prologue/",
+  "pass": true,
+  "layouts": 21,
+  "samples": [
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 591.40625,
+          "width": 1280,
+          "height": 80.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "controls": {
+          "x": 0,
+          "y": 672,
+          "width": 1280,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 367.99999999999994,
+            "right": 553.5999999999999,
+            "top": 132.57142857142856,
+            "bottom": 306.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 726.4000000000001,
+            "right": 912,
+            "top": 142.7304347826087,
+            "bottom": 320.2608695652174
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 591.40625,
+          "width": 1280,
+          "height": 80.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "controls": {
+          "x": 0,
+          "y": 672,
+          "width": 1280,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 367.99999999999994,
+            "right": 553.5999999999999,
+            "top": 132.57142857142856,
+            "bottom": 306.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 726.4000000000001,
+            "right": 912,
+            "top": 142.7304347826087,
+            "bottom": 320.2608695652174
+          }
+        ]
+      },
+      "maxX": 1.83169,
+      "maxY": 0,
+      "font": 24,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.25,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 576.75,
+          "width": 1280,
+          "height": 95.25
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "controls": {
+          "x": 0,
+          "y": 672,
+          "width": 1280,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 367.99999999999994,
+            "right": 553.5999999999999,
+            "top": 132.57142857142856,
+            "bottom": 306.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 726.4000000000001,
+            "right": 912,
+            "top": 142.7304347826087,
+            "bottom": 320.2608695652174
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 576.75,
+          "width": 1280,
+          "height": 95.25
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "controls": {
+          "x": 0,
+          "y": 672,
+          "width": 1280,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 367.99999999999994,
+            "right": 553.5999999999999,
+            "top": 132.57142857142856,
+            "bottom": 306.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 726.4000000000001,
+            "right": 912,
+            "top": 142.7304347826087,
+            "bottom": 320.2608695652174
+          }
+        ]
+      },
+      "maxX": 1.8314,
+      "maxY": 0,
+      "font": 30,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scale": 1.5,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 562.109375,
+          "width": 1280,
+          "height": 109.890625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "controls": {
+          "x": 0,
+          "y": 672,
+          "width": 1280,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 367.99999999999994,
+            "right": 553.5999999999999,
+            "top": 132.57142857142856,
+            "bottom": 306.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 726.4000000000001,
+            "right": 912,
+            "top": 142.7304347826087,
+            "bottom": 320.2608695652174
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 562.109375,
+          "width": 1280,
+          "height": 109.890625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "controls": {
+          "x": 0,
+          "y": 672,
+          "width": 1280,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 367.99999999999994,
+            "right": 553.5999999999999,
+            "top": 132.57142857142856,
+            "bottom": 306.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 726.4000000000001,
+            "right": 912,
+            "top": 142.7304347826087,
+            "bottom": 320.2608695652174
+          }
+        ]
+      },
+      "maxX": 1.83039,
+      "maxY": 0,
+      "font": 36,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 261.40625,
+          "width": 844,
+          "height": 80.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "controls": {
+          "x": 0,
+          "y": 342,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 242.64999999999998,
+            "right": 365.03,
+            "top": 107.1705357142857,
+            "bottom": 221.90178571428572
+          },
+          {
+            "id": "brother",
+            "left": 478.96999999999997,
+            "right": 601.3499999999999,
+            "top": 113.8691304347826,
+            "bottom": 230.9282608695652
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 261.40625,
+          "width": 844,
+          "height": 80.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "controls": {
+          "x": 0,
+          "y": 342,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 242.64999999999998,
+            "right": 365.03,
+            "top": 107.1705357142857,
+            "bottom": 221.90178571428572
+          },
+          {
+            "id": "brother",
+            "left": 478.96999999999997,
+            "right": 601.3499999999999,
+            "top": 113.8691304347826,
+            "bottom": 230.9282608695652
+          }
+        ]
+      },
+      "maxX": 1.83917,
+      "maxY": 0,
+      "font": 24,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.25,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 246.75,
+          "width": 844,
+          "height": 95.25
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "controls": {
+          "x": 0,
+          "y": 342,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 242.64999999999998,
+            "right": 365.03,
+            "top": 107.1705357142857,
+            "bottom": 221.90178571428572
+          },
+          {
+            "id": "brother",
+            "left": 478.96999999999997,
+            "right": 601.3499999999999,
+            "top": 113.8691304347826,
+            "bottom": 230.9282608695652
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 246.75,
+          "width": 844,
+          "height": 95.25
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "controls": {
+          "x": 0,
+          "y": 342,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 242.64999999999998,
+            "right": 365.03,
+            "top": 107.1705357142857,
+            "bottom": 221.90178571428572
+          },
+          {
+            "id": "brother",
+            "left": 478.96999999999997,
+            "right": 601.3499999999999,
+            "top": 113.8691304347826,
+            "bottom": 230.9282608695652
+          }
+        ]
+      },
+      "maxX": 1.83169,
+      "maxY": 0,
+      "font": 30,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": 1.5,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 181.71875,
+          "width": 844,
+          "height": 160.28125
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "controls": {
+          "x": 0,
+          "y": 342,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 260.362373540856,
+            "right": 347.3176264591439,
+            "top": 92.93737840466926,
+            "bottom": 174.4579280155642
+          },
+          {
+            "id": "brother",
+            "left": 498.9147745656081,
+            "right": 581.4052254343918,
+            "top": 95.65868409227082,
+            "bottom": 174.56259361893348
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 181.71875,
+          "width": 844,
+          "height": 160.28125
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "controls": {
+          "x": 0,
+          "y": 342,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 260.362373540856,
+            "right": 347.3176264591439,
+            "top": 92.93737840466926,
+            "bottom": 174.4579280155642
+          },
+          {
+            "id": "brother",
+            "left": 498.9147745656081,
+            "right": 581.4052254343918,
+            "top": 95.65868409227082,
+            "bottom": 174.56259361893348
+          }
+        ]
+      },
+      "maxX": 1.82651,
+      "maxY": 0,
+      "font": 36,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 208.40625,
+          "width": 844,
+          "height": 43.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 300
+        },
+        "controls": {
+          "x": 0,
+          "y": 252,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 250.67041504539557,
+            "right": 357.0095849546044,
+            "top": 100.72555933852139,
+            "bottom": 200.41853112840465
+          },
+          {
+            "id": "brother",
+            "left": 489.72045910724984,
+            "right": 590.5995408927502,
+            "top": 104.05349385859796,
+            "bottom": 200.54652860994605
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 208.40625,
+          "width": 844,
+          "height": 43.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 300
+        },
+        "controls": {
+          "x": 0,
+          "y": 252,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 250.67041504539557,
+            "right": 357.0095849546044,
+            "top": 100.72555933852139,
+            "bottom": 200.41853112840465
+          },
+          {
+            "id": "brother",
+            "left": 489.72045910724984,
+            "right": 590.5995408927502,
+            "top": 104.05349385859796,
+            "bottom": 200.54652860994605
+          }
+        ]
+      },
+      "maxX": 1.82392,
+      "maxY": 0,
+      "font": 24,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.25,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 200,
+          "width": 844,
+          "height": 52
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 300
+        },
+        "controls": {
+          "x": 0,
+          "y": 252,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 253.72326848249025,
+            "right": 353.9567315175097,
+            "top": 98.27237354085602,
+            "bottom": 192.24124513618676
+          },
+          {
+            "id": "brother",
+            "left": 492.61656081485916,
+            "right": 587.7034391851407,
+            "top": 101.40922708208508,
+            "bottom": 192.36189334931095
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 200,
+          "width": 844,
+          "height": 52
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 300
+        },
+        "controls": {
+          "x": 0,
+          "y": 252,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 253.72326848249025,
+            "right": 353.9567315175097,
+            "top": 98.27237354085602,
+            "bottom": 192.24124513618676
+          },
+          {
+            "id": "brother",
+            "left": 492.61656081485916,
+            "right": 587.7034391851407,
+            "top": 101.40922708208508,
+            "bottom": 192.36189334931095
+          }
+        ]
+      },
+      "maxX": 1.83456,
+      "maxY": 0,
+      "font": 30,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": 1.5,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 191.609375,
+          "width": 844,
+          "height": 60.390625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 300
+        },
+        "controls": {
+          "x": 0,
+          "y": 252,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 256.7704474708171,
+            "right": 350.90955252918286,
+            "top": 95.82374756809338,
+            "bottom": 184.07915856031127
+          },
+          {
+            "id": "brother",
+            "left": 495.50727943379263,
+            "right": 584.8127205662073,
+            "top": 98.76987529958059,
+            "bottom": 184.1924711653685
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 191.609375,
+          "width": 844,
+          "height": 60.390625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 300
+        },
+        "controls": {
+          "x": 0,
+          "y": 252,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 256.7704474708171,
+            "right": 350.90955252918286,
+            "top": 95.82374756809338,
+            "bottom": 184.07915856031127
+          },
+          {
+            "id": "brother",
+            "left": 495.50727943379263,
+            "right": 584.8127205662073,
+            "top": 98.76987529958059,
+            "bottom": 184.1924711653685
+          }
+        ]
+      },
+      "maxX": 1.8301,
+      "maxY": 0,
+      "font": 36,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 168.40625,
+          "width": 844,
+          "height": 43.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 260
+        },
+        "controls": {
+          "x": 0,
+          "y": 212,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 265.19700389105054,
+            "right": 342.4829961089494,
+            "top": 89.05240758754863,
+            "bottom": 161.5080252918288
+          },
+          {
+            "id": "brother",
+            "left": 503.50116611743556,
+            "right": 576.8188338825644,
+            "top": 91.47110919712402,
+            "bottom": 161.60105227681245
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 168.40625,
+          "width": 844,
+          "height": 43.59375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 260
+        },
+        "controls": {
+          "x": 0,
+          "y": 212,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 265.19700389105054,
+            "right": 342.4829961089494,
+            "top": 89.05240758754863,
+            "bottom": 161.5080252918288
+          },
+          {
+            "id": "brother",
+            "left": 503.50116611743556,
+            "right": 576.8188338825644,
+            "top": 91.47110919712402,
+            "bottom": 161.60105227681245
+          }
+        ]
+      },
+      "maxX": 1.83802,
+      "maxY": 0,
+      "font": 24,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.25,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 160,
+          "width": 844,
+          "height": 52
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 260
+        },
+        "controls": {
+          "x": 0,
+          "y": 212,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 268.24985732814525,
+            "right": 339.4301426718547,
+            "top": 86.59922178988327,
+            "bottom": 153.3307392996109
+          },
+          {
+            "id": "brother",
+            "left": 506.3972678250449,
+            "right": 573.9227321749551,
+            "top": 88.82684242061114,
+            "bottom": 153.41641701617735
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 160,
+          "width": 844,
+          "height": 52
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 260
+        },
+        "controls": {
+          "x": 0,
+          "y": 212,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 268.24985732814525,
+            "right": 339.4301426718547,
+            "top": 86.59922178988327,
+            "bottom": 153.3307392996109
+          },
+          {
+            "id": "brother",
+            "left": 506.3972678250449,
+            "right": 573.9227321749551,
+            "top": 88.82684242061114,
+            "bottom": 153.41641701617735
+          }
+        ]
+      },
+      "maxX": 1.82651,
+      "maxY": 0,
+      "font": 30,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 844,
+      "height": 260,
+      "scale": 1.5,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 151.609375,
+          "width": 844,
+          "height": 60.390625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 260
+        },
+        "controls": {
+          "x": 0,
+          "y": 212,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 271.2970363164721,
+            "right": 336.38296368352786,
+            "top": 84.15059581712062,
+            "bottom": 145.1686527237354
+          },
+          {
+            "id": "brother",
+            "left": 509.2879864439784,
+            "right": 571.0320135560215,
+            "top": 86.18749063810665,
+            "bottom": 145.24699483223486
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 151.609375,
+          "width": 844,
+          "height": 60.390625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 260
+        },
+        "controls": {
+          "x": 0,
+          "y": 212,
+          "width": 844,
+          "height": 48
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 271.2970363164721,
+            "right": 336.38296368352786,
+            "top": 84.15059581712062,
+            "bottom": 145.1686527237354
+          },
+          {
+            "id": "brother",
+            "left": 509.2879864439784,
+            "right": 571.0320135560215,
+            "top": 86.18749063810665,
+            "bottom": 145.24699483223486
+          }
+        ]
+      },
+      "maxX": 1.83442,
+      "maxY": 0,
+      "font": 36,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 656.625,
+          "width": 390,
+          "height": 127.375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "controls": {
+          "x": 0,
+          "y": 784,
+          "width": 390,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 109.00892857142857,
+            "bottom": 218.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 115.41304347826087,
+            "bottom": 227.32608695652175
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 656.625,
+          "width": 390,
+          "height": 127.375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "controls": {
+          "x": 0,
+          "y": 784,
+          "width": 390,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 109.00892857142857,
+            "bottom": 218.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 115.41304347826087,
+            "bottom": 227.32608695652175
+          }
+        ]
+      },
+      "maxX": 1.83255,
+      "maxY": 0,
+      "font": 24,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.25,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 585.25,
+          "width": 390,
+          "height": 198.75
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "controls": {
+          "x": 0,
+          "y": 784,
+          "width": 390,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 109.00892857142857,
+            "bottom": 218.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 115.41304347826087,
+            "bottom": 227.32608695652175
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 585.25,
+          "width": 390,
+          "height": 198.75
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "controls": {
+          "x": 0,
+          "y": 784,
+          "width": 390,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 109.00892857142857,
+            "bottom": 218.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 115.41304347826087,
+            "bottom": 227.32608695652175
+          }
+        ]
+      },
+      "maxX": 1.8278,
+      "maxY": 0,
+      "font": 30,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1.5,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 551.109375,
+          "width": 390,
+          "height": 232.890625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "controls": {
+          "x": 0,
+          "y": 784,
+          "width": 390,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 109.00892857142857,
+            "bottom": 218.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 115.41304347826087,
+            "bottom": 227.32608695652175
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 551.109375,
+          "width": 390,
+          "height": 232.890625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "controls": {
+          "x": 0,
+          "y": 784,
+          "width": 390,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 39,
+            "right": 156,
+            "top": 109.00892857142857,
+            "bottom": 218.69642857142856
+          },
+          {
+            "id": "brother",
+            "left": 249.60000000000002,
+            "right": 366.6,
+            "top": 115.41304347826087,
+            "bottom": 227.32608695652175
+          }
+        ]
+      },
+      "maxX": 1.83528,
+      "maxY": 0,
+      "font": 36,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 580.625,
+          "width": 432,
+          "height": 127.375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 432,
+          "height": 768
+        },
+        "controls": {
+          "x": 0,
+          "y": 708,
+          "width": 432,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 43.2,
+            "right": 172.8,
+            "top": 114.07142857142857,
+            "bottom": 235.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 276.48,
+            "right": 406.08000000000004,
+            "top": 121.16521739130435,
+            "bottom": 245.1304347826087
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 580.625,
+          "width": 432,
+          "height": 127.375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 432,
+          "height": 768
+        },
+        "controls": {
+          "x": 0,
+          "y": 708,
+          "width": 432,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 43.2,
+            "right": 172.8,
+            "top": 114.07142857142857,
+            "bottom": 235.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 276.48,
+            "right": 406.08000000000004,
+            "top": 121.16521739130435,
+            "bottom": 245.1304347826087
+          }
+        ]
+      },
+      "maxX": 1.82938,
+      "maxY": 0,
+      "font": 24,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.25,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 509.25,
+          "width": 432,
+          "height": 198.75
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 432,
+          "height": 768
+        },
+        "controls": {
+          "x": 0,
+          "y": 708,
+          "width": 432,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 43.2,
+            "right": 172.8,
+            "top": 114.07142857142857,
+            "bottom": 235.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 276.48,
+            "right": 406.08000000000004,
+            "top": 121.16521739130435,
+            "bottom": 245.1304347826087
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 509.25,
+          "width": 432,
+          "height": 198.75
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 432,
+          "height": 768
+        },
+        "controls": {
+          "x": 0,
+          "y": 708,
+          "width": 432,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 43.2,
+            "right": 172.8,
+            "top": 114.07142857142857,
+            "bottom": 235.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 276.48,
+            "right": 406.08000000000004,
+            "top": 121.16521739130435,
+            "bottom": 245.1304347826087
+          }
+        ]
+      },
+      "maxX": 1.82507,
+      "maxY": 0,
+      "font": 30,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 432,
+      "height": 768,
+      "scale": 1.5,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 475.109375,
+          "width": 432,
+          "height": 232.890625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 432,
+          "height": 768
+        },
+        "controls": {
+          "x": 0,
+          "y": 708,
+          "width": 432,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 43.2,
+            "right": 172.8,
+            "top": 114.07142857142857,
+            "bottom": 235.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 276.48,
+            "right": 406.08000000000004,
+            "top": 121.16521739130435,
+            "bottom": 245.1304347826087
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 475.109375,
+          "width": 432,
+          "height": 232.890625
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 432,
+          "height": 768
+        },
+        "controls": {
+          "x": 0,
+          "y": 708,
+          "width": 432,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 43.2,
+            "right": 172.8,
+            "top": 114.07142857142857,
+            "bottom": 235.57142857142856
+          },
+          {
+            "id": "brother",
+            "left": 276.48,
+            "right": 406.08000000000004,
+            "top": 121.16521739130435,
+            "bottom": 245.1304347826087
+          }
+        ]
+      },
+      "maxX": 1.83039,
+      "maxY": 0,
+      "font": 36,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 1029.8125,
+          "width": 820,
+          "height": 90.1875
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "controls": {
+          "x": 0,
+          "y": 1120,
+          "width": 820,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 160.83928571428572,
+            "bottom": 391.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 174.30434782608697,
+            "bottom": 409.60869565217394
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 1029.8125,
+          "width": 820,
+          "height": 90.1875
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "controls": {
+          "x": 0,
+          "y": 1120,
+          "width": 820,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 160.83928571428572,
+            "bottom": 391.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 174.30434782608697,
+            "bottom": 409.60869565217394
+          }
+        ]
+      },
+      "maxX": 1.82723,
+      "maxY": 0,
+      "font": 24,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.25,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 967.75,
+          "width": 820,
+          "height": 152.25
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "controls": {
+          "x": 0,
+          "y": 1120,
+          "width": 820,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 160.83928571428572,
+            "bottom": 391.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 174.30434782608697,
+            "bottom": 409.60869565217394
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 967.75,
+          "width": 820,
+          "height": 152.25
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "controls": {
+          "x": 0,
+          "y": 1120,
+          "width": 820,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 160.83928571428572,
+            "bottom": 391.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 174.30434782608697,
+            "bottom": 409.60869565217394
+          }
+        ]
+      },
+      "maxX": 1.8301,
+      "maxY": 0,
+      "font": 30,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": 1.5,
+      "before": {
+        "caption": {
+          "x": 0,
+          "y": 942.90625,
+          "width": 820,
+          "height": 177.09375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "controls": {
+          "x": 0,
+          "y": 1120,
+          "width": 820,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 160.83928571428572,
+            "bottom": 391.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 174.30434782608697,
+            "bottom": 409.60869565217394
+          }
+        ]
+      },
+      "after": {
+        "caption": {
+          "x": 0,
+          "y": 942.90625,
+          "width": 820,
+          "height": 177.09375
+        },
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "controls": {
+          "x": 0,
+          "y": 1120,
+          "width": 820,
+          "height": 60
+        },
+        "faces": [
+          {
+            "id": "player",
+            "left": 82,
+            "right": 328,
+            "top": 160.83928571428572,
+            "bottom": 391.4642857142857
+          },
+          {
+            "id": "brother",
+            "left": 524.8000000000001,
+            "right": 770.8000000000001,
+            "top": 174.30434782608697,
+            "bottom": 409.60869565217394
+          }
+        ]
+      },
+      "maxX": 1.82953,
+      "maxY": 0,
+      "font": 36,
+      "opacity": "1",
+      "overflow": false,
+      "playing": 0
+    }
+  ],
+  "sixPresets": [
+    {
+      "name": "calm",
+      "active": 0,
+      "opacity": "1",
+      "font": "16px"
+    },
+    {
+      "name": "anger",
+      "active": 0,
+      "opacity": "1",
+      "font": "16px"
+    },
+    {
+      "name": "surprise",
+      "active": 0,
+      "opacity": "1",
+      "font": "16px"
+    },
+    {
+      "name": "sadness",
+      "active": 0,
+      "opacity": "1",
+      "font": "16px"
+    },
+    {
+      "name": "whisper",
+      "active": 0,
+      "opacity": "1",
+      "font": "16px"
+    },
+    {
+      "name": "firm",
+      "active": 0,
+      "opacity": "1",
+      "font": "16px"
+    }
+  ],
+  "reducedMotion": true,
+  "persistentOff": true,
+  "orientationDoesNotReplay": true,
+  "nextDoesNotWait": true,
+  "choiceUnaffected": true,
+  "physicalDevices": false,
+  "errors": []
+}

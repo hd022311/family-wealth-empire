@@ -1,0 +1,21 @@
+✔ six reusable presets, only three existing lines staged; exact story durations and strings untouched (1.727704ms)
+✔ anger is one 180ms pass within 2.5 CSS px; only subtitle container and edge targeted (0.484267ms)
+✔ repeated render/resize/settings do not replay; cancellation restores natural style (0.483496ms)
+✔ surprise has150ms visual pause; sadness never hides text; whisper never shrinks or recolors text (0.232279ms)
+✔ old preview settings default on, explicit off persists, bad optional setting rejected (0.858608ms)
+✔ all effects have one finite animation, reduced/off has no animation and next line is independent (0.314262ms)
+✔ 82s / suspense within12s / six original choices and eight endings unchanged (1.358739ms)
+✔ cold opening after father death never casts father; flashback before hospitalization; separate ownership not assigned (0.37988ms)
+✔ manual progression gates at existing first choice and never chooses automatically (0.451418ms)
+✔ read skip stops at first unread and at decision, replay keeps seen but not selection (0.271708ms)
+✔ versioned preview resume rejects malformed or incompatible records (2.195325ms)
+✔ runtime writes only separate prologue key and contains no formal game imports or legal engine (0.586289ms)
+✔ formal volume, all prior stage samples and legal files preserved by SHA256 (261.761754ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 348.047912

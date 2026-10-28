@@ -1,0 +1,186 @@
+[
+  {
+    "name": "landscape-on",
+    "width": 844,
+    "height": 390,
+    "effectsEnabled": true,
+    "actualElapsedMs": 9900,
+    "encodedSeconds": 8.433333,
+    "frames": 62,
+    "cues": [
+      {
+        "id": "unseen-years",
+        "index": 0,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "anger",
+          "enabled": true,
+          "plays": 2,
+          "active": 0
+        }
+      },
+      {
+        "id": "not-only-houses",
+        "index": 1,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "sadness",
+          "enabled": true,
+          "plays": 3,
+          "active": 0
+        }
+      },
+      {
+        "id": "new-year-table",
+        "index": 8,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "firm",
+          "enabled": true,
+          "plays": 4,
+          "active": 0
+        }
+      }
+    ],
+    "audio": false,
+    "method": "Actual Chromium CDP recording. Same three existing lines, manual next operations at normal screen speed; intermediate calm lines advanced manually. No synthetic shake, no altered story timing or legal effects."
+  },
+  {
+    "name": "landscape-off",
+    "width": 844,
+    "height": 390,
+    "effectsEnabled": false,
+    "actualElapsedMs": 9924,
+    "encodedSeconds": 8.2,
+    "frames": 10,
+    "cues": [
+      {
+        "id": "unseen-years",
+        "index": 0,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "anger",
+          "enabled": false,
+          "plays": 1,
+          "active": 0
+        }
+      },
+      {
+        "id": "not-only-houses",
+        "index": 1,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "sadness",
+          "enabled": false,
+          "plays": 1,
+          "active": 0
+        }
+      },
+      {
+        "id": "new-year-table",
+        "index": 8,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "firm",
+          "enabled": false,
+          "plays": 1,
+          "active": 0
+        }
+      }
+    ],
+    "audio": false,
+    "method": "Actual Chromium CDP recording. Same three existing lines, manual next operations at normal screen speed; intermediate calm lines advanced manually. No synthetic shake, no altered story timing or legal effects."
+  },
+  {
+    "name": "portrait-on",
+    "width": 390,
+    "height": 844,
+    "effectsEnabled": true,
+    "actualElapsedMs": 9820,
+    "encodedSeconds": 8.366667,
+    "frames": 62,
+    "cues": [
+      {
+        "id": "unseen-years",
+        "index": 0,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "anger",
+          "enabled": true,
+          "plays": 2,
+          "active": 0
+        }
+      },
+      {
+        "id": "not-only-houses",
+        "index": 1,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "sadness",
+          "enabled": true,
+          "plays": 3,
+          "active": 0
+        }
+      },
+      {
+        "id": "new-year-table",
+        "index": 8,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "firm",
+          "enabled": true,
+          "plays": 4,
+          "active": 0
+        }
+      }
+    ],
+    "audio": false,
+    "method": "Actual Chromium CDP recording. Same three existing lines, manual next operations at normal screen speed; intermediate calm lines advanced manually. No synthetic shake, no altered story timing or legal effects."
+  },
+  {
+    "name": "portrait-off",
+    "width": 390,
+    "height": 844,
+    "effectsEnabled": false,
+    "actualElapsedMs": 9836,
+    "encodedSeconds": 8.066667,
+    "frames": 10,
+    "cues": [
+      {
+        "id": "unseen-years",
+        "index": 0,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "anger",
+          "enabled": false,
+          "plays": 1,
+          "active": 0
+        }
+      },
+      {
+        "id": "not-only-houses",
+        "index": 1,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "sadness",
+          "enabled": false,
+          "plays": 1,
+          "active": 0
+        }
+      },
+      {
+        "id": "new-year-table",
+        "index": 8,
+        "elapsed": 0,
+        "effect": {
+          "emotion": "firm",
+          "enabled": false,
+          "plays": 1,
+          "active": 0
+        }
+      }
+    ],
+    "audio": false,
+    "method": "Actual Chromium CDP recording. Same three existing lines, manual next operations at normal screen speed; intermediate calm lines advanced manually. No synthetic shake, no altered story timing or legal effects."
+  }
+]
