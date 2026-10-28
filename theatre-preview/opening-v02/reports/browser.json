@@ -1,0 +1,181 @@
+{
+  "routes": [
+    {
+      "route": "A",
+      "name": "子恩",
+      "refresh": true,
+      "rotation": true,
+      "care": "shared",
+      "ledger": 0,
+      "errors": []
+    },
+    {
+      "route": "B",
+      "name": "家安",
+      "refresh": true,
+      "rotation": true,
+      "care": "shared",
+      "ledger": 0,
+      "errors": []
+    },
+    {
+      "route": "C",
+      "name": "家安",
+      "refresh": true,
+      "rotation": true,
+      "care": "shared",
+      "ledger": 0,
+      "errors": []
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": "1.5",
+      "cues": 54
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": "1.5",
+      "cues": 54
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "scale": "1.5",
+      "cues": 54
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "scale": "1.5",
+      "cues": 54
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": "1.5",
+      "cues": 54
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scale": "1.5",
+      "cues": 54
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 844,
+      "height": 300,
+      "scale": "1.5",
+      "cues": 54
+    },
+    {
+      "width": 568,
+      "height": 260,
+      "scale": "1",
+      "cues": 54
+    },
+    {
+      "width": 568,
+      "height": 260,
+      "scale": "1.25",
+      "cues": 54
+    },
+    {
+      "width": 568,
+      "height": 260,
+      "scale": "1.5",
+      "cues": 54
+    }
+  ],
+  "checks": [
+    "manual emotion off and OS reduced motion",
+    "corrupt save retained without overwrite"
+  ]
+}

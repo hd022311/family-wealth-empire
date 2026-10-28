@@ -1,0 +1,13 @@
+{
+  "lang": "zh-TW",
+  "narrativeNodes": 78,
+  "suspectTermHits": [],
+  "terminalPeriodViolations": [],
+  "manualReview": "已複核本輪對話、稱呼、選單、錯誤提示及法律限制；繁簡共用字不以單字判錯。玩家自訂姓名原樣保留，正式法源與虛構費用提示不擅改。",
+  "scope": [
+    "story.mjs",
+    "app.mjs",
+    "index.html",
+    "model.mjs"
+  ]
+}

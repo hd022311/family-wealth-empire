@@ -1,0 +1,2 @@
+import test from'node:test';import assert from'node:assert/strict';import fs from'node:fs';import crypto from'node:crypto';
+test('all existing theatre and standalone prototypes remain byte-identical to dd986ba',()=>{const m=JSON.parse(fs.readFileSync(new URL('reports/preserved-baseline.json',import.meta.url)));for(const f of m.files)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL('../../'+f.path,import.meta.url))).digest('hex'),f.sha256,f.path);});

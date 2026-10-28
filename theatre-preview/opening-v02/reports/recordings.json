@@ -1,0 +1,41 @@
+[
+  {
+    "route": "A",
+    "width": 844,
+    "height": 390,
+    "name": "子恩",
+    "openingMs": 285768,
+    "sessionMs": 305499,
+    "encodedSeconds": 297.75,
+    "frames": 861,
+    "audio": false,
+    "ledger": 0,
+    "method": "Actual Chromium browser capture, paced manual click-through; no speed-up, no human reading-time study; ending is isolated care preview only"
+  },
+  {
+    "route": "B",
+    "width": 390,
+    "height": 844,
+    "name": "家安",
+    "openingMs": 285848,
+    "sessionMs": 314258,
+    "encodedSeconds": 298.791667,
+    "frames": 862,
+    "audio": false,
+    "ledger": 0,
+    "method": "Actual Chromium browser capture, paced manual click-through; no speed-up, no human reading-time study; ending is isolated care preview only"
+  },
+  {
+    "route": "C",
+    "width": 1280,
+    "height": 720,
+    "name": "家安",
+    "openingMs": 287007,
+    "sessionMs": 334124,
+    "encodedSeconds": 298.5,
+    "frames": 872,
+    "audio": false,
+    "ledger": 0,
+    "method": "Actual Chromium browser capture, paced manual click-through; no speed-up, no human reading-time study; ending is isolated care preview only"
+  }
+]
