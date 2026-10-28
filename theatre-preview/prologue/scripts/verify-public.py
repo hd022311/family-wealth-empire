@@ -10,6 +10,7 @@ root = Path(__file__).resolve().parents[3]
 base = 'https://hd022311.github.io/family-wealth-empire/'
 prefix = 'theatre-preview/prologue/'
 files = [p for p in (root / prefix).rglob('*') if p.is_file()]
+files += [root / p for p in ['theatre-preview/subtitle-style.mjs','theatre-preview/app.mjs','theatre-preview/index.html','theatre-preview/ending-gallery.mjs','theatre-preview/dual-stage/app.mjs','theatre-preview/dual-stage/index.html','theatre-preview/performance/app.mjs','theatre-preview/performance/index.html']]
 
 def fetch_verified(relative, expected):
     for attempt in range(8):

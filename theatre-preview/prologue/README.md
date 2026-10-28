@@ -62,3 +62,7 @@ python3 -m http.server 4191 --bind 0.0.0.0
 - `node theatre-preview/prologue/scripts/emotion-browser.mjs`
 - `node theatre-preview/prologue/scripts/readability-browser.mjs`
 - `node theatre-preview/prologue/scripts/emotion-record.mjs`
+
+## 字幕句尾標點
+
+對話與劇情旁白段末不顯示中文句號，保留情緒標點與句中標點。全文及回顧一致；法律與系統文字不套用。這只是顯示格式，原始台詞及已讀／續讀識別保持原值。後續劇情標準見 `../docs/TEXT_STYLE.md`，驗收見 `../reports/punctuation/REVIEW.md`。
