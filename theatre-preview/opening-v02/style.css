@@ -8,3 +8,4 @@
 #caption[data-text-type="narration"] #text,[data-text-type="narration"]#full-reading,.dialog-body p[data-text-type="narration"]{color:#f8fbff;letter-spacing:normal;font-style:normal}
 #caption[data-text-type="thought"] #caption-content,#caption[data-text-type="narration"] #caption-content{display:block}
 #caption[data-text-type="thought"] #text,#caption[data-text-type="narration"] #text{font-size:calc(24px * var(--scale))}
+#staging-note{width:auto;min-width:44px;font-size:calc(18px * var(--scale));padding:6px 10px;border-color:#d0bb8b88;white-space:nowrap}.volume-header>div{min-width:0}.volume-header nav{flex:none}.volume-header #context{overflow-wrap:anywhere}

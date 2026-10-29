@@ -1,0 +1,6494 @@
+{
+  "baseline": "67f06d0",
+  "counts": {
+    "commonProjection": 43,
+    "union": 80,
+    "routes": {
+      "A": 55,
+      "B": 55,
+      "C": 56
+    },
+    "previousCameraMismatch": 4,
+    "compositionImprovements": 8,
+    "pendingActionOrExpression": 14,
+    "afterRouteLayoutRuns": 24,
+    "afterNodeChecks": 1328
+  },
+  "method": "逐句人工設定鏡頭與動作、Chromium實際走完三路線；自動化驗證可見人物、字級及安全區，不代表目光/動作已完成或實體iPhone已驗收",
+  "rows": [
+    {
+      "id": "cold1",
+      "commonBeat": 1,
+      "route": "共通",
+      "routePositions": {
+        "A": 1,
+        "B": 1,
+        "C": 1
+      },
+      "text": "所以，你們之前就談好了？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "brother"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "player",
+            "brother"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "brother"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "player",
+            "brother"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "brother",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "cold2",
+      "commonBeat": 2,
+      "route": "共通",
+      "routePositions": {
+        "A": 2,
+        "B": 2,
+        "C": 2
+      },
+      "text": "有些話爸說過，可是——",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "brother"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "brother"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "brother"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "brother"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "brother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "cold3",
+      "commonBeat": 3,
+      "route": "共通",
+      "routePositions": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "text": "以前家裡有事，我也不是沒回來",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "brother",
+          "player"
+        ],
+        "portrait": [
+          "brother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "brother"
+        ],
+        "portrait": [
+          "player",
+          "brother"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "brother"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "player",
+            "brother"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "brother"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "player",
+            "brother"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "brother",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "cold4",
+      "commonBeat": 4,
+      "route": "共通",
+      "routePositions": {
+        "A": 4,
+        "B": 4,
+        "C": 4
+      },
+      "text": "還是我沒說，你們就當作沒有？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "brother"
+        ],
+        "portrait": [
+          "mother",
+          "brother"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "brother",
+          "mother"
+        ],
+        "portrait": [
+          "brother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "brother"
+        ],
+        "portrait": [
+          "mother",
+          "brother"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "brother"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "brother"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "brother"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "brother"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "brother",
+          "verb": "說話",
+          "target": "mother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        },
+        {
+          "actor": "mother",
+          "verb": "聆聽哥哥的質疑",
+          "target": "brother",
+          "mode": "靜態反應替代，情緒立繪待補"
+        }
+      ],
+      "gaps": [
+        "媽媽沉默／擔憂的表情立繪，目前固定微笑不代表已完成情緒反應"
+      ],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "cold-action",
+      "commonBeat": 5,
+      "route": "共通",
+      "routePositions": {
+        "A": 5,
+        "B": 5,
+        "C": 5
+      },
+      "text": "媽媽看向哥哥，沒有替任何人回答",
+      "textType": "narration",
+      "expected": {
+        "landscape": [
+          "mother",
+          "brother"
+        ],
+        "portrait": [
+          "mother",
+          "brother"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "brother"
+        ],
+        "portrait": [
+          "mother",
+          "brother"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "brother"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "brother"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "brother"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "brother"
+          ]
+        }
+      },
+      "delivery": "narration",
+      "actions": [
+        {
+          "actor": "mother",
+          "verb": "看向",
+          "target": "brother",
+          "mode": "靜態反應替代，轉頭／視線過渡未完成"
+        },
+        {
+          "actor": "mother",
+          "verb": "保持沉默",
+          "target": null,
+          "mode": "無台詞的反應鏡頭"
+        }
+      ],
+      "gaps": [
+        "媽媽轉頭與目光轉移的分層素材",
+        "媽媽沉默／擔憂的表情立繪",
+        "哥哥接住母親視線的反應素材"
+      ],
+      "beforeStatus": "人物／鏡頭不一致",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "敘述主體為媽媽、目標為哥哥，兩種方向皆須同框，不使用主角特寫代替"
+    },
+    {
+      "id": "cold5",
+      "commonBeat": 6,
+      "route": "共通",
+      "routePositions": {
+        "A": 6,
+        "B": 6,
+        "C": 6
+      },
+      "text": "那天，我第一次不知道，該怎麼叫他一聲哥",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "mono1",
+      "commonBeat": 7,
+      "route": "共通",
+      "routePositions": {
+        "A": 7,
+        "B": 7,
+        "C": 7
+      },
+      "text": "三年前，我三十歲，總覺得事情還來得及",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "mono2",
+      "commonBeat": 8,
+      "route": "共通",
+      "routePositions": {
+        "A": 8,
+        "B": 8,
+        "C": 8
+      },
+      "text": "工作做不完，孩子又長得太快，我和怡君連好好吃頓飯，都得先喬時間",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "mono3",
+      "commonBeat": 9,
+      "route": "共通",
+      "routePositions": {
+        "A": 9,
+        "B": 9,
+        "C": 9
+      },
+      "text": "那時爸媽都還在，哥和雅婷也常說忙，我們卻都以為，想見面隨時可以回來",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "group",
+          "required": [
+            "mother",
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "mono4",
+      "commonBeat": 10,
+      "route": "共通",
+      "routePositions": {
+        "A": 10,
+        "B": 10,
+        "C": 10
+      },
+      "text": "爸顧著他那間出租屋，媽守著自己住慣的家",
+      "textType": "narration",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "mother"
+        ],
+        "portrait": [
+          "father",
+          "mother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        }
+      },
+      "delivery": "narration",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "持有出租屋",
+          "target": null,
+          "mode": "既有敘事資訊，不是財產移轉動畫"
+        },
+        {
+          "actor": "mother",
+          "verb": "持有自住房",
+          "target": null,
+          "mode": "既有敘事資訊，不是財產移轉動畫"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "父母雙人鏡頭承接房屋背景資訊，不假裝用畫面確認登記或法律權利"
+    },
+    {
+      "id": "mono5",
+      "commonBeat": 11,
+      "route": "共通",
+      "routePositions": {
+        "A": 11,
+        "B": 11,
+        "C": 11
+      },
+      "text": "我以為兩間房最重要的是留下來",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "mono6",
+      "commonBeat": 12,
+      "route": "共通",
+      "routePositions": {
+        "A": 12,
+        "B": 12,
+        "C": 12
+      },
+      "text": "後來才知道，有些話沒說清楚，也會一直留下來",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "meal1",
+      "commonBeat": 13,
+      "route": "共通",
+      "routePositions": {
+        "A": 13,
+        "B": 13,
+        "C": 13
+      },
+      "text": "家安，這碗先給你，還熱的",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player",
+          "mother"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "group",
+          "required": [
+            "mother",
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "招呼主角吃留著的飯",
+          "target": "player",
+          "mode": "對話意圖；不宣稱已演出拿取或搬動道具"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "meal2",
+      "commonBeat": 14,
+      "route": "共通",
+      "routePositions": {
+        "A": 14,
+        "B": 14,
+        "C": 14
+      },
+      "text": "你們不用等我啦",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "father",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "meal3",
+      "commonBeat": 15,
+      "route": "共通",
+      "routePositions": {
+        "A": 15,
+        "B": 15,
+        "C": 15
+      },
+      "text": "沒等，剛好還沒收",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "mother"
+        ],
+        "portrait": [
+          "father",
+          "mother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "mother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "meal-action",
+      "commonBeat": 16,
+      "route": "共通",
+      "routePositions": {
+        "A": 16,
+        "B": 16,
+        "C": 16
+      },
+      "text": "媽媽看了爸爸一眼，沒有拆穿那碗一直留著的湯",
+      "textType": "narration",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        }
+      },
+      "delivery": "narration",
+      "actions": [
+        {
+          "actor": "mother",
+          "verb": "看爸爸而不拆穿",
+          "target": "father",
+          "mode": "靜態反應替代"
+        }
+      ],
+      "gaps": [
+        "媽媽看向爸爸的目光過渡",
+        "留湯與保溫餐具的連續道具演出"
+      ],
+      "beforeStatus": "人物／鏡頭不一致",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "媽媽看爸爸的反應鏡頭；保留留湯的重要資訊，缺少眼神與道具動作時明示待補"
+    },
+    {
+      "id": "meal4",
+      "commonBeat": 17,
+      "route": "共通",
+      "routePositions": {
+        "A": 17,
+        "B": 17,
+        "C": 17
+      },
+      "text": "先吃吧，你在車上就說快回完了",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "meal5",
+      "commonBeat": 18,
+      "route": "共通",
+      "routePositions": {
+        "A": 18,
+        "B": 18,
+        "C": 18
+      },
+      "text": "好，今天先當兒子",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "father",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "meal6",
+      "commonBeat": 19,
+      "route": "共通",
+      "routePositions": {
+        "A": 19,
+        "B": 19,
+        "C": 19
+      },
+      "text": "當兒子也不用報告，吃飯就好",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "life1",
+      "commonBeat": 20,
+      "route": "共通",
+      "routePositions": {
+        "A": 20,
+        "B": 20,
+        "C": 20
+      },
+      "text": "公司又找你？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "說話",
+          "target": "brother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "life2",
+      "commonBeat": 21,
+      "route": "共通",
+      "routePositions": {
+        "A": 21,
+        "B": 21,
+        "C": 21
+      },
+      "text": "孩子學校的活動，問我能不能去幫忙",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "brother",
+          "verb": "說話",
+          "target": "sister",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "life3",
+      "commonBeat": 22,
+      "route": "共通",
+      "routePositions": {
+        "A": 22,
+        "B": 22,
+        "C": 22
+      },
+      "text": "你不是要加班？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "說話",
+          "target": "brother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "life4",
+      "commonBeat": 23,
+      "route": "共通",
+      "routePositions": {
+        "A": 23,
+        "B": 23,
+        "C": 23
+      },
+      "text": "所以還不敢答應",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "brother",
+          "sister"
+        ],
+        "portrait": [
+          "brother",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "brother",
+            "sister"
+          ],
+          "focus": "brother",
+          "shot": "duo",
+          "required": [
+            "brother",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "brother",
+          "verb": "說話",
+          "target": "sister",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "life5",
+      "commonBeat": 24,
+      "route": "共通",
+      "routePositions": {
+        "A": 24,
+        "B": 24,
+        "C": 24
+      },
+      "text": "媽，我等等上班，還要帶課本，放不下了",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "提醒袋子放不下",
+          "target": "mother",
+          "mode": "對話意圖；不宣稱已演出拿取或搬動道具"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "life6",
+      "commonBeat": 25,
+      "route": "共通",
+      "routePositions": {
+        "A": 25,
+        "B": 25,
+        "C": 25
+      },
+      "text": "那帶兩顆就好",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "sister"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "sister"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "mother",
+          "verb": "提議帶水果",
+          "target": "sister",
+          "mode": "對話意圖；不宣稱已演出拿取或搬動道具"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "life7",
+      "commonBeat": 26,
+      "route": "共通",
+      "routePositions": {
+        "A": 26,
+        "B": 26,
+        "C": 26
+      },
+      "text": "妳手上另外三顆先放回去",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "sister"
+        ],
+        "portrait": [
+          "mother",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "請媽媽放回水果",
+          "target": "mother",
+          "mode": "對話意圖；不宣稱已演出拿取或搬動道具"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "table1",
+      "commonBeat": 27,
+      "route": "共通",
+      "routePositions": {
+        "A": 27,
+        "B": 27,
+        "C": 27
+      },
+      "text": "以後過年還是要回來吃飯",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "group",
+          "required": [
+            "mother",
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "mother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "table2",
+      "commonBeat": 28,
+      "route": "共通",
+      "routePositions": {
+        "A": 28,
+        "B": 28,
+        "C": 28
+      },
+      "text": "這張桌子，你們的位子都留著",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "invite1",
+      "commonBeat": 29,
+      "route": "共通",
+      "routePositions": {
+        "A": 29,
+        "B": 29,
+        "C": 29
+      },
+      "text": "家安，這週末有空嗎？窗邊那個櫃子，我一個人不好搬",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "invite2",
+      "commonBeat": 30,
+      "route": "共通",
+      "routePositions": {
+        "A": 30,
+        "B": 30,
+        "C": 30
+      },
+      "text": "這週末喔……",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "father",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "invite3",
+      "commonBeat": 31,
+      "route": "共通",
+      "routePositions": {
+        "A": 31,
+        "B": 31,
+        "C": 31
+      },
+      "text": "我們答應孩子去看海，你記得嗎？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "invite4",
+      "commonBeat": 32,
+      "route": "共通",
+      "routePositions": {
+        "A": 32,
+        "B": 32,
+        "C": 32
+      },
+      "text": "有安排就先去，我再看看",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "invite5",
+      "commonBeat": 33,
+      "route": "共通",
+      "routePositions": {
+        "A": 33,
+        "B": 33,
+        "C": 33
+      },
+      "text": "爸說得很快，好像這件事本來就不重要",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "invite6",
+      "commonBeat": 34,
+      "route": "共通",
+      "routePositions": {
+        "A": 34,
+        "B": 34,
+        "C": 34
+      },
+      "text": "可是另一個約定，也不是臨時才有的",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "lifestyle",
+      "commonBeat": 35,
+      "route": "共通",
+      "routePositions": {
+        "A": 35,
+        "B": 35,
+        "C": 35
+      },
+      "text": "這個週末，你怎麼回應？",
+      "textType": "choice",
+      "expected": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "group",
+          "required": [
+            "father",
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "choice",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "決策介面，背景不作動作證據",
+      "afterStatus": "決策介面，背景不作動作證據",
+      "fix": "選擇介面以在場家人反應承接，不宣稱已作出照顧或金錢行為"
+    },
+    {
+      "id": "A-0",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 36,
+        "B": null,
+        "C": null
+      },
+      "text": "爸，我回來幫你。怡君，我們晚點喬一下，好嗎？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "spouse",
+          "player"
+        ],
+        "portrait": [
+          "spouse",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "group",
+          "required": [
+            "father",
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "提出週末安排",
+          "target": "father",
+          "mode": "對話，怡君可在鏡外聆聽"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "先對爸爸回答，怡君在場；橫向三人、直向父子雙人，怡君後續有獨立回應鏡頭"
+    },
+    {
+      "id": "A-1",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 37,
+        "B": null,
+        "C": null
+      },
+      "text": "不用一整天，弄完就走",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-2",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 38,
+        "B": null,
+        "C": null
+      },
+      "text": "我不是不能改時間",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-3",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 39,
+        "B": null,
+        "C": null
+      },
+      "text": "可是你已經答應了，才問我好不好",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-4",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 40,
+        "B": null,
+        "C": null
+      },
+      "text": "孩子那邊我自己說，也跟他約好哪一天補回來",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "spouse",
+          "player"
+        ],
+        "portrait": [
+          "spouse",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "spouse",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-5",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 41,
+        "B": null,
+        "C": null
+      },
+      "text": "這次不要只說下次",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-action",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 42,
+        "B": null,
+        "C": null
+      },
+      "text": "整理窗邊時，怡君傳來孩子收好的外出小袋照片",
+      "textType": "narration",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "narration",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "整理窗邊",
+          "target": "father",
+          "mode": "相關人物靜態反應，實際搬運待補"
+        },
+        {
+          "actor": "spouse",
+          "verb": "傳照片",
+          "target": "player",
+          "mode": "遠端事件，怡君未出現在現場"
+        }
+      ],
+      "gaps": [
+        "窗邊整理與搬櫃姿勢",
+        "手機通知與孩子外出小袋照片"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "以父子相關反應承接窗邊整理情境，缺少所述物件時明示缺口，不以無關人物單人特寫冒充道具特寫"
+    },
+    {
+      "id": "A-6",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 43,
+        "B": null,
+        "C": null
+      },
+      "text": "今天沒出去？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-7",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 44,
+        "B": null,
+        "C": null
+      },
+      "text": "改明天，我跟他說好了",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "father",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-8",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 45,
+        "B": null,
+        "C": null
+      },
+      "text": "那你別又忙到忘記",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "A-9",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 46,
+        "B": null,
+        "C": null
+      },
+      "text": "爸放心了，可是我只是把另一個人的等待，往後挪了一天",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "B-0",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 36,
+        "C": null
+      },
+      "text": "爸，這次先讓我陪孩子去。我星期日早上回來，可以嗎？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "spouse",
+          "player"
+        ],
+        "portrait": [
+          "spouse",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "group",
+          "required": [
+            "father",
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "提出週末安排",
+          "target": "father",
+          "mode": "對話，怡君可在鏡外聆聽"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "先對爸爸回答，怡君在場；橫向三人、直向父子雙人，怡君後續有獨立回應鏡頭"
+    },
+    {
+      "id": "B-1",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 37,
+        "C": null
+      },
+      "text": "可以，星期日",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "B-2",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 38,
+        "C": null
+      },
+      "text": "那小東西我先收",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "mother"
+        ],
+        "portrait": [
+          "father",
+          "mother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "mother",
+          "verb": "提議先收小東西",
+          "target": "father",
+          "mode": "對話意圖；不宣稱已演出拿取或搬動道具"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "B-3",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 39,
+        "C": null
+      },
+      "text": "重的別動，等家安回來",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "father"
+        ],
+        "portrait": [
+          "mother",
+          "father"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "father"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "father"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "提醒先別搬重物",
+          "target": "mother",
+          "mode": "對話中的要求，不宣稱搬運已發生"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "爸爸的「重的別動」是對媽媽說，不用主角取代正在被提醒的人"
+    },
+    {
+      "id": "B-4",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 40,
+        "C": null
+      },
+      "text": "謝謝你記得",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "B-5",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 41,
+        "C": null
+      },
+      "text": "星期日也記一下，爸是真的會等",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "B-action",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 42,
+        "C": null
+      },
+      "text": "星期日早上，我的座位上已經放著一雙手套",
+      "textType": "narration",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "narration",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "預先放手套",
+          "target": "player",
+          "mode": "先前發生，非當下遞交"
+        }
+      ],
+      "gaps": [
+        "座位與手套的道具特寫"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "以父子相關反應承接窗邊整理情境，缺少所述物件時明示缺口，不以無關人物單人特寫冒充道具特寫"
+    },
+    {
+      "id": "B-6",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 43,
+        "C": null
+      },
+      "text": "昨天海邊有下雨嗎？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "B-7",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 44,
+        "C": null
+      },
+      "text": "沒有，他問下次阿公要不要一起去",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "father",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "B-8",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 45,
+        "C": null
+      },
+      "text": "下次再看看",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "B-9",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 46,
+        "C": null
+      },
+      "text": "他沒再問我昨天為什麼沒來，只把手套留在我的位置上",
+      "textType": "narration",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "narration",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "不追問並留下手套",
+          "target": "player",
+          "mode": "無追問的反應鏡頭，手套道具待補"
+        }
+      ],
+      "gaps": [
+        "手套留在主角座位的連續道具畫面"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "以父子相關反應承接窗邊整理情境，缺少所述物件時明示缺口，不以無關人物單人特寫冒充道具特寫"
+    },
+    {
+      "id": "C-0",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 36
+      },
+      "text": "爸，大概需要多久？我們看能不能兩邊都排進去",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "spouse",
+          "player"
+        ],
+        "portrait": [
+          "spouse",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "group",
+          "required": [
+            "father",
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "提出週末安排",
+          "target": "father",
+          "mode": "對話，怡君可在鏡外聆聽"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "先對爸爸回答，怡君在場；橫向三人、直向父子雙人，怡君後續有獨立回應鏡頭"
+    },
+    {
+      "id": "C-1",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 37
+      },
+      "text": "清窗邊就好，其他下次再弄",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "C-2",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 38
+      },
+      "text": "星期日早上可以，但中午你要回來，下午換我有事",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "C-3",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 39
+      },
+      "text": "好，我回來兩個小時，不一次整理整間",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "spouse",
+          "player"
+        ],
+        "portrait": [
+          "spouse",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "spouse",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "C-4",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 40
+      },
+      "text": "小東西我下班先裝箱，重的等你",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "sister"
+        ],
+        "portrait": [
+          "player",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "sister"
+        ],
+        "portrait": [
+          "father",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "sister"
+        ],
+        "portrait": [
+          "player",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "player",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "player",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "提出裝箱分工",
+          "target": "player",
+          "mode": "未來安排，不宣稱此刻已裝箱"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "妹妹對主角提出裝箱分工，不用爸爸取代被分配重物的主角"
+    },
+    {
+      "id": "C-5",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 41
+      },
+      "text": "搬個櫃子，還要開會喔？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "sister"
+        ],
+        "portrait": [
+          "father",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "sister"
+        ],
+        "portrait": [
+          "father",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "sister"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "sister"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "說話者可見，但反應構圖需改善",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "爸爸回應妹妹參與分工，接下一鏡妹妹提醒爸爸"
+    },
+    {
+      "id": "C-6",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 42
+      },
+      "text": "不講好，你又會自己先搬",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "sister"
+        ],
+        "portrait": [
+          "father",
+          "sister"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "sister"
+        ],
+        "portrait": [
+          "father",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "sister"
+        ],
+        "portrait": [
+          "father",
+          "sister"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "father",
+            "sister"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "sister"
+          ],
+          "focus": "sister",
+          "shot": "duo",
+          "required": [
+            "father",
+            "sister"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "說話",
+          "target": "father",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "C-action",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 43
+      },
+      "text": "雅婷裝好的兩箱物品留在窗邊，中午的提醒響了，角落還沒清完",
+      "textType": "narration",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "narration",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "先前裝箱",
+          "target": "player",
+          "mode": "已在鏡外完成，不假設妹妹此刻仍在場"
+        },
+        {
+          "actor": "player",
+          "verb": "聽到中午提醒",
+          "target": null,
+          "mode": "道具提示待補"
+        }
+      ],
+      "gaps": [
+        "窗邊兩箱物品及未整理角落",
+        "中午提醒的手機／時鐘道具"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "以父子相關反應承接窗邊整理情境，缺少所述物件時明示缺口，不以無關人物單人特寫冒充道具特寫"
+    },
+    {
+      "id": "C-7",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 44
+      },
+      "text": "重的等我，不是說好了？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "提醒先別自行搬重物",
+          "target": "father",
+          "mode": "對話意圖；不宣稱已演出拿取或搬動道具"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "C-8",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 45
+      },
+      "text": "想說先弄一點",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "C-9",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 46
+      },
+      "text": "你回去吧，剩下的下次",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "C-10",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 47
+      },
+      "text": "我第一次發現，說好只做一部分，也得忍住把全部做完的衝動",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "hospital1",
+      "commonBeat": 36,
+      "route": "共通",
+      "routePositions": {
+        "A": 47,
+        "B": 47,
+        "C": 48
+      },
+      "text": "媽，妳吃了沒？",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "mother"
+        ],
+        "portrait": [
+          "player",
+          "mother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "player",
+          "verb": "說話",
+          "target": "mother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        },
+        {
+          "actor": "mother",
+          "verb": "陪伴與聆聽",
+          "target": "player",
+          "mode": "靜態候選稿，醫院情緒反應待補"
+        }
+      ],
+      "gaps": [
+        "媽媽在醫院的疲憊／擔憂反應素材，目前為單姿勢候選稿"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "hospital2",
+      "commonBeat": 37,
+      "route": "共通",
+      "routePositions": {
+        "A": 48,
+        "B": 48,
+        "C": 49
+      },
+      "text": "等一下，先把這個看完",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "mother",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        },
+        {
+          "actor": "mother",
+          "verb": "陪伴與聆聽",
+          "target": "player",
+          "mode": "靜態候選稿，醫院情緒反應待補"
+        }
+      ],
+      "gaps": [
+        "媽媽在醫院的疲憊／擔憂反應素材，目前為單姿勢候選稿",
+        "照顧資料與閱讀姿勢；目前母親持杯素材不能冒充正在看資料"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "hospital3",
+      "commonBeat": 38,
+      "route": "共通",
+      "routePositions": {
+        "A": 49,
+        "B": 49,
+        "C": 50
+      },
+      "text": "我們一起看，妳先吃一點",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "spouse"
+        ],
+        "portrait": [
+          "mother",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "mother",
+          "spouse"
+        ],
+        "portrait": [
+          "mother",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "spouse"
+        ],
+        "portrait": [
+          "mother",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "mother",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        },
+        {
+          "actor": "mother",
+          "verb": "陪伴與聆聽",
+          "target": "player",
+          "mode": "靜態候選稿，醫院情緒反應待補"
+        }
+      ],
+      "gaps": [
+        "媽媽在醫院的疲憊／擔憂反應素材，目前為單姿勢候選稿"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "callback-A",
+      "commonBeat": null,
+      "route": "A",
+      "routePositions": {
+        "A": 50,
+        "B": null,
+        "C": null
+      },
+      "text": "這次先別一口答應全部，孩子跟工作的時間，也一起算進去",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player",
+            "spouse"
+          ],
+          "focus": "spouse",
+          "shot": "duo",
+          "required": [
+            "player",
+            "spouse"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "spouse",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "callback-B",
+      "commonBeat": null,
+      "route": "B",
+      "routePositions": {
+        "A": null,
+        "B": 50,
+        "C": null
+      },
+      "text": "不用每天來，哪天能來，先跟我說就好",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "father"
+        ],
+        "portrait": [
+          "player",
+          "father"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "father",
+          "player"
+        ],
+        "portrait": [
+          "father",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "father",
+            "player"
+          ],
+          "focus": "father",
+          "shot": "duo",
+          "required": [
+            "father",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "father",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        }
+      ],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "callback-C",
+      "commonBeat": null,
+      "route": "C",
+      "routePositions": {
+        "A": null,
+        "B": null,
+        "C": 51
+      },
+      "text": "像上次那樣，先寫時間，我補我能做的",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "sister"
+        ],
+        "portrait": [
+          "player",
+          "sister"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        }
+      },
+      "delivery": "text-message",
+      "actions": [
+        {
+          "actor": "sister",
+          "verb": "傳來文字訊息",
+          "target": "player",
+          "mode": "遠端，發送者不在畫面現場"
+        },
+        {
+          "actor": "mother",
+          "verb": "陪伴與聆聽",
+          "target": "player",
+          "mode": "靜態候選稿，醫院情緒反應待補"
+        }
+      ],
+      "gaps": [
+        "手機與訊息道具畫面；目前僅以字幕呈現，無實際配音",
+        "媽媽在醫院的疲憊／擔憂反應素材，目前為單姿勢候選稿"
+      ],
+      "beforeStatus": "人物／鏡頭不一致",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "遠端訊息以收訊者反應承接；不能把傳訊者畫成已在醫院"
+    },
+    {
+      "id": "hospital4",
+      "commonBeat": 39,
+      "route": "共通",
+      "routePositions": {
+        "A": 51,
+        "B": 51,
+        "C": 52
+      },
+      "text": "我下班過去，接下來能排多少，到那邊再跟你們說",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "brother"
+        ],
+        "portrait": [
+          "brother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        }
+      },
+      "delivery": "voice-message",
+      "actions": [
+        {
+          "actor": "brother",
+          "verb": "傳來語音內容",
+          "target": "player",
+          "mode": "遠端，發送者不在畫面現場"
+        },
+        {
+          "actor": "mother",
+          "verb": "陪伴與聆聽",
+          "target": "player",
+          "mode": "靜態候選稿，醫院情緒反應待補"
+        }
+      ],
+      "gaps": [
+        "手機與訊息道具畫面；目前僅以字幕呈現，無實際配音",
+        "媽媽在醫院的疲憊／擔憂反應素材，目前為單姿勢候選稿"
+      ],
+      "beforeStatus": "人物／鏡頭不一致",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "遠端訊息以收訊者反應承接；不能把傳訊者畫成已在醫院"
+    },
+    {
+      "id": "hospital5",
+      "commonBeat": 40,
+      "route": "共通",
+      "routePositions": {
+        "A": 52,
+        "B": 52,
+        "C": 53
+      },
+      "text": "上次要安排的，只是一個週末",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "mother"
+        ],
+        "portrait": [
+          "player",
+          "mother"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "player",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [
+        {
+          "actor": "mother",
+          "verb": "陪伴與聆聽",
+          "target": "player",
+          "mode": "靜態候選稿，醫院情緒反應待補"
+        }
+      ],
+      "gaps": [
+        "媽媽在醫院的疲憊／擔憂反應素材，目前為單姿勢候選稿"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "hospital6",
+      "commonBeat": 41,
+      "route": "共通",
+      "routePositions": {
+        "A": 53,
+        "B": 53,
+        "C": 54
+      },
+      "text": "爸爸出院後，你們也還有自己的生活",
+      "textType": "dialogue",
+      "expected": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        }
+      },
+      "delivery": "onscreen",
+      "actions": [
+        {
+          "actor": "mother",
+          "verb": "說話",
+          "target": "player",
+          "mode": "有限立繪對話，不宣稱嘴型配音"
+        },
+        {
+          "actor": "mother",
+          "verb": "陪伴與聆聽",
+          "target": "player",
+          "mode": "靜態候選稿，醫院情緒反應待補"
+        }
+      ],
+      "gaps": [
+        "媽媽在醫院的疲憊／擔憂反應素材，目前為單姿勢候選稿"
+      ],
+      "beforeStatus": "人物相關，動作／表情未完成",
+      "afterStatus": "人物已對應；動作／表情待素材",
+      "fix": "人物對話由說話者與在場對象同框承接"
+    },
+    {
+      "id": "hospital7",
+      "commonBeat": 42,
+      "route": "共通",
+      "routePositions": {
+        "A": 54,
+        "B": 54,
+        "C": 55
+      },
+      "text": "這次，我不想只說一句我可以",
+      "textType": "thought",
+      "expected": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "player"
+        ],
+        "portrait": [
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "player"
+          ],
+          "focus": "player",
+          "shot": "close",
+          "required": [
+            "player"
+          ]
+        }
+      },
+      "delivery": "internal",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "人物與內容可合理銜接",
+      "afterStatus": "人物與內容可合理銜接",
+      "fix": "主角回想與主觀判斷，採主角或所回想家人的合理反應鏡頭"
+    },
+    {
+      "id": "care",
+      "commonBeat": 43,
+      "route": "共通",
+      "routePositions": {
+        "A": 55,
+        "B": 55,
+        "C": 56
+      },
+      "text": "照顧，先從哪裡開始？",
+      "textType": "choice",
+      "expected": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "before": {
+        "landscape": [
+          "player",
+          "spouse"
+        ],
+        "portrait": [
+          "player",
+          "spouse"
+        ]
+      },
+      "after": {
+        "landscape": [
+          "mother",
+          "player"
+        ],
+        "portrait": [
+          "mother",
+          "player"
+        ]
+      },
+      "camera": {
+        "landscape": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        },
+        "portrait": {
+          "cast": [
+            "mother",
+            "player"
+          ],
+          "focus": "mother",
+          "shot": "duo",
+          "required": [
+            "mother",
+            "player"
+          ]
+        }
+      },
+      "delivery": "choice",
+      "actions": [],
+      "gaps": [],
+      "beforeStatus": "決策介面，背景不作動作證據",
+      "afterStatus": "決策介面，背景不作動作證據",
+      "fix": "選擇介面以在場家人反應承接，不宣稱已作出照顧或金錢行為"
+    }
+  ]
+}

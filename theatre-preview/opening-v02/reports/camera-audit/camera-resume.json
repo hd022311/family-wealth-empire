@@ -1,0 +1,15 @@
+{
+  "name": "子恩",
+  "position": "cold-action",
+  "rotation": true,
+  "scale": "1.5",
+  "required": [
+    "mother",
+    "brother"
+  ],
+  "refresh": true,
+  "gapDetails": true,
+  "reducedMotion": true,
+  "ledger": 0,
+  "physicalDevices": "not_tested"
+}

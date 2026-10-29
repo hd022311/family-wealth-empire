@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "long name rejected; full transcript preserves 36px text at short landscape; pause does not advance",
+    "route/name/position survive rotation and refresh; care draft and result resume",
+    "independent round names and original route are recoverable",
+    "cross-tab stale save blocked without overwriting newer round",
+    "anger available, manual effect-off persists, OS reduced motion wins"
+  ],
+  "physicalDevices": "not_tested"
+}

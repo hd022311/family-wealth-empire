@@ -33,3 +33,7 @@
 ## 本輪文字分類
 
 以每個節點的`textType`區分dialogue/thought/narration/choice；舊mind旗標僅維持候選表情選層，不再判斷字幕類型。原文、節點ID及readKey不變，無須存檔遷移。詳見reports/text-presentation/REVIEW.html；先前錄影只供歷史玩法比較，不代表本輪字幕。
+
+## 鏡頭與敘事一致性檢查
+
+詳見reports/camera-audit/REVIEW.html與AUDIT.md，涵蓋43個未選路投影節拍及37個分支節點。direction.mjs為80個節點明訂獨立橫直向人物、鏡頭焦點、必須可見人物、動作／訊息來源及素材缺口；speaker只用於文字身分，雙人對話不再因換人說話而交換左右座位。4個明確敘事錯配已改鏡頭，另8個改善反應構圖；14個節點仍有動作、道具或表情待素材，以畫面入口與報告明示，不冒充完整演出。所有原文、readKey、選擇、財務及存檔格式未更動。160張全尺寸驗收截圖留在工作區artifacts/opening-v02/camera-audit/fullshots；公開報告附8張索引及優先場景前後比較。
